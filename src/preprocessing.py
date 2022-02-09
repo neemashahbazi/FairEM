@@ -1,7 +1,37 @@
 import deepmatcher as dm
+import pandas as pd
+
+# the following function is used to combine multiple sensitive attributes into one.
+# For example, Sex = {Male, Female} and 
+# Ethnicity = {white, asian, middle-eastern, black, hispanic} would be
+# transformed to Sex_Ethnicity = Sex X Ethinicity (Cartesian product)
+def convert_to_level_k_subgroups(directory, table, sens_attributes):
+    df = pd.read_csv(directory + "/" + table)
+    sens_att_indices = []
+    new_sens_attributes = []
+    
+    new_sens_attribute_name = ""
+    for sens_attribute in sens_attributes:
+        new_sens_attribute_name += sens_attribute + " X "
+    new_sens_attribute_name = new_sens_attribute_name[:-3]
+
+    for index, row in df.iterrows():
+        # new_sens_attribute = "\""
+        new_sens_attribute = ""
+        for sens_attribute in sens_attributes:
+            new_sens_attribute += row[sens_attribute] + " "
+        new_sens_attribute = new_sens_attribute.strip()
+        # new_sens_attribute += "\""
+        new_sens_attributes.append(new_sens_attribute)
+        
+    df[new_sens_attribute_name] = new_sens_attributes
+    for sens_attribute in sens_attributes:
+        df = df.drop(sens_attribute, 1)
+    df.to_csv(directory + "/new_" + table, index = False)
 
 
-def run_deepmatcher(directory, sensitive_attributes, train="train.csv", validation="validation.csv", test="test.csv", \
+
+def run_deepmatcher(directory, train="train.csv", validation="validation.csv", test="test.csv", \
     epochs=10, prediction_threshold=0.7):
     """
         Parameters
@@ -16,7 +46,7 @@ def run_deepmatcher(directory, sensitive_attributes, train="train.csv", validati
             Name of test .csv file.
         epochs : int, optional (default is 10)
             Number of epochs to run deepmatcher.
-        prediction_threshold : float, optional (default is 0.8)
+        prediction_threshold : float, optional (default is 0.7)
             If deepmatcher returns a score bigger than this prediction_threshold, the entity pair is a match.
 
         Returns

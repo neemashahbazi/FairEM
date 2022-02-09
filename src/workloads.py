@@ -189,7 +189,7 @@ class Workload:
             return []
 
             
-    def is_fair(self, subgroups, measure, aggregate = "None"):
+    def fairness(self, subgroups, measure, aggregate = "None"):
         if self.single_fairness:
             values = [self.calculate_fairness_single(subgroup, measure) for subgroup in subgroups]
         else:
@@ -204,6 +204,3 @@ class Workload:
         elif aggregate == "average":
             return np.mean(values)
         return values
-
-
-
