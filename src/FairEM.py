@@ -1,22 +1,30 @@
 import itertools
-
 import numpy
 import numpy as np
 import scipy.stats as stats
 import pandas as pd
-import sys
+import workloads as wl 
 from statsmodels.stats.weightstats import ztest
-from utils import calculate_distance
+from utils import calculate_distance, f1_score
+from preprocessing import run_deepmatcher
 from pprint import pprint
 
 class FairEM:
     # the input is a list of objects of class Workload
     # alpha is used for the Z-Test 
-    def __init__(self, workloads, alpha, threshold, single_fairness=True):
+    def __init__(self, workloads, alpha, threshold, directory, full_workload_test, single_fairness=True):
         self.workloads = workloads
         self.alpha = alpha
         self.threshold = threshold
         self.single_fairness = single_fairness
+
+        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test)
+
+        self.TP = 0
+        self.FP = 1
+        self.TN = 2
+        self.FN = 3
+        
 
     # creates a two dimensional matrix, subgroups x workload fairness value
     # used only for distribution
@@ -69,3 +77,44 @@ class FairEM:
                         subroups_is_fair[subgroup] = (p_value <= self.alpha)
                 return subroups_is_fair
 
+    def distance_analysis_prepro(self, directory, full_workload_test):
+        predictions = run_deepmatcher(directory, epochs = 2)
+        workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), self.workloads[0].sens_att_left, 
+                                self.workloads[0].sens_att_left, predictions, 
+                                label_column = self.workloads[0].label_column,
+                                multiple_sens_attr = self.workloads[0].multiple_sens_attr,
+                                delimiter = self.workloads[0].delimiter, 
+                                single_fairness = self.workloads[0].single_fairness,
+                                k_combinations = 2)
+        return workload
+
+
+    # unfair_subgroup is given as a string
+    def distance_analysis(self, unfair_subgroup):
+
+        workload = self.full_workload_distance
+        print("UNFAIR_SUBGROUP = ", unfair_subgroup)
+        
+        fairness_per_distance = {}
+
+        for idx, row in workload.df.iterrows():
+            distance_left = calculate_distance(unfair_subgroup, row[workload.sens_att_left], ",")
+            distance_right = calculate_distance(unfair_subgroup, row[workload.sens_att_right], ",")
+            distance = min(distance_left, distance_right)
+
+            if distance not in fairness_per_distance:
+                fairness_per_distance[distance] = [0, 0, 0, 0]
+
+            if workload.prediction[idx]:
+                if row[workload.label_column]: #ground truth
+                    fairness_per_distance[distance][self.TP] += 1
+                else:
+                    fairness_per_distance[distance][self.FP] += 1
+            else:
+                if row[workload.label_column]:
+                    fairness_per_distance[distance][self.FN] += 1
+                else:
+                    fairness_per_distance[distance][self.TN] += 1
+
+        pprint(fairness_per_distance)
+        return fairness_per_distance

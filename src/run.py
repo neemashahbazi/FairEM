@@ -17,7 +17,7 @@ def run_one_workload():
     workload = wl.Workload(pd.read_csv("../data/itunes-amazon/test.csv"), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
                             multiple_sens_attr = True, delimiter = ",", single_fairness = True,
-                            k_combinations=1)
+                            k_combinations=2)
     return [workload]
 
 def run_multiple_workloads(num_of_workloads):
@@ -29,7 +29,7 @@ def run_multiple_workloads(num_of_workloads):
         workload_i = wl.Workload(pd.read_csv("../data/itunes-amazon/" + test_file), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
                             multiple_sens_attr = True, delimiter = ",", single_fairness = True,
-                            k_combinations=1)
+                            k_combinations=2)
         workloads.append(workload_i)
     return workloads
 
@@ -39,14 +39,14 @@ def main():
     alpha = 0.05
     threshold = 0.6
     
-    fairEM = fem.FairEM(workloads, alpha, threshold, single_fairness=True)
+    fairEM = fem.FairEM(workloads, alpha, threshold, "../data/itunes-amazon", "test.csv", single_fairness=True)
 
-    for measure in ["accuracy_parity", "misclassification_rate_parity"]:
-        # for aggregate in ["max", "min", "max_minus_min", "average", "distribution"]:
-        for aggregate in ["distribution"]:
-            res = fairEM.is_fair(measure, aggregate)
-            print(measure, aggregate)
-            pprint(res)
+    # for measure in ["accuracy_parity", "misclassification_rate_parity"]:
+    #     # for aggregate in ["max", "min", "max_minus_min", "average", "distribution"]:
+    #     for aggregate in ["distribution"]:
+    #         res = fairEM.is_fair(measure, aggregate)
+    #         print(measure, aggregate)
+    #         pprint(res)
         
     # values_acc_par = workload.fairness(k_combs, "accuracy_parity")
     # values_miss_rate_par = workload.fairness(k_combs, "misclassification_rate_parity")
@@ -60,6 +60,13 @@ def main():
     # print("k_combs", k_combs)
 
     is_fair_distribution = fairEM.is_fair("misclassification_rate_parity", "distribution")
+
+    # pprint(is_fair_distribution)
+
+
+    for subgroup in is_fair_distribution:
+        if not is_fair_distribution[subgroup]:
+            fairEM.distance_analysis(subgroup)
 
     
     

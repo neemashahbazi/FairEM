@@ -20,9 +20,21 @@ def comb_to_encoding(combination, full_encoding_len):
 
     return encoding
 
-def calculate_distance(subgroup1, subgroup2):
+# given as strings. 
+# unfair_subroup is separated by "~", normal_subgroup is just the value of the sens. attribute
+def calculate_distance(unfair_subroup, normal_subgroup, normal_subgroup_del):
+    unfair_set = set(unfair_subroup.split("~"))
+
+    normal_subgroup_set = set([x.strip() for x in normal_subgroup.split(normal_subgroup_del)])
     distance = 0
-    for ind in range(len(subgroup1)):
-        if subgroup1[ind] != subgroup2[ind]:
+    for e1 in unfair_set:
+        if e1 not in normal_subgroup_set:
             distance += 1
+    for e1 in normal_subgroup_set:
+        if e1 not in unfair_set:
+            distance += 1
+    
     return distance
+
+def f1_score(TP, FP, TN, FN):
+    return TP / (TP + 0.5 * (FP + FN))

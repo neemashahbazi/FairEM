@@ -165,8 +165,9 @@ class Workload:
                 names.sort()    # use alphatical order for sorting
                 name = ""
                 for elem in names:
-                    name += self.sens_attr_vals[elem] + " "
-                comb_to_attribute_names[comb] = name.strip()
+                    name += self.sens_attr_vals[elem] + "~"
+                name = name[:-1] #delete the last ~
+                comb_to_attribute_names[comb] = name
         return comb_to_attribute_names
 
     def create_subgroup_encoding_from_subgroup_single(self, subgroup):
