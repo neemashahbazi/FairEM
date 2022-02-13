@@ -7,7 +7,7 @@ class Workload:
     # encoding is a list of vectors. len(encoding) = # of entities pairs
     # each vector is an encoding for that particular entity pair
     def __init__(self, df, sens_att_left, sens_att_right, prediction, label_column="label", 
-                    multiple_sens_attr = False, delimiter=",", single_fairness = True):
+                    multiple_sens_attr = False, delimiter=",", single_fairness = True, k_combinations=1):
         self.df = df
         self.label_column = label_column
         self.prediction = prediction
@@ -18,6 +18,7 @@ class Workload:
         self.single_fairness = single_fairness
         self.sens_attr_vals = self.find_all_sens_attr()
         self.sens_att_to_index = self.create_sens_att_to_index()
+        self.name_to_encode = {}
         self.encoding = self.encode()
         
         self.TP = 0
@@ -26,6 +27,8 @@ class Workload:
         self.FN = 3
 
         self.entitites_to_count = self.create_entities_to_count()
+        self.k_combs = self.create_k_combs(k_combinations)
+        self.k_combs_to_attr_names = self.k_combs_to_attribute_names()
 
     def find_all_sens_attr(self):
         sens_att = set()
@@ -152,6 +155,20 @@ class Workload:
                             k_combs[k_comb] = k_combs[k_comb] + number_of_pairs_with_entity
         return k_combs
     
+    def k_combs_to_attribute_names(self):
+        comb_to_attribute_names = {}
+        if self.single_fairness:
+            for comb in self.k_combs:
+                names = []
+                for elem in comb:
+                    names.append(elem)
+                names.sort()    # use alphatical order for sorting
+                name = ""
+                for elem in names:
+                    name += self.sens_attr_vals[elem] + " "
+                comb_to_attribute_names[comb] = name.strip()
+        return comb_to_attribute_names
+
     def create_subgroup_encoding_from_subgroup_single(self, subgroup):
         subgroup_encoding = [0] * len(self.sens_attr_vals)
         for group in subgroup:

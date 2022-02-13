@@ -6,7 +6,8 @@ import scipy.stats as stats
 import pandas as pd
 import sys
 from statsmodels.stats.weightstats import ztest
-
+from utils import calculate_distance
+from pprint import pprint
 
 class FairEM:
     # the input is a list of objects of class Workload
@@ -29,9 +30,9 @@ class FairEM:
                 subgroup_precisions[i].append(workload_distr[i])
         return subgroup_precisions
 
-    def is_fair(self, subgroups, measure, aggregate):
+    def is_fair(self, measure, aggregate):
         if len(self.workloads) == 1:
-            workload_fairness = self.workloads[0].fairness(subgroups, measure, aggregate)
+            workload_fairness = self.workloads[0].fairness(workloads[0].k_combs, measure, aggregate)
             if aggregate is not "distribution":
                 return workload_fairness > self.threshold
             else:
@@ -39,7 +40,7 @@ class FairEM:
         else:
             workloads_fairness = []
             for workload in self.workloads:
-                workloads_fairness.append(workload.fairness(subgroups, measure, aggregate))
+                workloads_fairness.append(workload.fairness(workload.k_combs, measure, aggregate))
 
             # general idea of how the entity matching is performed
             if aggregate is not "distribution":
@@ -47,9 +48,24 @@ class FairEM:
                 return p_value <= self.alpha
             # specific for each measure
             else:
-                subgroup_precisions = self.separate_distributions_from_workloads(subgroups, workloads_fairness)
-                subroups_is_fair = []
-                for subgroup_precision in subgroup_precisions:
-                    p_value = ztest(subgroup_precision, value=self.threshold)[1]
-                    subroups_is_fair.append(p_value <= self.alpha)
+                subgroup_to_list_of_fairneses = {}
+                for i in range(len(self.workloads)):
+                    workload = self.workloads[i]
+                    fairnesses = workloads_fairness[i]
+
+                    k_combs_list = [x for x in workload.k_combs_to_attr_names]
+
+                    for j in range(len(fairnesses)):
+                        subgroup_index = k_combs_list[j]
+                        subgroup_name = workload.k_combs_to_attr_names[subgroup_index]
+                        if subgroup_name not in subgroup_to_list_of_fairneses:
+                            subgroup_to_list_of_fairneses[subgroup_name] = []
+                        subgroup_to_list_of_fairneses[subgroup_name].append(fairnesses[j])
+
+                subroups_is_fair = {}
+                for subgroup in subgroup_to_list_of_fairneses:
+                    if len(subgroup_to_list_of_fairneses[subgroup]) >= 30: #limit for a valid z-test
+                        p_value = ztest(subgroup_to_list_of_fairneses[subgroup], value = self.threshold)[1]
+                        subroups_is_fair[subgroup] = (p_value <= self.alpha)
                 return subroups_is_fair
+
