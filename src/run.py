@@ -28,8 +28,8 @@ def run_multiple_workloads(num_of_workloads):
         test_file = "test" + str(i) + ".csv"
         workload_i = wl.Workload(pd.read_csv("../data/itunes-amazon/" + test_file), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
-                            multiple_sens_attr = True, delimiter = ",", single_fairness = True,
-                            k_combinations=2)
+                            multiple_sens_attr = True, delimiter = ",", single_fairness = False,
+                            k_combinations=1)
         workloads.append(workload_i)
     return workloads
 
@@ -61,12 +61,12 @@ def main():
 
     is_fair_distribution = fairEM.is_fair("misclassification_rate_parity", "distribution")
 
-    # pprint(is_fair_distribution)
+    pprint(is_fair_distribution)
 
 
-    for subgroup in is_fair_distribution:
-        if not is_fair_distribution[subgroup]:
-            fairEM.distance_analysis(subgroup)
+    # for subgroup in is_fair_distribution:
+    #     if not is_fair_distribution[subgroup]:
+    #         fairEM.distance_analysis(subgroup)
 
     
     

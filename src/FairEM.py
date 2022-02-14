@@ -69,12 +69,13 @@ class FairEM:
                         if subgroup_name not in subgroup_to_list_of_fairneses:
                             subgroup_to_list_of_fairneses[subgroup_name] = []
                         subgroup_to_list_of_fairneses[subgroup_name].append(fairnesses[j])
-
+                    
                 subroups_is_fair = {}
                 for subgroup in subgroup_to_list_of_fairneses:
                     if len(subgroup_to_list_of_fairneses[subgroup]) >= 30: #limit for a valid z-test
                         p_value = ztest(subgroup_to_list_of_fairneses[subgroup], value = self.threshold)[1]
                         subroups_is_fair[subgroup] = (p_value <= self.alpha)
+                
                 return subroups_is_fair
 
     def distance_analysis_prepro(self, directory, full_workload_test):

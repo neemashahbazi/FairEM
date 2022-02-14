@@ -15,7 +15,7 @@ def create_fairness_per_bin(self, subgroups, subgroup_index, k_combs, number_of_
     unfair_subgroup = subgroups[subgroup_index]
     print("UNFAIR_SUBGROUP", unfair_subgroup)
 
-    # distance_groups is a hashmap where the key is distance,
+    # distance_groups is a hashmap where the key i s distance,
     # and value is a list of entity pairs (rows from a workload) 
     # having that distance with the unfair_subroup
     distance_groups = self.create_distance_groups(unfair_subgroup)

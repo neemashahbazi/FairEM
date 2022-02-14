@@ -2,6 +2,7 @@ import numpy as np
 import measures
 from itertools import combinations
 from utils import clauses_satisfied
+from pprint import pprint
 
 class Workload:
     # encoding is a list of vectors. len(encoding) = # of entities pairs
@@ -162,12 +163,31 @@ class Workload:
                 names = []
                 for elem in comb:
                     names.append(elem)
-                names.sort()    # use alphatical order for sorting
+                print("NAMES = ", names)
+                names.sort()    # sort by index
                 name = ""
                 for elem in names:
                     name += self.sens_attr_vals[elem] + "~"
                 name = name[:-1] #delete the last ~
                 comb_to_attribute_names[comb] = name
+        else:
+            for comb in self.k_combs:
+                comb_list = list(comb)
+                names_left = []
+                names_right = []
+                for i in range(int(len(comb_list) / 2)):
+                    names_left.append(comb_list[i])
+                    names_right.append(comb_list[i + int(len(comb_list) / 2)])
+                name_left = ""
+                name_right = ""
+                for elem in names_left:
+                    name_left += self.sens_attr_vals[elem] + "~"
+                name_left = name_left[:-1]
+                for elem in names_right:
+                    name_right += self.sens_attr_vals[elem] + "~"
+                name_right = name_right[:-1]
+
+                comb_to_attribute_names[comb] = name_left + name_right
         return comb_to_attribute_names
 
     def create_subgroup_encoding_from_subgroup_single(self, subgroup):
@@ -203,8 +223,8 @@ class Workload:
     def calculate_fairness_pairwise(self, subgroup, measure):
         if measure == "accuracy_parity":
             return measures.accuracy_parity_pairwise(self, subgroup)
-        else:
-            return []
+        elif measure == "misclassification_rate_parity":
+            return measures.misclassification_rate_parity_pairwise(self, subgroup)
 
             
     def fairness(self, subgroups, measure, aggregate = "None"):
