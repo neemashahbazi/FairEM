@@ -91,7 +91,7 @@ class FairEM:
 
 
     # unfair_subgroup is given as a string
-    def distance_analysis(self, unfair_subgroup):
+    def distance_analysis(self, unfair_subgroup, number_of_bins=5):
 
         workload = self.full_workload_distance
         print("UNFAIR_SUBGROUP = ", unfair_subgroup)
@@ -99,10 +99,23 @@ class FairEM:
         fairness_per_distance = {}
 
         for idx, row in workload.df.iterrows():
-            distance_left = calculate_distance(unfair_subgroup, row[workload.sens_att_left], ",")
-            distance_right = calculate_distance(unfair_subgroup, row[workload.sens_att_right], ",")
-            distance = min(distance_left, distance_right)
+            distance = None
+            if workload.single_fairness:
+                distance_left = calculate_distance(unfair_subgroup, row[workload.sens_att_left], ",")
+                distance_right = calculate_distance(unfair_subgroup, row[workload.sens_att_right], ",")
+                distance = min(distance_left, distance_right)
 
+            else:
+                unfair_subgroup_separated = unfair_subgroup.split("|")
+                distance_left = calculate_distance(unfair_subgroup_separated[0], row[workload.sens_att_left], ",")
+                distance_right = calculate_distance(unfair_subgroup_separated[1], row[workload.sens_att_right], ",")
+                distance = distance_left + distance_right
+                
+                distance_left = calculate_distance(unfair_subgroup_separated[1], row[workload.sens_att_left], ",")
+                distance_right = calculate_distance(unfair_subgroup_separated[0], row[workload.sens_att_right], ",")
+
+                distance = min(distance, distance_left + distance_right)
+                
             if distance not in fairness_per_distance:
                 fairness_per_distance[distance] = [0, 0, 0, 0]
 
@@ -117,5 +130,28 @@ class FairEM:
                 else:
                     fairness_per_distance[distance][self.TN] += 1
 
-        pprint(fairness_per_distance)
-        return fairness_per_distance
+        bins_to_conf_matrix = self.bin_fairness_per_distance(fairness_per_distance)
+        pprint(bins_to_conf_matrix)
+        return bins_to_conf_matrix
+
+    def bin_fairness_per_distance(self, fairness_per_distance, number_of_bins=5):
+        freq = []
+        for distance in fairness_per_distance:
+            total_with_distance = sum(fairness_per_distance[distance])
+            for i in range(total_with_distance):
+                freq.append(distance)
+        bins = pd.qcut(freq, q = number_of_bins, labels=False, duplicates = 'drop')
+
+        distance_to_bin = {}
+        for i in range(len(freq)):
+            distance_to_bin[freq[i]] = bins[i]
+        
+        bins_to_conf_matrix = {}
+
+        for distance in distance_to_bin:
+            binn = distance_to_bin[distance]
+            if binn not in bins_to_conf_matrix:
+                bins_to_conf_matrix[binn] = [0, 0, 0, 0]
+            bins_to_conf_matrix[binn] = [x + y for x, y in zip(bins_to_conf_matrix[binn], fairness_per_distance[distance])]
+
+        return bins_to_conf_matrix

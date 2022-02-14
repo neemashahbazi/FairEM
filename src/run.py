@@ -6,11 +6,33 @@ import pandas as pd
 import FairEM as fem
 import matplotlib.pyplot as plt
 
-def plot_bargraph(data, filename):
+def plot_bargraph(data, filename, title=""):
     data.sort()
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
     ax.plot(data)
+    plt.title(title)
     plt.savefig(filename + ".png")
+    plt.close()
+
+def plot_bins_to_conf_matrix(bins_to_conf_matrix, filename, title=""):
+    keys = []
+    vals = []
+    for key in sorted(bins_to_conf_matrix):
+        keys.append(key)
+        val = (bins_to_conf_matrix[key][0] + bins_to_conf_matrix[key][2]) / sum(bins_to_conf_matrix[key])
+        vals.append(val)
+        print("KEY = ", key)
+        print("VALUE = ", val)
+        
+
+    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
+    ax.plot(keys, vals)
+    plt.title(title)
+    filename = filename.replace("/","")
+    filename = filename.replace("\\","")
+    ax.set_xticks(keys)
+    plt.savefig(filename + ".png")
+    plt.close()            
 
 def run_one_workload():
     predictions = run_deepmatcher("../data/itunes-amazon", epochs = 2)
@@ -28,7 +50,7 @@ def run_multiple_workloads(num_of_workloads):
         test_file = "test" + str(i) + ".csv"
         workload_i = wl.Workload(pd.read_csv("../data/itunes-amazon/" + test_file), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
-                            multiple_sens_attr = True, delimiter = ",", single_fairness = False,
+                            multiple_sens_attr = True, delimiter = ",", single_fairness = True,
                             k_combinations=1)
         workloads.append(workload_i)
     return workloads
@@ -64,9 +86,10 @@ def main():
     pprint(is_fair_distribution)
 
 
-    # for subgroup in is_fair_distribution:
-    #     if not is_fair_distribution[subgroup]:
-    #         fairEM.distance_analysis(subgroup)
+    for subgroup in is_fair_distribution:
+        if not is_fair_distribution[subgroup]:
+            bins_to_conf_matrix = fairEM.distance_analysis(subgroup)
+            plot_bins_to_conf_matrix(bins_to_conf_matrix, subgroup)
 
     
     

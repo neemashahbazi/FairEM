@@ -163,7 +163,6 @@ class Workload:
                 names = []
                 for elem in comb:
                     names.append(elem)
-                print("NAMES = ", names)
                 names.sort()    # sort by index
                 name = ""
                 for elem in names:
@@ -187,7 +186,7 @@ class Workload:
                     name_right += self.sens_attr_vals[elem] + "~"
                 name_right = name_right[:-1]
 
-                comb_to_attribute_names[comb] = name_left + name_right
+                comb_to_attribute_names[comb] = name_left + "|" + name_right
         return comb_to_attribute_names
 
     def create_subgroup_encoding_from_subgroup_single(self, subgroup):
