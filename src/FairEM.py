@@ -38,9 +38,20 @@ class FairEM:
                 subgroup_precisions[i].append(workload_distr[i])
         return subgroup_precisions
 
+    # true would mean something is good, i.e. is fair
+    # so for accuracy if x0 - avg(x) > -threshold, this is good
+    # if we want a measure to be as low as possible, 
+    # then x0 - avg(x) < threshold
     def is_fair_measure_specific(self, measure, workload_fairness):
-        if measure == "accuracy_parity":
+        if measure == "accuracy_parity" or \
+            measure == "statistical_parity" or \
+            measure == "true_positive_rate_parity" or \
+            measure == "true_negative_rate_parity":
             return workload_fairness >= -self.threshold
+        if measure == "false_positive_rate_parity" or \
+            measure == "false_negative_rate_parity":
+            return workload_fairness <= self.threshold
+
     
     def is_fair(self, measure, aggregate, real_distr = False):
         if len(self.workloads) == 1:

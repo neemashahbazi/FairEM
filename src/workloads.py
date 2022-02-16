@@ -215,22 +215,46 @@ class Workload:
     def calculate_fairness_single(self, subgroup, measure):
         if measure == "accuracy_parity":
             return measures.accuracy_parity_single(self, subgroup)
-          
+        elif measure == "statistical_parity":
+            return measures.statistical_parity_single(self, subgroup)
+        elif measure == "true_positive_rate_parity":
+            return measures.true_positive_rate_parity_single(self, subgroup)
+        elif measure == "false_positive_rate_parity":
+            return measures.false_positive_rate_parity_single(self, subgroup)
+        elif measure == "false_negative_rate_parity":
+            return measures.false_negative_rate_parity_single(self, subgroup)
+        elif measure == "true_negative_rate_parity":
+            return measures.true_negative_rate_parity_single(self, subgroup)
+        
     
     def calculate_fairness_pairwise(self, subgroup, measure):
         if measure == "accuracy_parity":
             return measures.accuracy_parity_pairwise(self, subgroup)
+        elif measure == "statistical_parity":
+            return measures.statistical_parity_pairwise(self, subgroup)
+        elif measure == "true_positive_rate_parity":
+            return measures.true_positive_rate_parity_pairwise(self, subgroup)
+        elif measure == "false_positive_rate_parity":
+            return measures.false_positive_rate_parity_pairwise(self, subgroup)
+        elif measure == "false_negative_rate_parity":
+            return measures.false_negative_rate_parity_pairwise(self, subgroup)
+        elif measure == "true_negative_rate_parity":
+            return measures.true_negative_rate_parity_pairwise(self, subgroup)
+        
+        
+
 
             
     def fairness(self, subgroups, measure, aggregate = "None"):
         if self.single_fairness:
             values = [self.calculate_fairness_single(subgroup, measure) for subgroup in subgroups]
-            avg = np.mean(values)
-            values = [x - avg for x in values]
         else:
             values = [self.calculate_fairness_pairwise(subgroup, measure) for subgroup in subgroups]
-            avg = np.mean(values)
-            values = [x - avg for x in values]
+        # make the measure a parity by subtracting the average
+
+        avg = np.mean(values)
+        values = [x - avg for x in values]
+        
         if aggregate == "max":
             return max(values)
         elif aggregate == "min":

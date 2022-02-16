@@ -59,7 +59,9 @@ def experiment_one(epochs):
                         full_workload_test="test.csv", single_fairness=True)
 
     binary_fairness = []
-    measures = ["accuracy_parity"]
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity"]
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
@@ -71,15 +73,13 @@ def experiment_one(epochs):
         actual_fairness.append(is_fair)
 
     
-    print("E1: binary_fairness = ", binary_fairness)
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
     plt.imshow(binary_fairness, cmap='bwr', interpolation='nearest')
-    title = "Experiment 1: Binary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    title = "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     plt.title(title)
-    plt.savefig("../experiments/" + title + ".png")
+    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
     plt.close()
 
-    print("E1: actual_fairness = ", actual_fairness)
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
     plt.imshow(actual_fairness, cmap='bwr', interpolation='nearest')
     title = "Experiment 1: \nActual Fairness Values For 1-subgroups and Single Fairness and 1 workload"
@@ -93,7 +93,7 @@ def experiment_two(epochs):
                         full_workload_test="test.csv", single_fairness=False)
 
     binary_fairness = []
-    measures = ["accuracy_parity"]
+    measures = ["accuracy_parity", "statistical_parity", "true_positive_rate_parity"]
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
@@ -235,8 +235,8 @@ def main():
     # fairEM.create_fairness_per_bin(subgroups_list, unfair_index, k_combs)
 
 
-    # experiment_one(epochs=2)
-    experiment_two(epochs=2)
+    experiment_one(epochs=2)
+    # experiment_two(epochs=2)
     # experiment_three(single_fairness=True, epochs=10)
     # experiment_three(single_fairness=False, epochs=10)
     # experiment_four(epochs=2)
