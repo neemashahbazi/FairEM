@@ -225,6 +225,12 @@ class Workload:
             return measures.false_negative_rate_parity_single(self, subgroup)
         elif measure == "true_negative_rate_parity":
             return measures.true_negative_rate_parity_single(self, subgroup)
+        elif measure == "negative_predictive_value_parity":
+            return measures.negative_predictive_value_parity_single(self, subgroup)
+        elif measure == "false_discovery_rate_parity":
+            return measures.false_discovery_rate_parity_single(self, subgroup)
+        elif measure == "false_omission_rate_parity":
+            return measures.false_omission_rate_parity_single(self, subgroup)
         
     
     def calculate_fairness_pairwise(self, subgroup, measure):
@@ -240,9 +246,6 @@ class Workload:
             return measures.false_negative_rate_parity_pairwise(self, subgroup)
         elif measure == "true_negative_rate_parity":
             return measures.true_negative_rate_parity_pairwise(self, subgroup)
-        
-        
-
 
             
     def fairness(self, subgroups, measure, aggregate = "None"):

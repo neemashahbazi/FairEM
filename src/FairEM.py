@@ -46,10 +46,14 @@ class FairEM:
         if measure == "accuracy_parity" or \
             measure == "statistical_parity" or \
             measure == "true_positive_rate_parity" or \
-            measure == "true_negative_rate_parity":
+            measure == "true_negative_rate_parity" or \
+            measure == "positive_predictive_value_parity" or \
+            measure == "negative_predictive_value_parity":
             return workload_fairness >= -self.threshold
         if measure == "false_positive_rate_parity" or \
-            measure == "false_negative_rate_parity":
+            measure == "false_negative_rate_parity" or \
+            measure == "false_discovery_rate_parity" or \
+            measure == "false_omission_rate_parity":
             return workload_fairness <= self.threshold
 
     

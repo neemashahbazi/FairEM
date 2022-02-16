@@ -61,7 +61,9 @@ def experiment_one(epochs):
     binary_fairness = []
     measures = ["accuracy_parity", "statistical_parity", \
                 "true_positive_rate_parity", "false_positive_rate_parity", \
-                "false_negative_rate_parity", "true_negative_rate_parity"]
+                "false_negative_rate_parity", "true_negative_rate_parity", \
+                "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                "false_omission_rate_parity"]
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
@@ -72,7 +74,13 @@ def experiment_one(epochs):
         is_fair = fairEM.is_fair(measure, aggregate, real_distr = True)
         actual_fairness.append(is_fair)
 
-    
+    attribute_names = []
+    for k_comb in workloads[0].k_combs_to_attr_names:
+        attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
+
+    print("ATTRIBUTE NAMES = ", attribute_names)
+
+
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
     plt.imshow(binary_fairness, cmap='bwr', interpolation='nearest')
     title = "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
@@ -80,12 +88,17 @@ def experiment_one(epochs):
     plt.savefig("../experiments/" + title.replace("\n","") + ".png")
     plt.close()
 
+    print("BINARY = ", binary_fairness)
+
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
     plt.imshow(actual_fairness, cmap='bwr', interpolation='nearest')
     title = "Experiment 1: \nActual Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     plt.title(title)
     plt.savefig("../experiments/" + title.replace("\n","") + ".png")
     plt.close()
+
+    print("Actual = ", actual_fairness)
+
 
 def experiment_two(epochs):
     workloads = run_one_workload(epochs=epochs, single_fairness=False)
