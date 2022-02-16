@@ -5,20 +5,20 @@ import scipy.stats as stats
 import pandas as pd
 import workloads as wl 
 from statsmodels.stats.weightstats import ztest
-from utils import calculate_distance, f1_score
+from utils import calculate_distance
 from preprocessing import run_deepmatcher
 from pprint import pprint
 
 class FairEM:
     # the input is a list of objects of class Workload
     # alpha is used for the Z-Test 
-    def __init__(self, workloads, alpha, threshold, directory, full_workload_test, single_fairness=True):
+    def __init__(self, workloads, alpha, directory, full_workload_test, threshold=0.2, single_fairness=True):
         self.workloads = workloads
         self.alpha = alpha
         self.threshold = threshold
         self.single_fairness = single_fairness
 
-        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test)
+        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
 
         self.TP = 0
         self.FP = 1
@@ -38,13 +38,21 @@ class FairEM:
                 subgroup_precisions[i].append(workload_distr[i])
         return subgroup_precisions
 
-    def is_fair(self, measure, aggregate):
+    def is_fair_measure_specific(self, measure, workload_fairness):
+        if measure == "accuracy_parity":
+            return workload_fairness >= -self.threshold
+    
+    def is_fair(self, measure, aggregate, real_distr = False):
         if len(self.workloads) == 1:
-            workload_fairness = self.workloads[0].fairness(workloads[0].k_combs, measure, aggregate)
+            workload_fairness = self.workloads[0].fairness(self.workloads[0].k_combs, measure, aggregate)
             if aggregate is not "distribution":
-                return workload_fairness > self.threshold
+                return self.is_fair_measure_specific(measure, workload_fairness)
             else:
-                return [subgroup_fairness > self.threshold for subgroup_fairness in workload_fairness]
+                if real_distr:
+                    return workload_fairness
+                else:
+                    return [self.is_fair_measure_specific(measure, subgroup_fairness) \
+                            for subgroup_fairness in workload_fairness]
         else:
             workloads_fairness = []
             for workload in self.workloads:
@@ -78,8 +86,8 @@ class FairEM:
                 
                 return subroups_is_fair
 
-    def distance_analysis_prepro(self, directory, full_workload_test):
-        predictions = run_deepmatcher(directory, epochs = 2)
+    def distance_analysis_prepro(self, directory, full_workload_test, epochs):
+        predictions = run_deepmatcher(directory, epochs = epochs)
         workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), self.workloads[0].sens_att_left, 
                                 self.workloads[0].sens_att_left, predictions, 
                                 label_column = self.workloads[0].label_column,

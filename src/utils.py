@@ -35,6 +35,3 @@ def calculate_distance(unfair_subroup, normal_subgroup, normal_subgroup_del):
             distance += 1
     
     return distance
-
-def f1_score(TP, FP, TN, FN):
-    return TP / (TP + 0.5 * (FP + FN))
