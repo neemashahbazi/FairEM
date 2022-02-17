@@ -4,6 +4,7 @@ from create_multiple_workloads import create_workloads_from_file
 import workloads as wl
 import pandas as pd
 import FairEM as fem
+import numpy as np
 import matplotlib.pyplot as plt
 
 def plot_bargraph(data, filename, title=""):
@@ -31,6 +32,24 @@ def plot_bins_to_conf_matrix(bins_to_conf_matrix, subgroup, title, location):
     ax.set_xticks(keys)
     plt.savefig(location + title + ".png")
     plt.close()            
+
+def plot_results_in_2d_heatmap(data, xlabels, ylabels, title, shrink=0.5):
+    fig, ax = plt.subplots(figsize=(20,14))
+    im = ax.imshow(data)
+    fig.colorbar(im, shrink=0.5)
+    ax.set_xticks(np.arange(len(xlabels)))
+    ax.set_xticklabels(labels=xlabels)
+    ax.set_yticks(np.arange(len(ylabels)))
+    ax.set_yticklabels(labels=ylabels)
+
+    plt.setp(ax.get_xticklabels(), rotation=60, ha="right",
+            rotation_mode="anchor")
+        
+    ax.set_title(title)
+    fig.tight_layout()
+    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
+
+
 
 def run_one_workload(epochs=10, single_fairness=True):
     predictions = run_deepmatcher("../data/itunes-amazon", epochs = epochs)
@@ -78,35 +97,23 @@ def experiment_one(epochs):
     for k_comb in workloads[0].k_combs_to_attr_names:
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
 
-    print("ATTRIBUTE NAMES = ", attribute_names)
 
-
-    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    plt.imshow(binary_fairness, cmap='bwr', interpolation='nearest')
-    title = "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
-    plt.title(title)
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    plt.close()
-
-    print("BINARY = ", binary_fairness)
-
-    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    plt.imshow(actual_fairness, cmap='bwr', interpolation='nearest')
     title = "Experiment 1: \nActual Fairness Values For 1-subgroups and Single Fairness and 1 workload"
-    plt.title(title)
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    plt.close()
-
-    print("Actual = ", actual_fairness)
-
-
+    plot_results_in_2d_heatmap(actual_fairness, attribute_names, 
+                                measures, title)
+    title = "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    plot_results_in_2d_heatmap(binary_fairness, attribute_names, 
+                                measures, title)
+    
 def experiment_two(epochs):
     workloads = run_one_workload(epochs=epochs, single_fairness=False)
     fairEM = fem.FairEM(workloads, alpha=0.05, directory="../data/itunes-amazon", 
                         full_workload_test="test.csv", single_fairness=False)
 
     binary_fairness = []
-    measures = ["accuracy_parity", "statistical_parity", "true_positive_rate_parity"]
+    measures = ["accuracy_parity", "statistical_parity", 
+                "true_positive_rate_parity", "false_positive_rate_parity",
+                "false_negative_rate_parity", "true_negative_rate_parity"]
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
@@ -117,21 +124,17 @@ def experiment_two(epochs):
         is_fair = fairEM.is_fair(measure, aggregate, real_distr = True)
         actual_fairness.append(is_fair)
 
-    
+    attribute_names = []
+    for k_comb in workloads[0].k_combs_to_attr_names:
+        attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
 
-    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    plt.imshow(binary_fairness, cmap='bwr', interpolation='nearest')
     title = "Experiment 2: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
-    plt.title(title)
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    plt.close()
-
-    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    plt.imshow(actual_fairness, cmap='bwr', interpolation='nearest')
+    plot_results_in_2d_heatmap(binary_fairness, attribute_names, 
+                                measures, title)
     title = "Experiment 2: \nActual Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
-    plt.title(title)
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    plt.close()
+    plot_results_in_2d_heatmap(actual_fairness, attribute_names, 
+                                measures, title)
+
 
 def experiment_three(single_fairness, epochs):
     workloads = run_multiple_workloads(num_of_workloads=40, epochs=epochs)
@@ -139,22 +142,44 @@ def experiment_three(single_fairness, epochs):
                         full_workload_test="test.csv", single_fairness=single_fairness)
 
     fairness = []
-    measures = ["accuracy_parity"]
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity", \
+                "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                "false_omission_rate_parity"]
     aggregate = "distribution"
+    fairness_keys = None
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
+        if fairness_keys == None:
+            fairness_keys = is_fair.keys()
         fairness.append(is_fair)
 
-    fairness_values = [list(x.values()) for x in fairness]
+    fairness_values = []
+    
+    for x in fairness:
+        curr = []
+        for key in fairness_keys:
+            curr.append(x[key])
+        fairness_values.append(curr)
+
+
+    # for key in fairness_keys:
+    # fairness_values = [list(x.values()) for x in fairness]
+    # fairness_keys = [list(x.keys()) for x in fairness]
+    
     
     print(fairness_values)
-
-    fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    plt.imshow(fairness_values, cmap='bwr', interpolation='nearest')
     title = "Experiment 3: \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else "Experiment 3: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
-    plt.title(title)
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    plt.close()
+    plot_results_in_2d_heatmap(fairness_values, fairness_keys, 
+                                measures, title)
+    
+    # fig, ax = plt.subplots(1, 1, figsize=(7, 5))
+    # plt.imshow(fairness_values, cmap='bwr', interpolation='nearest')
+    # title = "Experiment 3: \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else "Experiment 3: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
+    # plt.title(title)
+    # plt.savefig("../experiments/" + title.replace("\n","") + ".png")
+    # plt.close()
 
 # TODO: FINISH THE COLORING NICELY
 # def experiment_four(epochs):
@@ -248,10 +273,10 @@ def main():
     # fairEM.create_fairness_per_bin(subgroups_list, unfair_index, k_combs)
 
 
-    experiment_one(epochs=2)
+    # experiment_one(epochs=2)
     # experiment_two(epochs=2)
-    # experiment_three(single_fairness=True, epochs=10)
-    # experiment_three(single_fairness=False, epochs=10)
+    # experiment_three(single_fairness=True, epochs=2)
+    experiment_three(single_fairness=False, epochs=2)
     # experiment_four(epochs=2)
     # experiment_five(epochs=2)
     
