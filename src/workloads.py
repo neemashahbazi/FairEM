@@ -255,6 +255,8 @@ class Workload:
             values = [self.calculate_fairness_pairwise(subgroup, measure) for subgroup in subgroups]
         # make the measure a parity by subtracting the average
 
+        # print("VAL")
+
         avg = np.mean(values)
         values = [x - avg for x in values]
         

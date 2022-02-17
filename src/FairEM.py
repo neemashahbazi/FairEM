@@ -103,6 +103,7 @@ class FairEM:
 
     def distance_analysis_prepro(self, directory, full_workload_test, epochs):
         predictions = run_deepmatcher(directory, epochs = epochs)
+        print("DIRECTORY = ", directory)
         workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), self.workloads[0].sens_att_left, 
                                 self.workloads[0].sens_att_left, predictions, 
                                 label_column = self.workloads[0].label_column,

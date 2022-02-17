@@ -59,7 +59,7 @@ def run_one_workload(epochs=10, single_fairness=True):
                             k_combinations=1)
     return [workload]
 
-def run_multiple_workloads(num_of_workloads, epochs=10, k_combs = 1):
+def run_multiple_workloads(num_of_workloads, epochs=10, k_combs = 1, single_fairness = True):
     create_workloads_from_file("../data/itunes-amazon", "test.csv", number_of_workloads = num_of_workloads)
     predictions = run_deepmatcher("../data/itunes-amazon", epochs = epochs)
     workloads = []
@@ -67,7 +67,7 @@ def run_multiple_workloads(num_of_workloads, epochs=10, k_combs = 1):
         test_file = "test" + str(i) + ".csv"
         workload_i = wl.Workload(pd.read_csv("../data/itunes-amazon/" + test_file), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
-                            multiple_sens_attr = True, delimiter = ",", single_fairness = True,
+                            multiple_sens_attr = True, delimiter = ",", single_fairness = single_fairness,
                             k_combinations=k_combs)
         workloads.append(workload_i)
     return workloads
@@ -135,18 +135,24 @@ def experiment_two(epochs):
     plot_results_in_2d_heatmap(actual_fairness, attribute_names, 
                                 measures, title)
 
-
 def experiment_three(single_fairness, epochs):
-    workloads = run_multiple_workloads(num_of_workloads=40, epochs=epochs)
+    workloads = run_multiple_workloads(num_of_workloads=40, epochs=epochs, single_fairness=single_fairness)
     fairEM = fem.FairEM(workloads, alpha=0.05, directory="../data/itunes-amazon", 
                         full_workload_test="test.csv", single_fairness=single_fairness)
 
     fairness = []
-    measures = ["accuracy_parity", "statistical_parity", \
-                "true_positive_rate_parity", "false_positive_rate_parity", \
-                "false_negative_rate_parity", "true_negative_rate_parity", \
-                "negative_predictive_value_parity", "false_discovery_rate_parity", \
-                "false_omission_rate_parity"]
+    if single_fairness:
+        measures = ["accuracy_parity", "statistical_parity", \
+                    "true_positive_rate_parity", "false_positive_rate_parity", \
+                    "false_negative_rate_parity", "true_negative_rate_parity", \
+                    "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                    "false_omission_rate_parity"]
+    else:
+        measures = ["accuracy_parity", "statistical_parity", \
+                    "true_positive_rate_parity", \
+                    "false_positive_rate_parity", \
+                    "false_negative_rate_parity", \
+                    "true_negative_rate_parity"]
     aggregate = "distribution"
     fairness_keys = None
     for measure in measures:
@@ -162,77 +168,81 @@ def experiment_three(single_fairness, epochs):
         for key in fairness_keys:
             curr.append(x[key])
         fairness_values.append(curr)
-
-
-    # for key in fairness_keys:
-    # fairness_values = [list(x.values()) for x in fairness]
-    # fairness_keys = [list(x.keys()) for x in fairness]
     
     
-    print(fairness_values)
     title = "Experiment 3: \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else "Experiment 3: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
     plot_results_in_2d_heatmap(fairness_values, fairness_keys, 
                                 measures, title)
+
+def experiment_four(epochs):
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity", \
+                "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                "false_omission_rate_parity"]
+    aggregates = ["max", "min", "max_minus_min", "average"]
     
-    # fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-    # plt.imshow(fairness_values, cmap='bwr', interpolation='nearest')
-    # title = "Experiment 3: \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else "Experiment 3: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
-    # plt.title(title)
-    # plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-    # plt.close()
 
-# TODO: FINISH THE COLORING NICELY
-# def experiment_four(epochs):
-#     measures = ["accuracy_parity"]
-#     aggregates = ["max", "min", "max_minus_min", "average"]
-#     for measure in measures:
-#         k_comb_VS_fairness = []
-#         for k_comb in [1, 2]:
-#             curr_fairness = []
-#             workloads = run_one_workload(epochs=epochs)
-#             fairEM = fem.FairEM(workloads, alpha=0.05, directory="../data/itunes-amazon", 
-#                             full_workload_test="test.csv", single_fairness=False)
-
-#             for aggregate in aggregates:
-#                 curr_fairness.append(fairEM.is_fair(measure, aggregate))
-            
-#             k_comb_VS_fairness.append(curr_fairness)
-
-#         fig, ax = plt.subplots(1, 1, figsize=(7, 5))
-#         plt.imshow(k_comb_VS_fairness, cmap='bwr', interpolation='nearest')
-#         title = "Experiment 4: \n1-comb and 2-comb VS AGG Functions and measure = " + measure
-#         plt.title(title)
-#         ax.
-#         plt.savefig("../experiments/" + title.replace("\n","") + ".png")
-#         plt.close()
-
-def experiment_five(epochs):
-    workloads = run_multiple_workloads(num_of_workloads=40, epochs=epochs)
+    f, axarr = plt.subplots(3,3,figsize=(11,10))
+    i = 0
+    
+    workloads = run_one_workload(epochs=epochs)
     fairEM = fem.FairEM(workloads, alpha=0.05, directory="../data/itunes-amazon", 
-                        full_workload_test="test.csv", single_fairness=False)
+                    full_workload_test="test.csv", single_fairness=False)
+
+    k_combs_ylabel = ["1-comb", "2-comb"]
+    for measure in measures:
+        k_comb_VS_fairness = []
+        for k_comb in [1, 2]:
+            curr_fairness = []
+            for aggregate in aggregates:
+                curr_fairness.append(fairEM.is_fair(measure, aggregate))
+            
+            k_comb_VS_fairness.append(curr_fairness)
+
+        x = int(i / 3)
+        y = i % 3
+        
+        axarr[x][y].set_title(measure)
+        axarr[x][y].imshow(k_comb_VS_fairness)
+        axarr[x][y].set_xticks(np.arange(len(aggregates)))
+        axarr[x][y].set_xticklabels(labels=aggregates)
+        axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
+        axarr[x][y].set_yticklabels(labels=k_combs_ylabel)
+        
+        plt.setp(axarr[x][y].get_xticklabels(), rotation=45, ha="right",
+                rotation_mode="anchor")
+
+        # print("k_comb_VS_fairness = ", k_comb_VS_fairness)
+        i += 1    
+
+    f.tight_layout()
+    plt.savefig("../experiments/Experiment 4: 1-comb and 2-comb VS AGG Functions for each measure.png")
+        
+def experiment_five(epochs, one_workload=True, single_fairness=True):
+    if one_workload:
+        workloads = run_one_workload(epochs=epochs, single_fairness=single_fairness)
+    else:
+        workloads = run_multiple_workloads(num_of_workloads=40, epochs=epochs, single_fairness=single_fairness)
+    
+    fairEM = fem.FairEM(workloads, alpha=0.05, directory="../data/itunes-amazon", 
+                        full_workload_test="test.csv", single_fairness=single_fairness)
 
     # fixed one measure
-    measure = ["accuracy_parity"]
+    measure = "accuracy_parity"
     is_fair_distribution = fairEM.is_fair(measure, "distribution")
 
     for subgroup in is_fair_distribution:
         if not is_fair_distribution[subgroup]:
             bins_to_conf_matrix = fairEM.distance_analysis(subgroup)
             plot_bins_to_conf_matrix(bins_to_conf_matrix, subgroup, title="Experiment 5: ", location="../experiments/")
-
-
-    
-            
-
-
-
     
 def main():
-    # workloads = run_multiple_workloads(40)
+    # workloads = run_multiple_workloads(num_of_workloads=40, epochs=2)
     # alpha = 0.05
-    # threshold = 0.6
+    # threshold = 0.2
     
-    # fairEM = fem.FairEM(workloads, alpha, threshold, "../data/itunes-amazon", "test.csv", single_fairness=True)
+    # fairEM = fem.FairEM(workloads, alpha, "../data/itunes-amazon", "test.csv", threshold, single_fairness=False)
 
     # for measure in ["accuracy_parity"]:
     #     # for aggregate in ["max", "min", "max_minus_min", "average", "distribution"]:
@@ -276,9 +286,9 @@ def main():
     # experiment_one(epochs=2)
     # experiment_two(epochs=2)
     # experiment_three(single_fairness=True, epochs=2)
-    experiment_three(single_fairness=False, epochs=2)
+    # experiment_three(single_fairness=False, epochs=2)
     # experiment_four(epochs=2)
-    # experiment_five(epochs=2)
+    experiment_five(epochs=2, one_workload=True, single_fairness=True)
     
 
 main()
