@@ -1,6 +1,6 @@
 import csv
 import pandas as pd
-
+from pprint import pprint
 def to_deepmatcher_helper(left_vals, right_vals, table, new_schema, res_filename):
     res_file =  open(res_filename, "w")
     for sch_attr in new_schema:
@@ -59,20 +59,70 @@ def to_deepmatcher_input(dataset_name, tableA, tableB, test, train, valid):
     to_deepmatcher_helper(left_vals, right_vals, test_table, new_schema, "../data/dblp-acm/test_converted.csv")
     to_deepmatcher_helper(left_vals, right_vals, valid_table, new_schema, "../data/dblp-acm/valid_converted.csv")
 
+# def to_ditto_input(dataset_name, tableA, tableB, test, train, valid):
+    # left_table = open(tableA,  "r")
 
+    # schema = left_table.readlines()[0].split(",")[1:] # remove the id
+    # left_table = list(csv.reader(open(tableA)))[1:]
+    # right_table = list(csv.reader(open(tableB)))[1:]
+
+    # left_vals = {}
+    # right_vals = {}
     
+    # for left_line in left_table:
+    #     left_id = str(left_line[0])
+    #     left_line = left_line[1:] # remove the id
+    #     left_vals[left_id] = left_line
+    # for right_line in right_table:
+    #     right_id = str(right_line[0])
+    #     right_line = right_line[1:] # remove the id
+    #     right_vals[right_id] = right_line
+
+    # print("left_table = ")
+    # pprint(left_table)
     
 
-
-
-
-    
-    # return train.csv, valid.csv test.csv
-
-# def to_ditto_input(tableA, tableB, test, train, valid):
     # returns train.txt, valid.txt, test.txt
 
+def from_deepmatcher_input_to_ditto_input_helper(path, data_in, data_out):
+    df = pd.read_csv(path + data_in, index_col = "id")
+    schema = list(df.columns)[1:]
+    ditto_schema = [x.replace("left_", "").replace("right_","") for x in schema]
+    
+    res_file =  open(path + data_out, "w")
+    
+    for idx, row in df.iterrows():
+        label = row["label"]
+        ditto_row = ""
+        for i in range(len(schema)):
+            ditto_row += "COL " + ditto_schema[i] + " "
+            ditto_row += "VAL " + str(row[schema[i]]) + " "
+        ditto_row += "\t" + str(label)
+        res_file.write(ditto_row)
+        res_file.write("\n")
 
-to_deepmatcher_input("dblp-acm", "../data/dblp-acm/tableA.csv", "../data/dblp-acm/tableB.csv",
-                    "../data/dblp-acm/test.csv", "../data/dblp-acm/train.csv",
-                    "../data/dblp-acm/valid.csv")
+
+def from_deepmatcher_input_to_ditto_input(dataset_name, path, test, train, valid):
+    from_deepmatcher_input_to_ditto_input_helper(path, test, "test.txt")
+    from_deepmatcher_input_to_ditto_input_helper(path, train, "train.txt")
+    from_deepmatcher_input_to_ditto_input_helper(path, valid, "validation.txt")
+    
+    
+
+# to_deepmatcher_input("dblp-acm", "../data/dblp-acm/tableA.csv", 
+#                     "../data/dblp-acm/tableB.csv", 
+#                     "../data/dblp-acm/test.csv", 
+#                     "../data/dblp-acm/train.csv",
+#                     "../data/dblp-acm/valid.csv")
+
+# to_ditto_input("dblp-acm", "../data/dblp-acm/tableA.csv", 
+#                     "../data/dblp-acm/tableB.csv", 
+#                     "../data/dblp-acm/test.csv", 
+#                     "../data/dblp-acm/train.csv",
+#                     "../data/dblp-acm/valid.csv")
+
+from_deepmatcher_input_to_ditto_input("itunes-amazon", 
+                                    "../data/itunes-amazon/",
+                                    "test.csv",
+                                    "train.csv",
+                                    "validation.csv")
