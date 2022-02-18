@@ -1,5 +1,6 @@
 import deepmatcher as dm
 import pandas as pd
+import json
 
 # the following function is used to combine multiple sensitive attributes into one.
 # For example, Sex = {Male, Female} and 
@@ -28,8 +29,6 @@ def convert_to_level_k_subgroups(directory, table, sens_attributes):
     for sens_attribute in sens_attributes:
         df = df.drop(sens_attribute, 1)
     df.to_csv(directory + "/new_" + table, index = False)
-
-
 
 def run_deepmatcher(directory, train="train.csv", validation="validation.csv", test="test.csv", \
     epochs=10, prediction_threshold=0.7):
@@ -67,3 +66,15 @@ def run_deepmatcher(directory, train="train.csv", validation="validation.csv", t
 #def run_ditto( What is the input? Filled in by Nima ): 
  #   returns prediction array
 
+def jsonl_to_predictions(path, file):
+    predictions = []
+    location = path + file if path.endswith("/") else path + "/" + file
+    with open(location, 'r') as json_file:
+        json_list = list(json_file)
+
+    for json_line in json_list:
+        line = json.loads(json_line)
+        predictions.append(line["match"])
+        
+    return predictions
+# jsonl_to_predictions("../data/itunes-amazon/", "ditto_out_test.jsonl")

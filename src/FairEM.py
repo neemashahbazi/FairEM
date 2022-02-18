@@ -6,18 +6,19 @@ import pandas as pd
 import workloads as wl 
 from statsmodels.stats.weightstats import ztest
 from utils import calculate_distance
-from preprocessing import run_deepmatcher
+from preprocessing import run_deepmatcher, jsonl_to_predictions
 from pprint import pprint
 
 class FairEM:
     # the input is a list of objects of class Workload
     # alpha is used for the Z-Test 
-    def __init__(self, workloads, alpha, directory, full_workload_test, threshold=0.2, single_fairness=True):
+    def __init__(self, model, workloads, alpha, directory, full_workload_test, threshold=0.2, single_fairness=True, ditto_out_test_full="ditto_out_test.jsonl"):
+        self.model = model
         self.workloads = workloads
         self.alpha = alpha
         self.threshold = threshold
         self.single_fairness = single_fairness
-
+        self.ditto_out_test_full = ditto_out_test_full
         self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
 
         self.TP = 0
@@ -102,8 +103,11 @@ class FairEM:
                 return subroups_is_fair
 
     def distance_analysis_prepro(self, directory, full_workload_test, epochs):
-        predictions = run_deepmatcher(directory, epochs = epochs)
-        print("DIRECTORY = ", directory)
+        if self.model == "deepmatcher":
+            predictions = run_deepmatcher(directory, epochs = epochs)
+        elif self.model == "ditto":
+            predictions = jsonl_to_predictions(directory, self.ditto_out_test_full)
+            
         workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), self.workloads[0].sens_att_left, 
                                 self.workloads[0].sens_att_left, predictions, 
                                 label_column = self.workloads[0].label_column,

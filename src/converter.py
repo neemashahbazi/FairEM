@@ -97,10 +97,12 @@ def from_deepmatcher_input_to_ditto_input_helper(path, data_in, data_out):
         for i in range(len(schema)):
             ditto_row += "COL " + ditto_schema[i] + " "
             ditto_row += "VAL " + str(row[schema[i]]) + " "
+            if "left_" in schema[i] and "right_" in schema[i+1]:
+                ditto_row += "\t"
+
         ditto_row += "\t" + str(label)
         res_file.write(ditto_row)
         res_file.write("\n")
-
 
 def from_deepmatcher_input_to_ditto_input(dataset_name, path, test, train, valid):
     from_deepmatcher_input_to_ditto_input_helper(path, test, "test.txt")
@@ -121,8 +123,17 @@ def from_deepmatcher_input_to_ditto_input(dataset_name, path, test, train, valid
 #                     "../data/dblp-acm/train.csv",
 #                     "../data/dblp-acm/valid.csv")
 
-from_deepmatcher_input_to_ditto_input("itunes-amazon", 
-                                    "../data/itunes-amazon/",
-                                    "test.csv",
-                                    "train.csv",
-                                    "validation.csv")
+# from_deepmatcher_input_to_ditto_input("itunes-amazon", 
+#                                     "../data/itunes-amazon/",
+#                                     "test.csv",
+#                                     "train.csv",
+#                                     "validation.csv")
+
+def convert_small_workloads(path):
+    test = "test"
+    for i in range(40):
+        test1 = test + str(i)
+        from_deepmatcher_input_to_ditto_input_helper(path, test1 + ".csv", test1 + ".txt")
+        
+
+convert_small_workloads("../data/itunes-amazon/")
