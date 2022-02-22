@@ -1,3 +1,4 @@
+import pandas as pd
 from pprint import pprint
 
 def get_id_from_file(fl):
@@ -11,17 +12,26 @@ def get_id_from_file(fl):
         arr.append(id)
     return arr
 
-arr1 = get_id_from_file("../data/itunes-amazon/test.csv")
-arr2 = get_id_from_file("../data/itunes-amazon/train.csv")
-arr3 = get_id_from_file("../data/itunes-amazon/validation.csv")
+# arr1 = get_id_from_file("../data/itunes-amazon/test.csv")
+# arr2 = get_id_from_file("../data/itunes-amazon/train.csv")
+# arr3 = get_id_from_file("../data/itunes-amazon/validation.csv")
 
-s1 = set(arr1)
-s2 = set(arr2)
-s3 = set(arr3)
+# s1 = set(arr1)
+# s2 = set(arr2)
+# s3 = set(arr3)
 
-print("S1 = ")
-print(s1)
-print("S2 = ")
-print(s2)
-print("S3 = ")
-print(s3)
+# print("S1 = ")
+# print(s1)
+# print("S2 = ")
+# print(s2)
+# print("S3 = ")
+# print(s3)
+
+def read_shoes_csv(filename):
+    df = pd.read_csv(filename, index_col = "id")
+    print(df)
+    print(df.shape)
+    print(df["left_locale"].unique())
+    print(df["right_locale"].unique())
+
+read_shoes_csv("res.csv")

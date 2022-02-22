@@ -108,8 +108,14 @@ def ditto_format_to_deepmatcher(path, file):
             vals = re.split("COL | VAL", spl[i])[1:]          
             for j in range(0, len(vals)):
                 curr_val = ""
-                if j % 2 != 0 and not vals[j].strip().startswith("\""):
-                    curr_val += "\"" + vals[j].strip() + "\"" + ","
+                if j % 2 != 0:
+                    vals[j] = vals[j].strip()
+                    if vals[j].startswith("\""):
+                        curr_val += vals[j] + ","
+                    elif "," in vals[j]:
+                        curr_val += "\"" + vals[j] + "\"" + ","
+                    else:
+                        curr_val += vals[j] + ","
                 curr_val += ""
 
                 # print("curr_val = ", curr_val)
@@ -133,9 +139,9 @@ def ditto_format_to_deepmatcher(path, file):
     print(csv_values)
 
     
-ditto_format_to_deepmatcher("../data/shoes/", "test.txt")
+# ditto_format_to_deepmatcher("../data/shoes/", "test.txt")
 # ditto_format_to_deepmatcher("../data/shoes/", "train.txt")
-# ditto_format_to_deepmatcher("../data/shoes/", "valid.txt")
+ditto_format_to_deepmatcher("../data/shoes/", "valid.txt")
 
 
 

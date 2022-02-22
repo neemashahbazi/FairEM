@@ -267,11 +267,11 @@ def run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                             single_fairness = single_fairness, k_combinations=1)
     return [workload]
 
-def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True):
+def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True, threshold=0.2):
     workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                                 epochs=epochs, single_fairness=single_fairness)
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
-                        full_workload_test="test.csv", threshold=0.2, single_fairness=single_fairness)
+                        full_workload_test="test.csv", threshold=threshold, single_fairness=single_fairness)
 
     binary_fairness = []
     measures = ["accuracy_parity", "statistical_parity", \
@@ -287,16 +287,16 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute, ep
     for k_comb in workloads[0].k_combs_to_attr_names:
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
 
-    title = "Exp1: " + dataset + " " + model + "\nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    title = "Exp1: " + dataset + " " + model + " with " + str(threshold) + " threshold \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
                                 measures, title)
 
 
-def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False):
+def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False, threshold=0.2):
     workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                                 epochs=epochs, single_fairness=single_fairness)
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
-                        full_workload_test="test.csv", threshold=0.1, single_fairness=single_fairness)
+                        full_workload_test="test.csv", threshold=threshold, single_fairness=single_fairness)
 
     binary_fairness = []
     measures = ["accuracy_parity", "statistical_parity", \
@@ -310,7 +310,7 @@ def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, ep
     for k_comb in workloads[0].k_combs_to_attr_names:
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
 
-    title = "Exp2: " + dataset + " " + model + "\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
+    title = "Exp2: " + dataset + " " + model + " with " + str(threshold) + " threshold\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
     plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
                                 measures, title)
 
@@ -368,45 +368,77 @@ def experiment_four(left_sens_attribute, right_sens_attribute, epochs=10, single
 
 
 
-def full_experiment_one():
+def full_experiment_one(threshold=0.2):
     experiment_one(model="ditto", dataset="dblp-acm", 
                     left_sens_attribute="left_venue", 
                     right_sens_attribute="right_venue", 
-                    epochs=2, single_fairness=True)
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
     experiment_one(model="deepmatcher", dataset="dblp-acm", 
                     left_sens_attribute="left_venue", 
                     right_sens_attribute="right_venue", 
-                    epochs=2, single_fairness=True)
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
     experiment_one(model="ditto", dataset="itunes-amazon", 
                     left_sens_attribute="left_Genre", 
                     right_sens_attribute="right_Genre", 
-                    epochs=2, single_fairness=True)
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
     experiment_one(model="deepmatcher", dataset="itunes-amazon", 
                     left_sens_attribute="left_Genre", 
                     right_sens_attribute="right_Genre", 
-                    epochs=2, single_fairness=True)
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
+    experiment_one(model="ditto", dataset="shoes", 
+                    left_sens_attribute="left_locale", 
+                    right_sens_attribute="right_locale", 
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
+    experiment_one(model="deepmatcher", dataset="shoes", 
+                    left_sens_attribute="left_locale", 
+                    right_sens_attribute="right_locale", 
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
 
-def full_experiment_two():
+def full_experiment_two(threshold=0.2):
     experiment_two(model="ditto", dataset="dblp-acm", 
                     left_sens_attribute="left_venue", 
                     right_sens_attribute="right_venue", 
-                    epochs=2, single_fairness=False)
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
     experiment_two(model="deepmatcher", dataset="dblp-acm", 
                     left_sens_attribute="left_venue", 
                     right_sens_attribute="right_venue", 
-                    epochs=2, single_fairness=False)
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
     experiment_two(model="ditto", dataset="itunes-amazon", 
                     left_sens_attribute="left_Genre", 
                     right_sens_attribute="right_Genre", 
-                    epochs=2, single_fairness=False)
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
     experiment_two(model="deepmatcher", dataset="itunes-amazon", 
                     left_sens_attribute="left_Genre", 
                     right_sens_attribute="right_Genre", 
-                    epochs=2, single_fairness=False)
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
+    experiment_two(model="ditto", dataset="shoes", 
+                    left_sens_attribute="left_locale", 
+                    right_sens_attribute="right_locale", 
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
+    experiment_two(model="deepmatcher", dataset="shoes", 
+                    left_sens_attribute="left_locale", 
+                    right_sens_attribute="right_locale", 
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
 
 def main():
-    full_experiment_one()
-    # full_experiment_two()
+    full_experiment_one(threshold=0.1)
+    full_experiment_one(threshold=0.2)
+    full_experiment_two(threshold=0.1)
+    full_experiment_two(threshold=0.2)
+    
+    
 
 
     # workloads = run_multiple_workloads(num_of_workloads=40, epochs=2)
