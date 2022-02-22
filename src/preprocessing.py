@@ -1,6 +1,8 @@
 import deepmatcher as dm
 import pandas as pd
 import json
+import re
+
 
 # the following function is used to combine multiple sensitive attributes into one.
 # For example, Sex = {Male, Female} and 
@@ -61,6 +63,8 @@ def run_deepmatcher(directory, train="train.csv", validation="validation.csv", t
     dm_scores = dm_model.run_prediction(test)
     prediction = [True if dm_scores.iloc[idx]["match_score"] > prediction_threshold else False for idx in range(len(dm_scores))]
 
+    print("PREDICTION = ", prediction)
+
     return prediction
     
 #def run_ditto( What is the input? Filled in by Nima ): 
@@ -77,4 +81,63 @@ def jsonl_to_predictions(path, file):
         predictions.append(line["match"])
         
     return predictions
-# jsonl_to_predictions("../data/itunes-amazon/", "ditto_out_test.jsonl")
+
+def ditto_format_to_deepmatcher(path, file):
+    predictions = []
+    location = path + file if path.endswith("/") else path + "/" + file
+    with open(location, 'r') as dataset:
+        lines = list(dataset)
+
+    left_schema = []
+    right_schema = []
+
+    first_line = re.split("COL | VAL", lines[0].split("\t")[0])[1:]
+    for i in range(len(first_line)):
+        if i % 2 == 0:
+            left_schema.append("left_" + first_line[i])
+            right_schema.append("right_" + first_line[i])
+    labels = []
+    csv_values = ""
+    
+    for k in range(len(lines)):
+        line = lines[k]
+        spl = line.split("\t")
+        csv_values += str(k) + "," + spl[2][:-1] + ","
+        
+        for i in range(2):
+            vals = re.split("COL | VAL", spl[i])[1:]          
+            for j in range(0, len(vals)):
+                curr_val = ""
+                if j % 2 != 0 and not vals[j].strip().startswith("\""):
+                    curr_val += "\"" + vals[j].strip() + "\"" + ","
+                curr_val += ""
+
+                # print("curr_val = ", curr_val)
+
+                csv_values += curr_val
+        csv_values = csv_values[:-1]
+        csv_values += "\n"
+
+        # break
+
+    title = "id,label,"
+    for sch in left_schema:
+        title += sch + ","
+    for sch in right_schema:
+        title += sch + ","
+    title = title[:-1]
+    title += "\n"
+
+    csv_values = title + csv_values
+    
+    print(csv_values)
+
+    
+ditto_format_to_deepmatcher("../data/shoes/", "test.txt")
+# ditto_format_to_deepmatcher("../data/shoes/", "train.txt")
+# ditto_format_to_deepmatcher("../data/shoes/", "valid.txt")
+
+
+
+
+# jsonl_to_predictions("../data/shoes/", "ditto_out_test.jsonl")

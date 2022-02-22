@@ -1,4 +1,5 @@
 from utils import clauses_satisfied
+from pprint import pprint
 
 def get_confusion_matrix_single(workload, subgroup):
     subgroup_encoding = workload.create_subgroup_encoding_from_subgroup_single(subgroup)
@@ -11,10 +12,10 @@ def get_confusion_matrix_single(workload, subgroup):
         # P(sth | g_i) is calculated.
         # g_i = True
         if clauses_satisfied(subgroup_encoding, left_entity_encoding) or clauses_satisfied(subgroup_encoding, right_entity_encoding):
-            match_TP += entity_to_count[workload.TP]
-            match_TN += entity_to_count[workload.TN]
-            match_FP += entity_to_count[workload.FP]
-            match_FN += entity_to_count[workload.FN]
+            match_TP += workload.entitites_to_count[entity_to_count][workload.TP]
+            match_TN += workload.entitites_to_count[entity_to_count][workload.TN]
+            match_FP += workload.entitites_to_count[entity_to_count][workload.FP]
+            match_FN += workload.entitites_to_count[entity_to_count][workload.FN]
     
     return (match_TP, match_FP, match_TN, match_FN)
 
@@ -30,10 +31,10 @@ def get_confusion_matrix_pairwise(workload, subgroup):
         # P(sth | g_i) is calculated.
         # g_i = True
         if clauses_satisfied(encoding1, entity_encoding) or clauses_satisfied(encoding2, entity_encoding):
-            match_TP += entity_to_count[workload.TP]
-            match_TN += entity_to_count[workload.TN]
-            match_FP += entity_to_count[workload.FP]
-            match_FN += entity_to_count[workload.FN]
+            match_TP += workload.entitites_to_count[entity_to_count][workload.TP]
+            match_TN += workload.entitites_to_count[entity_to_count][workload.TN]
+            match_FP += workload.entitites_to_count[entity_to_count][workload.FP]
+            match_FN += workload.entitites_to_count[entity_to_count][workload.FN]
     return (match_TP, match_FP, match_TN, match_FN)
 
 def accuracy_parity_single(workload, subgroup):

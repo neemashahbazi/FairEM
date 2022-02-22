@@ -1,28 +1,35 @@
 import csv
 import pandas as pd
 from pprint import pprint
+
+count_id = 0
+
 def to_deepmatcher_helper(left_vals, right_vals, table, new_schema, res_filename):
+    global count_id
     res_file =  open(res_filename, "w")
+    curr_line = "id,"
     for sch_attr in new_schema:
-        res_file.write(sch_attr)
-        if sch_attr is not "label":
-            res_file.write(", ")
-        else:
-            res_file.write("\n")
+        curr_line += sch_attr + ","
+    curr_line = curr_line[:-1]
+    curr_line += "\n"
+    res_file.write(curr_line)
     for line in table:
         left_id = line[0]
         right_id = line[1]
         label = line[2]
-        new_line = left_vals[left_id] + right_vals[right_id] + [label]
+        new_line = [label] + left_vals[left_id] + right_vals[right_id]
 
-        for attr_val in new_line:
+        res_file.write(str(count_id) + ",")
+        count_id += 1
+        for i in range(len(new_line)):
+            attr_val = new_line[i]
             if "," in attr_val:
                 res_file.write("\"")
                 res_file.write(attr_val)
                 res_file.write("\"")
             else:
                 res_file.write(attr_val)
-            if attr_val == new_line[len(new_line) - 1]:
+            if i == len(new_line) - 1:
                 res_file.write("\n")
             else:
                 res_file.write(",")
@@ -34,7 +41,7 @@ def to_deepmatcher_input(dataset_name, tableA, tableB, test, train, valid):
     schema = left_table.readlines()[0].split(",")[1:] # remove the id
     left_schema = ["left_" + sch.strip() for sch in schema]
     right_schema = ["right_" + sch.strip() for sch in schema]
-    new_schema = left_schema + right_schema + ["label"]
+    new_schema = ["label"] + left_schema + right_schema
 
     left_table = list(csv.reader(open(tableA)))[1:]
     right_table = list(csv.reader(open(tableB)))[1:]
@@ -56,8 +63,8 @@ def to_deepmatcher_input(dataset_name, tableA, tableB, test, train, valid):
     valid_table = list(csv.reader(open(valid)))[1:]
 
     to_deepmatcher_helper(left_vals, right_vals, train_table, new_schema, "../data/dblp-acm/train_converted.csv")
-    to_deepmatcher_helper(left_vals, right_vals, test_table, new_schema, "../data/dblp-acm/test_converted.csv")
     to_deepmatcher_helper(left_vals, right_vals, valid_table, new_schema, "../data/dblp-acm/valid_converted.csv")
+    to_deepmatcher_helper(left_vals, right_vals, test_table, new_schema, "../data/dblp-acm/test_converted.csv")
 
 # def to_ditto_input(dataset_name, tableA, tableB, test, train, valid):
     # left_table = open(tableA,  "r")
@@ -110,7 +117,6 @@ def from_deepmatcher_input_to_ditto_input(dataset_name, path, test, train, valid
     from_deepmatcher_input_to_ditto_input_helper(path, valid, "validation.txt")
     
     
-
 # to_deepmatcher_input("dblp-acm", "../data/dblp-acm/tableA.csv", 
 #                     "../data/dblp-acm/tableB.csv", 
 #                     "../data/dblp-acm/test.csv", 
@@ -129,6 +135,13 @@ def from_deepmatcher_input_to_ditto_input(dataset_name, path, test, train, valid
 #                                     "train.csv",
 #                                     "validation.csv")
 
+from_deepmatcher_input_to_ditto_input("dblp-acm", 
+                                    "../data/dblp-acm/",
+                                    "test_converted.csv",
+                                    "train_converted.csv",
+                                    "valid_converted.csv")
+
+
 def convert_small_workloads(path):
     test = "test"
     for i in range(40):
@@ -136,4 +149,4 @@ def convert_small_workloads(path):
         from_deepmatcher_input_to_ditto_input_helper(path, test1 + ".csv", test1 + ".txt")
         
 
-convert_small_workloads("../data/itunes-amazon/")
+# convert_small_workloads("../data/itunes-amazon/")

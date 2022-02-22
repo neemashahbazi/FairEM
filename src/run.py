@@ -33,7 +33,7 @@ def plot_bins_to_conf_matrix(axarr, bins_to_conf_matrix, subgroup, title, locati
     plt.savefig(location + title + ".png")
     plt.close()            
 
-def plot_results_in_2d_heatmap(data, xlabels, ylabels, title, shrink=0.5):
+def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, shrink=0.5):
     fig, ax = plt.subplots(figsize=(20,14))
     im = ax.imshow(data)
     fig.colorbar(im, shrink=0.5)
@@ -47,7 +47,7 @@ def plot_results_in_2d_heatmap(data, xlabels, ylabels, title, shrink=0.5):
         
     ax.set_title(title)
     fig.tight_layout()
-    plt.savefig("../experiments/" + title.replace("\n","") + ".png")
+    plt.savefig("../experiments/" + dataset + "/" + title.replace("\n","") + ".png")
 
 def run_one_workload(model, epochs=10, single_fairness=True):
     if model == "deepmatcher":
@@ -81,7 +81,7 @@ def run_multiple_workloads(model, num_of_workloads, epochs=10, k_combs = 1, sing
 def experiment_one(model, epochs):
     workloads = run_one_workload(model, epochs=epochs, single_fairness=True)
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/itunes-amazon", 
-                        full_workload_test="test.csv", single_fairness=True)
+                        full_workload_test="test.csv", threshold=0.1, single_fairness=True)
 
     binary_fairness = []
     measures = ["accuracy_parity", "statistical_parity", \
@@ -104,10 +104,10 @@ def experiment_one(model, epochs):
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
 
 
-    title = model + "Experiment 1: \nActual Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    title = model + "0.1" + "Experiment 1: \nActual Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     plot_results_in_2d_heatmap(actual_fairness, attribute_names, 
                                 measures, title)
-    title = model + "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    title = model + "0.1" + "Experiment 1: \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     plot_results_in_2d_heatmap(binary_fairness, attribute_names, 
                                 measures, title)
     
@@ -251,7 +251,164 @@ def experiment_five(model, epochs, one_workload=True, single_fairness=True):
         bins_to_conf_matrix = multiple_bins_to_conf_matrix[i]
         plot_bins_to_conf_matrix(axarr[0][i], bins_to_conf_matrix, subgroup, title="Experiment 5: ", location="../experiments/")
     
+def run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True):
+    if model == "deepmatcher":
+        predictions = run_deepmatcher("../data/" + dataset + "/", 
+                                        train="train.csv", 
+                                        validation="valid.csv",
+                                        test="test.csv",
+                                        epochs = epochs)
+    elif model == "ditto":
+        predictions = jsonl_to_predictions("../data/" + dataset + "/", "ditto_out_test.jsonl")
+    workload = wl.Workload(pd.read_csv("../data/" + dataset + "/test.csv"), 
+                            left_sens_attribute, right_sens_attribute,
+                            predictions, label_column = "label", 
+                            multiple_sens_attr = True, delimiter = ",", 
+                            single_fairness = single_fairness, k_combinations=1)
+    return [workload]
+
+def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True):
+    workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
+                                epochs=epochs, single_fairness=single_fairness)
+    fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
+                        full_workload_test="test.csv", threshold=0.2, single_fairness=single_fairness)
+
+    binary_fairness = []
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity", \
+                "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                "false_omission_rate_parity"]
+    aggregate = "distribution"
+    for measure in measures:
+        is_fair = fairEM.is_fair(measure, aggregate)
+        binary_fairness.append(is_fair)
+    attribute_names = []
+    for k_comb in workloads[0].k_combs_to_attr_names:
+        attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
+
+    title = "Exp1: " + dataset + " " + model + "\nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
+    plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
+                                measures, title)
+
+
+def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False):
+    workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
+                                epochs=epochs, single_fairness=single_fairness)
+    fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
+                        full_workload_test="test.csv", threshold=0.1, single_fairness=single_fairness)
+
+    binary_fairness = []
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity"]
+    aggregate = "distribution"
+    for measure in measures:
+        is_fair = fairEM.is_fair(measure, aggregate)
+        binary_fairness.append(is_fair)
+    attribute_names = []
+    for k_comb in workloads[0].k_combs_to_attr_names:
+        attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
+
+    title = "Exp2: " + dataset + " " + model + "\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
+    plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
+                                measures, title)
+
+
+def experiment_four(left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False):
+    workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
+                                epochs=epochs, single_fairness=single_fairness)
+    fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
+                        full_workload_test="test.csv", threshold=0.1, single_fairness=single_fairness)
+    
+    measures = ["accuracy_parity", "statistical_parity", \
+                "true_positive_rate_parity", "false_positive_rate_parity", \
+                "false_negative_rate_parity", "true_negative_rate_parity", \
+                "negative_predictive_value_parity", "false_discovery_rate_parity", \
+                "false_omission_rate_parity"]
+    aggregates = ["max", "min", "max_minus_min", "average"]
+    
+
+    f, axarr = plt.subplots(3,3,figsize=(11,10))
+    i = 0
+    
+    workloads = run_one_workload(model, epochs=epochs)
+    fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/itunes-amazon", 
+                    full_workload_test="test.csv", single_fairness=False)
+
+    k_combs_ylabel = ["1-comb", "2-comb"]
+    for measure in measures:
+        k_comb_VS_fairness = []
+        for k_comb in [1, 2]:
+            curr_fairness = []
+            for aggregate in aggregates:
+                curr_fairness.append(fairEM.is_fair(measure, aggregate))
+            
+            k_comb_VS_fairness.append(curr_fairness)
+
+        x = int(i / 3)
+        y = i % 3
+        
+        axarr[x][y].set_title(measure)
+        axarr[x][y].imshow(k_comb_VS_fairness)
+        axarr[x][y].set_xticks(np.arange(len(aggregates)))
+        axarr[x][y].set_xticklabels(labels=aggregates)
+        axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
+        axarr[x][y].set_yticklabels(labels=k_combs_ylabel)
+        
+        plt.setp(axarr[x][y].get_xticklabels(), rotation=45, ha="right",
+                rotation_mode="anchor")
+
+        # print("k_comb_VS_fairness = ", k_comb_VS_fairness)
+        i += 1    
+
+    f.tight_layout()
+    plt.savefig("../experiments/" + dataset + "/" + model + "Experiment 4: 1-comb and 2-comb VS AGG Functions for each measure.png")
+    
+
+
+
+def full_experiment_one():
+    experiment_one(model="ditto", dataset="dblp-acm", 
+                    left_sens_attribute="left_venue", 
+                    right_sens_attribute="right_venue", 
+                    epochs=2, single_fairness=True)
+    experiment_one(model="deepmatcher", dataset="dblp-acm", 
+                    left_sens_attribute="left_venue", 
+                    right_sens_attribute="right_venue", 
+                    epochs=2, single_fairness=True)
+    experiment_one(model="ditto", dataset="itunes-amazon", 
+                    left_sens_attribute="left_Genre", 
+                    right_sens_attribute="right_Genre", 
+                    epochs=2, single_fairness=True)
+    experiment_one(model="deepmatcher", dataset="itunes-amazon", 
+                    left_sens_attribute="left_Genre", 
+                    right_sens_attribute="right_Genre", 
+                    epochs=2, single_fairness=True)
+
+def full_experiment_two():
+    experiment_two(model="ditto", dataset="dblp-acm", 
+                    left_sens_attribute="left_venue", 
+                    right_sens_attribute="right_venue", 
+                    epochs=2, single_fairness=False)
+    experiment_two(model="deepmatcher", dataset="dblp-acm", 
+                    left_sens_attribute="left_venue", 
+                    right_sens_attribute="right_venue", 
+                    epochs=2, single_fairness=False)
+    experiment_two(model="ditto", dataset="itunes-amazon", 
+                    left_sens_attribute="left_Genre", 
+                    right_sens_attribute="right_Genre", 
+                    epochs=2, single_fairness=False)
+    experiment_two(model="deepmatcher", dataset="itunes-amazon", 
+                    left_sens_attribute="left_Genre", 
+                    right_sens_attribute="right_Genre", 
+                    epochs=2, single_fairness=False)
+
 def main():
+    full_experiment_one()
+    # full_experiment_two()
+
+
     # workloads = run_multiple_workloads(num_of_workloads=40, epochs=2)
     # alpha = 0.05
     # threshold = 0.2
@@ -296,7 +453,18 @@ def main():
 
     # fairEM.create_fairness_per_bin(subgroups_list, unfair_index, k_combs)
 
+    # experiment_one_dblp(model = "ditto", epochs=2)
+    # experiment_one_dblp(model = "deepmatcher", epochs=2)
 
+    
+    
+    
+    
+    
+    
+
+    # experiment_one_shoes(model = "deepmatcher", epochs=2)
+    
     # experiment_one(model = "deepmatcher", epochs=2)
     # experiment_one(model = "ditto", epochs=2)
     
@@ -308,8 +476,8 @@ def main():
     # experiment_three(model = "ditto", single_fairness=True, epochs=2)
     # experiment_three(model = "ditto", single_fairness=False, epochs=2)
 
-    experiment_four(model = "ditto", epochs=2)
-    experiment_four(model = "deepmatcher", epochs=2)
+    # experiment_four(model = "ditto", epochs=2)
+    # experiment_four(model = "deepmatcher", epochs=2)
     
     # experiment_five(epochs=2, one_workload=True, single_fairness=True)
     

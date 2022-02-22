@@ -246,6 +246,7 @@ class Workload:
             return measures.false_negative_rate_parity_pairwise(self, subgroup)
         elif measure == "true_negative_rate_parity":
             return measures.true_negative_rate_parity_pairwise(self, subgroup)
+        
 
             
     def fairness(self, subgroups, measure, aggregate = "None"):
@@ -253,6 +254,8 @@ class Workload:
             values = [self.calculate_fairness_single(subgroup, measure) for subgroup in subgroups]
         else:
             values = [self.calculate_fairness_pairwise(subgroup, measure) for subgroup in subgroups]
+
+        print("measure = ", measure, "VALUES = ", values)
 
         # make the measure a parity by subtracting the average
         avg = np.mean(values)

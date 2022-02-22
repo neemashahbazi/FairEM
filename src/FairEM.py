@@ -19,7 +19,7 @@ class FairEM:
         self.threshold = threshold
         self.single_fairness = single_fairness
         self.ditto_out_test_full = ditto_out_test_full
-        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
+        # self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
 
         self.TP = 0
         self.FP = 1
