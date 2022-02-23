@@ -12,13 +12,15 @@ from pprint import pprint
 class FairEM:
     # the input is a list of objects of class Workload
     # alpha is used for the Z-Test 
-    def __init__(self, model, workloads, alpha, directory, full_workload_test, threshold=0.2, single_fairness=True, ditto_out_test_full="ditto_out_test.jsonl"):
+    def __init__(self, model, workloads, alpha, directory, full_workload_test, threshold=0.2, single_fairness=True, 
+                ditto_out_test_full="ditto_out_test.jsonl", deepmatcher_out_test_full="deepmatcher_out_15.txt"):
         self.model = model
         self.workloads = workloads
         self.alpha = alpha
         self.threshold = threshold
         self.single_fairness = single_fairness
         self.ditto_out_test_full = ditto_out_test_full
+        self.deepmatcher_out_test_full = deepmatcher_out_test_full
         # self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
 
         self.TP = 0
@@ -104,7 +106,7 @@ class FairEM:
 
     def distance_analysis_prepro(self, directory, full_workload_test, epochs):
         if self.model == "deepmatcher":
-            predictions = run_deepmatcher(directory, epochs = epochs)
+            predictions = deepmatcher_output_to_predictions(directory, self.deepmatcher_out_test_full)
         elif self.model == "ditto":
             predictions = jsonl_to_predictions(directory, self.ditto_out_test_full)
             

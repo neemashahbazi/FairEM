@@ -33,7 +33,7 @@ def convert_to_level_k_subgroups(directory, table, sens_attributes):
     df.to_csv(directory + "/new_" + table, index = False)
 
 def run_deepmatcher(directory, train="train.csv", validation="validation.csv", test="test.csv", \
-    epochs=10, prediction_threshold=0.7):
+    epochs=15, prediction_threshold=0.7):
     """
         Parameters
         ----------
@@ -63,8 +63,6 @@ def run_deepmatcher(directory, train="train.csv", validation="validation.csv", t
     dm_scores = dm_model.run_prediction(test)
     prediction = [True if dm_scores.iloc[idx]["match_score"] > prediction_threshold else False for idx in range(len(dm_scores))]
 
-    print("PREDICTION = ", prediction)
-
     return prediction
     
 #def run_ditto( What is the input? Filled in by Nima ): 
@@ -81,6 +79,19 @@ def jsonl_to_predictions(path, file):
         predictions.append(line["match"])
         
     return predictions
+
+def deepmatcher_output_to_predictions(path, file):
+    predictions = []
+    location = path + file if path.endswith("/") else path + "/" + file
+    with open(location, 'r') as f:
+        lines = list(f)
+
+    for line in lines:
+        prediction = line.strip()
+        predictions.append(int(prediction))
+        
+    return predictions
+
 
 def ditto_format_to_deepmatcher(path, file):
     predictions = []
@@ -138,12 +149,22 @@ def ditto_format_to_deepmatcher(path, file):
     
     print(csv_values)
 
-    
+   
 # ditto_format_to_deepmatcher("../data/shoes/", "test.txt")
 # ditto_format_to_deepmatcher("../data/shoes/", "train.txt")
-ditto_format_to_deepmatcher("../data/shoes/", "valid.txt")
-
-
-
+# ditto_format_to_deepmatcher("../data/shoes/", "valid.txt")
 
 # jsonl_to_predictions("../data/shoes/", "ditto_out_test.jsonl")
+
+def run_deepmatcher_on_existing_datasets():
+    for dataset in ["dblp-acm", "itunes-amazon", "shoes"]:
+        predictions = run_deepmatcher("../data/" + dataset +"/",
+                        train="train.csv", 
+                        validation="valid.csv",
+                        test="test.csv",
+                        epochs = 15)
+        with open("../data/" + dataset + "/deepmatcher_out_15.txt", "w") as f:
+            for prediction in predictions:
+                f.write("1\n" if prediction else "0\n")
+
+# print(deepmatcher_output_to_predictions("../data/itunes-amazon/", "deepmatcher_out_15.txt"))

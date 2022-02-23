@@ -1,4 +1,4 @@
-from preprocessing import run_deepmatcher, jsonl_to_predictions
+from preprocessing import run_deepmatcher, jsonl_to_predictions, deepmatcher_output_to_predictions
 from pprint import pprint
 from create_multiple_workloads import create_workloads_from_file
 import workloads as wl
@@ -35,7 +35,7 @@ def plot_bins_to_conf_matrix(axarr, bins_to_conf_matrix, subgroup, title, locati
 
 def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, shrink=0.5):
     fig, ax = plt.subplots(figsize=(20,14))
-    im = ax.imshow(data)
+    im = ax.imshow(data, vmin=0, vmax=1)
     fig.colorbar(im, shrink=0.5)
     ax.set_xticks(np.arange(len(xlabels)))
     ax.set_xticklabels(labels=xlabels)
@@ -49,16 +49,16 @@ def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, shrink=0.
     fig.tight_layout()
     plt.savefig("../experiments/" + dataset + "/" + title.replace("\n","") + ".png")
 
-def run_one_workload(model, epochs=10, single_fairness=True):
+def run_one_workloadd(model, epochs=10, single_fairness=True, k_combinations=1):
     if model == "deepmatcher":
-        predictions = run_deepmatcher("../data/itunes-amazon", epochs = epochs)
+        predictions = deepmatcher_output_to_predictions("../data/itunes-amazon/", "deepmatcher_out_15.txt")
     elif model == "ditto":
         predictions = jsonl_to_predictions("../data/itunes-amazon/", "ditto_out_test.jsonl")
 
     workload = wl.Workload(pd.read_csv("../data/itunes-amazon/test.csv"), "left_Genre", 
                             "right_Genre", predictions, label_column = "label", 
                             multiple_sens_attr = True, delimiter = ",", single_fairness = single_fairness,
-                            k_combinations=1)
+                            k_combinations=k_combinations)
     return [workload]
 
 def run_multiple_workloads(model, num_of_workloads, epochs=10, k_combs = 1, single_fairness = True):
@@ -141,7 +141,7 @@ def experiment_two(model, epochs):
     plot_results_in_2d_heatmap(actual_fairness, attribute_names, 
                                 measures, title)
 
-def experiment_three(model, single_fairness, epochs):
+def experiment_three(dataset, model, single_fairness, epochs):
     workloads = run_multiple_workloads(model, num_of_workloads=40, epochs=epochs, single_fairness=single_fairness)
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/itunes-amazon", 
                         full_workload_test="test.csv", single_fairness=single_fairness)
@@ -177,10 +177,10 @@ def experiment_three(model, single_fairness, epochs):
     
     
     title = model + "Experiment 3: \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else model + "Experiment 3: \nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
-    plot_results_in_2d_heatmap(fairness_values, fairness_keys, 
+    plot_results_in_2d_heatmap(dataset, fairness_values, fairness_keys, 
                                 measures, title)
 
-def experiment_four(model, epochs):
+def experiment_fourr(model, epochs):
     measures = ["accuracy_parity", "statistical_parity", \
                 "true_positive_rate_parity", "false_positive_rate_parity", \
                 "false_negative_rate_parity", "true_negative_rate_parity", \
@@ -190,27 +190,43 @@ def experiment_four(model, epochs):
     
 
     f, axarr = plt.subplots(3,3,figsize=(11,10))
-    i = 0
     
-    workloads = run_one_workload(model, epochs=epochs)
-    fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/itunes-amazon", 
+    k_combs_ylabel = ["1-comb", "2-comb"]
+    k_combs = [1, 2]
+    k_combs_fairness_measure = []
+    for i in range(len(k_combs)):
+        k_comb = k_combs[i]
+        k_comb_label = k_combs_ylabel[i]
+        k_comb_VS_fairness = []
+        workloads = run_one_workloadd(model, epochs=epochs, single_fairness=True, k_combinations=k_comb)
+        fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/itunes-amazon", 
                     full_workload_test="test.csv", single_fairness=False)
 
-    k_combs_ylabel = ["1-comb", "2-comb"]
-    for measure in measures:
-        k_comb_VS_fairness = []
-        for k_comb in [1, 2]:
+        for measure in measures:
             curr_fairness = []
             for aggregate in aggregates:
                 curr_fairness.append(fairEM.is_fair(measure, aggregate))
             
             k_comb_VS_fairness.append(curr_fairness)
+    
+        # pprint(k_comb_VS_fairness)
+        k_combs_fairness_measure.append(k_comb_VS_fairness)
+
+    for i in range(len(measures)):
+        k_comb_VS_fairness = []
+        for j in range(len(k_combs)):
+            curr_fairness = []
+            for k in range(len(aggregates)):
+                curr_fairness.append(k_combs_fairness_measure[j][i][k])
+            
+            k_comb_VS_fairness.append(curr_fairness)
+    
 
         x = int(i / 3)
         y = i % 3
         
-        axarr[x][y].set_title(measure)
-        axarr[x][y].imshow(k_comb_VS_fairness)
+        axarr[x][y].set_title(measures[i])
+        axarr[x][y].imshow(k_comb_VS_fairness, vmin=0, vmax=1)
         axarr[x][y].set_xticks(np.arange(len(aggregates)))
         axarr[x][y].set_xticklabels(labels=aggregates)
         axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
@@ -219,11 +235,8 @@ def experiment_four(model, epochs):
         plt.setp(axarr[x][y].get_xticklabels(), rotation=45, ha="right",
                 rotation_mode="anchor")
 
-        # print("k_comb_VS_fairness = ", k_comb_VS_fairness)
-        i += 1    
-
     f.tight_layout()
-    plt.savefig("../experiments/" + model + "Experiment 4: 1-comb and 2-comb VS AGG Functions for each measure.png")
+    plt.savefig("../experiments/itunes-amazon/Exp4: " + model + " General Model Fairness.png")
         
 def experiment_five(model, epochs, one_workload=True, single_fairness=True):
     if one_workload:
@@ -240,16 +253,18 @@ def experiment_five(model, epochs, one_workload=True, single_fairness=True):
     
     multiple_bins_to_conf_matrix = []
     for subgroup in is_fair_distribution:
-        print("is_fair_distribution[subgroup] = ", is_fair_distribution[subgroup])
+        print("subgroup = ", subgroup, "is_fair_distribution[subgroup] = ", is_fair_distribution[subgroup])
         if not is_fair_distribution[subgroup]:
             print("NOT FAIR = ", subgroup)
             bins_to_conf_matrix = fairEM.distance_analysis(subgroup)
             multiple_bins_to_conf_matrix.append(bins_to_conf_matrix)
 
-    f, axarr = plt.subplots(1,len(multiple_bins_to_conf_matrix),figsize=(11,10))
-    for i in range(len(multiple_bins_to_conf_matrix)):
-        bins_to_conf_matrix = multiple_bins_to_conf_matrix[i]
-        plot_bins_to_conf_matrix(axarr[0][i], bins_to_conf_matrix, subgroup, title="Experiment 5: ", location="../experiments/")
+    print(multiple_bins_to_conf_matrix)
+
+    # f, axarr = plt.subplots(1,len(multiple_bins_to_conf_matrix),figsize=(11,10))
+    # for i in range(len(multiple_bins_to_conf_matrix)):
+    #     bins_to_conf_matrix = multiple_bins_to_conf_matrix[i]
+    #     plot_bins_to_conf_matrix(axarr[0][i], bins_to_conf_matrix, subgroup, title="Experiment 5: ", location="../experiments/")
     
 def run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True):
     if model == "deepmatcher":
@@ -315,7 +330,7 @@ def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, ep
                                 measures, title)
 
 
-def experiment_four(left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False):
+def experiment_four(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=True):
     workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                                 epochs=epochs, single_fairness=single_fairness)
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
@@ -350,7 +365,7 @@ def experiment_four(left_sens_attribute, right_sens_attribute, epochs=10, single
         y = i % 3
         
         axarr[x][y].set_title(measure)
-        axarr[x][y].imshow(k_comb_VS_fairness)
+        axarr[x][y].imshow(k_comb_VS_fairness, vmin=0, vmax=1)
         axarr[x][y].set_xticks(np.arange(len(aggregates)))
         axarr[x][y].set_xticklabels(labels=aggregates)
         axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
@@ -433,10 +448,20 @@ def full_experiment_two(threshold=0.2):
                     threshold=threshold)
 
 def main():
-    full_experiment_one(threshold=0.1)
-    full_experiment_one(threshold=0.2)
-    full_experiment_two(threshold=0.1)
-    full_experiment_two(threshold=0.2)
+    # full_experiment_one(threshold=0.1)
+    # full_experiment_one(threshold=0.2)
+    # full_experiment_two(threshold=0.1)
+    # full_experiment_two(threshold=0.2)
+    # experiment_three(dataset = "itunes-amazon", model = "ditto", single_fairness=True, epochs=2)
+    # experiment_four(model = "ditto", dataset="dblp-acm", 
+    #                 left_sens_attribute="left_venue", 
+    #                 right_sens_attribute="right_venue",epochs=2)
+    # experiment_four(model = "deepmatcher", dataset="dblp-acm", 
+    #                 left_sens_attribute="left_venue", 
+    #                 right_sens_attribute="right_venue",epochs=2)
+    experiment_fourr(model = "ditto", epochs=15)
+    experiment_fourr(model = "deepmatcher", epochs=15)
+    
     
     
 
@@ -508,8 +533,6 @@ def main():
     # experiment_three(model = "ditto", single_fairness=True, epochs=2)
     # experiment_three(model = "ditto", single_fairness=False, epochs=2)
 
-    # experiment_four(model = "ditto", epochs=2)
-    # experiment_four(model = "deepmatcher", epochs=2)
     
     # experiment_five(epochs=2, one_workload=True, single_fairness=True)
     
