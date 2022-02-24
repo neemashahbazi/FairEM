@@ -442,8 +442,8 @@ def main():
     # full_experiment_one(threshold=0.1)
     full_experiment_one(threshold=0.2)
     # full_experiment_two(threshold=0.1)
-    # full_experiment_two(threshold=0.2)
-    # full_experiment_four()
+    full_experiment_two(threshold=0.2)
+    full_experiment_four()
     # experiment_five(model = "ditto", epochs=15)
     # experiment_five(model = "deepmatcher", epochs=15)
 

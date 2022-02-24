@@ -118,20 +118,13 @@ def ditto_format_to_deepmatcher(path, file):
         for i in range(2):
             vals = re.split("COL | VAL", spl[i])[1:]          
             for j in range(0, len(vals)):
-                curr_val = ""
+                
+                # print("j = ", j, "vals[j] = ", vals[j])
                 if j % 2 != 0:
                     vals[j] = vals[j].strip()
-                    if vals[j].startswith("\""):
-                        curr_val += vals[j] + ","
-                    elif "," in vals[j]:
-                        curr_val += "\"" + vals[j] + "\"" + ","
-                    else:
-                        curr_val += vals[j] + ","
-                curr_val += ""
-
-                # print("curr_val = ", curr_val)
-
-                csv_values += curr_val
+                    vals[j] = vals[j].replace("\"","")
+                    curr_val = "\"" + vals[j] + "\"" + ","
+                    csv_values += curr_val
         csv_values = csv_values[:-1]
         csv_values += "\n"
 
@@ -157,14 +150,39 @@ def ditto_format_to_deepmatcher(path, file):
 # jsonl_to_predictions("../data/shoes/", "ditto_out_test.jsonl")
 
 def run_deepmatcher_on_existing_datasets():
-    for dataset in ["dblp-acm", "itunes-amazon", "shoes"]:
-        predictions = run_deepmatcher("../data/" + dataset +"/",
-                        train="train.csv", 
-                        validation="valid.csv",
-                        test="test.csv",
-                        epochs = 15)
-        with open("../data/" + dataset + "/deepmatcher_out_15.txt", "w") as f:
-            for prediction in predictions:
-                f.write("1\n" if prediction else "0\n")
+    dataset = "shoes"
+    predictions = run_deepmatcher("../data/" + dataset +"/",
+                    train="train.csv", 
+                    validation="valid.csv",
+                    test="test.csv",
+                    epochs = 15)
+    with open("../data/" + dataset + "/deepmatcher_out_15.txt", "w") as f:
+        for prediction in predictions:
+            f.write("1\n" if prediction else "0\n")
 
-# print(deepmatcher_output_to_predictions("../data/itunes-amazon/", "deepmatcher_out_15.txt"))
+# run_deepmatcher_on_existing_datasets()
+
+def add_locale_to_shoes_dataset():
+    test_demographic_groups = "../data/shoes/test_demographic_groups.txt"
+    test_file = "../data/shoes/test.csv"
+    test_file_with_locale = "../data/shoes/test_locale.csv"
+    
+    left_locale = []
+    right_locale = []
+    with open(test_demographic_groups) as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.replace("\"", "")
+            line = line[:-1]
+            spl = line.split(":")
+            left_locale.append(spl[0])
+            right_locale.append(spl[1])
+    
+    df = pd.read_csv(test_file, index_col="id")
+    
+    df["left_locale"] = left_locale
+    df["right_locale"] = right_locale
+
+    df.to_csv(test_file_with_locale, index = "id")
+
+# add_locale_to_shoes_dataset()
