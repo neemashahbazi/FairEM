@@ -27,6 +27,7 @@ class Workload:
         self.TN = 2
         self.FN = 3
 
+        self.workload_conf_matrix = self.calculate_workload_conf_matrix()
         self.entitites_to_count = self.create_entities_to_count()
         self.k_combs = self.create_k_combs(k_combinations)
         self.k_combs_to_attr_names = self.k_combs_to_attribute_names()
@@ -114,6 +115,8 @@ class Workload:
         for ind, row in self.df.iterrows():
             key = self.create_hashmap_key(row)
             entitites_to_count[key] = [0,0,0,0]
+        for ind, row in self.df.iterrows():
+            key = self.create_hashmap_key(row)
             self.fill_entities_to_count(entitites_to_count, key, ind, self.prediction[ind], row[self.label_column])
         return entitites_to_count
 
@@ -142,7 +145,13 @@ class Workload:
                     if comb not in k_combs:
                         k_combs[comb] = number_of_pairs_with_entity
                     else:
-                        k_combs[comb] = k_combs[comb] + number_of_pairs_with_entity            
+                        k_combs[comb] = k_combs[comb] + number_of_pairs_with_entity
+                for comb in combinations(entity[border+1:], k):
+                    if comb not in k_combs:
+                        k_combs[comb] = number_of_pairs_with_entity
+                    else:
+                        k_combs[comb] = k_combs[comb] + number_of_pairs_with_entity
+                            
         else:
             for entity in self.entitites_to_count:
                 number_of_pairs_with_entity = sum(self.entitites_to_count[entity]) + 1 # because of -1 for the border
@@ -211,7 +220,6 @@ class Workload:
         
         return left_encoding + right_encoding, right_encoding + left_encoding
         
-    
     def calculate_fairness_single(self, subgroup, measure):
         if measure == "accuracy_parity":
             return measures.accuracy_parity_single(self, subgroup)
@@ -232,7 +240,6 @@ class Workload:
         elif measure == "false_omission_rate_parity":
             return measures.false_omission_rate_parity_single(self, subgroup)
         
-    
     def calculate_fairness_pairwise(self, subgroup, measure):
         if measure == "accuracy_parity":
             return measures.accuracy_parity_pairwise(self, subgroup)
@@ -247,17 +254,55 @@ class Workload:
         elif measure == "true_negative_rate_parity":
             return measures.true_negative_rate_parity_pairwise(self, subgroup)
         
+    def calculate_workload_conf_matrix(self):
+        conf_matr = [0] * 4
+        for ind, row in self.df.iterrows():
+            pred = self.prediction[ind]
+            ground_truth = row[self.label_column]
+            if pred:
+                if ground_truth:
+                    conf_matr[self.TP] += 1
+                else:
+                    conf_matr[self.FP] += 1
+            else:
+                if ground_truth:
+                    conf_matr[self.FN] += 1
+                else:
+                    conf_matr[self.TN] += 1
 
-            
-    def fairness(self, subgroups, measure, aggregate = "None"):
+        return tuple(conf_matr)
+    
+    def calculate_workload_fairness(self, measure):
+        TP, FP, TN, FN = self.workload_conf_matrix
+        if measure == "accuracy_parity":
+            return measures.AP(TP, FP, TN, FN)
+        elif measure == "statistical_parity":
+            return measures.SP(TP, FP, TN, FN)
+        elif measure == "true_positive_rate_parity":
+            return measures.TPR(TP, FP, TN, FN)
+        elif measure == "false_positive_rate_parity":
+            return measures.FPR(TP, FP, TN, FN)
+        elif measure == "false_negative_rate_parity":
+            return measures.FNR(TP, FP, TN, FN)
+        elif measure == "true_negative_rate_parity":
+            return measures.TNR(TP, FP, TN, FN)
+        elif measure == "negative_predictive_value_parity":
+            return measures.NPV(TP, FP, TN, FN)
+        elif measure == "false_discovery_rate_parity":
+            return measures.FDR(TP, FP, TN, FN)
+        elif measure == "false_omission_rate_parity":
+            return measures.FOR(TP, FP, TN, FN)
+                
+                
+    def fairness(self, subgroups, measure, aggregate = "distribution"):
         if self.single_fairness:
             values = [self.calculate_fairness_single(subgroup, measure) for subgroup in subgroups]
         else:
             values = [self.calculate_fairness_pairwise(subgroup, measure) for subgroup in subgroups]
 
-        # make the measure a parity by subtracting the average
-        avg = np.mean(values)
-        values = [x - avg for x in values]
+        # make the measure a parity by subtracting the model performance
+        workload_fairness = self.calculate_workload_fairness(measure) 
+        values = [x - workload_fairness for x in values]
         
         if aggregate == "max":
             return max(values)

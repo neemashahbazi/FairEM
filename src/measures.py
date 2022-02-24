@@ -37,116 +37,127 @@ def get_confusion_matrix_pairwise(workload, subgroup):
             match_FN += workload.entitites_to_count[entity_to_count][workload.FN]
     return (match_TP, match_FP, match_TN, match_FN)
 
+def AP(TP, FP, TN, FN):
+    if (TP + TN + FP + FN) == 0: # denominator
+        return 0
+    else:
+        return (TP + TN) / (TP + TN + FP + FN)
+
+def SP(TP, FP, TN, FN):
+    if (TP + FP + TN + FN) == 0: # denominator
+        return 0
+    else:
+        return TP / (TP + FP + TN + FN)
+
+def TPR(TP, FP, TN, FN):
+    if (TP + FN) == 0: # denominator
+        return 0
+    else:
+        return TP / (TP + FN)
+
+def FPR(TP, FP, TN, FN):
+    if (FP + TN) == 0: # denominator
+        return 0
+    else:
+        return FP / (FP + TN)
+
+def FNR(TP, FP, TN, FN):
+    if (FN + TP) == 0: # denominator
+        return 0
+    else:
+        return FN / (FN + TP)
+
+def TNR(TP, FP, TN, FN):
+    if (TN + FP) == 0: # denominator
+        return 0
+    else:
+        return TN / (TN + FP)
+
+def PPV(TP, FP, TN, FN):
+    if (TP + FP) == 0: # denominator
+        return 0
+    else:
+        return TP / (TP + FP)
+
+def NPV(TP, FP, TN, FN):
+    if (TN + FN) == 0: # denominator
+        return 0
+    else:
+        return TN / (TN + FN)
+
+def FDR(TP, FP, TN, FN):
+    if (TP + FP) == 0: # denominator
+        return 0
+    else:
+        return FP / (TP + FP)
+
+def FOR(TP, FP, TN, FN):
+    if (TN + FN) == 0: # denominator
+        return 0
+    else:
+        return FN / (TN + FN)
+
+
 def accuracy_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TP + match_TN + match_FP + match_FN) == 0: # denominator
-        return 0
-    else:
-        return (match_TP + match_TN) / (match_TP + match_TN + match_FP + match_FN)
-
+    return AP(match_TP, match_FP, match_TN, match_FN)
+    
 def accuracy_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_TP + match_TN + match_FP + match_FN) == 0: # denominator
-        return 0
-    else:
-        return (match_TP + match_TN) / (match_TP + match_TN + match_FP + match_FN)
+    return AP(match_TP, match_FP, match_TN, match_FN)
 
 def statistical_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    
-    if (match_TP + match_FP + match_TN + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_TP / (match_TP + match_FP + match_TN + match_FN)
+    return SP(match_TP, match_FP, match_TN, match_FN)
 
 def statistical_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_TP + match_TP + match_FP + match_TN + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_TP / (match_TP + match_FP + match_TN + match_FN)
+    return SP(match_TP, match_FP, match_TN, match_FN)
 
 def true_positive_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TP + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_TP / (match_TP + match_FN)
+    return TPR(match_TP, match_FP, match_TN, match_FN)
 
 def true_positive_rate_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_TP + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_TP / (match_TP + match_FN)
+    return TPR(match_TP, match_FP, match_TN, match_FN)
 
 def false_positive_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_FP + match_TN) == 0: # denominator
-        return 0
-    else:
-        return match_FP / (match_FP + match_TN)
+    return FPR(match_TP, match_FP, match_TN, match_FN)
 
 def false_positive_rate_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_FP + match_TN) == 0: # denominator
-        return 0
-    else:
-        return match_FP / (match_FP + match_TN)
+    return FPR(match_TP, match_FP, match_TN, match_FN)
 
 def false_negative_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_FN + match_TP) == 0: # denominator
-        return 0
-    else:
-        return match_FN / (match_FN + match_TP)
+    return FNR(match_TP, match_FP, match_TN, match_FN)
 
 def false_negative_rate_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_FN + match_TP) == 0: # denominator
-        return 0
-    else:
-        return match_FN / (match_FN + match_TP)
-
+    return FNR(match_TP, match_FP, match_TN, match_FN)
+    
 def true_negative_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TN + match_FP) == 0: # denominator
-        return 0
-    else:
-        return match_TN / (match_TN + match_FP)
-
+    return TNR(match_TP, match_FP, match_TN, match_FN)
+    
 def true_negative_rate_parity_pairwise(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_pairwise(workload, subgroup)
-    if (match_TN + match_FP) == 0: # denominator
-        return 0
-    else:
-        return match_TN / (match_TN + match_FP)
-
+    return TNR(match_TP, match_FP, match_TN, match_FN)
+    
 def positive_predictive_value_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TP + match_FP) == 0: # denominator
-        return 0
-    else:
-        return match_TP / (match_TP + match_FP)
-
+    return PPV(match_TP, match_FP, match_TN, match_FN)
+    
 def negative_predictive_value_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TN + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_TN / (match_TN + match_FN)
-
+    return NPV(match_TP, match_FP, match_TN, match_FN)
+    
 def false_discovery_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TP + match_FP) == 0: # denominator
-        return 0
-    else:
-        return match_FP / (match_TP + match_FP)
+    return FDR(match_TP, match_FP, match_TN, match_FN)
 
 def false_omission_rate_parity_single(workload, subgroup):
     (match_TP, match_FP, match_TN, match_FN) = get_confusion_matrix_single(workload, subgroup)
-    if (match_TN + match_FN) == 0: # denominator
-        return 0
-    else:
-        return match_FN / (match_TN + match_FN)
-
+    return FOR(match_TP, match_FP, match_TN, match_FN)

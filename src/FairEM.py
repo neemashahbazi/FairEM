@@ -6,7 +6,7 @@ import pandas as pd
 import workloads as wl 
 from statsmodels.stats.weightstats import ztest
 from utils import calculate_distance
-from preprocessing import run_deepmatcher, jsonl_to_predictions
+from preprocessing import run_deepmatcher, jsonl_to_predictions, deepmatcher_output_to_predictions
 from pprint import pprint
 
 class FairEM:
@@ -21,7 +21,7 @@ class FairEM:
         self.single_fairness = single_fairness
         self.ditto_out_test_full = ditto_out_test_full
         self.deepmatcher_out_test_full = deepmatcher_out_test_full
-        # self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
+        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
 
         self.TP = 0
         self.FP = 1
