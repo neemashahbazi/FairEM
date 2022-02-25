@@ -106,13 +106,23 @@ def experiment_three(dataset, model, single_fairness, epochs):
        
 def plot_distances_all(distances_all, label, model, distance_to_bin, measure = "TPR"):
     plot = {}
-    print("distances_all = ", distances_all)
-    for distance in distances_all:
-        print(distances_all[distance])
-        TP, FP, TN, FN = tuple(distances_all[distance])
+    print("label = ", label, "distances_all = ", distances_all)
+    ls_distances = list(distances_all.keys())
+    ls_distances.sort()
+    for distance in ls_distances:
         binn = distance_to_bin[distance]
-        plot[binn] = TPR(TP, FP, TN, FN)
+        if binn not in plot:
+            plot[binn] = [0,0,0,0]
+        plot[binn] = list(np.add(plot[binn], distances_all[distance]))
 
+        # print(distances_all[distance], "binn = ", binn, "val = ", plot[binn])
+
+    pprint(plot)
+    for binn in plot:
+        TP, FP, TN, FN = tuple(plot[binn])
+        plot[binn] = TPR(TP, FP, TN, FN)
+    pprint(plot)
+    
     lists = sorted(plot.items()) 
     x, y = zip(*lists)
 
@@ -131,6 +141,7 @@ def create_distance_to_bin(distances, n = 4):
     return distance_to_bin
 
 def experiment_five(model, epochs, one_workload=True, single_fairness=True):
+    print("\n\n123456\n\n")
     dataset = "itunes-amazon"
     left_sens_attribute = "left_Genre"
     right_sens_attribute = "right_Genre"
@@ -165,8 +176,8 @@ def experiment_five(model, epochs, one_workload=True, single_fairness=True):
             multiple_bins_to_conf_matrix.append(bins_to_conf_matrix)
             unfair_subgroups.append(subgroup)
 
+    print("UNFAIR SUBGROUPS = ", unfair_subgroups)
     fairEM.distance_analysis_all()
-    print("123456")
     labels = ["general"]
     conf_matrices = []
     conf_matrices.append(fairEM.distances_all)
@@ -174,21 +185,22 @@ def experiment_five(model, epochs, one_workload=True, single_fairness=True):
     distances_list.sort()
     distance_to_bin = create_distance_to_bin(distances_list)
 
-    print(distance_to_bin)
-
     # plot_distances_all(fairEM.distances_all, model)
     for i in range(len(unfair_subgroups)):
         # print(unfair_subgroups[i], "~~", multiple_bins_to_conf_matrix[i])
         labels.append(unfair_subgroups[i])
         conf_matrices.append(multiple_bins_to_conf_matrix[i])
 
-    for i in range(len(unfair_subgroups)):
+    for i in range(len(conf_matrices)):
         # print(labels[i], "~~~", conf_matrices[i])
         plot_distances_all(conf_matrices[i], labels[i], model, distance_to_bin)
 
-    plt.legend(labels)
+    plt.legend(labels, bbox_to_anchor=[0.0, 1.0], loc='upper left', prop={'size': 6})
+    plt.xticks(range(0,4))
 
     plt.savefig("../experiments/itunes-amazon/" + "Exp5: " + model + " Distance Explainability" + ".png")
+
+    plt.close()
     
     # f, axarr = plt.subplots(len(multiple_bins_to_conf_matrix), 1, figsize=(11,10), squeeze=False)
 
