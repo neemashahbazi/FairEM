@@ -1,6 +1,5 @@
 from preprocessing import run_deepmatcher, jsonl_to_predictions, deepmatcher_output_to_predictions
 from pprint import pprint
-from create_multiple_workloads import create_workloads_from_file
 from run import *
 import workloads as wl
 import pandas as pd

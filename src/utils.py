@@ -35,3 +35,21 @@ def calculate_distance(unfair_subroup, normal_subgroup, normal_subgroup_del):
             distance += 1
     
     return distance
+
+def calculate_distance_single(left, right, delimiter):
+
+    left_set = set([x.strip() for x in left.split(delimiter)])
+    right_set = set([x.strip() for x in right.split(delimiter)])
+    
+    distance = 0
+    for e1 in left_set:
+        if e1 not in right_set:
+            distance += 1
+    for e1 in right_set:
+        if e1 not in left_set:
+            distance += 1
+    return distance
+
+# TODO: Implement
+def calculate_distance_pairwise(left, right, delimiter):
+    return 0

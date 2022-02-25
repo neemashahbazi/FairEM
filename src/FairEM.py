@@ -5,7 +5,7 @@ import scipy.stats as stats
 import pandas as pd
 import workloads as wl 
 from statsmodels.stats.weightstats import ztest
-from utils import calculate_distance
+from utils import calculate_distance_single, calculate_distance_pairwise
 from preprocessing import run_deepmatcher, jsonl_to_predictions, deepmatcher_output_to_predictions
 from pprint import pprint
 
@@ -113,8 +113,9 @@ class FairEM:
         elif self.model == "ditto":
             predictions = jsonl_to_predictions(directory, self.ditto_out_test_full)
             
-        workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), self.workloads[0].sens_att_left, 
-                                self.workloads[0].sens_att_left, predictions, 
+        workload = wl.Workload(pd.read_csv(directory + "/" + full_workload_test), 
+                                self.workloads[0].sens_att_left, 
+                                self.workloads[0].sens_att_right, predictions, 
                                 label_column = self.workloads[0].label_column,
                                 multiple_sens_attr = self.workloads[0].multiple_sens_attr,
                                 delimiter = self.workloads[0].delimiter, 
@@ -125,28 +126,19 @@ class FairEM:
 
     # unfair_subgroup is given as a string
     def distance_analysis_unfair(self, unfair_subgroup, number_of_bins=5):
-
         workload = self.full_workload_distance
-        
         fairness_per_distance = {}
 
         for idx, row in workload.df.iterrows():
-            distance = None
             if workload.single_fairness:
-                distance_left = calculate_distance(unfair_subgroup, row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(unfair_subgroup, row[workload.sens_att_right], ",")
-                distance = min(distance_left, distance_right)
-
+                if unfair_subgroup not in row[workload.sens_att_left] and \
+                    unfair_subgroup not in row[workload.sens_att_right]:
+                    continue 
+                distance = None
+                distance = calculate_distance_single(row[workload.sens_att_left], row[workload.sens_att_right], workload.delimiter)
             else:
-                unfair_subgroup_separated = unfair_subgroup.split("|")
-                distance_left = calculate_distance(unfair_subgroup_separated[0], row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(unfair_subgroup_separated[1], row[workload.sens_att_right], ",")
-                distance = distance_left + distance_right
-                
-                distance_left = calculate_distance(unfair_subgroup_separated[1], row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(unfair_subgroup_separated[0], row[workload.sens_att_right], ",")
-
-                distance = min(distance, distance_left + distance_right)
+                # TODO: if condition first
+                distance = calculate_distance_pairwise(row[workload.sens_att_left], row[workload.sens_att_right], workload.delimiter)
                 
             if distance not in fairness_per_distance:
                 fairness_per_distance[distance] = [0, 0, 0, 0]
@@ -165,29 +157,15 @@ class FairEM:
         return fairness_per_distance
 
     def distance_analysis_all(self):
-        for subgroup in self.workloads[0].sens_attr_vals:
-            self.distance_analysis_any_group(subgroup)
-
-    def distance_analysis_any_group(self, subgroup, number_of_bins=5):
         workload = self.full_workload_distance
         fairness_per_distance = {}
         for idx, row in workload.df.iterrows():
             distance = None
             if workload.single_fairness:
-                distance_left = calculate_distance(subgroup, row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(subgroup, row[workload.sens_att_right], ",")
-                distance = min(distance_left, distance_right)
-
+                distance = calculate_distance_single(row[workload.sens_att_left], row[workload.sens_att_right], workload.delimiter)
             else:
-                subgroup_separated = subgroup.split("|")
-                distance_left = calculate_distance(subgroup_separated[0], row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(subgroup_separated[1], row[workload.sens_att_right], ",")
-                distance = distance_left + distance_right
-                
-                distance_left = calculate_distance(subgroup_separated[1], row[workload.sens_att_left], ",")
-                distance_right = calculate_distance(subgroup_separated[0], row[workload.sens_att_right], ",")
-
-                distance = min(distance, distance_left + distance_right)
+                # TODO: if condition first
+                distance = calculate_distance_pairwise(row[workload.sens_att_left], row[workload.sens_att_right], workload.delimiter)
                 
             if distance not in fairness_per_distance:
                 fairness_per_distance[distance] = [0, 0, 0, 0]
@@ -202,8 +180,5 @@ class FairEM:
                     fairness_per_distance[distance][self.FN] += 1
                 else:
                     fairness_per_distance[distance][self.TN] += 1
-
-        for distance in fairness_per_distance:
-            if distance not in self.distances_all:
-                self.distances_all[distance] = [0, 0, 0, 0]
-            self.distances_all[distance] = list(np.add(self.distances_all[distance], fairness_per_distance[distance]))
+        
+        self.distances_all = fairness_per_distance
