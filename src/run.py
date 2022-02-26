@@ -7,6 +7,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from measures import *
 
+def make_acronym(word, delim):
+    res = ""
+    for spl in word.split(delim):
+        res += spl[0].capitalize()
+    return res
+
 def plot_bargraph(data, filename, title=""):
     data.sort()
     fig, ax = plt.subplots(1, 1, figsize=(7, 5))
@@ -15,35 +21,35 @@ def plot_bargraph(data, filename, title=""):
     plt.savefig(filename + ".png")
     plt.close()
 
-def plot_bins_to_conf_matrix(ax, bins_to_conf_matrix, subgroup):
-    keys = []
-    vals = []
-    for key in sorted(bins_to_conf_matrix):
-        keys.append(key)
-        val = (bins_to_conf_matrix[key][0] + bins_to_conf_matrix[key][2]) / sum(bins_to_conf_matrix[key])
-        vals.append(val)        
+# def plot_bins_to_conf_matrix(ax, bins_to_conf_matrix, subgroup):
+#     keys = []
+#     vals = []
+#     for key in sorted(bins_to_conf_matrix):
+#         keys.append(key)
+#         val = (bins_to_conf_matrix[key][0] + bins_to_conf_matrix[key][2]) / sum(bins_to_conf_matrix[key])
+#         vals.append(val)        
 
-    ax.plot(keys, vals)
-    subgroup = subgroup.replace("/","") # to deal with cases like Hip/Hop 
-    subgroup = subgroup.replace("\\","")
-    ax.set_title(subgroup)
-    ax.set_xticks(keys)
+#     ax.plot(keys, vals)
+#     subgroup = subgroup.replace("/","") # to deal with cases like Hip/Hop 
+#     subgroup = subgroup.replace("\\","")
+#     ax.set_title(subgroup)
+#     ax.set_xticks(keys)
 
-def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, shrink=0.5):
-    fig, ax = plt.subplots(figsize=(20,14))
+def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, figsize = (10,7), x_font = 9, y_font = 12):
+    fig, ax = plt.subplots(figsize=figsize)
     im = ax.imshow(data, cmap="RdYlGn", vmin=0, vmax=1)
-    fig.colorbar(im, shrink=0.5)
     ax.set_xticks(np.arange(len(xlabels)))
-    ax.set_xticklabels(labels=xlabels, fontdict={'fontsize': 20})
+    ax.set_xticklabels(labels=xlabels, fontdict={'fontsize': x_font})
     ax.set_yticks(np.arange(len(ylabels)))
-    ax.set_yticklabels(labels=ylabels, fontdict={'fontsize': 20})
+    ax.set_yticklabels(labels=ylabels, fontdict={'fontsize': y_font})
 
     plt.setp(ax.get_xticklabels(), rotation=60, ha="right",
             rotation_mode="anchor")
         
-    ax.set_title(title, fontdict={'fontsize': 24})
+    # ax.set_title(title, fontdict={'fontsize': 24})
     fig.tight_layout()
-    plt.savefig("../experiments/" + dataset + "/" + title.replace("\n","") + ".png")
+    plt.savefig("../experiments/" + dataset + "/" + title.replace("\n","") + ".png", dpi=100)
+    plt.close()
 
 def run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                     epochs=10, single_fairness=True, 
@@ -93,7 +99,6 @@ def run_multiple_workloads(dataset, model, num_of_workloads=40, epochs=10, k_com
 
 def plot_distances_all(distances_all, label, model, distance_to_bin, measure = "accuracy"):
     plot = {}
-    print("label = ", label, "distances_all = ", distances_all)
     ls_distances = list(distances_all.keys())
     ls_distances.sort()
     for distance in ls_distances:
@@ -144,6 +149,8 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
                 "false_negative_rate_parity", "true_negative_rate_parity", \
                 "negative_predictive_value_parity", "false_discovery_rate_parity", \
                 "false_omission_rate_parity"]
+    measures_acronymes = [make_acronym(x, "_") for x in measures]
+    
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
@@ -151,12 +158,27 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
     attribute_names = []
     for k_comb in workloads[0].k_combs_to_attr_names:
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
+    
+    if dataset == "dblp-acm":
+        attribute_names = [make_acronym(x, " ") for x in attribute_names]
+        figsize = (8,8)
+        x_font = 12
+        y_font = 12
+    elif dataset == "itunes-amazon":
+        figsize = (10, 7)
+        x_font = 9
+        y_font = 12        
+    elif dataset == "shoes":
+        figsize = (8,6)
+        x_font = 12
+        y_font = 12
 
     title = "Exp1: " + dataset + " " + model + " with " + str(threshold) + " threshold \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     if dataset == "itunes-amazon" or dataset == "shoes":
         title += " with others column"
     plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
-                                measures, title)
+                                measures_acronymes, title, 
+                                figsize, x_font, y_font)
 
 def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False, threshold=0.2):
     test_file = "test.csv" if dataset == "dblp-acm" else "test_others.csv"
@@ -170,19 +192,38 @@ def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, ep
     measures = ["accuracy_parity", "statistical_parity", \
                 "true_positive_rate_parity", "false_positive_rate_parity", \
                 "false_negative_rate_parity", "true_negative_rate_parity"]
+    measures_acronymes = [make_acronym(x, "_") for x in measures]
+    
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
         binary_fairness.append(is_fair)
     attribute_names = []
     for k_comb in workloads[0].k_combs_to_attr_names:
-        attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
+        curr_attr_name = workloads[0].k_combs_to_attr_names[k_comb]
+        curr_attr_name = curr_attr_name.replace("|", " | ") 
+        attribute_names.append(curr_attr_name)
+
+    if dataset == "dblp-acm":
+        attribute_names = [make_acronym(x, " ") for x in attribute_names]
+        figsize = (8,8)
+        x_font = 12
+        y_font = 12
+    elif dataset == "itunes-amazon":
+        figsize = (10, 7)
+        x_font = 9
+        y_font = 12        
+    elif dataset == "shoes":
+        figsize = (8,6)
+        x_font = 12
+        y_font = 12
 
     title = "Exp2: " + dataset + " " + model + " with " + str(threshold) + " threshold\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
     if dataset == "itunes-amazon" or dataset == "shoes":
         title += " with others column"
     plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
-                                measures, title)
+                                measures_acronymes, title, 
+                                figsize, x_font, y_font)
 
 def experiment_three(dataset, model, single_fairness=True, epochs=15, others=True):
     workloads = run_multiple_workloads(dataset, model, epochs=epochs, single_fairness=single_fairness, others=others)
@@ -204,6 +245,8 @@ def experiment_three(dataset, model, single_fairness=True, epochs=15, others=Tru
                     "true_negative_rate_parity"]
     aggregate = "distribution"
 
+    measures_acronymes = [make_acronym(x,"_") for x in measures]
+    
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
         binary_fairness.append(is_fair)
@@ -227,9 +270,25 @@ def experiment_three(dataset, model, single_fairness=True, epochs=15, others=Tru
         subgroups.append(subgroup)
         values.append(subgroup_to_isfair[subgroup])
 
+    if dataset == "dblp-acm":
+        subgroups = [make_acronym(x, " ") for x in subgroups]
+        figsize = (8,8)
+        x_font = 12
+        y_font = 12
+    elif dataset == "itunes-amazon":
+        figsize = (10, 7)
+        x_font = 9
+        y_font = 12        
+    elif dataset == "shoes":
+        figsize = (8,6)
+        x_font = 12
+        y_font = 12
+
     title = "Exp3: " + dataset + " " + model +" \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else \
             "Exp3: " + dataset + model + "\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
-    plot_results_in_2d_heatmap(dataset, np.transpose(values), subgroups, measures, title)
+    plot_results_in_2d_heatmap(dataset, np.transpose(values), subgroups, 
+                                measures_acronymes, title,
+                                figsize, x_font, y_font)
        
 def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, epochs, k_combinations, test_file="test.csv"):
     if dataset == "itunes-amazon" or dataset == "shoes":
@@ -243,7 +302,7 @@ def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, e
     aggregates = ["max", "min", "max_minus_min", "average"]
     
 
-    f, axarr = plt.subplots(3,3,figsize=(11,10))
+    f, axarr = plt.subplots(3,3,figsize=(6,5))
     
     k_combs_ylabel = [str(x)+"-comb" for x in range(1, k_combinations+1)]
     k_combs = [x for x in range(1, k_combinations+1)]
@@ -280,18 +339,19 @@ def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, e
         x = int(i / 3)
         y = i % 3
         
-        axarr[x][y].set_title(measures[i])
+        axarr[x][y].set_title(measures[i], fontdict={'fontsize': 8})
         axarr[x][y].imshow(k_comb_VS_fairness, cmap="RdYlGn", vmin=0, vmax=1)
         axarr[x][y].set_xticks(np.arange(len(aggregates)))
-        axarr[x][y].set_xticklabels(labels=aggregates)
+        axarr[x][y].set_xticklabels(labels=aggregates, fontdict={'fontsize': 8})
         axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
-        axarr[x][y].set_yticklabels(labels=k_combs_ylabel)
+        axarr[x][y].set_yticklabels(labels=k_combs_ylabel, fontdict={'fontsize': 8})
         
         plt.setp(axarr[x][y].get_xticklabels(), rotation=45, ha="right",
                 rotation_mode="anchor")
 
     f.tight_layout()
     plt.savefig("../experiments/" + dataset + "/Exp4: " + model + " General Model Fairness.png")
+    plt.close()
 
 def experiment_five(model, epochs, one_workload=True, single_fairness=True, measure = "accuracy"):
     dataset = "itunes-amazon"
@@ -344,8 +404,7 @@ def experiment_five(model, epochs, one_workload=True, single_fairness=True, meas
     plt.legend(labels, bbox_to_anchor=[0.0, 1.0], loc='upper left', prop={'size': 6})
     plt.xticks(range(0,4))
     title = "Exp5: " + model + " Distance Explainability for " + measure
-    plt.title(title)
-
+    
     plt.savefig("../experiments/itunes-amazon/" + title + ".png")
 
     plt.close()      
@@ -460,10 +519,10 @@ def full_experiment_five():
     
 def main():
    
-    # full_experiment_one()
-    # full_experiment_two()
+    full_experiment_one()
+    full_experiment_two()
     full_experiment_three()
-    # full_experiment_four()
-    # full_experiment_five()
+    full_experiment_four()
+    full_experiment_five()
 
 main()
