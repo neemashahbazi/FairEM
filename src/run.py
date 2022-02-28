@@ -144,6 +144,7 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
                         full_workload_test=test_file, threshold=threshold, single_fairness=single_fairness)
 
     binary_fairness = []
+    actual_fairness = []
     measures = ["accuracy_parity", "statistical_parity", \
                 "true_positive_rate_parity", "false_positive_rate_parity", \
                 "false_negative_rate_parity", "true_negative_rate_parity", \
@@ -154,11 +155,27 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
     aggregate = "distribution"
     for measure in measures:
         is_fair = fairEM.is_fair(measure, aggregate)
+        is_fair_real = fairEM.is_fair(measure, aggregate, real_distr = True)
         binary_fairness.append(is_fair)
+        actual_fairness.append(is_fair_real)
+
+    
+
     attribute_names = []
     for k_comb in workloads[0].k_combs_to_attr_names:
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
     
+
+    if dataset == "itunes-amazon" and model == "ditto":
+        print("attributes = ", attribute_names)
+        print("measures = ", measures)
+        print("actual_fairness = ", actual_fairness)    
+        # print("itunes-amazon output on ditto")
+        # for i in range(len(measures)):
+            # print("measure = ", measures[i])
+            # for j in range(len(attribute_names)):
+                # print("attribute = ", attribute_names[j], "fairness = ", actual_fairness[i][j])
+
     if dataset == "dblp-acm":
         attribute_names = [make_acronym(x, " ") for x in attribute_names]
         figsize = (8,8)
@@ -520,9 +537,9 @@ def full_experiment_five():
 def main():
    
     full_experiment_one()
-    full_experiment_two()
-    full_experiment_three()
-    full_experiment_four()
-    full_experiment_five()
+    # full_experiment_two()
+    # full_experiment_three()
+    # full_experiment_four()
+    # full_experiment_five()
 
 main()
