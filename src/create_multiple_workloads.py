@@ -25,6 +25,8 @@ def create_workloads_from_file(dataset, path, testcsv, predictions_file, number_
 # create_workloads_from_file("shoes", "../data/", "test_others.csv", "deepmatcher_out_15.txt")
 # create_workloads_from_file("itunes-amazon", "../data/", "test_others.csv", "ditto_out_test.jsonl")
 # create_workloads_from_file("itunes-amazon", "../data/", "test_others.csv", "deepmatcher_out_15.txt")
+# create_workloads_from_file("dblp-acm", "../data/", "test.csv", "ditto_out_test.jsonl")
+# create_workloads_from_file("dblp-acm", "../data/", "test.csv", "deepmatcher_out_15.txt")
 
-create_workloads_from_file("dblp-acm", "../data/", "test.csv", "ditto_out_test.jsonl")
-create_workloads_from_file("dblp-acm", "../data/", "test.csv", "deepmatcher_out_15.txt")
+# create_workloads_from_file("citation", "../data", "test.csv", "deepmatcher_out_15.txt")
+

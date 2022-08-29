@@ -36,8 +36,15 @@ def plot_bargraph(data, filename, title=""):
 #     ax.set_xticks(keys)
 
 def plot_results_in_2d_heatmap(dataset, data, xlabels, ylabels, title, figsize = (10,7), x_font = 9, y_font = 12):
+    print("DATA = ", data)
+    print("len = ", len(data))
+    print("len[0] = ", len(data[0]))
+    print("xlabels = ", xlabels)
+    print("ylabels = ", ylabels)
+    
+    
     fig, ax = plt.subplots(figsize=figsize)
-    im = ax.imshow(data, cmap="RdYlGn", vmin=0, vmax=1)
+    im = ax.imshow(data, cmap=" ", vmin=0, vmax=1)
     ax.set_xticks(np.arange(len(xlabels)))
     ax.set_xticklabels(labels=xlabels, fontdict={'fontsize': x_font})
     ax.set_yticks(np.arange(len(ylabels)))
@@ -55,10 +62,36 @@ def run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute,
                     epochs=10, single_fairness=True, 
                     k_combinations=1, delimiter = ',',
                     test_file = "test.csv"):
+    # neural
     if model == "deepmatcher":
         predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "deepmatcher_out_15.txt")
     elif model == "ditto":
         predictions = jsonl_to_predictions("../data/" + dataset + "/", "ditto_out_test.jsonl")
+    elif model == "GNEM":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "gnem_pred.txt")
+    elif model == "HierMatch":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "HierMatch_pred_binary.txt")
+    elif model == "MCAN":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "MCAN_preds.txt")
+    # non-neural
+    elif model == "SVM":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "SVM_preds.txt")
+    elif model == "RuleBasedMatcher":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "rule_based_matcher_preds.txt")
+    elif model == "RandomForest":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "random_forest_preds.txt")
+    elif model == "NaiveBayes":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "naive_bayes_preds.txt")
+    elif model == "LogisticRegression":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "logistic_regression_preds.txt")
+    elif model == "LinearRegression":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "linear_regression_preds.txt")
+    elif model == "Dedupe":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "dedupe_preds.txt")
+    elif model == "DecisionTree":
+        predictions = deepmatcher_output_to_predictions("../data/" + dataset + "/", "decision_tree_preds.txt")
+    
+        
     workload = wl.Workload(pd.read_csv("../data/" + dataset + "/" + test_file), 
                             left_sens_attribute, right_sens_attribute,
                             predictions, label_column = "label", 
@@ -77,6 +110,10 @@ def run_multiple_workloads(dataset, model, num_of_workloads=40, epochs=10, k_com
     elif dataset == "shoes":
         left_sens_attribute = "left_locale"
         right_sens_attribute = "right_locale"
+    elif dataset == "citation":
+        left_sens_attribute = "left_ENTRYTYPE"
+        right_sens_attribute = "right_ENTRYTYPE"
+
 
     
     for i in range(0, num_of_workloads):
@@ -139,6 +176,7 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
         test_file = "test_others.csv"
     workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                                 epochs=epochs, single_fairness=single_fairness, test_file=test_file)
+
     
     fairEM = fem.FairEM(model, workloads, alpha=0.05, directory="../data/" + dataset, 
                         full_workload_test=test_file, threshold=threshold, single_fairness=single_fairness)
@@ -166,16 +204,20 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
         attribute_names.append(workloads[0].k_combs_to_attr_names[k_comb])
     
 
-    if dataset == "itunes-amazon" and model == "ditto":
-        print("attributes = ", attribute_names)
-        print("measures = ", measures)
-        print("actual_fairness = ", actual_fairness)    
+    # if dataset == "itunes-amazon" and model == "deepmatcher":
+        # print("attributes = ", attribute_names)
+        # print("measures = ", measures)
+        # print("actual_fairness = ", actual_fairness)    
         # print("itunes-amazon output on ditto")
         # for i in range(len(measures)):
             # print("measure = ", measures[i])
             # for j in range(len(attribute_names)):
                 # print("attribute = ", attribute_names[j], "fairness = ", actual_fairness[i][j])
 
+    figsize = (8,6)
+    x_font = 12
+    y_font = 12
+    
     if dataset == "dblp-acm":
         attribute_names = [make_acronym(x, " ") for x in attribute_names]
         figsize = (8,8)
@@ -185,11 +227,7 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
         figsize = (10, 7)
         x_font = 9
         y_font = 12        
-    elif dataset == "shoes":
-        figsize = (8,6)
-        x_font = 12
-        y_font = 12
-
+    
     title = "Exp1: " + dataset + " " + model + " with " + str(threshold) + " threshold \nBinary Fairness Values For 1-subgroups and Single Fairness and 1 workload"
     if dataset == "itunes-amazon" or dataset == "shoes":
         title += " with others column"
@@ -198,7 +236,7 @@ def experiment_one(model, dataset, left_sens_attribute, right_sens_attribute,
                                 figsize, x_font, y_font)
 
 def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, epochs=10, single_fairness=False, threshold=0.2):
-    test_file = "test.csv" if dataset == "dblp-acm" else "test_others.csv"
+    test_file = "test.csv" if dataset == "dblp-acm" or dataset == "citation" else "test_others.csv"
     workloads = run_one_workload(model, dataset, left_sens_attribute, right_sens_attribute, 
                                 epochs=epochs, single_fairness=single_fairness, 
                                 test_file=test_file)
@@ -212,14 +250,25 @@ def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, ep
     measures_acronymes = [make_acronym(x, "_") for x in measures]
     
     aggregate = "distribution"
-    for measure in measures:
+    for i in range(len(measures)):
+        measure = measures[i]
         is_fair = fairEM.is_fair(measure, aggregate)
         binary_fairness.append(is_fair)
+        
+    # take only first 10 for example:
+    for i in range(len(binary_fairness)):
+        binary_fairness[i] = binary_fairness[i][:10]
     attribute_names = []
     for k_comb in workloads[0].k_combs_to_attr_names:
         curr_attr_name = workloads[0].k_combs_to_attr_names[k_comb]
         curr_attr_name = curr_attr_name.replace("|", " | ") 
+        curr_attr_name = curr_attr_name.replace("Contemporary", "Cont.")
+
         attribute_names.append(curr_attr_name)
+
+    figsize = (8,6)
+    x_font = 12
+    y_font = 12
 
     if dataset == "dblp-acm":
         attribute_names = [make_acronym(x, " ") for x in attribute_names]
@@ -227,18 +276,14 @@ def experiment_two(model, dataset, left_sens_attribute, right_sens_attribute, ep
         x_font = 12
         y_font = 12
     elif dataset == "itunes-amazon":
-        figsize = (10, 7)
+        figsize = (5, 5)
         x_font = 9
-        y_font = 12        
-    elif dataset == "shoes":
-        figsize = (8,6)
-        x_font = 12
-        y_font = 12
+        y_font = 12      
 
-    title = "Exp2: " + dataset + " " + model + " with " + str(threshold) + " threshold\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload"
+    title = "Exp2: " + dataset + " " + model + " with " + str(threshold) + " threshold\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 1 workload - first 10"
     if dataset == "itunes-amazon" or dataset == "shoes":
         title += " with others column"
-    plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names, 
+    plot_results_in_2d_heatmap(dataset, binary_fairness, attribute_names[:10], 
                                 measures_acronymes, title, 
                                 figsize, x_font, y_font)
 
@@ -287,6 +332,11 @@ def experiment_three(dataset, model, single_fairness=True, epochs=15, others=Tru
         subgroups.append(subgroup)
         values.append(subgroup_to_isfair[subgroup])
 
+    figsize = (8,6)
+    x_font = 12
+    y_font = 12
+    
+
     if dataset == "dblp-acm":
         subgroups = [make_acronym(x, " ") for x in subgroups]
         figsize = (8,8)
@@ -295,11 +345,8 @@ def experiment_three(dataset, model, single_fairness=True, epochs=15, others=Tru
     elif dataset == "itunes-amazon":
         figsize = (10, 7)
         x_font = 9
-        y_font = 12        
-    elif dataset == "shoes":
-        figsize = (8,6)
-        x_font = 12
         y_font = 12
+        
 
     title = "Exp3: " + dataset + " " + model +" \nBinary Fairness Values For 1-subgroups and Single Fairness and 40 workloads" if single_fairness else \
             "Exp3: " + dataset + model + "\nBinary Fairness Values For 1-subgroups and Pairwise Fairness and 40 workloads"
@@ -317,6 +364,8 @@ def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, e
                 "negative_predictive_value_parity", "false_discovery_rate_parity", \
                 "false_omission_rate_parity"]
     aggregates = ["max", "min", "max_minus_min", "average"]
+    aggregates2 = ["max", "min", "max-minus-min", "average"]
+    
     
 
     f, axarr = plt.subplots(3,3,figsize=(6,5))
@@ -343,6 +392,13 @@ def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, e
     
         k_combs_fairness_measure.append(k_comb_VS_fairness)
 
+    good_measures = set(["accuracy_parity",
+            "statistical_parity",
+            "true_positive_rate_parity",
+            "true_negative_rate_parity",
+            "negative_predictive_value_parity"])
+
+
     for i in range(len(measures)):
         k_comb_VS_fairness = []
         for j in range(len(k_combs)):
@@ -355,19 +411,27 @@ def experiment_four(dataset, model, left_sens_attribute, right_sens_attribute, e
 
         x = int(i / 3)
         y = i % 3
+        #  swapping max and min to be consistent with the paper
+        if measures[i] in good_measures:
+            for j in range(len(k_combs)):
+                temp = k_comb_VS_fairness[j][0]
+                k_comb_VS_fairness[j][0] = k_comb_VS_fairness[j][1]
+                k_comb_VS_fairness[j][1] = temp
+
+
         
-        axarr[x][y].set_title(measures[i], fontdict={'fontsize': 8})
-        axarr[x][y].imshow(k_comb_VS_fairness, cmap="RdYlGn", vmin=0, vmax=1)
+        axarr[x][y].set_title(measures[i].replace("_", " "), fontdict={'fontsize': 8})
+        axarr[x][y].imshow(k_comb_VS_fairness, cmap="gist_gray", vmin=0, vmax=1)
         axarr[x][y].set_xticks(np.arange(len(aggregates)))
-        axarr[x][y].set_xticklabels(labels=aggregates, fontdict={'fontsize': 8})
+        axarr[x][y].set_xticklabels(labels=aggregates2, fontdict={'fontsize': 6})
         axarr[x][y].set_yticks(np.arange(len(k_combs_ylabel)))
-        axarr[x][y].set_yticklabels(labels=k_combs_ylabel, fontdict={'fontsize': 8})
+        axarr[x][y].set_yticklabels(labels=k_combs_ylabel, fontdict={'fontsize': 6})
         
         plt.setp(axarr[x][y].get_xticklabels(), rotation=45, ha="right",
                 rotation_mode="anchor")
 
     f.tight_layout()
-    plt.savefig("../experiments/" + dataset + "/Exp4: " + model + " General Model Fairness.png")
+    plt.savefig("../experiments/" + dataset + "/Exp4: " + model + " General Model Fairness.png", dpi=200)
     plt.close()
 
 def experiment_five(model, epochs, one_workload=True, single_fairness=True, measure = "accuracy"):
@@ -508,22 +572,22 @@ def full_experiment_four():
                     left_sens_attribute="left_Genre", 
                     right_sens_attribute="right_Genre",
                     epochs=15, k_combinations=2)
-    experiment_four(dataset = "dblp-acm", model = "ditto", 
-                    left_sens_attribute="left_venue", 
-                    right_sens_attribute="right_venue",
-                    epochs=15, k_combinations=1)
-    experiment_four(dataset = "dblp-acm", model = "deepmatcher", 
-                    left_sens_attribute="left_venue", 
-                    right_sens_attribute="right_venue",
-                    epochs=15, k_combinations=1)
-    experiment_four(dataset = "shoes", model = "ditto", 
-                    left_sens_attribute="left_locale", 
-                    right_sens_attribute="right_locale",
-                    epochs=15, k_combinations=1)
-    experiment_four(dataset = "shoes", model = "deepmatcher", 
-                    left_sens_attribute="left_locale", 
-                    right_sens_attribute="right_locale",
-                    epochs=15, k_combinations=1)
+    # experiment_four(dataset = "dblp-acm", model = "ditto", 
+    #                 left_sens_attribute="left_venue", 
+    #                 right_sens_attribute="right_venue",
+    #                 epochs=15, k_combinations=1)
+    # experiment_four(dataset = "dblp-acm", model = "deepmatcher", 
+    #                 left_sens_attribute="left_venue", 
+    #                 right_sens_attribute="right_venue",
+    #                 epochs=15, k_combinations=1)
+    # experiment_four(dataset = "shoes", model = "ditto", 
+    #                 left_sens_attribute="left_locale", 
+    #                 right_sens_attribute="right_locale",
+    #                 epochs=15, k_combinations=1)
+    # experiment_four(dataset = "shoes", model = "deepmatcher", 
+    #                 left_sens_attribute="left_locale", 
+    #                 right_sens_attribute="right_locale",
+    #                 epochs=15, k_combinations=1)
 
 def full_experiment_five():
     experiment_five(model="deepmatcher", epochs=15, one_workload=True, single_fairness=True, measure = "accuracy")
@@ -532,11 +596,53 @@ def full_experiment_five():
     experiment_five(model="ditto", epochs=15, one_workload=True, single_fairness=True, measure = "true_positive_rate")
     
 
+def citation_experiments(epochs=10, single_fairness=True,
+                            threshold=0.2, test_file = "test.csv"):
+    experiment_one(model="deepmatcher", dataset="citation", 
+                    left_sens_attribute="left_ENTRYTYPE", 
+                    right_sens_attribute="right_ENTRYTYPE", 
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
+    experiment_two(model="deepmatcher", dataset="citation", 
+                    left_sens_attribute="left_ENTRYTYPE", 
+                    right_sens_attribute="right_ENTRYTYPE", 
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
+    experiment_one(model="GNEM", dataset="citation", 
+                    left_sens_attribute="left_ENTRYTYPE", 
+                    right_sens_attribute="right_ENTRYTYPE", 
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
+    experiment_two(model="GNEM", dataset="citation", 
+                    left_sens_attribute="left_ENTRYTYPE", 
+                    right_sens_attribute="right_ENTRYTYPE", 
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
+
+def dataset_experiments(dataset, sens_att, epochs=10, single_fairness=True,
+                            threshold=0.2, test_file = "test.csv"):
+    models = ["deepmatcher", "ditto", "GNEM", "HierMatch", "MCAN", "SVM", \
+        "RuleBasedMatcher", "RandomForest", "NaiveBayes", "LogisticRegression", "LinearRegression", "Dedupe", "DecisionTree"]
+    for mod in models:
+        experiment_one(model=mod, dataset=dataset, 
+                    left_sens_attribute="left_" + sens_att, 
+                    right_sens_attribute="right_" + sens_att, 
+                    epochs=2, single_fairness=True,
+                    threshold=threshold)
+        experiment_two(model=mod, dataset=dataset, 
+                    left_sens_attribute="left_" + sens_att, 
+                    right_sens_attribute="right_" + sens_att, 
+                    epochs=2, single_fairness=False,
+                    threshold=threshold)
+    
     
     
 def main():
-   
-    full_experiment_one()
+    # citation_experiments()
+    # dataset_experiments("dblp-acm", "venue")
+    dataset_experiments("itunes-amazon", "Genre")
+    
+    # full_experiment_one()
     # full_experiment_two()
     # full_experiment_three()
     # full_experiment_four()

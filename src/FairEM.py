@@ -21,7 +21,6 @@ class FairEM:
         self.single_fairness = single_fairness
         self.ditto_out_test_full = ditto_out_test_full
         self.deepmatcher_out_test_full = deepmatcher_out_test_full
-        self.full_workload_distance = self.distance_analysis_prepro(directory, full_workload_test, epochs=2)
         self.distances_unfaired = {}
         self.distances_all = {}
         

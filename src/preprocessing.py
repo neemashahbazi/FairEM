@@ -2,6 +2,7 @@ import deepmatcher as dm
 import pandas as pd
 import json
 import re
+import numpy as np
 
 
 # the following function is used to combine multiple sensitive attributes into one.
@@ -149,8 +150,7 @@ def ditto_format_to_deepmatcher(path, file):
 
 # jsonl_to_predictions("../data/shoes/", "ditto_out_test.jsonl")
 
-def run_deepmatcher_on_existing_datasets():
-    dataset = "shoes"
+def run_deepmatcher_on_existing_datasets(dataset="shoes"):
     predictions = run_deepmatcher("../data/" + dataset +"/",
                     train="train.csv", 
                     validation="valid.csv",
@@ -160,7 +160,20 @@ def run_deepmatcher_on_existing_datasets():
         for prediction in predictions:
             f.write("1\n" if prediction else "0\n")
 
-# run_deepmatcher_on_existing_datasets()
+# threshold optimized for max f1 score
+def run_deepmatcher_on_existing_datasets_with_match_score_threshold(dataset, threshold):
+    df_with_raw_score = pd.read_csv("../data/" + dataset + "/dm_results_with_raw_score.csv")
+    predictions = [True if df_with_raw_score.iloc[idx]["match_score"] > threshold else False for idx in range(len(df_with_raw_score))]
+
+    with open("../data/" + dataset + "/deepmatcher_out_15_" + str(threshold) + ".txt", "w") as f:
+        for prediction in predictions:
+            f.write("1\n" if prediction else "0\n")
+
+# for threshold in [0.2, 0.4, 0.6, 0.8, 0.9]:
+#     run_deepmatcher_on_existing_datasets_with_match_score_threshold(dataset="itunes-amazon", threshold = threshold)
+
+# run_deepmatcher_on_existing_datasets_with_match_score_threshold(dataset="dblp-acm", threshold = 0.26)
+# run_deepmatcher_on_existing_datasets_with_match_score_threshold(dataset="shoes", threshold = 0.08)
 
 def add_locale_to_shoes_dataset():
     test_demographic_groups = "../data/shoes/test_demographic_groups.txt"
@@ -185,4 +198,12 @@ def add_locale_to_shoes_dataset():
 
     df.to_csv(test_file_with_locale, index = "id")
 
-# add_locale_to_shoes_dataset()
+def make_binary_based_on_threshold(dataset, test_file, pred_value="pred", threshold=0.7):
+    test_file = "../data/" + dataset + "/" + test_file
+    
+    df = pd.read_csv(test_file)
+    df[pred_value] = np.where(df[pred_value] > threshold, 1, 0)
+
+    df.to_csv(test_file[:-4] + "_binary.csv", index=False)
+    
+# make_binary_based_on_threshold("itunes-amazon", "HierMatch_pred.csv", "match_score")
