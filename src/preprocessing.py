@@ -177,8 +177,8 @@ def run_deepmatcher_on_existing_datasets_with_match_score_threshold(dataset, thr
 
 def add_locale_to_shoes_dataset():
     test_demographic_groups = "../data/shoes/test_demographic_groups.txt"
-    test_file = "../data/shoes/test.csv"
-    test_file_with_locale = "../data/shoes/test_locale.csv"
+    test_file = "../data/FairEM/DeepMatcher/Shoes/test.csv"
+    test_file_with_locale = "../data/FairEM/DeepMatcher/Shoes/test_locale.csv"
     
     left_locale = []
     right_locale = []
