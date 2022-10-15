@@ -1,0 +1,91 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,SIGMOD | VLDBJ,True,139.0
+accuracy_parity,SIG Rec. | SIG Rec.,True,339.0
+accuracy_parity,SIGMOD | SIGMOD,True,406.0
+accuracy_parity,SIGMOD | SIG Rec.,True,183.0
+accuracy_parity,VLDB | VLDBJ,True,138.0
+accuracy_parity,SIGMOD | VLDB,True,402.0
+accuracy_parity,VLDB | VLDB,True,308.0
+accuracy_parity,TODS | TODS,True,41.0
+accuracy_parity,SIG Rec. | VLDBJ,True,89.0
+accuracy_parity,VLDBJ | VLDBJ,True,76.0
+accuracy_parity,SIG Rec. | VLDB,True,149.0
+accuracy_parity,TODS | SIG Rec.,True,35.0
+accuracy_parity,TODS | SIGMOD,True,73.0
+accuracy_parity,TODS | VLDB,True,68.0
+accuracy_parity,TODS | VLDBJ,True,27.0
+statistical_parity,SIGMOD | VLDBJ,True,139.0
+statistical_parity,SIG Rec. | SIG Rec.,True,339.0
+statistical_parity,SIGMOD | SIGMOD,True,406.0
+statistical_parity,SIGMOD | SIG Rec.,True,183.0
+statistical_parity,VLDB | VLDBJ,True,138.0
+statistical_parity,SIGMOD | VLDB,True,402.0
+statistical_parity,VLDB | VLDB,True,308.0
+statistical_parity,TODS | TODS,True,41.0
+statistical_parity,SIG Rec. | VLDBJ,True,89.0
+statistical_parity,VLDBJ | VLDBJ,True,76.0
+statistical_parity,SIG Rec. | VLDB,True,149.0
+statistical_parity,TODS | SIG Rec.,True,35.0
+statistical_parity,TODS | SIGMOD,True,73.0
+statistical_parity,TODS | VLDB,True,68.0
+statistical_parity,TODS | VLDBJ,True,27.0
+true_positive_rate_parity,SIGMOD | VLDBJ,True,139.0
+true_positive_rate_parity,SIG Rec. | SIG Rec.,True,339.0
+true_positive_rate_parity,SIGMOD | SIGMOD,True,406.0
+true_positive_rate_parity,SIGMOD | SIG Rec.,True,183.0
+true_positive_rate_parity,VLDB | VLDBJ,True,138.0
+true_positive_rate_parity,SIGMOD | VLDB,True,402.0
+true_positive_rate_parity,VLDB | VLDB,True,308.0
+true_positive_rate_parity,TODS | TODS,True,41.0
+true_positive_rate_parity,SIG Rec. | VLDBJ,True,89.0
+true_positive_rate_parity,VLDBJ | VLDBJ,True,76.0
+true_positive_rate_parity,SIG Rec. | VLDB,True,149.0
+true_positive_rate_parity,TODS | SIG Rec.,True,35.0
+true_positive_rate_parity,TODS | SIGMOD,True,73.0
+true_positive_rate_parity,TODS | VLDB,True,68.0
+true_positive_rate_parity,TODS | VLDBJ,True,27.0
+false_positive_rate_parity,SIGMOD | VLDBJ,True,139.0
+false_positive_rate_parity,SIG Rec. | SIG Rec.,True,339.0
+false_positive_rate_parity,SIGMOD | SIGMOD,True,406.0
+false_positive_rate_parity,SIGMOD | SIG Rec.,True,183.0
+false_positive_rate_parity,VLDB | VLDBJ,True,138.0
+false_positive_rate_parity,SIGMOD | VLDB,True,402.0
+false_positive_rate_parity,VLDB | VLDB,True,308.0
+false_positive_rate_parity,TODS | TODS,True,41.0
+false_positive_rate_parity,SIG Rec. | VLDBJ,True,89.0
+false_positive_rate_parity,VLDBJ | VLDBJ,True,76.0
+false_positive_rate_parity,SIG Rec. | VLDB,True,149.0
+false_positive_rate_parity,TODS | SIG Rec.,True,35.0
+false_positive_rate_parity,TODS | SIGMOD,True,73.0
+false_positive_rate_parity,TODS | VLDB,True,68.0
+false_positive_rate_parity,TODS | VLDBJ,True,27.0
+negative_predictive_value_parity,SIGMOD | VLDBJ,True,139.0
+negative_predictive_value_parity,SIG Rec. | SIG Rec.,True,339.0
+negative_predictive_value_parity,SIGMOD | SIGMOD,False,406.0
+negative_predictive_value_parity,SIGMOD | SIG Rec.,True,183.0
+negative_predictive_value_parity,VLDB | VLDBJ,True,138.0
+negative_predictive_value_parity,SIGMOD | VLDB,True,402.0
+negative_predictive_value_parity,VLDB | VLDB,False,308.0
+negative_predictive_value_parity,TODS | TODS,False,41.0
+negative_predictive_value_parity,SIG Rec. | VLDBJ,True,89.0
+negative_predictive_value_parity,VLDBJ | VLDBJ,False,76.0
+negative_predictive_value_parity,SIG Rec. | VLDB,True,149.0
+negative_predictive_value_parity,TODS | SIG Rec.,True,35.0
+negative_predictive_value_parity,TODS | SIGMOD,True,73.0
+negative_predictive_value_parity,TODS | VLDB,True,68.0
+negative_predictive_value_parity,TODS | VLDBJ,True,27.0
+positive_predictive_value_parity,SIGMOD | VLDBJ,True,139.0
+positive_predictive_value_parity,SIG Rec. | SIG Rec.,True,339.0
+positive_predictive_value_parity,SIGMOD | SIGMOD,True,406.0
+positive_predictive_value_parity,SIGMOD | SIG Rec.,True,183.0
+positive_predictive_value_parity,VLDB | VLDBJ,True,138.0
+positive_predictive_value_parity,SIGMOD | VLDB,True,402.0
+positive_predictive_value_parity,VLDB | VLDB,True,308.0
+positive_predictive_value_parity,TODS | TODS,True,41.0
+positive_predictive_value_parity,SIG Rec. | VLDBJ,True,89.0
+positive_predictive_value_parity,VLDBJ | VLDBJ,True,76.0
+positive_predictive_value_parity,SIG Rec. | VLDB,True,149.0
+positive_predictive_value_parity,TODS | SIG Rec.,True,35.0
+positive_predictive_value_parity,TODS | SIGMOD,True,73.0
+positive_predictive_value_parity,TODS | VLDB,True,68.0
+positive_predictive_value_parity,TODS | VLDBJ,True,27.0

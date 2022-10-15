@@ -1,0 +1,91 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,SIGMOD | VLDB,True,1259.0
+accuracy_parity,VLDB | VLDB,True,888.0
+accuracy_parity,ACM TODS | VLDB,True,220.0
+accuracy_parity,SIGMOD | SIGMOD,True,1243.0
+accuracy_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+accuracy_parity,SIGMOD | SIGMOD Rec.,True,567.0
+accuracy_parity,ACM TODS | VLDBJ,True,101.0
+accuracy_parity,ACM TODS | ACM TODS,True,126.0
+accuracy_parity,VLDBJ | VLDBJ,True,232.0
+accuracy_parity,SIGMOD Rec. | VLDBJ,True,200.0
+accuracy_parity,SIGMOD Rec. | VLDB,True,451.0
+accuracy_parity,ACM TODS | SIGMOD,True,231.0
+accuracy_parity,VLDB | VLDBJ,True,384.0
+accuracy_parity,SIGMOD | VLDBJ,True,368.0
+accuracy_parity,ACM TODS | SIGMOD Rec.,True,116.0
+statistical_parity,SIGMOD | VLDB,True,1259.0
+statistical_parity,VLDB | VLDB,True,888.0
+statistical_parity,ACM TODS | VLDB,True,220.0
+statistical_parity,SIGMOD | SIGMOD,True,1243.0
+statistical_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+statistical_parity,SIGMOD | SIGMOD Rec.,True,567.0
+statistical_parity,ACM TODS | VLDBJ,True,101.0
+statistical_parity,ACM TODS | ACM TODS,True,126.0
+statistical_parity,VLDBJ | VLDBJ,True,232.0
+statistical_parity,SIGMOD Rec. | VLDBJ,True,200.0
+statistical_parity,SIGMOD Rec. | VLDB,True,451.0
+statistical_parity,ACM TODS | SIGMOD,True,231.0
+statistical_parity,VLDB | VLDBJ,True,384.0
+statistical_parity,SIGMOD | VLDBJ,True,368.0
+statistical_parity,ACM TODS | SIGMOD Rec.,True,116.0
+true_positive_rate_parity,SIGMOD | VLDB,False,1259.0
+true_positive_rate_parity,VLDB | VLDB,True,888.0
+true_positive_rate_parity,ACM TODS | VLDB,False,220.0
+true_positive_rate_parity,SIGMOD | SIGMOD,True,1243.0
+true_positive_rate_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+true_positive_rate_parity,SIGMOD | SIGMOD Rec.,False,567.0
+true_positive_rate_parity,ACM TODS | VLDBJ,False,101.0
+true_positive_rate_parity,ACM TODS | ACM TODS,True,126.0
+true_positive_rate_parity,VLDBJ | VLDBJ,True,232.0
+true_positive_rate_parity,SIGMOD Rec. | VLDBJ,False,200.0
+true_positive_rate_parity,SIGMOD Rec. | VLDB,False,451.0
+true_positive_rate_parity,ACM TODS | SIGMOD,False,231.0
+true_positive_rate_parity,VLDB | VLDBJ,False,384.0
+true_positive_rate_parity,SIGMOD | VLDBJ,False,368.0
+true_positive_rate_parity,ACM TODS | SIGMOD Rec.,False,116.0
+false_positive_rate_parity,SIGMOD | VLDB,True,1259.0
+false_positive_rate_parity,VLDB | VLDB,True,888.0
+false_positive_rate_parity,ACM TODS | VLDB,True,220.0
+false_positive_rate_parity,SIGMOD | SIGMOD,True,1243.0
+false_positive_rate_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+false_positive_rate_parity,SIGMOD | SIGMOD Rec.,True,567.0
+false_positive_rate_parity,ACM TODS | VLDBJ,True,101.0
+false_positive_rate_parity,ACM TODS | ACM TODS,True,126.0
+false_positive_rate_parity,VLDBJ | VLDBJ,True,232.0
+false_positive_rate_parity,SIGMOD Rec. | VLDBJ,True,200.0
+false_positive_rate_parity,SIGMOD Rec. | VLDB,True,451.0
+false_positive_rate_parity,ACM TODS | SIGMOD,True,231.0
+false_positive_rate_parity,VLDB | VLDBJ,True,384.0
+false_positive_rate_parity,SIGMOD | VLDBJ,True,368.0
+false_positive_rate_parity,ACM TODS | SIGMOD Rec.,True,116.0
+negative_predictive_value_parity,SIGMOD | VLDB,True,1259.0
+negative_predictive_value_parity,VLDB | VLDB,True,888.0
+negative_predictive_value_parity,ACM TODS | VLDB,True,220.0
+negative_predictive_value_parity,SIGMOD | SIGMOD,True,1243.0
+negative_predictive_value_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+negative_predictive_value_parity,SIGMOD | SIGMOD Rec.,True,567.0
+negative_predictive_value_parity,ACM TODS | VLDBJ,True,101.0
+negative_predictive_value_parity,ACM TODS | ACM TODS,True,126.0
+negative_predictive_value_parity,VLDBJ | VLDBJ,True,232.0
+negative_predictive_value_parity,SIGMOD Rec. | VLDBJ,True,200.0
+negative_predictive_value_parity,SIGMOD Rec. | VLDB,True,451.0
+negative_predictive_value_parity,ACM TODS | SIGMOD,True,231.0
+negative_predictive_value_parity,VLDB | VLDBJ,True,384.0
+negative_predictive_value_parity,SIGMOD | VLDBJ,True,368.0
+negative_predictive_value_parity,ACM TODS | SIGMOD Rec.,True,116.0
+positive_predictive_value_parity,SIGMOD | VLDB,False,1259.0
+positive_predictive_value_parity,VLDB | VLDB,True,888.0
+positive_predictive_value_parity,ACM TODS | VLDB,False,220.0
+positive_predictive_value_parity,SIGMOD | SIGMOD,True,1243.0
+positive_predictive_value_parity,SIGMOD Rec. | SIGMOD Rec.,True,1031.0
+positive_predictive_value_parity,SIGMOD | SIGMOD Rec.,False,567.0
+positive_predictive_value_parity,ACM TODS | VLDBJ,False,101.0
+positive_predictive_value_parity,ACM TODS | ACM TODS,True,126.0
+positive_predictive_value_parity,VLDBJ | VLDBJ,True,232.0
+positive_predictive_value_parity,SIGMOD Rec. | VLDBJ,False,200.0
+positive_predictive_value_parity,SIGMOD Rec. | VLDB,False,451.0
+positive_predictive_value_parity,ACM TODS | SIGMOD,False,231.0
+positive_predictive_value_parity,VLDB | VLDBJ,False,384.0
+positive_predictive_value_parity,SIGMOD | VLDBJ,False,368.0
+positive_predictive_value_parity,ACM TODS | SIGMOD Rec.,False,116.0

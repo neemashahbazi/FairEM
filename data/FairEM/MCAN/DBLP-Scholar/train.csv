@@ -1,0 +1,839 @@
+id,ltable_ID,rtable_ID,ltable_ENTRYTYPE,ltable_author,ltable_title,ltable_year,rtable_ENTRYTYPE,rtable_author,rtable_title,rtable_year,label
+233079,280,1717,inproceedings,"Xiang Lian and
+Lei Chen and
+Jeffrey Xu Yu",Pattern Matching over Cloaked Time Series,2008,inproceedings,"Lian, Xiang and Chen, Lei and Yu, Jeffrey Xu",Pattern matching over cloaked time series,2008.0,1
+171206,226,1673,inproceedings,"Wei Wang and
+Haifeng Jiang and
+Hongjun Lu and
+Jeffrey Xu Yu",PBiTree Coding and Efficient Processing of Containment Joins,2003,inproceedings,"Wang, Wei and Jiang, Haigeng and Lu, Hongjun and Yu, Jeffrey Xu",PBiTree coding and efficient processing of containment joins,2003.0,1
+1164222,2431,1373,article,"Line Pouchard and
+Andrew Woolf and
+David E. Bernholdt",Data Grid discovery and Semantic Web technologies for the earth sciences,2005,article,"Eichmann, David and Srinivas, Kankanaha11i",Neural network-based retrieval from software reuse repositories,1992.0,0
+964470,2095,906,article,"Michael I. Jordan and
+Zoubin Ghahramani and
+Tommi S. Jaakkola and
+Lawrence K. Saul",An Introduction to Variational Methods for Graphical Models,1999,book,"Jensen, Christian S and Jeffery, Keith G and Pokorny, Jaroslav and Saltenis, Simonas and Bertino, Elisa and B{\""o}hm, Klemens and Jarke, Matthias","Advances in Database Technology-EDBT 2002: 8th International Conference on Extending Database Technology, Prague, Czech Republic, March 25-27, Proceedings",2003.0,0
+1230491,2644,1821,inproceedings,"Riyad Alshammari and
+A. Nur Zincir{-}Heywood","Is machine learning losing the battle to produce transportable_table signatures
+against VoIP traffic?",2011,inproceedings,"Han, Wook-Shin and Pham, Minh-Duc and Lee, Jinsoo and Kasperovics, Romans and Yu, Jeffrey Xu",iGraph in action: performance analysis of disk-based graph indexing techniques,2011.0,0
+107018,164,2387,inproceedings,"Hong{-}Cheu Liu and
+Jeffrey Xu Yu",Safe Database Queries with External Functions,1999,incollection,"Yin, Xiaoxin and Han, Jiawei and Yang, Jiong and Philip, S Yu",Crossmine: Efficient classification across multiple database relations,2006.0,0
+1114449,2310,1598,inproceedings,"L. R. Grate and
+Chiranjib Bhattacharyya and
+Michael I. Jordan and
+I. Saira Mian","Simultaneous Relevant Feature Identification and Classification in
+High-Dimensional Spaces",2002,inproceedings,"Jiang, Haifeng and Lu, Hongjun and Wang, Wei and Yu, Jeffrey Xu",XParent: An efficient RDBMS-based XML database system,2002.0,0
+66415,130,2893,article,"Jeffrey Xu Yu and
+Xin Yao and Chi{-}Hon Choi and Gang Gou",Materialized view selection as constrained evolutionary optimization,2003,article,"Wu, Kun-Lung and Chen, Shyh-Kwei and Philip, S Yu",Efficient processing of continual range queries for location-aware mobile services,2005.0,0
+242305,287,2719,incollection,"Denilson Barbosa and
+Ioana Manolescu and
+Jeffrey Xu Yu",Application Benchmark,2009,article,"Yang, Jiong and Wang, Haixun and Wang, Wei and Yu, Philip S",An improved biclustering method for analyzing gene expression profiles,2005.0,0
+1062581,2234,2221,article,"Emily B. Fox and
+Erik B. Sudderth and
+Michael I. Jordan and
+Alan S. Willsky",Bayesian Nonparametric Inference of Switching Dynamic Linear Models,2011,article,"Fox, Emily and Sudderth, Erik and Jordan, Michael and Willsky, Alan",Bayesian nonparametric inference of switching dynamic linear models,2011.0,1
+75119,138,1624,inproceedings,"Junhu Wang and
+Jeffrey Xu Yu",XPath Rewriting Using Multiple Views,2008,article,"Yu, Jeffrey Xu and Qin, Lu and Chang, Lijun",Keyword search in databases,2009.0,0
+973584,2108,1146,inproceedings,"Lei Xu and
+Michael I. Jordan and
+Geoffrey E. Hinton",An Alternative Model for Mixtures of Experts,1994,article,"Xu, Lei and Jordan, Michael I and Hinton, Geoffrey E",An alternative model for mixtures of experts,1995.0,0
+17133,62,1918,incollection,,Average-Payoff Reinforcement Learning,2010,incollection,"Yang, Zhenglu and Yu, Jeffrey Xu and Liu, Zheng and Kitsuregawa, Masaru",Fires on the web: Towards efficient exploring historical web graphs,2010.0,0
+1146777,2380,1298,inproceedings,Sargur N. Srihari,Probabilistic Graphical Models and Machine Learning,2011,article,"Hinton, Geoffrey and Salakhutdinov, Ruslan",Discovering binary codes for documents by learning deep generative models,2011.0,0
+190445,242,2494,inproceedings,"Wei Wang and
+Haifeng Jiang and
+Hongjun Lu and
+Jeffrey Xu Yu",Containment Join Size Estimation: Models and Methods,2003,article,"Tong, Hanghang and Papadimitriou, Spiros and Philip, S Yu and Faloutsos, Christos",Proximity Tracking on Time-Evolving Bipartite Graphs.,2008.0,0
+379159,633,2024,inproceedings,"Kian{-}Lee Tan and
+Jeffrey Xu Yu","A Break for Workaholics: Energy-Efficient Selective Tuning Mechanisms
+for Demand-Driven-Based Wireless Environment",1997,incollection,"Tan, Kian-Lee and Yu, JX",A break for workaholics: Energy-efficient selective tuning mechanisms for demand-driven-based wireless environment,1995.0,0
+384533,637,2720,article,"Rong{-}Hua Li and
+Jeffrey Xu Yu",Efficient Core Maintenance in Large Dynamic Graphs,2012,inproceedings,"Fan, Wei and Greengrass, Ed and McCloskey, Joe and Yu, Philip S and Drammey, K",Effective estimation of posterior probabilities: Explaining the accuracy of randomized decision tree approaches,2005.0,0
+229439,277,1751,inproceedings,"Gabriel Pui Cheong Fung and
+Jeffrey Xu Yu and
+Haixun Wang and
+David W. Cheung and
+Huan Liu",A Balanced Ensemble Approach to Weighting Classifiers for Text Classification,2006,inproceedings,"Fung, Gabriel Pui Cheong and Yu, Jeffrey Xu and Wang, Haixun and Cheung, David W and Liu, Huan",A balanced ensemble approach to weighting classifiers for text classification,2006.0,1
+985822,2123,2306,inproceedings,"John C. Duchi and
+Michael I. Jordan and
+Martin J. Wainwright",Privacy Aware Learning,2012,inproceedings,"Wainwright, Martin J and Jordan, Michael I and Duchi, John C",Privacy aware learning,2012.0,1
+600283,915,2969,article,"Xiaojiang Xu and
+Stephen Hoang and
+Marty W. Mayo and
+Stefan Bekiranov","Application of machine learning methods to histone methylation ChIP-Seq
+data reveals H4R3me2 globally represses gene expression",2010,inproceedings,"Jones, Stephen T and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H",Geiger: monitoring the buffer cache in a virtual machine environment,2006.0,0
+121321,177,1642,inproceedings,"James Cheng and
+Yiping Ke and Wilfred Ng and Jeffrey Xu Yu",Context-Aware Object Connection Discovery in Large Graphs,2009,inproceedings,"Cheng, James and Ke, Yiping and Ng, Wilfred and Yu, Jeffrey Xu",Context-aware object connection discovery in large graphs,2009.0,1
+850512,1824,1741,incollection,"Marta Franov{\'{a}} and
+Yves Kodratoff","Two Examples of Computational Creativity: {ILP} Multiple Predicate
+Synthesis and the 'Assets' in Theorem Proving",2010,incollection,"Ning, Bo and Liu, Chengfei and Yu, Jeffrey Xu and Wang, Guoren and Li, Jianxin",Matching top-k answers of twig patterns in probabilistic XML,2010.0,0
+146436,201,2052,inproceedings,"Lijun Chang and
+Xuemin Lin and
+Lu Qin and
+Jeffrey Xu Yu and
+Wenjie Zhang","Index-based Optimal Algorithms for Computing Steiner Components with
+Maximum Connectivity",2015,inproceedings,"Chang, Lijun and Lin, Xuemin and Qin, Lu and Yu, Jeffrey Xu and Zhang, Wenjie",Index-based Optimal Algorithms for Computing Steiner Components with Maximum Connectivity,2015.0,1
+785110,1593,2798,article,F. J. Smith,Adding intelligence to a scientific database,2004,misc,"Yu, Philip Shi-lung and Greene, David P and Stern, Edith H and Willner, Barry E",Systems and methods for distributing information to an operator of a vehicle,2004.0,0
+264343,330,2397,inproceedings,"Haiping Wu and
+Hongliang Yu and
+Bigang Li and
+Wei Xue and
+Weimin Zheng",A Database Redo Log System Based on Virtual Memory Disk,2006,misc,"Aggarwal, Charu C and Philip, S Yu",Content based method for product-peer filtering,2002.0,0
+382587,636,1706,article,"Kian{-}Lee Tan and
+Jeffrey Xu Yu",A Dynamic Scheduler for the Infinite Air-Cache,1997,article,"Tan, Kian-Lee and Jeffrey, X Yu",A dynamic scheduler for the infinite air-cache,1997.0,1
+46277,114,1979,article,"Rong{-}Hua Li and
+Jeffrey Xu Yu and Xin Huang and Hong Cheng",A Framework of Algorithms: Computing the Bias and Prestige of Nodes in Trust Networks,2012,article,"Li, Rong-Hua and Yu, Jeffrey Xu and Huang, Xin and Cheng, Hong",A framework of algorithms: Computing the bias and prestige of nodes in trust networks,2012.0,1
+215371,265,2785,article,"Rong{-}Hua Li and
+Jeffrey Xu Yu and
+Zechao Shang",Estimating Node Influenceability in Social Networks,2012,article,"Chen, Ming-Syan and Yu, Philip S",A graph theoretical approach to determine a join reducer sequence in distributed query processing,1994.0,0
+1288006,2854,2021,inproceedings,"Xiaoyuan Su and
+Russell Greiner and
+Taghi M. Khoshgoftaar and
+Amri Napolitano",Using Classifier-Based Nominal Imputation to Improve Machine Learning,2011,inproceedings,"Liu, Jianquan and Chen, Hanxiong and Furuse, Kazutaka and Kitagawa, Hiroyuki and Yu, Jeffrey Xu",On efficient distance-based similarity search,2011.0,0
+998022,2140,1276,article,"Barzan Mozafari and
+Purnamrita Sarkar and
+Michael J. Franklin and
+Michael I. Jordan and
+Samuel Madden",Active Learning for Crowd-Sourced Databases,2012,article,"Kienker, Paul K and Sejnowski, Terrence J and Hinton, Geoffrey E and Schumacher, Lee E",Separating figure from ground with a parallel network,1986.0,0
+95232,154,2537,article,Jianxin Li and Chengfei Liu and Rui Zhou and Jeffrey Xu Yu,"Query-Driven Frequent Co-Occurring Term Computation over Relational
+Data Using MapReduce",2015,inproceedings,"Pei, Jian and Zhang, Xiaoling and Cho, Moonjung and Wang, Haixun and Yu, Philip S",Maple: A fast algorithm for maximal pattern-based clustering,2003.0,0
+966668,2097,2650,inproceedings,"Tommi S. Jaakkola and
+Lawrence K. Saul and
+Michael I. Jordan",Fast Learning by Bounding Likelihoods in Sigmoid Type Belief Networks,1995,article,"Xing, Zhengzheng and Pei, Jian and Philip, S Yu and Wang, Ke",Extracting Interpretable Features for Early Classification on Time Series.,2011.0,0
+772644,1546,2616,article,Tong Zhang,Analysis of Multi-stage Convex Relaxation for Sparse Regularization,2010,article,"Philip, S Yu and Wolf, Joel L and Shachnai, Hadas",Design and analysis of a look-ahead scheduling scheme to support pause-resume for video-on-demand applications,1995.0,0
+552351,778,2412,article,"Baichen Chen and
+Weifa Liang and
+Jeffrey Xu Yu",Energy-efficient skyline query optimization in wireless sensor networks,2012,article,"Cardellini, Valeria and Colajanni, Michele and Philip, S Yu",Dynamic load balancing on web-server systems,1999.0,0
+864936,1882,234,incollection,"Eric Pardede and
+J. Wenny Rahayu and
+David Taniar",New {SQL} Standard in Database Modeling,2005,article,"Li, Wei and McCallum, Andrew",Semi-supervised sequence modeling with syntactic topic models,2005.0,0
+503139,738,1708,inproceedings,"Miao Qiao and
+Hong Cheng and
+Jeffrey Xu Yu",Querying Shortest Path Distance with Bounded Errors in Large Graphs,2011,incollection,"Qiao, Miao and Cheng, Hong and Yu, Jeffrey Xu",Querying shortest path distance with bounded errors in large graphs,2011.0,0
+1126250,2326,2776,inproceedings,"Christopher M. Bishop and
+Neil D. Lawrence and
+Tommi S. Jaakkola and
+Michael I. Jordan",Approximating Posterior Distributions in Belief Networks Using Mixtures,1997,inproceedings,"Li, Xin and Liu, Bing and Philip, S Yu",Mining Community Structure of Named Entities from Web Pages and Blogs.,2006.0,0
+82762,144,1823,inproceedings,"Junhu Wang and
+Jeffrey Xu Yu and Chengfei Liu",Contained Rewritings of XPath Queries Using Views Revisited,2008,incollection,"Wang, Junhu and Yu, Jeffrey Xu and Liu, Chengfei",Contained rewritings of XPath queries using views revisited,2008.0,1
+513317,746,1803,inproceedings,"Junhu Wang and
+Jeffrey Xu Yu",On Maximal Contained Rewriting of Tree Pattern Queries Using Views,2010,article,"Li, Jianxin and Liu, Chengfei and Zhou, Rui and Yu, Jeffrey Xu",Quasi-SLCA based Keyword Query Processing over Probabilistic XML Data,2014.0,0
+1134704,2338,2139,inproceedings,"Xinghao Pan and
+Stefanie Jegelka and
+Joseph E. Gonzalez and
+Joseph K. Bradley and
+Michael I. Jordan",Parallel Double Greedy Submodular Maximization,2014,inproceedings,"Lacoste-Julien, Simon and Sha, Fei and Jordan, Michael I",DiscLDA: Discriminative learning for dimensionality reduction and classification,2009.0,0
+953772,2079,2279,inproceedings,"Donglin Niu and
+Jennifer G. Dy and
+Michael I. Jordan",Multiple Non-Redundant Spectral Clustering Views,2010,inproceedings,"Niu, Donglin and Dy, Jennifer G and Jordan, Michael I",Multiple non-redundant spectral clustering views,2010.0,1
+985292,2123,198,inproceedings,"John C. Duchi and
+Michael I. Jordan and
+Martin J. Wainwright",Privacy Aware Learning,2012,book,"Garrett, William E and Bianchini, LI and Kontothanassis, LI and McCallum, R Andrew and Thomas, Jeffery and Wisniewski, Robert and Scott, Michael L",Dynamic sharing and backward compatibility on 64-bit machines,1992.0,0
+998529,2141,264,inproceedings,"Gert R. G. Lanckriet and
+Nello Cristianini and
+Peter L. Bartlett and
+Laurent El Ghaoui and
+Michael I. Jordan",Learning the Kernel Matrix with Semi-Definite Programming,2002,article,"Ganchev, Kuzman and Crammer, Koby and Pereira, Fernando and Mann, Gideon and Bellare, Kedar and McCallum, Andrew and Carroll, Steve and Jin, Yang and White, Peter",Penn/umass/chop biocreative ii systems,2007.0,0
+784395,1590,3010,article,"Shabana Vohra and
+Benjamin A. Hall and
+Daniel A. Holdbrook and
+Syma Khalid and
+Philip C. Biggin","Bookshelf: a simple curation system for the storage of biomolecular
+simulation data",2010,article,"Krioukov, Andrew and Bairavasundaram, Lakshmi N and Goodson, Garth R and Srinivasan, Kiran and Thelen, Randy and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H",Parity Lost and Parity Regained.,2008.0,0
+182355,236,1664,inproceedings,"Yang Zhou and
+Hong Cheng and
+Jeffrey Xu Yu",Clustering Large Attributed Graphs: An Efficient Incremental Approach,2010,inproceedings,"Zhou, Yang and Cheng, Hong and Yu, Jeffrey Xu",Clustering large attributed graphs: An efficient incremental approach,2010.0,1
+368265,624,1829,inproceedings,"Weifa Liang and
+Chris Johnson and
+Jeffrey Xu Yu","Maintaining Materialized Views for Data Warehouses with Multiple Remote
+Sources",2000,incollection,"Liang, Weifa and Johnson, Chris and Jeffrey, X Yu",Maintaining materialized views for data warehouses with multiple remote sources,2000.0,0
+749394,1466,249,article,"Virginia R. de Sa and
+Patrick W. Gallagher and
+Joshua M. Lewis and
+Vicente L. Malave",Multi-view kernel construction,2010,book,"McCallum, R Andrew",Learning with incomplete selective perception,1993.0,0
+455851,697,2017,inproceedings,"Di Wu and
+Gabriel Pui Cheong Fung and
+Jeffrey Xu Yu and
+Zheng Liu",Integrating Multiple Data Sources for Stock Prediction,2008,article,"DINH, Thi Huong and SUN, Bin and YU, Jia and L{\""u}, Hong-xing",Study on Hydraulic Jump Characteristics of Airfoil-shaped Measuring Flume in U-shaped Channel,2012.0,0
+627596,1016,1836,article,"Ali Faisal and
+Frank Dondelinger and
+Dirk Husmeier and
+Colin M. Beale","Inferring species interaction networks from species abundance data:
+{A} comparative evaluation of various statistical and machine learning
+methods",2010,article,"Li, Rong-Hua and Yu, Jeffrey Xu and Huang, Xin and Cheng, Hong and Shang, Zechao",Measuring the impact of MVC attack in large complex networks,2014.0,0
+922180,2027,2238,article,"XuanLong Nguyen and
+Martin J. Wainwright and
+Michael I. Jordan","Estimating Divergence Functionals and the Likelihood Ratio by Convex
+Risk Minimization",2010,article,"Nguyen, XuanLong and Wainwright, Martin J and Jordan, Michael and others",Estimating divergence functionals and the likelihood ratio by convex risk minimization,2010.0,1
+28002,99,2300,inproceedings,Jeffrey Xu Yu,Exploring research issues over large graphs,2012,article,"Kleiner, Ariel and Talwalkar, Ameet and Sarkar, Purnamrita and Jordan, Michael",The big data bootstrap,2012.0,0
+429040,674,1959,article,"Baichuan Li and
+Rong{-}Hua Li and
+Irwin King and
+Michael R. Lyu and
+Jeffrey Xu Yu",A topic-biased user reputation model in rating systems,2015,article,"Li, Baichuan and Li, Rong-Hua and King, Irwin and Lyu, Michael R and Yu, Jeffrey Xu",A topic-biased user reputation model in rating systems,2014.0,0
+37734,107,1946,article,"Miao Qiao and Hong Cheng and Lu Qin and Jeffrey Xu Yu and
+Philip S. Yu and Lijun Chang",Computing weight constraint reachability in large networks,2013,article,"Qiao, Miao and Cheng, Hong and Qin, Lu and Yu, Jeffrey Xu and Yu, Philip S and Chang, Lijun",Computing weight constraint reachability in large networks,2013.0,1
+932415,2044,2131,inproceedings,"David M. Blei and
+Andrew Y. Ng and
+Michael I. Jordan",Latent Dirichlet Allocation,2001,inproceedings,"Blei, David M and Ng, Andrew Y and Jordan, Michael I",Latent dirichlet allocation,2001.0,1
+189874,242,1657,inproceedings,"Wei Wang and
+Haifeng Jiang and
+Hongjun Lu and
+Jeffrey Xu Yu",Containment Join Size Estimation: Models and Methods,2003,inproceedings,"Wang, Wei and Jiang, Haifeng and Lu, Hongjun and Yu, Jeffrey Xu",Containment join size estimation: Models and methods,2003.0,1
+938243,2054,2299,inproceedings,Michael I. Jordan,A Statistical Approach to Decision Tree Modeling,1994,inproceedings,"Jordan, Michael I",A statistical approach to decision tree modeling,1994.0,1
+330883,570,967,proceedings,,"Advances in Spatial and Temporal Databases, 9th International Symposium, {SSTD} 2005, Angra dos Reis, Brazil, August 22-24, 2005, Proceedings",2005,incollection,"Bertino, Elisa",Purpose based access control for privacy protection in database systems,2005.0,0
+43855,112,1904,inproceedings,"Lijun Chang and Jeffrey Xu Yu and Lu Qin and
+Xuemin Lin",Probabilistic ranking over relations,2010,inproceedings,"Chang, Lijun and Yu, Jeffrey Xu and Qin, Lu and Lin, Xuemin",Probabilistic ranking over relations,2010.0,1
+64795,129,2457,article,Yajun Yang and Hong Gao and Jeffrey Xu Yu and Jianzhong Li,"Finding the Cost-Optimal Path with Time Constraint over Time-Dependent
+Graphs",2014,article,"Chen, Ming-Syan and Wu, Kun-Lung and Yu, Philip S",Optimizing index allocation for sequential data broadcasting in wireless mobile computing,2003.0,0
+367434,623,2463,article,"Di Wu and
+Yiping Ke and
+Jeffrey Xu Yu and
+Philip S. Yu and
+Lei Chen",Leadership discovery when data correlatively evolve,2011,article,"Aggarwal, Charu C and Yu, Philip S",A survey of uncertain data algorithms and applications,2009.0,0
+494858,731,1712,article,"James Cheng and
+Yiping Ke and
+Ada Wai{-}Chee Fu and
+Jeffrey Xu Yu",Fast graph query processing with a low-cost index,2011,article,"Cheng, James and Ke, Yiping and Fu, Ada Wai-Chee and Yu, Jeffrey Xu",Fast graph query processing with a low-cost index,2011.0,1
+953208,2078,2367,inproceedings,"Daniel Ting and
+Ling Huang and
+Michael I. Jordan",An Analysis of the Convergence of Graph Laplacians,2010,article,"Ting, Daniel and Huang, Ling and Jordan, Michael",An analysis of the convergence of graph Laplacians,2011.0,0
+780194,1575,2929,proceedings,,"New Horizons in Information Management, 20th British National Conference
+on Databases, {BNCOD} 20, Coventry, UK, July 15-17, 2003, Proceedings",2003,inproceedings,"Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H and Burnett, Nathan C and Denehy, Timothy E and Engle, Thomas J and Gunawi, Haryadi S and Nugent, James A and Popovici, Florentina I",Transforming policies into mechanisms with infokernel,2003.0,0
+544769,772,1669,inproceedings,"Ke Wang and
+Yabo Xu and
+Jeffrey Xu Yu",Scalable sequential pattern mining for biological sequences,2004,inproceedings,"Wang, Ke and Xu, Yabo and Yu, Jeffrey Xu",Scalable sequential pattern mining for biological sequences,2004.0,1
+1036141,2194,2173,inproceedings,"Ben Liblit and
+Mayur Naik and
+Alice X. Zheng and
+Alexander Aiken and
+Michael I. Jordan",Scalable statistical bug isolation,2005,inproceedings,"Liblit, Ben and Naik, Mayur and Zheng, Alice X and Aiken, Alex and Jordan, Michael I",Scalable statistical bug isolation,2005.0,1
+164822,219,1696,article,"Jun Gao and
+Ruoming Jin and
+Jiashuai Zhou and
+Jeffrey Xu Yu and
+Xiao Jiang and
+Tengjiao Wang",Relational Approach for Shortest Path Discovery over Large Graphs,2012,article,"Gao, Jun and Jin, Ruoming and Zhou, Jiashuai and Yu, Jeffrey Xu and Jiang, Xiao and Wang, Tengjiao",Relational approach for shortest path discovery over large graphs,2011.0,0
+819171,1722,507,proceedings,,"Data Warehousing and Knowledge Discovery, 6th International Conference, DaWaK 2004, Zaragoza, Spain, September 1-3, 2004, Proceedings",2004,inproceedings,"Bertino, Elisa and Damiani, Maria Luisa and Momini, Davide",An access control system for a web map management service,2004.0,0
+396657,647,1969,inproceedings,"Junhu Wang and
+Jeffrey Xu Yu and
+Chaoyi Pang and
+Chengfei Liu",Minimal common container of tree patterns,2009,inproceedings,"Wang, Junhu and Yu, Jeffrey Xu and Pang, Chaoyi and Liu, Chengfei",Minimal common container of tree patterns,2009.0,1
+943724,2064,2095,article,"Guillaume Obozinski and
+Ben Taskar and
+Michael I. Jordan","Joint covariate selection and joint subspace selection for multiple
+classification problems",2010,article,"Obozinski, Guillaume and Taskar, Ben and Jordan, Michael I",Joint covariate selection and joint subspace selection for multiple classification problems,2010.0,1
+1031766,2188,2335,inproceedings,"Jens Nilsson and
+Fei Sha and
+Michael I. Jordan",Regression on manifolds using kernel dimension reduction,2007,inproceedings,"Nilsson, Jens and Sha, Fei and Jordan, Michael I",Regression on manifolds using kernel dimension reduction,2007.0,1
+516968,749,1783,inproceedings,"Di Wu and
+Yiping Ke and
+Jeffrey Xu Yu and
+Philip S. Yu and
+Lei Chen",Detecting Leaders from Correlated Time Series,2010,incollection,"Wu, Di and Ke, Yiping and Yu, Jeffrey Xu and Philip, S Yu and Chen, Lei",Detecting leaders from correlated time series,2010.0,0
+987075,2125,2098,article,"Barbara E. Engelhardt and
+Michael I. Jordan and
+Kathryn E. Muratore and
+Steven E. Brenner",Protein Molecular Function Prediction by Bayesian Phylogenomics,2005,article,"Engelhardt, Barbara E and Jordan, Michael I and Muratore, Kathryn E and Brenner, Steven E",Protein molecular function prediction by Bayesian phylogenomics,2005.0,1
+209942,261,1781,inproceedings,"Zechao Shang and
+Jeffrey Xu Yu",Catch the Wind: Graph workload balancing on cloud,2013,inproceedings,"Shang, Zechao and Yu, Jeffrey Xu",Catch the wind: Graph workload balancing on cloud,2013.0,1
+525345,756,1622,inproceedings,"Jeffrey Xu Yu and
+Zhihong Chong and
+Hongjun Lu and
+Aoying Zhou","False Positive or False Negative: Mining Frequent Itemsets from High
+Speed Transactional Data Streams",2004,inproceedings,"Yu, Jeffery Xu and Chong, Zhihong and Lu, Hongjun and Zhou, Aoying",False positive or false negative: mining frequent itemsets from high speed transactional data streams,2004.0,1
+347070,607,1641,article,"James Cheng and
+Yiping Ke and
+Ada Wai{-}Chee Fu and
+Jeffrey Xu Yu and
+Linhong Zhu",Finding maximal cliques in massive networks,2011,article,"Cheng, James and Ke, Yiping and Fu, Ada Wai-Chee and Yu, Jeffrey Xu and Zhu, Linhong",Finding maximal cliques in massive networks,2011.0,1
+1120302,2318,2304,inproceedings,"Purnamrita Sarkar and
+Deepayan Chakrabarti and
+Michael I. Jordan",Nonparametric Link Prediction in Dynamic Networks,2012,article,"Sarkar, Purnamrita and Chakrabarti, Deepayan and Jordan, Michael",Nonparametric link prediction in dynamic networks,2012.0,0
+1028613,2183,2262,inproceedings,"Francis R. Bach and
+Michael I. Jordan",Learning Graphical Models with Mercer Kernels,2002,inproceedings,"Bach, Francis R and Jordan, Michael I",Learning graphical models with Mercer kernels,2002.0,1
+538355,766,2751,article,"Chang Zhou and
+Jun Gao and
+Binbin Sun and
+Jeffrey Xu Yu","MOCgraph: Scalable Distributed Graph Processing Using Message Online
+Computing",2014,inproceedings,"Wang, Wei and Yang, Jiong and Yu, Philip S",Meta-patterns: revealing hidden periodic patterns,2001.0,0
+514307,747,1625,article,"Ling Feng and
+Jeffrey Xu Yu and
+Hongjun Lu and
+Jiawei Han","A template model for multidimensional inter-transactional association
+rules",2002,article,"Feng, Ling and Yu, Jeffrey Xu and Lu, Hongjun and Han, Jiawei",A template model for multidimensional inter-transactional association rules,2002.0,1
+555758,781,1965,article,"Xin Huang and
+Hong Cheng and
+Rong{-}Hua Li and
+Lu Qin and
+Jeffrey Xu Yu",Top-K structural diversity search in large networks,2015,article,"Huang, Xin and Cheng, Hong and Li, Rong-Hua and Qin, Lu and Yu, Jeffrey Xu",Top-k structural diversity search in large networks,2013.0,0
+895659,1977,455,article,"Chih{-}Min Lin and
+Ming{-}Chia Li and
+Ang{-}Bung Ting and
+Ming{-}Hung Lin","A robust self-learning {PID} control system design for nonlinear systems
+using a particle swarm optimization algorithm",2011,inproceedings,"Molloy, Ian and Chen, Hong and Li, Tiancheng and Wang, Qihua and Li, Ninghui and Bertino, Elisa and Calo, Seraphin and Lobo, Jorge",Mining roles with semantic meanings,2008.0,0
+951588,2076,2342,article,"Tamara Broderick and
+Nicholas Boyd and
+Andre Wibisono and
+Ashia C. Wilson and
+Michael I. Jordan",Streaming Variational Bayes,2013,inproceedings,"Broderick, Tamara and Boyd, Nicholas and Wibisono, Andre and Wilson, Ashia C and Jordan, Michael I",Streaming variational bayes,2013.0,0
+1239595,2669,801,incollection,"Evgueni N. Smirnov and
+Matthijs Moed and
+Georgi I. Nalbantov and
+Ida G. Sprinkhuizen{-}Kuyper",Minimally-Sized Balanced Decomposition Schemes for Multi-class Classification,2011,article,"Cuzzocrea, Alfredo and Bertino, Elisa",Privacy preserving olap over distributed xml data: A theoretically-sound secure-multiparty-computation approach,2011.0,0
+466645,707,1614,inproceedings,"Zaiben Chen and
+Heng Tao Shen and
+Xiaofang Zhou and
+Jeffrey Xu Yu",Monitoring path nearest neighbor in road networks,2009,inproceedings,"Chen, Zaiben and Shen, Heng Tao and Zhou, Xiaofang and Yu, Jeffrey Xu",Monitoring path nearest neighbor in road networks,2009.0,1
+376440,631,1602,article,"Lu Qin and
+Jeffrey Xu Yu and
+Lijun Chang",Diversifying Top-K Results,2012,article,"Qin, Lu and Yu, Jeffrey Xu and Chang, Lijun",Diversifying top-k results,2012.0,1
+952396,2077,2350,inproceedings,"Tim Kraska and
+Ameet Talwalkar and
+John C. Duchi and
+Rean Griffith and
+Michael J. Franklin and
+Michael I. Jordan",MLbase: {A} Distributed Machine-learning System,2013,article,"Jaakkola, Tommi S and Saul, Lawrence K and Jordan, Michael I",Fast learning by bounding likelihoods in sigmoid type belief networks,1996.0,0
+358851,616,2683,inproceedings,Jeffrey Xu Yu,Finding Hidden Structures in Relational Databases,2009,article,"Liu, Bing and Ma, Yiming and Wong, Ching Kian and Philip, S Yu",Scoring the data using association rules,2003.0,0
+707505,1308,1587,incollection,Susan E. George,Heuristics in Medical Data Mining,2005,article,"Chilton, Paul and Lakoff, George",Foreign policy by metaphor,1995.0,0
+373121,628,1914,article,"Bingsheng He and
+Jeffrey Xu Yu and
+Amelie Chi Zhou","Improving Update-Intensive Workloads on Flash Disks through Exploiting
+Multi-Chip Parallelism",2015,article,"He, Bingsheng and Yu, Jeffrey Xu and Zhou, Amelie Chi",Improving update-intensive workloads on flash disks through exploiting multi-chip parallelism,2015.0,1
+282434,397,2323,article,"Catharina Riedemann and
+Christian Timm",Services for data integration,2003,article,"Lanckriet, Gert RG and Cristianini, Nello and Jordan, Michael I and Noble, William Stafford",1 Kernel-based Integration of Genomic Data using Semidefinite Programming,2004.0,0
+1181205,2468,2487,article,"Daniele Soria and
+Jonathan M. Garibaldi and
+Federico Ambrogi and
+Andrew R. Green and
+Des Powe and
+Emad Rakha and
+R. Douglas Macmillan and
+Roger W. Blamey and
+Graham R. Ball and
+Paulo J. G. Lisboa and
+Terence A. Etchells and
+Patrizia Boracchi and
+Elia Biganzoli and
+Ian O. Ellis","A methodology to identify consensus classes from clustering algorithms
+applied to immunohistochemical data from breast cancer patients",2010,inproceedings,"Wu, Kun-Lung and Hildrum, Kirsten W and Fan, Wei and Yu, Philip S and Aggarwal, Charu C and George, David A and Gedik, Buǧra and Bouillet, Eric and Gu, Xiaohui and Luo, Gang and others",Challenges and experience in prototyping a multi-modal stream analytic and monitoring application on System S,2007.0,0
+236893,283,1839,inproceedings,"Lijun Chang and
+Jeffrey Xu Yu and
+Lu Qin and
+Xuemin Lin and
+Chengfei Liu and
+Weifa Liang",Efficiently computing k-edge connected components via graph decomposition,2013,inproceedings,"Chang, Lijun and Yu, Jeffrey Xu and Qin, Lu and Lin, Xuemin and Liu, Chengfei and Liang, Weifa",Efficiently computing k-edge connected components via graph decomposition,2013.0,1
+837638,1783,775,incollection,"Ellen Riloff and
+Lee A. Hollaar",Text Databases and Information Retrieval,1997,inproceedings,"Squicciarini, Anna Cinzia and Lee, Wonjun and Bertino, Elisa and Song, Carol X",A policy-based accountability tool for grid computing systems,2008.0,0
+1129391,2330,2135,article,"Daniel Crankshaw and
+Peter Bailis and
+Joseph E. Gonzalez and
+Haoyuan Li and
+Zhao Zhang and
+Michael J. Franklin and
+Ali Ghodsi and
+Michael I. Jordan","The Missing Piece in Complex Analytics: Low Latency, Scalable Model
+Management and Serving with Velox",2014,article,"Saul, Lawrence K and Jordan, Michael I",Mixed memory markov models: Decomposing complex stochastic processes as mixtures of simpler ones,1999.0,0
+861116,1867,70,article,"Joseph M. Piwowar and
+Ellsworth F. LeDrew and
+Douglas J. Dudycha","Integration of spatial data in vector and raster formats in a geographic
+information system environment",1990,article,"Lam, Wang and Liu, Lu and Prasad, STS and Rajaraman, Anand and Vacheri, Zoheb and Doan, AnHai",Muppet: MapReduce-style processing of fast data,2012.0,0
+870903,1902,2054,article,"St{\'{e}}phan Cl{\'{e}}men{\c{c}}on and
+Marine Depecker and
+Nicolas Vayatis","Adaptive partitioning schemes for bipartite ranking - How to grow
+and prune a ranking tree",2011,inproceedings,"Yu, Jin and Shi, Yu Xiang and Yang, Gui Wu",Finite Element Analysis and Experimental of Milling Force for Aeronautical Thin-Walled Workpiece,2011.0,0
+1152650,2398,257,inproceedings,"Adrian Sandu and
+Emil M. Constantinescu and
+Wenyuan Liao and
+Gregory R. Carmichael and
+Tianfeng Chai and
+John H. Seinfeld and
+Dacian N. Daescu","Ensemble-Based Data Assimilation for Atmospheric Chemical Transport
+Models",2005,techreport,"Culotta, Aron and McCallum, Andrew",A conditional model of deduplication for multi-type relational data,2005.0,0
+584055,852,1462,article,J{\'{a}}n Mikul{\'{a}}s Lis{\'{y}},"Data Fitting in the Chemical Sciences, by the Method of Least Squares
+: by {PETER} {GANS.} Wiley, New York {(1992).} {ISBN} 0-471-93412-7;
+258 Pp. Including Index and Contents",1993,article,"Adelson-Velskiy, GM and Arlazarov, VL and Donskoy, MV and Elman, Terence Sejnowski and Hinton, Geoffrey","Acharya, A., see Chakrabarti, PP. Adam, A. and J.-P Laurent, LAURA, a system to debug stu-dent programs Adcock, J., see Char\&k, E. Addanki, S., R. Cremonini and JS Penberthy, Graphs of mod",1997.0,0
+205807,256,1631,inproceedings,"Xiaobing Wu and
+Yufei Tao and
+Raymond Chi{-}Wing Wong and
+Ling Ding and
+Jeffrey Xu Yu",Finding the influence set through skylines,2009,inproceedings,"Cheng, Jiefeng and Yu, Jeffrey Xu",On-line exact shortest distance query processing,2009.0,0
+373275,628,2070,article,"Bingsheng He and
+Jeffrey Xu Yu and
+Amelie Chi Zhou","Improving Update-Intensive Workloads on Flash Disks through Exploiting
+Multi-Chip Parallelism",2015,article,"Chang, Lijun and Lin, Xuemin and Zhang, Wenjie and Yu, Jeffrey Xu and Zhang, Ying and Qin, Lu",Optimal enumeration: Efficient top-k tree matching,2015.0,0
+869364,1895,1307,article,"Les Kitchen and
+E. V. Krishnamurthy","Fast, parallel, relaxation screening for chemical patent data-base
+search",1982,inproceedings,"Bishop, Christopher M and Svensen, Markus and Hinton, Geoffrey E",Distinguishing text from graphics in on-line handwritten ink,2004.0,0
+450679,693,1600,article,"Bingsheng He and
+Jeffrey Xu Yu",High-Throughput Transaction Executions on Graphics Processors,2011,article,"He, Bingsheng and Yu, Jeffrey Xu",High-throughput transaction executions on graphics processors,2011.0,1
+922799,2028,2310,inproceedings,"Francis R. Bach and
+Michael I. Jordan",Tree-dependent Component Analysis,2002,inproceedings,"Bach, Francis R and Jordan, Michael I",Tree-dependent component analysis,2002.0,1
+1046315,2210,450,article,"Gert R. G. Lanckriet and
+Tijl De Bie and
+Nello Cristianini and
+Michael I. Jordan and
+William Stafford Noble",A statistical framework for genomic data fusion,2004,article,"Bhatti, Rafae and Bertino, Elisa and Ghafoor, Arif and Joshi, James BD",XML-based specification for Web services document security,2004.0,0
+181453,235,1976,inproceedings,"Gabriel Pui Cheong Fung and
+Jeffrey Xu Yu and
+Hongjun Lu",Classifying High-Speed Text Streams,2003,incollection,"Fung, Gabriel Pui Cheong and Yu, Jeffrey Xu and Lu, Hongjun",Classifying high-speed text streams,2003.0,1
+686366,1236,914,inproceedings,"Daeho Lim and
+Kyungsook Han","Mining {RNA} Structure Elements from the Structure Data of Protein-RNA
+Complexes",2003,incollection,"Bertino, Elisa and Carminati, Barbara and Ferrari, Elena and Mella, Giovanni",Author-X--A System for Secure Dissemination and Update of XML Documents,2003.0,0
+528340,758,2527,inproceedings,"Rong{-}Hua Li and
+Jeffrey Xu Yu and
+Jianquan Liu",Link prediction: the power of maximal entropy random walk,2011,inproceedings,"Gedik, Buǧra and Bordawekar, Rajesh R and Yu, Philip S",CellSort: high performance sorting on the cell processor,2007.0,0
+1144490,2372,2243,inproceedings,"Sina Meraji and
+Carl Tropper",A Machine Learning Approach for Optimizing Parallel Logic Simulation,2010,inproceedings,"Bodik, Peter and Fox, Armando and Franklin, Michael J and Jordan, Michael I and Patterson, David A","Characterizing, modeling, and generating workload spikes for stateful services",2010.0,0
+54253,121,169,article,Rui Zhou and Chengfei Liu and Jianxin Li and Junhu Wang and Jeffrey Xu Yu,"Evaluating Irredundant Maximal Contained Rewritings for XPath Queries
+on Views",2014,article,"McCallum, Andrew and Pal, Chris and Druck, Greg and Wang, Xuerui",Multi-conditional learning: Generative/discriminative training for clustering and classification,2006.0,0
+348447,608,1795,inproceedings,"Hongwei Wu and
+Qing Wang and
+Jeffrey Xu Yu and
+Aoying Zhou and
+Shuigeng Zhou","UD(k, l)-Index: An Efficient Approximate Index for {XML} Data",2003,article,"Qin, Lu and Yu, Jeffrey Xu and Chang, Lijun",Ten thousand SQLs: parallel keyword queries computing,2010.0,0
+80222,142,1760,inproceedings,Junhu Wang and Jeffrey Xu Yu and Chengfei Liu,On Tree Pattern Query Rewriting Using Views,2007,article,"Wu, Di and Ke, Yiping and Yu, Jeffrey Xu and Philip, S Yu and Chen, Lei",Leadership discovery when data correlatively evolve,2011.0,0
+990284,2129,2213,inproceedings,"Yue Guan and
+Jennifer G. Dy and
+Michael I. Jordan","A Unified Probabilistic Model for Global and Local Unsupervised Feature
+Selection",2011,inproceedings,"Fox, Emily B and Jordan, Michael I and Sudderth, Erik B and Willsky, Alan S",Sharing features among dynamical systems with beta processes,2009.0,0
+507003,741,1840,inproceedings,"Jiefeng Cheng and
+Jeffrey Xu Yu and
+Xuemin Lin and
+Haixun Wang and
+Philip S. Yu",Fast Computation of Reachability Labeling for Large Graphs,2006,book,"Yu, JX and Lin, X and Wang, H and Yu, PS and Cheng, J",Fast computation of reachability labeling for large graphs,2006.0,0
+863105,1874,2572,article,"Guang{-}Bin Huang and
+Dianhui Wang and
+Yuan Lan",Extreme learning machines: a survey,2011,article,"Du, Zhidian and Li, Lin and Chen, Chin-Fu and Philip, S Yu and Wang, James Z",G-SESAME: web tools for GO-term-based gene similarity analysis and knowledge discovery,2009.0,0
+464712,705,2047,article,"Haixun Wang and
+Jeffrey Xu Yu",Guest Editorial: Special Issue on Managing and Mining Massive Graphs,2015,article,"HE, Z and HE, J and YU, J and YU, M and others","STUDY ON THE TOXICITY OF BLUE-GREEN-ALGAL BLOOMS IN LAKE-DONGHU, WUHAN",1988.0,0
+399166,649,2076,inproceedings,"Zheng Liu and
+Ruoming Jin and
+Hong Cheng and
+Jeffrey Xu Yu",Frequent Subgraph Summarization with Error Control,2013,incollection,"Liu, Zheng and Jin, Ruoming and Cheng, Hong and Yu, Jeffrey Xu",Frequent subgraph summarization with error control,2013.0,0
+198789,250,1893,inproceedings,"Masahiro Ishikawa and
+Hanxiong Chen and
+Kazutaka Furuse and
+Jeffrey Xu Yu and
+Nobuo Ohbo",MB+Tree: {A} Dynamically Updatable Metric Index for Similarity Searches,2000,article,"Johnson, CW and Yu, JX and Stanton, RB",Architecture of a highperformance persistent object store,1995.0,0
+1135945,2340,2106,article,"Gert R. G. Lanckriet and
+Nello Cristianini and
+Peter L. Bartlett and
+Laurent El Ghaoui and
+Michael I. Jordan",Learning the Kernel Matrix with Semidefinite Programming,2004,article,"Lanckriet, Gert RG and Cristianini, Nello and Bartlett, Peter and Ghaoui, Laurent El and Jordan, Michael I",Learning the kernel matrix with semidefinite programming,2004.0,1
+956717,2084,2166,article,"Lawrence K. Saul and
+Tommi S. Jaakkola and
+Michael I. Jordan",Mean Field Theory for Sigmoid Belief Networks,1996,article,"Saul, Lawrence K and Jaakkola, Tommi and Jordan, Michael I",Mean field theory for sigmoid belief networks,1996.0,1
+575447,820,2895,article,"Jie Zhu and
+Xiaoping Li and
+Weiming Shen","Effective genetic algorithm for resource-constrained project scheduling
+with limited preemptions",2011,inproceedings,"Aggarwal, Charu C and Xie, Yan and Yu, Philip S",On dynamic data-driven selection of sensor streams,2011.0,0
+981301,2117,2336,inproceedings,"Amol Deshpande and
+Minos N. Garofalakis and
+Michael I. Jordan",Efficient Stepwise Selection in Decomposable Models,2001,article,"Jordan, Michael I",Indeterminate motor skill learning problems,1989.0,0
+145974,201,1310,inproceedings,"Lijun Chang and
+Xuemin Lin and
+Lu Qin and
+Jeffrey Xu Yu and
+Wenjie Zhang","Index-based Optimal Algorithms for Computing Steiner Components with
+Maximum Connectivity",2015,article,"LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey",Deep learning,2015.0,0
+285742,412,2904,inproceedings,"Hakim Lounis and
+Tamer Fares Gayed and
+Mounir Boukadoum","Using Efficient Machine-Learning Models to Assess Two Important Quality
+Factors: Maintainability and Reusability",2011,inproceedings,"Wu, Kun-Lung and Yu, Philip S",Efficient query monitoring using adaptive multiple key hashing,2002.0,0
+852925,1834,3114,incollection,"Martin L. Puterman and
+Jonathan Patrick",Dynamic Programming,2010,article,"Wong, Frederick and Martin, Rich and Arpaci-Dusseau, Remzi and Wu, David and Culler, David",Understanding Application Scaling NAS Parallel Benchmarks 2.2 on NOW and SGI Origin 2000,1998.0,0
+397477,648,984,inproceedings,"Lijun Chang and
+Jeffrey Xu Yu and
+Lu Qin",Context-sensitive document ranking,2009,article,"Kirkpatrick, Michael and Bertino, Elisa and Sheldon, Frederick T",Restricted authentication and encryption for cyber-physical systems,2009.0,0
+241568,287,1705,incollection,"Denilson Barbosa and
+Ioana Manolescu and
+Jeffrey Xu Yu",Application Benchmark,2009,inproceedings,"Wu, Xiaobing and Tao, Yufei and Wong, Raymong Chi-Wing and Ding, Ling and Yu, Jeffrey Xu",Finding the influence set through skylines,2009.0,0
+543864,771,1978,article,"Guandong Xu and
+Jeffrey Xu Yu and
+Wookey Lee",Guest editorial: social networks and social Web mining,2013,article,"Zhou, YF and Ni, CC and Zheng, TT and Xu, NJ and Wang, Y and Yu, JJ and Zhang, JP and Gao, GS",[Effects of Shengmai injection on testicular injury after torsion/detorsion in rats of different ages].,2011.0,0
+559703,784,1901,inproceedings,"Ying Zhang and
+Xuemin Lin and
+Yidong Yuan and
+Masaru Kitsuregawa and
+Xiaofang Zhou and
+Jeffrey Xu Yu",Summarizing Order Statistics over Data Streams with Duplicates,2007,inproceedings,"Zhang, Ying and Lin, Xuemin and Yuan, Yidong and Kitsuregawa, Masaru and Zhou, Xiaofang and Yu, Jeffrey Xu",Summarizing order statistics over data streams with duplicates,2007.0,1
+1150103,2393,3073,article,"M. Herz and
+H. K. Kaindl and
+A. A. Salib and
+R. Warszawski","Comparative efficiency of searching abstract text in the Chemical
+Abstracts Service database",1985,inproceedings,"Bairavasundaram, Lakshmi N and Rungta, Meenali and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H",Limiting trust in the storage stack,2006.0,0
+1088623,2272,2361,inproceedings,"Sriram Sankararaman and
+Gad Kimmel and
+Eran Halperin and
+Michael I. Jordan",On the Inference of Ancestries in Admixed Populations,2008,article,"Sankararaman, Sriram and Kimmel, Gad and Halperin, Eran and Jordan, Michael I",On the inference of ancestries in admixed populations,2008.0,0
+751264,1468,2935,inproceedings,"Andrew E. Johnson and
+Thomas G. Moher and
+Yongjoo Cho and
+Daniel C. Edelson and
+Brian J. Reiser","6th Graders ""doin' science"" - Collecting Data and Looking for Patterns
+in a Virtual Field",2002,article,"Harter, Tyler and Borthakur, Dhruba and Dong, Siying and Aiyer, Amitanand S and Tang, Liyin and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H",Analysis of HDFS under HBase: a facebook messages case study.,2014.0,0
+936235,2051,2197,inproceedings,"John William Paisley and
+David M. Blei and
+Michael I. Jordan",Stick-Breaking Beta Processes and the Poisson Process,2012,inproceedings,"Mackey, Lester W and Jordan, Michael I and Talwalkar, Ameet",Divide-and-conquer matrix factorization,2011.0,0
+966454,2097,2389,inproceedings,"Tommi S. Jaakkola and
+Lawrence K. Saul and
+Michael I. Jordan",Fast Learning by Bounding Likelihoods in Sigmoid Type Belief Networks,1995,misc,"Wolf, Joel L and Philip, S Yu",Look-ahead scheduling to support video-on-demand applications,1995.0,0
+682952,1224,2901,article,"John Skvoretz and
+Shelley A. Smith and
+Chuck Baldwin",Parallel-processing applications for data analysis in the social sciences,1992,incollection,"Yu, Philip S. and Chen, M-S and Wolf, Joel L and Turek, John",Parallel query processing,1993.0,0
+933186,2045,2234,inproceedings,"Erik B. Sudderth and
+Michael I. Jordan",Shared Segmentation of Natural Scenes Using Dependent Pitman-Yor Processes,2008,inproceedings,"Sudderth, Erik B and Jordan, Michael I",Shared segmentation of natural scenes using dependent Pitman-Yor processes,2009.0,0
+1006068,2151,2114,article,"David A. Cohn and
+Zoubin Ghahramani and
+Michael I. Jordan",Active Learning with Statistical Models,1996,article,"Cohn, David A and Ghahramani, Zoubin and Jordan, Michael I",Active learning with statistical models,1996.0,1
+422868,669,1883,article,"Rong{-}Hua Li and
+Jeffrey Xu Yu",Scalable Diversified Ranking on Large Graphs,2013,article,"Liu, Li-Bing and Xie, Feng and Chang, Kai-Kai and Li, Ming-Qing and Meng, Yu-Han and Wang, Xiao-Hui and Li, Hui and Li, Da-Jin and Yu, Jin-Jin",Hypoxia promotes the proliferation of cervical carcinoma cells through stimulating the secretion of IL-8,2014.0,0
+931728,2043,2252,article,"Fredrik Lindsten and
+Thomas B. Sch{\""{o}}n and
+Michael I. Jordan",Bayesian semiparametric Wiener system identification,2013,inproceedings,"Lanckriet, Gert and Ghaoui, Laurent E and Bhattacharyya, Chiranjib and Jordan, Michael I",Minimax probability machine,2001.0,0
+1251005,2714,799,inproceedings,"Emile de Maat and
+Kai Krabben and
+Radboud Winkels",Machine Learning versus Knowledge Based Classification of Legal Texts,2010,article,"Armani, B and Catania, B and Bertino, E and Laradi, D and Marin, B and Zarri, Gian Piero",Repository management in an intelligent indexing approach for multimedia digital libraries,2010.0,0
+365104,621,2673,article,"Jun He and
+Hongyan Liu and
+Jeffrey Xu Yu and
+Pei Li and
+Wei He and
+Xiaoyong Du","Assessing single-pair similarity over graphs by aggregating first-meeting
+probabilities",2014,article,"Philip, S Yu and Cornell, Douglas W and Dias, Daniel M and Iyer, Balakrishna R",Analysis of affinity based routing in multi-system data sharing,1987.0,0
+928487,2037,2289,article,"Kevin P. Murphy and
+Yair Weiss and
+Michael I. Jordan",Loopy Belief Propagation for Approximate Inference: An Empirical Study,2013,article,"Jaakkola, Tommi S and Jordan, Michael I",Recursive algorithms for approximating probabilities in graphical models,1997.0,0
+374370,629,1991,article,"Zheng Liu and
+Jeffrey Xu Yu and
+Hong Cheng",Approximate Homogeneous Graph Summarization,2012,article,"Li, Jianxin and Liu, Chengfei and Zhou, Rui and Yu, Jeffrey Xu",Query-Driven Frequent Co-Occurring Term Computation over Relational Data Using MapReduce,2015.0,0
+884257,1942,2085,article,Roger Bivand,"Spatial Data Analysis: Theory and Practice. By Robert Haining (Cambridge:
+Cambridge University Press, 2003) {ISBN} 0-521-77437-3",2004,article,"Griffiths, DMBTL and Tenenbaum, MIJJB",Hierarchical topic models and the nested Chinese restaurant process,2004.0,0
+1159275,2418,676,book,John G. Hughes,Object-oriented databases,1991,article,"Guerrini, E Bertino B Catania G and Montesi, D",Transaction Optimization in Rule Databases,1994.0,0
+1088706,2272,3091,inproceedings,"Sriram Sankararaman and
+Gad Kimmel and
+Eran Halperin and
+Michael I. Jordan",On the Inference of Ancestries in Admixed Populations,2008,inproceedings,"Weiss, Zev and Subramanian, Sriram and Sundararaman, Swaminathan and Talagala, Nisha and Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H",ANViL: advanced virtualization for modern non-volatile memory devices,2015.0,0
+203980,254,2569,article,"Jeffrey Xu Yu and
+Zhihong Chong and
+Hongjun Lu and
+Zhenjie Zhang and
+Aoying Zhou","A false negative approach to mining frequent itemsets from high speed
+transactional data streams",2006,article,"Yuan, Mingxuan and Chen, Lei and Yu, Philip S",Personalized privacy protection in social networks,2010.0,0
+249722,294,545,inproceedings,"Hanxiong Chen and
+Jianquan Liu and
+Kazutaka Furuse and
+Jeffrey Xu Yu and
+Nobuo Ohbo","Indexing the Function: An Efficient Algorithm for Multi-dimensional
+Search with Expensive Distance Functions",2009,inproceedings,"She, Wei and Yen, I and Thuraisingham, Bhavani and Bertino, Elisa and others",The SCIFC model for information flow control in web service composition,2009.0,0
+657367,1125,2185,article,"Gladys A. Cotter and
+Mike Frame and
+Ron Sepic","Integrated science for environmental decision-making: the challenge
+for biodiversity and ecosystem informatics",2004,inproceedings,"Lawrence, Neil D and Jordan, Michael I",Semi-supervised learning via Gaussian processes,2004.0,0
+69120,133,1639,article,"Ching{-}Fung Cheung and
+Jeffrey Xu Yu and Hongjun Lu",Constructing Suffix Tree for Gigabyte Sequences with Megabyte Memory,2005,article,"Cheung, Ching-Fung and Yu, Jeffrey Xu and Lu, Hongjun",Constructing suffix tree for gigabyte sequences with megabyte memory,2005.0,1
+90095,150,1908,inproceedings,Qi Pan and Hong Cheng and Di Wu and Jeffrey Xu Yu and Yiping Ke,Stock risk mining by news,2010,inproceedings,"Pan, Qi and Cheng, Hong and Wu, Di and Yu, Jeffrey Xu and Ke, Yiping",Stock risk mining by news,2010.0,1
+1136033,2340,2197,article,"Gert R. G. Lanckriet and
+Nello Cristianini and
+Peter L. Bartlett and
+Laurent El Ghaoui and
+Michael I. Jordan",Learning the Kernel Matrix with Semidefinite Programming,2004,inproceedings,"Mackey, Lester W and Jordan, Michael I and Talwalkar, Ameet",Divide-and-conquer matrix factorization,2011.0,0
+438821,683,1606,inproceedings,"Peixiang Zhao and
+Jeffrey Xu Yu and
+Philip S. Yu",Graph Indexing: Tree + Delta {\textgreater}= Graph,2007,inproceedings,"Lian, Xiang and Chen, Lei and Yu, Jeffrey Xu and Wang, Guoren and Yu, Ge",Similarity match over high speed time-series streams,2007.0,0
+211024,262,1725,article,"Kian{-}Lee Tan and
+Jeffrey Xu Yu and
+Pin{-}Kwang Eng","Supporting Range Queries in a Wireless Environment with Nonuniform
+Broadcast",1999,article,"Tan, Kian-Lee and Yu, Jeffrey Xu and Eng, Pin-Kwang",Supporting range queries in a wireless environment with nonuniform broadcast,1999.0,1
+1020395,2173,2265,inproceedings,"Peter Bod{\'{\i}}k and
+Greg Friedman and
+Lukas Biewald and
+Helen Levine and
+George Candea and
+Kayur Patel and
+Gilman Tolle and
+Jonathan Hui and
+Armando Fox and
+Michael I. Jordan and
+David A. Patterson","Combining Visualization and Statistical Analysis to Improve Operator
+Confidence and Efficiency for Failure Detection and Localization",2005,inproceedings,"Bodik, Peter and Friedman, Greg and Biewald, Lukas and Levine, Helen and Candea, George and Patel, Kayur and Tolle, Gilman and Hui, Jon and Fox, Armando and Jordan, Michael and others",Combining visualization and statistical analysis to improve operator confidence and efficiency for failure detection and localization,2005.0,1
+110376,167,1842,inproceedings,"Weiguo Zheng and
+Lei Zou and Xiang Lian and Jeffrey Xu Yu and Shaoxu Song and Dongyan Zhao","How to Build Templates for {RDF} Question/Answering: An Uncertain
+Graph Similarity Join Approach",2015,article,"Yu, JX and Bian, XH and Yu, Y and Wang, YG",Full-scale collapse test and numerical simulation of deepwater pipeline,2012.0,0
+776297,1561,2855,article,"Frank S. C. Tseng and
+Chia{-}Wei Chen",Integrating heterogeneous data warehouses using {XML} technologies,2005,article,"Zhu, Xingquan and Ding, Wei and Philip, S Yu and Zhang, Chengqi",One-class learning and concept summarization for data streams,2011.0,0
+393011,644,2259,inproceedings,"Jeffrey Xu Yu and
+Michael K. Ng and
+Joshua Zhexue Huang",Patterns Discovery Based on Time-Series Decomposition,2001,article,"Wolpert, Daniel M and Ghahramani, Zoubin and Jordan, Michael I",Perceptual distortion contributes to the curvature of human reaching movements,1994.0,0
+170068,225,1770,article,"Cheqing Jin and
+Ke Yi and
+Lei Chen and
+Jeffrey Xu Yu and
+Xuemin Lin",Sliding-window top-k queries on uncertain streams,2008,article,"Jin, Cheqing and Yi, Ke and Chen, Lei and Yu, Jeffrey Xu and Lin, Xuemin",Sliding-window top-k queries on uncertain streams,2010.0,0
+969764,2101,2212,article,"Tommi S. Jaakkola and
+Michael I. Jordan",Computing Upper and Lower Bounds on Likelihoods in Intractable Networks,2013,inproceedings,"Jaakkola, Tommi S and Jordan, Michael I",Computing upper and lower bounds on likelihoods in intractable networks,1996.0,0
+564895,791,2187,article,"Eric P. Xing and
+Michael I. Jordan and
+Roded Sharan",Bayesian Haplotype Inference via the Dirichlet Process,2007,article,"Xing, Eric P and Jordan, Michael I and Sharan, Roded",Bayesian haplotype inference via the Dirichlet process,2007.0,1
+742550,1444,2607,inproceedings,"Jan Mandel and
+Lynn S. Bennethum and
+Mingshi Chen and
+Janice L. Coen and
+Craig C. Douglas and
+Leopoldo P. Franca and
+Craig J. Johns and
+Minjeong Kim and
+Andrew V. Knyazev and
+Robert Kremens and
+Vaibhav Kulkarni and
+Guan Qin and
+Anthony Vodacek and
+Jianjia Wu and
+Wei Zhao and
+Adam Zornes",Towards a Dynamic Data Driven Application System for Wildfire Simulation,2005,inproceedings,"Chi, Yun and Philip, S Yu and Wang, Haixun and Muntz, Richard R",Loadstar: A Load Shedding Scheme for Classifying Data Streams.,2005.0,0
+15467,55,2924,inproceedings,"Rui Camacho and Rita Ferreira and Natacha Rosa and V{\^{a}}nia Guimar{\~{a}}es and
+Nuno A. Fonseca and V{\'{\i}}tor Santos Costa and Miguel de Sousa and Alexandre Magalh{\~{a}}es","Predicting the Start of Protein \emph{alpha}-Helices Using Machine
+Learning Algorithms",2010,misc,"Chang, Shu-Ping and Gu, Xiaohui and Papadimitriou, Spyridon and Yu, Philip Shi-lung",Systems and methods for predictive failure management,2010.0,0
+864214,1878,1175,inproceedings,"Sung Jin Choi and
+Hee Yong Youn and
+Hyung Soo Lee",On Highly Secure and Available Data Storage Systems,2004,inproceedings,"Goldberger, Jacob and Hinton, Geoffrey E and Roweis, Sam T and Salakhutdinov, Ruslan",Neighbourhood components analysis,2004.0,0
+30548,101,2397,inproceedings,Nurcan Yuruk and Xiaowei Xu and Chen Li and Jeffrey Xu Yu,"Supporting Keyword Queries on Structured Databases with Limited Search
+Interfaces",2008,misc,"Aggarwal, Charu C and Philip, S Yu",Content based method for product-peer filtering,2002.0,0
+613942,969,860,article,Qiang Cheng,"A Sparse Learning Machine for High-Dimensional Data with Application
+to Microarray Gene Analysis",2010,inproceedings,"Bhargav-Spantzel, Abhilasha and Squicciarini, Anna and Bertino, Elisa and Kong, Xiangwei and Zhang, Weike",Biometrics-based identifiers for digital identity management,2010.0,0
+1051660,2217,2313,inproceedings,"Gert R. G. Lanckriet and
+Minghua Deng and
+Nello Cristianini and
+Michael I. Jordan and
+William Stafford Noble","Kernel-Based Data Fusion and Its Application to Protein Function Prediction
+in Yeast",2004,article,"Mackey, Lester and Jordan, Michael I and Chen, Richard Y and Farrell, Brendan and Tropp, Joel A and others",Matrix concentration inequalities via the method of exchangeable pairs,2014.0,0
+25314,93,2202,inproceedings,"Daniel Ortiz{-}Mart{\'{\i}}nez and
+Ismael Garc{\'{\i}}a{-}Varea and
+Francisco Casacuberta",Online Learning for Interactive Statistical Machine Translation,2010,article,"Ghahramani, Zoubin and Wolptrt, Daniel M and Jordan, Michael I",Computational models of sensorimotor integration,1997.0,0
+1030467,2186,2206,inproceedings,"Francis R. Bach and
+Michael I. Jordan",Thin Junction Trees,2001,inproceedings,"Bach, Francis R and Jordan, Michael I",Thin junction trees,2001.0,1
+242977,288,1941,inproceedings,"Cheqing Jin and
+Fang Xiong and
+Joshua Zhexue Huang and
+Jeffrey Xu Yu and
+Aoying Zhou",Mining Frequent Items in Spatio-temporal Databases,2004,incollection,"Jin, Cheqing and Xiong, Fang and Huang, Joshua Zhexue and Yu, Jeffrey Xu and Zhou, Aoying",Mining frequent items in spatio-temporal databases,2004.0,1
+900102,1993,453,article,"Boris Stilman and
+Vladimir Yakhnis and
+Oleg Umanskiy",The Primary Language of ancient battles,2011,book,"Bertino, Elisa and Ooi, Beng Chin and Sacks-Davis, Ron and Tan, Kian-Lee and Zobel, Justin and Shidlovsky, Boris and Andronico, Daniele",Indexing techniques for advanced database systems,2012.0,0
+1225128,2627,1434,article,J. H. Westbrook,"Problems in the computerization of chemical information: capture of
+tabular and graphical data",1993,article,"Adel, Tameem and Smith, Benn and Urner, Ruth and Stashuk, Daniel and Lizotte, Daniel J",Generative multiple-instance learning models for quantitative electromyography,2013.0,0
+1149426,2391,2979,inproceedings,"Heidi J. C. Ellis and
+Steven A. Demurjian","{ADAM:} a graphical, object-oriented database-design tool and code
+generator",1991,article,"Arpaci, Remzi H and Dusseau, Andrea C and Vahdat, Amin M and Liu, Lok T and Anderson, Thomas E and Patterson, David A",The interaction of parallel and sequential workloads on a network of workstations,1995.0,0
+417693,665,1611,inproceedings,"Gabriel Pui Cheong Fung and
+Jeffrey Xu Yu and
+Philip S. Yu and
+Hongjun Lu",Parameter Free Bursty Events Detection in Text Streams,2005,inproceedings,"Fung, Gabriel Pui Cheong and Yu, Jeffrey Xu and Yu, Philip S and Lu, Hongjun",Parameter free bursty events detection in text streams,2005.0,1
+1237004,2665,808,inproceedings,"Jue Xie and
+Frada Burstein","Using Machine Learning to Support Resource Quality Assessment: An
+Adaptive Attribute-Based Approach for Health Information Portals",2011,inproceedings,"Ni, Qun and Bertino, Elisa",xfACL: An extensible functional language for access control,2011.0,0
+1161972,2428,1183,inproceedings,"Oliver R{\""{u}}bel and
+Sean Ahern and
+E. Wes Bethel and
+Mark D. Biggin and
+Hank Childs and
+Estelle Cormier{-}Michel and
+Angela H. DePace and
+Michael B. Eisen and
+Charless C. Fowlkes and
+Cameron G. R. Geddes and
+Hans Hagen and
+Bernd Hamann and
+Min{-}Yu Huang and
+Soile V. E. Ker{\""{a}}nen and
+David W. Knowles and
+Cris L. Luengo Hendriks and
+Jitendra Malik and
+Jeremy S. Meredith and
+Peter Messmer and
+Prabhat","Coupling visualization and data analysis for knowledge discovery from
+multi-dimensional scientific data",2010,article,"Hinton, Geoffrey E",Deterministic Boltzmann learning performs steepest descent in weight-space,1989.0,0
+183910,237,1973,inproceedings,"Nan Tang and
+Jeffrey Xu Yu and
+M. Tamer {\""{O}}zsu and
+Kam{-}Fai Wong",Hierarchical Indexing Approach to Support XPath Queries,2008,inproceedings,"Tang, Nan and Yu, Jeffrey Xu and {\""O}zsu, M Tamer and Wong, Kam-Fai",Hierarchical indexing approach to support XPath queries,2008.0,1
+235618,282,1770,article,"Chengfei Liu and
+Jianxin Li and
+Jeffrey Xu Yu and
+Rui Zhou",Adaptive relaxation for querying heterogeneous {XML} data sources,2010,article,"Jin, Cheqing and Yi, Ke and Chen, Lei and Yu, Jeffrey Xu and Lin, Xuemin",Sliding-window top-k queries on uncertain streams,2010.0,0
+1067524,2241,527,inproceedings,"Wei Xu and
+Ling Huang and
+Armando Fox and
+David A. Patterson and
+Michael I. Jordan",Online System Problem Detection by Mining Patterns of Console Logs,2009,inproceedings,"Ni, Qun and Bertino, Elisa and Lobo, Jorge",D-algebra for composing access control policy decisions,2009.0,0
+154215,207,2806,article,"Rui Zhou and
+Chengfei Liu and
+Jianxin Li and
+Jeffrey Xu Yu",{ELCA} evaluation for keyword search on probabilistic {XML} data,2013,article,"Yu, Philip S and Balsamo, Simonetta and Lee, Yann-Hang",Dynamic transaction routing in distributed database systems,1988.0,0
+489841,727,1091,inproceedings,"Gabriel Pui Cheong Fung and
+Jeffrey Xu Yu and
+Hongjun Lu",Classifying Text Streams in the Presence of Concept Drifts,2004,inproceedings,"Bertino, Elisa and Crispo, Bruno and Mazzoleni, Pietro",Supporting Multi-Dimensional Trustworthiness for Grid Workflows.,2004.0,0
+415677,663,2054,article,"Yajun Yang and
+Jeffrey Xu Yu and
+Hong Gao and
+Jian Pei and
+Jianzhong Li",Mining most frequently changing component in evolving graphs,2014,inproceedings,"Yu, Jin and Shi, Yu Xiang and Yang, Gui Wu",Finite Element Analysis and Experimental of Milling Force for Aeronautical Thin-Walled Workpiece,2011.0,0
+945952,2067,2760,article,"David M. Blei and
+K. Franks and
+Michael I. Jordan and
+I. Saira Mian","Statistical modeling of biomedical corpora: mining the Caenorhabditis
+Genetic Center Bibliography for genes related to life span",2006,inproceedings,"Kong, Xiangnan and Yu, Philip S and Ding, Ying and Wild, David J",Meta path-based collective classification in heterogeneous information networks,2012.0,0
+1091619,2277,2273,article,"Michael I. Jordan and
+Terrence J. Sejnowski",Graphical Models: Foundations of Neural Computation,2002,book,"Jordan, Michael Irwin",Graphical models: Foundations of neural computation,2001.0,0
+202265,253,1801,article,"Hong Cheng and
+Yang Zhou and
+Xin Huang and
+Jeffrey Xu Yu","Clustering large attributed information networks: an efficient incremental
+computing approach",2012,article,"Cheng, Hong and Zhou, Yang and Huang, Xin and Yu, Jeffrey Xu",Clustering large attributed information networks: an efficient incremental computing approach,2012.0,1
+166407,220,2071,article,"Xin Huang and
+Laks V. S. Lakshmanan and
+Jeffrey Xu Yu and
+Hong Cheng",Approximate Closest Community Search in Networks,2015,article,"Huang, Xin and Lakshmanan, Laks VS and Yu, Jeffrey Xu and Cheng, Hong",Approximate Closest Community Search in Networks,2015.0,1
+22608,80,1280,inproceedings,"Gopalan Vani and
+Ramaswamy Savitha and
+Narasimhan Sundararajan","Classification of abnormalities in digitized mammograms using Extreme
+Learning Machine",2010,inproceedings,"Memisevic, Roland and Hinton, Geoffrey",Unsupervised learning of image transformations,2007.0,0
+633709,1036,2665,inproceedings,"Sheng Yu and
+Yinfeng Xu and
+Ming Liu and
+Feifeng Zheng","Optimal Policy for Single-Machine Scheduling with Deterioration Effects, Learning Effects, Setup Times, and Availability Constraints",2011,inproceedings,"Dan, Asit and Dias, Daniel M and Philip, S Yu",The Effect of Skewed Data Access on Buffer Hits and Data Contention an a Data Sharing Environment.,1990.0,0
+1086084,2268,2176,inproceedings,"Eric P. Xing and
+Michael I. Jordan and
+Stuart J. Russell","A generalized mean field algorithm for variational inference in exponential
+families",2003,article,"Desmurget, Michel and Jordan, Michael and Prablanc, Claude and Jeannerod, Marc",Constrained and unconstrained movements involve different control strategies,1997.0,0
+979560,2114,2333,article,"Zhihua Zhang and
+Guang Dai and
+Congfu Xu and
+Michael I. Jordan","Regularized Discriminant Analysis, Ridge Regression and Beyond",2010,article,"Zhang, Zhihua and Dai, Guang and Xu, Congfu and Jordan, Michael I","Regularized discriminant analysis, ridge regression and beyond",2010.0,1
+801347,1649,1308,inproceedings,"Ildefonso Mart{\'{\i}}nez{-}Marchena and
+Llanos Mora L{\'{o}}pez and
+Pedro J. Sanchez and
+Mariano Sidrach de Cardona","Binding Machine Learning Models and {OPC} Technology for Evaluating
+Solar Energy Systems",2010,inproceedings,"Krizhevsky, Alex and Hinton, Geoffrey E and others",Factored 3-way restricted boltzmann machines for modeling natural images,2010.0,0
+801460,1649,2034,inproceedings,"Ildefonso Mart{\'{\i}}nez{-}Marchena and
+Llanos Mora L{\'{o}}pez and
+Pedro J. Sanchez and
+Mariano Sidrach de Cardona","Binding Machine Learning Models and {OPC} Technology for Evaluating
+Solar Energy Systems",2010,article,"Remick, SC and Yu, JJ and Fu, P and Pink, JJ and Dawson, D and Wasman, J and Orem, J and Mwanda, WO and Guo, Y and Liang, X and others",HPV genotype and EGFR activation in conjunctival carcinoma among HIV patients in East Africa,2010.0,0
+363133,620,1687,inproceedings,"Haixun Wang and
+Hao He and
+Jun Yang and
+Philip S. Yu and
+Jeffrey Xu Yu",Dual Labeling: Answering Graph Reachability Queries in Constant Time,2006,article,"Jin, Cheqing and Yi, Ke and Chen, Lei and Yu, Jeffrey Xu and Lin, Xuemin",Sliding-window top-k queries on uncertain streams,2008.0,0
+167750,221,2496,article,"Rong{-}Hua Li and
+Lu Qin and
+Jeffrey Xu Yu and
+Rui Mao",Influential Community Search in Large Networks,2015,inproceedings,"Long, Bo and Zhang, Zhongfei Mark and Yu, Philip S",A probabilistic framework for relational clustering,2007.0,0
+95905,155,1718,inproceedings,Ke Wang and Yuelong Jiang and Jeffrey Xu Yu and Guozhu Dong and Jiawei Han,Pushing Aggregate Constraints by Divide-and-Approximate,2003,inproceedings,"Wang, Ke and Jiang, Yuelong and Yu, Jeffrey Xu and Dong, Guozhu and Han, Jiawei",Pushing aggregate constraints by divide-and-approximate,2003.0,1
+1247984,2703,1910,inproceedings,"S{\'{e}}bastien Darfeuille and
+Christophe Kelma","Production test of an {RF} receiver chain based on {ATM} combining
+{RF} {BIST} and machine learning algorithm",2011,article,"YU, Jin and YANG, Guiwu",FEM Simulation for Milling Force of Aeronautical Thin-walled Workpiece [J],2011.0,0
+1027448,2181,2340,inproceedings,"Daniel Crankshaw and
+Peter Bailis and
+Joseph E. Gonzalez and
+Haoyuan Li and
+Zhao Zhang and
+Michael J. Franklin and
+Ali Ghodsi and
+Michael I. Jordan","The Missing Piece in Complex Analytics: Low Latency, Scalable Model
+Management and Serving with Velox",2015,article,"Jordan, Michael I and Rumelhart, DE",Internal world models and supervised learning,2014.0,0
+1011465,2160,2116,article,"Kobus Barnard and
+Pinar Duygulu and
+David A. Forsyth and
+Nando de Freitas and
+David M. Blei and
+Michael I. Jordan",Matching Words and Pictures,2003,article,"Barnard, Kobus and Duygulu, Pinar and Forsyth, David and De Freitas, Nando and Blei, David M and Jordan, Michael I",Matching words and pictures,2003.0,1
+32808,103,1918,inproceedings,"Zhenglu Yang and
+Jeffrey Xu Yu and Zheng Liu and Masaru Kitsuregawa",Fires on the Web: Towards Efficient Exploring Historical Web Graphs,2010,incollection,"Yang, Zhenglu and Yu, Jeffrey Xu and Liu, Zheng and Kitsuregawa, Masaru",Fires on the web: Towards efficient exploring historical web graphs,2010.0,1
+425448,671,2023,article,"Rong{-}Hua Li and
+Jeffrey Xu Yu and
+Xin Huang and
+Hong Cheng and
+Zechao Shang",Measuring the impact of {MVC} attack in large complex networks,2014,article,"Chen, QW and Zhang, XM and Zhou, JN and Zhou, X and Ma, GJ and Zhu, M and Zhang, YY and Yu, J and Feng, JF and Chen, SQ","Analysis of Small Fragment Deletions of the APC gene in Chinese Patients with Familial Adenomatous Polyposis, a Precancerous Condition.",2014.0,0
+918117,2020,2548,article,"John William Paisley and
+Chong Wang and
+David M. Blei and
+Michael I. Jordan",Nested Hierarchical Dirichlet Processes,2012,article,"Chi, Yun and Wang, Haixun and Philip, S Yu and Muntz, Richard R",Catch the moment: maintaining closed frequent itemsets over a data stream sliding window,2006.0,0
+296775,452,1800,inproceedings,"Gang Kou and
+Yi Peng and
+Yong Shi and
+Weixuan Xu",A Set of Data Mining Models to Classify Credit Cardholder Behavior,2003,article,"Chang, Li-Jun and Yu, Jeffrey Xu and Qin, Lu",Context-sensitive document ranking,2010.0,0
+1268700,2782,2132,article,"Paul A. Walker and
+D. M. Moore","{SIMPLE} An inductive modelling and mapping tool for spatially-oriented
+data",1988,article,"Blei, David M and Ng, Andrew Y and Jordan, Michael I",Latent dirichlet allocation,2003.0,0
+795637,1631,1688,article,"Jiuwen Cao and
+Zhiping Lin and
+Guang{-}Bin Huang",Composite function wavelet neural networks with extreme learning machine,2010,inproceedings,"Chen, Baichen and Liang, Weifa and Zhou, Rui and Yu, Jeffrey Xu",Energy-efficient top-k query processing in wireless sensor networks,2010.0,0
+2776,9,2836,article,"Leon Goldovsky and Paul Janssen and Dag G. Ahr{\'{e}}n and Benjamin Audit and Ildefonso Cases and Nikos Darzentas and Anton J. Enright and N{\'{u}}ria L{\'{o}}pez{-}Bigas and Jos{\'{e}} M. Peregr{\'{\i}}n{-}Alvarez and Mike Smith and Sophia Tsoka and Victor Kunin and
+Christos A. Ouzounis",CoGenT++: an extensive and extensible data environment for computational genomics,2005,article,"Dan, Asit and Yu, Philip S",Performance analysis of buffer coherency policies in a multisystem data sharing environment,1993.0,0
+1396772,3252,2333,article,"Zhihua Zhang and
+Guang Dai and
+Congfu Xu and
+Michael I. Jordan","Regularized Discriminant Analysis, Ridge Regression and Beyond",2010,article,"Zhang, Zhihua and Dai, Guang and Xu, Congfu and Jordan, Michael I","Regularized discriminant analysis, ridge regression and beyond",2010.0,1
+629814,1026,2800,article,Amarnath Gupta,Life Science Research and Data Management,2004,inproceedings,"Wu, Kun-Lung and Chen, Shyh-Kwei and Yu, Philip S",Processing continual range queries over moving objects using VCR-based query indexes,2004.0,0
+152030,206,1040,article,"Junhu Wang and
+Jeffrey Xu Yu and
+Chaoyi Pang and
+Chengfei Liu",Least common container of tree pattern queries and its applications,2012,article,"Nabeel, Mohamed and Zage, John and Kerr, Sam and Bertino, Elisa and Kulatunga, N Athula and Navaratne, U Sudheera and Duren, Michael",Cryptographic Key Management for Smart Power Grids-Approaches and Issues,2012.0,0
+248637,293,1633,article,"Kian{-}Lee Tan and
+Jeffrey Xu Yu",Generating Broadcast Programs that Support Range Queries,1998,article,"Tan, Kian-Lee and Yu, Jeffrey Xu",Generating broadcast programs that support range queries,1998.0,1
+63651,128,2514,inproceedings,"Yuanyuan Zhu and
+Lu Qin and Jeffrey Xu Yu and Hong Cheng",Finding top-k similar graphs in graph databases,2012,misc,"Yu, Philip Shi-lung",Method and apparatus for dynamic interval-based load balancing,2000.0,0
+1119630,2317,2185,inproceedings,"Neil D. Lawrence and
+Michael I. Jordan",Semi-supervised Learning via Gaussian Processes,2004,inproceedings,"Lawrence, Neil D and Jordan, Michael I",Semi-supervised learning via Gaussian processes,2004.0,1
+774390,1555,1664,incollection,,Entailment,2010,inproceedings,"Zhou, Yang and Cheng, Hong and Yu, Jeffrey Xu",Clustering large attributed graphs: An efficient incremental approach,2010.0,0
+739992,1440,2054,inproceedings,"Yu Cheng and
+Chengjie Qin and
+Florin Rusu",{GLADE:} big data analytics made easy,2012,inproceedings,"Yu, Jin and Shi, Yu Xiang and Yang, Gui Wu",Finite Element Analysis and Experimental of Milling Force for Aeronautical Thin-Walled Workpiece,2011.0,0
+157718,213,1876,article,"Shaoxu Song and
+Lei Chen and
+Jeffrey Xu Yu",Answering Frequent Probabilistic Inference Queries in Databases,2011,article,"Cheng, James and Shang, Zechao and Cheng, Hong and Wang, Haixun and Yu, Jeffrey Xu",Efficient processing of k-hop reachability queries,2014.0,0
+523286,754,1956,article,"Rui Zhou and
+Chengfei Liu and
+Jeffrey Xu Yu and
+Weifa Liang and
+Yanchun Zhang",Efficient Truss Maintenance in Evolving Networks,2014,article,"Zhou, Rui and Liu, Chengfei and Yu, Jeffrey Xu and Liang, Weifa and Zhang, Yanchun",Efficient Truss Maintenance in Evolving Networks,2014.0,1
+754629,1477,220,inproceedings,"Frank K. H. A. Dehne and
+Todd Eavis and
+Andrew Rau{-}Chaplin","Coarse Grained Parallel On-Line Analytical Processing {(OLAP)} for
+Data Mining",2001,article,"Zheng, Jianping and Vilnis, Luke and Singh, Sameer and Choi, Jinho D and McCallum, Andrew",Dynamic knowledge-base alignment for coreference resolution,2013.0,0
+433746,678,1479,inproceedings,"Rong{-}Hua Li and
+Jeffrey Xu Yu and
+Rui Mao and
+Tan Jin","Efficient and accurate query evaluation on uncertain graphs via recursive
+stratified sampling",2014,article,"Rumelhart, DE and Hinton, GE and Williams, RJ",time (min.),2014.0,0
+82634,144,1694,inproceedings,"Junhu Wang and
+Jeffrey Xu Yu and Chengfei Liu",Contained Rewritings of XPath Queries Using Views Revisited,2008,inproceedings,"Zou, Lei and Chen, Lei and Yu, Jeffrey Xu and Lu, Yansheng",A novel spectral coding in a large graph database,2008.0,0
+267559,339,1717,incollection,"Alexander A. Frolov and
+Dusan H{\'{u}}sek and
+Igor P. Muraviev and
+Pavel Yu. Polyakov","Learning and Unlearning in Hopfield-Like Neural Network Performing
+Boolean Factor Analysis",2010,inproceedings,"Lian, Xiang and Chen, Lei and Yu, Jeffrey Xu",Pattern matching over cloaked time series,2008.0,0
+1289499,2861,2118,inproceedings,"Wesley Rom{\~{a}}o and
+Alex Alves Freitas and
+Roberto C. S. Pacheco","A Genetic Algorithm For Discovering Interesting Fuzzy Prediction Rules:
+Applications To Science And Technology Data",2002,article,"Jaakkola, Tommi S and Jordan, Michael I",Bayesian parameter estimation via variational methods,2000.0,0
+245265,290,1821,inproceedings,"Wook{-}Shin Han and
+Minh{-}Duc Pham and
+Jinsoo Lee and
+Romans Kasperovics and
+Jeffrey Xu Yu","iGraph in action: performance analysis of disk-based graph indexing
+techniques",2011,inproceedings,"Han, Wook-Shin and Pham, Minh-Duc and Lee, Jinsoo and Kasperovics, Romans and Yu, Jeffrey Xu",iGraph in action: performance analysis of disk-based graph indexing techniques,2011.0,1
+1282697,2825,2933,article,"John S. Delaney and
+Anne Mullaley and
+Graham W. Mullier and
+Graham J. Sexton and
+Robin Taylor and
+Russell C. Viner","Rapid construction of data tables for quantitative structure-activity
+relationship studies",1993,inproceedings,"Arpaci-Dusseau, Andrea C and Arpaci-Dusseau, Remzi H and Culler, David E and Hellerstein, Joseph M and Patterson, David A",Searching for the sorting record: Experiences in tuning NOW-Sort,1998.0,0
+1170881,2445,1391,incollection,Geoffrey E. Hinton,Deep Belief Nets,2010,incollection,"Hinton, Geoffrey",Deep belief nets,2010.0,1
+1100666,2291,153,article,"XuanLong Nguyen and
+Michael I. Jordan and
+Bruno Sinopoli",A kernel-based learning approach to ad hoc sensor network localization,2005,inproceedings,"Culotta, Aron and McCallum, Andrew",Joint deduplication of multiple record types in relational data,2005.0,0
+89269,149,2551,inproceedings,Junhu Wang and Jiang Li and Jeffrey Xu Yu,Answering tree pattern queries using views: a revisit,2011,article,"Leff, Avraham and Wolf, Joel L and Yu, Philip S",Replication algorithms in a remote caching architecture,1993.0,0
+674609,1195,246,incollection,,Cross-Language Document Categorization,2010,inproceedings,"Druck, Gregory and McCallum, Andrew",High-performance semi-supervised learning using discriminatively constrained generative models,2010.0,0

@@ -1,0 +1,25 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,Right Handed Bat,True,1867.0
+accuracy_parity,Right Handed Bat,True,1867.0
+accuracy_parity,Left Handed Bat,True,410.0
+accuracy_parity,Left Handed Bat,True,410.0
+statistical_parity,Right Handed Bat,True,1867.0
+statistical_parity,Right Handed Bat,True,1867.0
+statistical_parity,Left Handed Bat,True,410.0
+statistical_parity,Left Handed Bat,True,410.0
+true_positive_rate_parity,Right Handed Bat,True,1867.0
+true_positive_rate_parity,Right Handed Bat,True,1867.0
+true_positive_rate_parity,Left Handed Bat,True,410.0
+true_positive_rate_parity,Left Handed Bat,True,410.0
+false_positive_rate_parity,Right Handed Bat,True,1867.0
+false_positive_rate_parity,Right Handed Bat,True,1867.0
+false_positive_rate_parity,Left Handed Bat,True,410.0
+false_positive_rate_parity,Left Handed Bat,True,410.0
+negative_predictive_value_parity,Right Handed Bat,True,1867.0
+negative_predictive_value_parity,Right Handed Bat,True,1867.0
+negative_predictive_value_parity,Left Handed Bat,True,410.0
+negative_predictive_value_parity,Left Handed Bat,True,410.0
+positive_predictive_value_parity,Right Handed Bat,True,1867.0
+positive_predictive_value_parity,Right Handed Bat,True,1867.0
+positive_predictive_value_parity,Left Handed Bat,True,410.0
+positive_predictive_value_parity,Left Handed Bat,True,410.0

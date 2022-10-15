@@ -1,0 +1,91 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,puma,True,1776.0
+accuracy_parity,nike,True,6118.0
+accuracy_parity,asics,True,1488.0
+accuracy_parity,concave,True,882.0
+accuracy_parity,keen,True,431.0
+accuracy_parity,patagonia,True,40.0
+accuracy_parity,under armour,True,79.0
+accuracy_parity,jordan,True,967.0
+accuracy_parity,other,True,598.0
+accuracy_parity,hogan,True,30.0
+accuracy_parity,adidas,True,54.0
+accuracy_parity,joma,True,82.0
+accuracy_parity,ariat,True,22.0
+accuracy_parity,diadora,True,56.0
+accuracy_parity,new balance,True,24.0
+statistical_parity,puma,True,1776.0
+statistical_parity,nike,True,6118.0
+statistical_parity,asics,True,1488.0
+statistical_parity,concave,True,882.0
+statistical_parity,keen,True,431.0
+statistical_parity,patagonia,True,40.0
+statistical_parity,under armour,True,79.0
+statistical_parity,jordan,True,967.0
+statistical_parity,other,True,598.0
+statistical_parity,hogan,True,30.0
+statistical_parity,adidas,True,54.0
+statistical_parity,joma,True,82.0
+statistical_parity,ariat,True,22.0
+statistical_parity,diadora,True,56.0
+statistical_parity,new balance,True,24.0
+true_positive_rate_parity,puma,True,1776.0
+true_positive_rate_parity,nike,True,6118.0
+true_positive_rate_parity,asics,True,1488.0
+true_positive_rate_parity,concave,True,882.0
+true_positive_rate_parity,keen,True,431.0
+true_positive_rate_parity,patagonia,True,40.0
+true_positive_rate_parity,under armour,True,79.0
+true_positive_rate_parity,jordan,True,967.0
+true_positive_rate_parity,other,True,598.0
+true_positive_rate_parity,hogan,False,30.0
+true_positive_rate_parity,adidas,True,54.0
+true_positive_rate_parity,joma,True,82.0
+true_positive_rate_parity,ariat,False,22.0
+true_positive_rate_parity,diadora,True,56.0
+true_positive_rate_parity,new balance,False,24.0
+false_positive_rate_parity,puma,True,1776.0
+false_positive_rate_parity,nike,True,6118.0
+false_positive_rate_parity,asics,True,1488.0
+false_positive_rate_parity,concave,True,882.0
+false_positive_rate_parity,keen,True,431.0
+false_positive_rate_parity,patagonia,True,40.0
+false_positive_rate_parity,under armour,True,79.0
+false_positive_rate_parity,jordan,True,967.0
+false_positive_rate_parity,other,True,598.0
+false_positive_rate_parity,hogan,True,30.0
+false_positive_rate_parity,adidas,True,54.0
+false_positive_rate_parity,joma,True,82.0
+false_positive_rate_parity,ariat,True,22.0
+false_positive_rate_parity,diadora,True,56.0
+false_positive_rate_parity,new balance,True,24.0
+negative_predictive_value_parity,puma,True,1776.0
+negative_predictive_value_parity,nike,True,6118.0
+negative_predictive_value_parity,asics,True,1488.0
+negative_predictive_value_parity,concave,True,882.0
+negative_predictive_value_parity,keen,True,431.0
+negative_predictive_value_parity,patagonia,True,40.0
+negative_predictive_value_parity,under armour,True,79.0
+negative_predictive_value_parity,jordan,True,967.0
+negative_predictive_value_parity,other,True,598.0
+negative_predictive_value_parity,hogan,True,30.0
+negative_predictive_value_parity,adidas,True,54.0
+negative_predictive_value_parity,joma,True,82.0
+negative_predictive_value_parity,ariat,True,22.0
+negative_predictive_value_parity,diadora,True,56.0
+negative_predictive_value_parity,new balance,True,24.0
+positive_predictive_value_parity,puma,True,1776.0
+positive_predictive_value_parity,nike,True,6118.0
+positive_predictive_value_parity,asics,True,1488.0
+positive_predictive_value_parity,concave,True,882.0
+positive_predictive_value_parity,keen,True,431.0
+positive_predictive_value_parity,patagonia,True,40.0
+positive_predictive_value_parity,under armour,True,79.0
+positive_predictive_value_parity,jordan,True,967.0
+positive_predictive_value_parity,other,True,598.0
+positive_predictive_value_parity,hogan,True,30.0
+positive_predictive_value_parity,adidas,True,54.0
+positive_predictive_value_parity,joma,True,82.0
+positive_predictive_value_parity,ariat,True,22.0
+positive_predictive_value_parity,diadora,True,56.0
+positive_predictive_value_parity,new balance,True,24.0

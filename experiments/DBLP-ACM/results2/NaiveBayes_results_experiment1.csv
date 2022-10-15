@@ -1,0 +1,31 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,SIGMOD,True,3668.0
+accuracy_parity,VLDB,True,3202.0
+accuracy_parity,ACM TODS,True,794.0
+accuracy_parity,SIGMOD Rec.,True,2365.0
+accuracy_parity,VLDBJ,True,1285.0
+statistical_parity,SIGMOD,True,3668.0
+statistical_parity,VLDB,True,3202.0
+statistical_parity,ACM TODS,True,794.0
+statistical_parity,SIGMOD Rec.,True,2365.0
+statistical_parity,VLDBJ,True,1285.0
+true_positive_rate_parity,SIGMOD,True,3668.0
+true_positive_rate_parity,VLDB,True,3202.0
+true_positive_rate_parity,ACM TODS,True,794.0
+true_positive_rate_parity,SIGMOD Rec.,True,2365.0
+true_positive_rate_parity,VLDBJ,True,1285.0
+false_positive_rate_parity,SIGMOD,True,3668.0
+false_positive_rate_parity,VLDB,True,3202.0
+false_positive_rate_parity,ACM TODS,True,794.0
+false_positive_rate_parity,SIGMOD Rec.,True,2365.0
+false_positive_rate_parity,VLDBJ,True,1285.0
+negative_predictive_value_parity,SIGMOD,True,3668.0
+negative_predictive_value_parity,VLDB,True,3202.0
+negative_predictive_value_parity,ACM TODS,True,794.0
+negative_predictive_value_parity,SIGMOD Rec.,True,2365.0
+negative_predictive_value_parity,VLDBJ,True,1285.0
+positive_predictive_value_parity,SIGMOD,True,3668.0
+positive_predictive_value_parity,VLDB,True,3202.0
+positive_predictive_value_parity,ACM TODS,True,794.0
+positive_predictive_value_parity,SIGMOD Rec.,True,2365.0
+positive_predictive_value_parity,VLDBJ,True,1285.0

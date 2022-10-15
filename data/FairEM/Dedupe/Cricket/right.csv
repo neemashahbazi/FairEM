@@ -1,0 +1,1014 @@
+id,_id,full_name,bat_odis_100,bat_odis_50,bat_odis_hs,bat_odis_mat,bat_odis_runs,bat_t20is_100,bat_t20is_50,bat_t20is_hs,bat_t20is_mat,bat_t20is_runs,bat_tests_100,bat_tests_50,bat_tests_hs,bat_tests_mat,bat_tests_runs,batting_style,born,bowling_style,playing_role
+625,12504,Harry Elliott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,4.0,61.0,Right-hand bat,"November 2, 1891, Scarcliffe, Derbyshire",0,
+159,5611,Neil James Napier Hawke,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,27.0,365.0,Right-hand bat,"June 27, 1939, Cheltenham, Adelaide, South Australia",Right-arm medium-fast,
+2256,43938,William Hare Ashley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,Right-hand bat,"February 10, 1862, Mowbray, Cape Colony",Left-arm medium,
+1976,38966,Aamer Nazir,0.0,0.0,9.0,9.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,6.0,31.0,Right-hand bat,"January 2, 1971, Lahore, Punjab",Right-arm fast-medium,
+2578,47693,Johannes Jacobus van der Wath,0.0,0.0,37.0,10.0,89.0,0.0,0.0,21.0,8.0,46.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 10, 1978, Newcastle, Natal",Right-arm medium-fast,Allrounder
+5441,919549,Tanveer Ahmed,0.0,0.0,2.0,6.0,4.0,0.0,0.0,7.0,5.0,7.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 18, 1997, Pakistan",Right-arm medium-fast,Bowler
+1776,37103,Evan John Gray,0.0,0.0,38.0,10.0,98.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,50.0,10.0,248.0,Right-hand bat,"November 18, 1954, Wellington",Slow left-arm orthodox,
+2534,47206,Frederick William Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,3.0,45.0,Right-hand bat,"March 31, 1861, Uitenhage, Cape Province",0,
+1874,38111,Michael Hugh William Papps,0.0,2.0,92.0,6.0,207.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,86.0,8.0,246.0,Right-hand bat,"July 2, 1979, Christchurch, Canterbury",0,Opening batsman
+5071,481896,Mohammed Shami Ahmed,0.0,0.0,25.0,63.0,131.0,0.0,0.0,0.0,7.0,0.0,0.0,1.0,51.0,40.0,433.0,Right-hand bat,"September 3, 1990, Amroha, Uttar Pradesh",Right-arm fast-medium,Bowler
+4503,279531,Oronde Omari Bascome,0.0,0.0,20.0,6.0,65.0,0.0,0.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 8, 1988, Bermuda",Right-arm medium,Batsman
+942,19374,Steven John Rhodes,0.0,1.0,56.0,9.0,107.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,65.0,11.0,294.0,Right-hand bat,"June 17, 1964, Dirk Hill, Bradford, Yorkshire",0,
+1360,25872,Charles Anthony Reid,0.0,0.0,6.0,2.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 9, 1962, Barbados, West Indies",Right-arm medium,
+2508,46980,Alfred Renfrew Richards,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,6.0,Right-hand bat,"December 14, 1867, Grahamstown, Cape Colony",0,
+5046,470699,Benjamin Nicolas Cooper,0.0,1.0,74.0,6.0,116.0,0.0,3.0,66.0,32.0,525.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 10, 1992, Lismore, New South Wales",Right-arm medium,Middle-order batsman
+5386,788879,Nauman Anwar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,1.0,18.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 12, 1995, Gujranwala, Punjab",Right-arm medium-fast,Opening batsman
+4505,280490,Jon-Jon Trevor Smuts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,8.0,126.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 21, 1988, Grahamstown, Cape Province",Slow left-arm orthodox,Batting allrounder
+129,5382,George Giffen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,161.0,31.0,1238.0,Right-hand bat,"March 27, 1859, Norwood, Adelaide, South Australia",Right-arm medium,
+4111,55641,Forster Mutizwa,0.0,4.0,79.0,17.0,403.0,0.0,0.0,22.0,3.0,38.0,0.0,0.0,18.0,1.0,24.0,Right-hand bat,"August 24, 1985, Harare",Right-arm offbreak,Wicketkeeper batsman
+4978,437316,Madagamagamage Dasun Shanaka,0.0,2.0,66.0,19.0,327.0,0.0,1.0,54.0,27.0,336.0,0.0,0.0,17.0,3.0,29.0,Right-hand bat,"September 9, 1991, Negombo",Right-arm medium,Allrounder
+4525,293031,Elijah Otieno Asoyo,0.0,0.0,11.0,26.0,49.0,0.0,0.0,8.0,10.0,22.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 3, 1988, Nairobi, Kenya",Right-arm medium-fast,Bowler
+417,8076,Shaun William Tait,0.0,0.0,11.0,35.0,25.0,0.0,0.0,6.0,21.0,11.0,0.0,0.0,8.0,3.0,20.0,Right-hand bat,"February 22, 1983, Bedford Park, Adelaide, South Australia",Right-arm fast,Bowler
+192,5779,Ryan James Harris,0.0,0.0,21.0,21.0,48.0,0.0,0.0,2.0,3.0,2.0,0.0,3.0,74.0,27.0,603.0,Right-hand bat,"October 11, 1979, Sydney, New South Wales",Right-arm fast,Bowler
+2293,44421,Thomas Campbell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.0,5.0,90.0,Right-hand bat,"February 9, 1882, Edinburgh, Midlothian, Scotland",0,
+557,10668,Donald Bryce Carr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,76.0,2.0,135.0,Right-hand bat,"December 28, 1926, Wiesbaden, Germany",Slow left-arm orthodox,
+5326,670013,Fabian Anthony Allen,0.0,0.0,10.0,4.0,25.0,0.0,0.0,27.0,9.0,51.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 7, 1995, Kingston, Jamaica",Slow left-arm orthodox,Bowler
+2079,41036,Kashif Raza,0.0,0.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 26, 1979, Sheikhupura, Punjab",Right-arm medium,
+2165,42605,Saeed Anwar,20.0,43.0,194.0,247.0,8824.0,0.0,0.0,0.0,0.0,0.0,11.0,25.0,188.0,55.0,4052.0,Left-hand bat,"September 6, 1968, Karachi, Sind",Slow left-arm orthodox,
+713,14152,Edward Ernest Hemmings,0.0,0.0,8.0,33.0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,95.0,16.0,383.0,Right-hand bat,"February 20, 1949, Leamington Spa, Warwickshire",Right-arm offbreak,
+1124,22518,Frank Edward Woolley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,23.0,154.0,64.0,3283.0,Left-hand bat,"May 27, 1887, Tonbridge, Kent","Left-arm medium, Slow left-arm orthodox",
+5554,1122557,Damien Apa Ravu,0.0,0.0,5.0,4.0,6.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 3, 1994, Lae (Morobe)",Right-arm medium-fast,Bowler
+2645,48821,Kandana Arachchige Dinusha Manoj Fernando,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,51.0,2.0,56.0,Right-hand bat,"August 10, 1979, Panadura",Right-arm fast-medium,
+840,16921,John William Martin,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,1.0,26.0,Right-hand bat,"February 16, 1917, Catford, London",Right-arm fast,
+1953,38742,William Watson,0.0,0.0,21.0,61.0,86.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,15.0,60.0,Right-hand bat,"August 31, 1965, Auckland",Right-arm fast-medium,
+227,6161,Michael Klinger,0.0,0.0,0.0,0.0,0.0,0.0,1.0,62.0,3.0,143.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 4, 1980, Kew, Melbourne, Victoria",0,Batsman
+455,8468,Timothy Joseph Zoehrer,0.0,1.0,50.0,22.0,130.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,10.0,246.0,Right-hand bat,"September 25, 1961, Armadale, Perth, Western Australia",Legbreak googly,
+2177,42632,Shabbir Ahmed Khan,0.0,0.0,2.0,32.0,10.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,24.0,10.0,88.0,Right-hand bat,"April 21, 1976, Khanewal, Punjab",Right-arm fast-medium,
+4092,55551,Friday Kasteni,0.0,0.0,9.0,3.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"March 25, 1988, Kadoma",Left-arm slow,Batsman
+4620,310958,Abhimanyu Mithun,0.0,0.0,24.0,5.0,51.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0,4.0,120.0,Right-hand bat,"October 25, 1989, Bangalore",Right-arm medium,Bowler
+629,12518,Thomas Emmett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.0,7.0,160.0,Left-hand bat,"September 3, 1841, Halifax, Yorkshire",Left-arm fast (roundarm),
+2744,50742,Anura Punchi Banda Tennekoon,0.0,1.0,59.0,4.0,137.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 29, 1946, Anuradhapura",Slow left-arm orthodox,
+5309,642519,Shreyas Santosh Iyer,0.0,2.0,88.0,6.0,210.0,0.0,0.0,30.0,6.0,83.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 6, 1994, Mumbai",Legbreak googly,Top-order batsman
+833,16885,Devon Eugene Malcolm,0.0,0.0,4.0,10.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,40.0,236.0,Right-hand bat,"February 22, 1963, Kingston, Jamaica",Right-arm fast,
+2565,47558,Lindsay Richard Tuckett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"April 19, 1885, Durban, Natal",Right-arm fast-medium,
+350,7314,Ian Ritchie Redpath,0.0,0.0,24.0,5.0,46.0,0.0,0.0,0.0,0.0,0.0,8.0,31.0,171.0,66.0,4737.0,Right-hand bat,"May 11, 1941, Geelong, Victoria",Right-arm medium,
+5321,653033,Palihawadana Arachchilage Ralph Priyamal Perera,0.0,0.0,33.0,2.0,33.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 2, 1995, Ragama",Right-arm offbreak,Middle-order batsman
+2902,52045,Roger Andrew Harper,0.0,0.0,45.0,105.0,855.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,74.0,25.0,535.0,Right-hand bat,"March 17, 1963, Georgetown, Demerara, British Guiana",Right-arm offbreak,
+2960,52432,Clifford Aubrey McWatt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,54.0,6.0,202.0,Left-hand bat,"February 1, 1922, Georgetown, Demerara, British Guiana",Right-arm bowler,
+2268,44078,George Finlay-Bissett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,4.0,38.0,Right-hand bat,"November 5, 1905, Kimberley, Cape Province",Right-arm fast,
+235,6274,Stuart Grant Law,1.0,7.0,110.0,54.0,1237.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,54.0,1.0,54.0,Right-hand bat,"October 18, 1968, Herston, Brisbane, Queensland","Right-arm medium, Legbreak googly",Top-order batsman
+2624,48447,Ashantha Lakdasa Francis de Mel,0.0,0.0,36.0,57.0,466.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,17.0,326.0,Right-hand bat,"May 9, 1959, Colombo",Right-arm medium-fast,
+691,13992,Schofield Haigh,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,11.0,113.0,Right-hand bat,"March 19, 1871, Berry Brow, Huddersfield, Yorkshire",Right-arm fast-medium,
+4176,55954,Khaled Mashud,0.0,7.0,71.0,126.0,1818.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,103.0,44.0,1409.0,Right-hand bat,"February 8, 1976, Rajshahi",0,Wicketkeeper batsman
+2727,50247,Sanjeeva Ranatunga,0.0,2.0,70.0,13.0,253.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,118.0,9.0,531.0,Left-hand bat,"April 25, 1969, Colombo",Right-arm offbreak,
+5444,922943,Shadab Khan,0.0,3.0,54.0,34.0,294.0,0.0,0.0,29.0,32.0,115.0,0.0,3.0,56.0,5.0,240.0,Right-hand bat,"October 4, 1998, Mianwali",Legbreak,Allrounder
+4115,55666,John Nyumbu,0.0,0.0,18.0,19.0,46.0,0.0,0.0,6.0,2.0,7.0,0.0,0.0,14.0,3.0,38.0,Right-hand bat,"May 31, 1985, Bulawayo",Right-arm offbreak,Bowler
+4174,55946,Mohammad Junaid Siddique,1.0,6.0,100.0,54.0,1196.0,0.0,1.0,71.0,7.0,159.0,1.0,7.0,106.0,19.0,969.0,Left-hand bat,"October 30, 1987, Rajshahi",Right-arm offbreak,Top-order batsman
+3030,52941,O'Neil Gordon Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,6.0,168.0,26.0,1331.0,Right-hand bat,"May 5, 1933, Boys Town, Kingston, Jamaica",Right-arm offbreak,
+4194,56029,Mohammad Mushfiqur Rahim,6.0,32.0,144.0,201.0,5392.0,0.0,4.0,72.0,77.0,1138.0,6.0,19.0,219.0,66.0,4006.0,Right-hand bat,"June 9, 1987, Bogra",0,Wicketkeeper batsman
+2287,44147,Isaac Daniel Buys,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,4.0,Right-hand bat,"February 4, 1895, Somerset East, Cape Colony",Left-arm fast-medium,
+2259,44026,Aron Bacher,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,73.0,12.0,679.0,Right-hand bat,"May 24, 1942, Johannesburg, Transvaal",Legbreak,
+197,5975,Robert John Inverarity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,56.0,6.0,174.0,Right-hand bat,"January 31, 1944, Subiaco, Perth, Western Australia",Slow left-arm orthodox,
+616,11963,Frederick John Durston,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,8.0,Right-hand bat,"July 11, 1893, Clophill, Bedfordshire",0,
+5288,629063,Mehidy Hasan Miraz,0.0,1.0,51.0,25.0,291.0,0.0,0.0,19.0,13.0,94.0,0.0,2.0,68.0,19.0,554.0,Right-hand bat,"October 25, 1997, Khulna",Right-arm offbreak,Allrounder
+2711,49854,Anhettige Suresh Asanka Perera,0.0,1.0,56.0,20.0,195.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,3.0,77.0,Right-hand bat,"February 16, 1978, Colombo",Right-arm fast-medium,
+622,12486,Philippe-Henri Edmonds,0.0,0.0,20.0,29.0,116.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,64.0,51.0,875.0,Right-hand bat,"March 8, 1951, Lusaka, Northern Rhodesia",Slow left-arm orthodox,
+943,19376,Wilfred Rhodes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,11.0,179.0,58.0,2325.0,Right-hand bat,"October 29, 1877, North Moor, Kirkheaton, Yorkshire",Slow left-arm orthodox,
+1958,38747,Gordon Lindsay Weir,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,74.0,11.0,416.0,Right-hand bat,"June 2, 1908, Auckland",Right-arm medium,
+1843,37718,Barry Douglas Milburn,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,3.0,8.0,Right-hand bat,"November 24, 1943, Maori Hill, Dunedin, Otago",0,
+4648,317273,Umar Akmal,2.0,20.0,102.0,121.0,3194.0,0.0,8.0,94.0,82.0,1690.0,1.0,6.0,129.0,16.0,1003.0,Right-hand bat,"May 26, 1990, Lahore, Punjab",0,Middle-order batsman
+5206,550215,Kagiso Rabada,0.0,0.0,26.0,66.0,201.0,0.0,0.0,5.0,19.0,5.0,0.0,0.0,34.0,37.0,507.0,Left-hand bat,"May 25, 1995, Johannesburg",Right-arm fast,Bowler
+1266,24891,Jacob-Jan Esmeijer,0.0,0.0,7.0,6.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 28, 1972, Rotterdam",Slow left-arm orthodox,
+1932,38611,Keith Thomson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,69.0,2.0,94.0,Right-hand bat,"February 26, 1941, Methven, Canterbury",Right-arm bowler,
+2874,51865,Shawn Eli Findlay,0.0,1.0,59.0,9.0,146.0,0.0,0.0,19.0,2.0,32.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"March 3, 1984, Mandeville, Jamaica",Right-arm medium,Batsman
+4516,290632,Sreenath Aravind,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"April 8, 1984, Bangalore, Karnataka",Left-arm medium-fast,Bowler
+5101,495964,Ryan Ponsonby Burl,0.0,0.0,30.0,13.0,139.0,0.0,0.0,30.0,4.0,57.0,0.0,0.0,16.0,1.0,16.0,Left-hand bat,"April 15, 1994, Marondera",Legbreak,Middle-order batsman
+4687,327832,Mangaliso Mosehle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,7.0,105.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 24, 1990, Duduza",0,Wicketkeeper batsman
+5027,459257,Tymal Solomon Mills,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 12, 1992, Dewsbury, Yorkshire",Left-arm fast,Bowler
+694,14020,Gavin Mark Hamilton,2.0,7.0,119.0,38.0,1231.0,0.0,0.0,32.0,12.0,90.0,0.0,0.0,0.0,1.0,0.0,Left-hand bat,"September 16, 1974, Broxburn, West Lothian, Scotland",Right-arm medium-fast,
+2647,48844,Thudellage Charitha Buddhika Fernando,0.0,0.0,14.0,17.0,29.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,9.0,132.0,Right-hand bat,"August 22, 1980, Panadura",Right-arm fast-medium,Allrounder
+231,6258,Gilbert Roche Andrews Langley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,53.0,26.0,374.0,Right-hand bat,"September 14, 1919, North Adelaide, South Australia",0,
+2113,41304,Moin-ul-Atiq,1.0,0.0,105.0,5.0,199.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 5, 1964, Karachi, Sind",Legbreak,
+4602,307653,Shabir Ahmed Noori,0.0,1.0,94.0,10.0,191.0,0.0,0.0,15.0,1.0,15.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 22, 1992, Afghanistan",Right-arm offbreak,Middle-order batsman
+4391,245288,Marthinus Jacobus Fourie,0.0,0.0,19.0,7.0,42.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 23, 1979, Cape Town, Cape Province, South Africa",Right-arm medium-fast,Bowler
+2967,52442,Junior Randalph Murray,0.0,5.0,86.0,55.0,678.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,101.0,33.0,918.0,Right-hand bat,"January 20, 1968, St Georges, Grenada",0,
+586,10862,Kenneth Cranston,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,8.0,209.0,Right-hand bat,"October 20, 1917, Aigburth, Liverpool, Lancashire",Right-arm medium,
+2344,44954,Clive Edward Eksteen,0.0,0.0,6.0,6.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,7.0,91.0,Right-hand bat,"December 2, 1966, Johannesburg, Transvaal",Slow left-arm orthodox,
+2088,41246,Liaqat Ali Khan,0.0,0.0,7.0,3.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,5.0,28.0,Right-hand bat,"May 21, 1955, Karachi, Sind",Left-arm medium-fast,
+3021,52929,John Neil Shepherd,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,5.0,77.0,Right-hand bat,"November 9, 1943, Belleplaine, St Andrew, Barbados",Right-arm medium,
+2726,50246,Nishantha Ranatunga,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 22, 1966, Gampaha",Right-arm medium-fast,
+2653,49003,Roshan Punyajith Wijesinghe Guneratne,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"January 26, 1962, Colombo",Legbreak,
+464,8520,Mark Wayne Alleyne,0.0,1.0,53.0,10.0,151.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 23, 1968, Tottenham, Middlesex",Right-arm medium,
+215,6060,Philip Anthony Jaques,0.0,1.0,94.0,6.0,125.0,0.0,0.0,0.0,0.0,0.0,3.0,6.0,150.0,11.0,902.0,Left-hand bat,"May 3, 1979, Wollongong, New South Wales",Left-arm medium,Opening batsman
+2312,44481,Robert James Crisp,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,9.0,123.0,Right-hand bat,"May 28, 1911, Calcutta (now Kolkata), Bengal, India",Right-arm fast,
+3063,53223,Anthony Wilbur White,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,57.0,2.0,71.0,Right-hand bat,"November 20, 1938, Brighton, St Michael, Barbados","Right-arm medium, Right-arm offbreak",Allrounder
+1692,36194,Brent John Arnel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,6.0,45.0,Right-hand bat,"January 3, 1979, Te Awamutu, Waikato",Right-arm medium-fast,Bowler
+1652,35263,Virender Sehwag,15.0,38.0,219.0,251.0,8273.0,0.0,2.0,68.0,19.0,394.0,23.0,32.0,319.0,104.0,8586.0,Right-hand bat,"October 20, 1978, Delhi",Right-arm offbreak,Top-order batsman
+1864,38009,Christopher John Nevin,0.0,4.0,74.0,37.0,732.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 3, 1975, Dunedin, Otago",0,
+1238,24708,Maurice Omondi Odumbe,0.0,11.0,83.0,61.0,1409.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 15, 1969, Nairobi",Right-arm offbreak,
+1424,28067,Pankaj Dharmani,0.0,0.0,8.0,1.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 27, 1974, Delhi",0,
+4699,332978,John Boge Reva,0.0,0.0,36.0,9.0,62.0,0.0,0.0,7.0,9.0,16.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 23, 1990, Port Moresby",Right-arm medium,Bowler
+1087,22288,John Henry Wardle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,66.0,28.0,653.0,Left-hand bat,"January 8, 1923, Ardsley, Yorkshire","Slow left-arm orthodox, Slow left-arm chinaman",
+2170,42616,Saleem Altaf Bokhari,0.0,0.0,21.0,6.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,53.0,21.0,276.0,Right-hand bat,"April 19, 1944, Lahore, Punjab",Right-arm fast-medium,
+1682,36084,Yuvraj Singh,14.0,52.0,150.0,304.0,8701.0,0.0,8.0,77.0,58.0,1177.0,3.0,11.0,169.0,40.0,1900.0,Left-hand bat,"December 12, 1981, Chandigarh",Slow left-arm orthodox,Middle-order batsman
+1627,34057,Rudra Pratap Singh,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 6, 1965, Lucknow, Uttar Pradesh",Left-arm fast-medium,
+2134,42047,Mohammad Nadeem Khan,0.0,0.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,2.0,34.0,Right-hand bat,"December 10, 1969, Rawalpindi, Punjab",Slow left-arm orthodox,
+5506,974719,Muhammad Usman,0.0,2.0,80.0,24.0,542.0,0.0,1.0,58.0,22.0,414.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 13, 1985, Lahore",0,Middle-order batsman
+3075,53241,Everton de Courcy Weekes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,19.0,207.0,48.0,4455.0,Right-hand bat,"February 26, 1925, Pickwick Gap, Westbury, St Michael, Barbados",Legbreak,
+967,20102,John Selby,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,70.0,6.0,256.0,Right-hand bat,"July 1, 1849, Nottingham",Right-arm medium,
+2679,49359,Sanath Mohan Silva Kaluperuma,0.0,0.0,7.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,4.0,88.0,Right-hand bat,"October 22, 1961, Colombo",Right-arm offbreak,
+513,9121,Richard John Blakey,0.0,0.0,25.0,3.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,7.0,Right-hand bat,"January 15, 1967, Huddersfield, Yorkshire",0,
+1998,39007,Ashfaq Ahmed,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,Right-hand bat,"June 6, 1973, Lahore, Punjab",Right-arm fast-medium,
+2206,43121,Shaiman Anwar Butt,1.0,10.0,106.0,37.0,1118.0,1.0,6.0,117.0,32.0,971.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 15, 1979, Sialkot, Punjab",Legbreak googly,Top-order batsman
+2524,47173,Arthur William Seccull,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,1.0,23.0,Right-hand bat,"September 14, 1868, King William's Town, Cape Colony",Right-arm medium,
+2627,48453,Deva Lokesh Stanley de Silva,0.0,0.0,10.0,2.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 17, 1956, Ambalangoda",Right-arm fast-medium,
+1806,37257,Llorne Gregory Howell,0.0,4.0,68.0,12.0,287.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 8, 1972, Napier, Hawke's Bay",Right-arm medium,
+2939,52291,Frank McDonald King,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,14.0,116.0,Right-hand bat,"December 14, 1926, Delamere Land, Brighton, St Michael, Barbados",Right-arm fast,
+4512,288305,Shafiul Islam,0.0,0.0,24.0,56.0,126.0,0.0,0.0,16.0,12.0,19.0,0.0,1.0,53.0,11.0,211.0,Right-hand bat,"October 6, 1989, Bogra",Right-arm fast-medium,Bowler
+283,6555,Edgar Arthur McDonald,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,11.0,116.0,Right-hand bat,"January 6, 1891, Launceston, Tasmania",Right-arm fast,
+556,10666,Arthur William Carr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,63.0,11.0,237.0,Right-hand bat,"May 21, 1893, Mickleham, Surrey",Right-arm medium,
+2630,48457,Granville Nissanka de Silva,0.0,0.0,7.0,4.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 12, 1955, Colombo",Right-arm fast-medium,
+2391,45442,Charles Frederick William Hime,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,1.0,8.0,Right-hand bat,"October 24, 1869, Bermuda",Right-arm medium,
+2030,40082,Ehsan Khan,0.0,0.0,27.0,15.0,102.0,0.0,0.0,42.0,4.0,81.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 27, 1984",Right-arm offbreak,Bowler
+2095,41270,Maqsood Ahmed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,99.0,16.0,507.0,Right-hand bat,"March 26, 1925, Amritsar, Punjab, India",Right-arm medium,
+2646,48835,Congenige Randhi Dilhara Fernando,0.0,0.0,20.0,147.0,239.0,0.0,0.0,21.0,18.0,25.0,0.0,0.0,39.0,40.0,249.0,Right-hand bat,"July 19, 1979, Colombo",Right-arm fast-medium,Bowler
+4451,270135,Ariful Haque,0.0,0.0,0.0,1.0,0.0,0.0,0.0,18.0,9.0,59.0,0.0,0.0,41.0,2.0,88.0,Right-hand bat,"November 18, 1992, Rangpur",Right-arm medium-fast,Allrounder
+1699,36291,John Edward Francis Beck,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,99.0,8.0,394.0,Left-hand bat,"August 1, 1934, Wellington",Slow left-arm orthodox,
+4554,300617,Rony Talukdar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,1.0,21.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 10, 1990, Narayangonj",Right-arm slow-medium,Batsman
+1192,23879,Shaheed Keshvani,0.0,0.0,17.0,5.0,21.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 23, 1984, Canada",Right-arm offbreak,Middle-order batsman
+2306,44460,Dalton Parry Conyngham,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,6.0,Right-hand bat,"May 10, 1897, Durban, Natal",Right-arm medium,
+704,14104,Ernest George Hayes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,5.0,86.0,Right-hand bat,"November 6, 1876, Peckham, London",Legbreak,
+2176,42630,Sarfraz Nawaz Malik,0.0,0.0,34.0,45.0,221.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,90.0,55.0,1045.0,Right-hand bat,"December 1, 1948, Lahore, Punjab",Right-arm fast-medium,
+386,7631,James Slight,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,1.0,11.0,Right-hand bat,"October 20, 1855, Ashby, Geelong, Victoria",0,
+1406,26962,Chandrakant Gulabrao Borde,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,18.0,177.0,55.0,3061.0,Right-hand bat,"July 21, 1934, Poona (now Pune), Maharashtra",Legbreak,
+4120,55691,Stephen Guy Peall,0.0,0.0,21.0,21.0,91.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,4.0,60.0,Left-hand bat,"September 2, 1969, Salisbury (now Harare)",Right-arm offbreak,
+2588,47780,Cornelius Francoius Kruger van Wyk,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,71.0,9.0,341.0,Right-hand bat,"February 7, 1980, Wolmaransstad, North-West",0,Wicketkeeper batsman
+2921,52186,John Kenneth Constantine Holt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,5.0,166.0,17.0,1066.0,Right-hand bat,"August 12, 1923, Kingston, Jamaica",Right-arm offbreak,
+1934,38614,Eric William Thomas Tindill,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,5.0,73.0,Left-hand bat,"December 18, 1910, Nelson, Nelson",0,
+2533,47204,Charles James Edward Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,3.0,106.0,Right-hand bat,"December 25, 1872, Gamtoos River, Cape Colony",0,
+2271,44084,Kenneth Colin Bland,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,9.0,144.0,21.0,1669.0,Right-hand bat,"April 5, 1938, Bulawayo, Rhodesia",Right-arm medium,
+2620,48321,Indika Prabath Priyankara Batuwitarachchi,0.0,0.0,14.0,2.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 3, 1974, Colombo",Right-arm bowler,Batsman
+1534,31061,Syed Mushtaq Ali,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,112.0,11.0,612.0,Right-hand bat,"December 17, 1914, Indore, Madhya Pradesh",Slow left-arm orthodox,
+4631,315051,Dominic Saleh Wesonga,0.0,0.0,33.0,4.0,61.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 16, 1988, Nairobi",Right-arm fast-medium,Middle-order batsman
+5152,526492,Thomas Barclay Sole,0.0,0.0,20.0,5.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 21, 1996, Edinburgh",Right-arm offbreak,
+5005,444135,Sohag Gazi,0.0,0.0,30.0,20.0,184.0,0.0,0.0,24.0,10.0,57.0,1.0,0.0,101.0,10.0,325.0,Right-hand bat,"August 5, 1991, Barisal",Right-arm offbreak,Bowler
+33,4183,Henry Frederick Boyle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,12.0,153.0,Right-hand bat,"December 10, 1847, Sydney, New South Wales",0,
+5412,873769,Sultan Ahmed,0.0,0.0,7.0,1.0,7.0,0.0,0.0,6.0,7.0,15.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 11, 1989, Gujranwala, Punjab",Slow left-arm orthodox,Bowler
+1774,37101,Lee Kenneth Germon,0.0,3.0,89.0,37.0,519.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,55.0,12.0,382.0,Right-hand bat,"November 4, 1968, Christchurch, Canterbury",Legbreak,
+5070,480603,Iftikhar Ahmed,0.0,0.0,5.0,2.0,8.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,4.0,1.0,4.0,Right-hand bat,"September 3, 1990, Peshawar, North-West Frontier Province",Right-arm offbreak,Middle-order batsman
+1385,26295,Jagdishlal Arun Lal,0.0,1.0,51.0,13.0,122.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,93.0,16.0,729.0,Right-hand bat,"August 1, 1955, Moradabad, Uttar Pradesh",Right-arm medium,
+2217,43363,Taufeeq Umar,0.0,3.0,81.0,22.0,504.0,0.0,0.0,0.0,0.0,0.0,7.0,14.0,236.0,44.0,2963.0,Left-hand bat,"June 20, 1981, Lahore, Punjab",Right-arm offbreak,
+38,4225,William Alfred Brown,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,9.0,206.0,22.0,1592.0,Right-hand bat,"July 31, 1912, Toowoomba, Queensland",Right-arm offbreak,
+4611,308418,Nelson Mandela Odhiambo,0.0,0.0,29.0,8.0,56.0,0.0,0.0,26.0,8.0,46.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 21, 1989, Nairobi, Kenya",Right-arm medium-fast,Bowler
+1856,37735,Darrin James Murray,0.0,0.0,3.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,8.0,303.0,Right-hand bat,"September 4, 1967, Christchurch, Canterbury",Right-arm medium,
+1693,36283,Frederick Theodore Badcock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,64.0,7.0,137.0,Right-hand bat,"August 9, 1897, Abbottabad, North-West Frontier Province, India",Right-arm fast-medium,
+765,15511,Trevor Edward Jesty,0.0,1.0,52.0,10.0,127.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 2, 1948, Gosport, Hampshire",Right-arm medium,
+1899,38254,Albert William Roberts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,66.0,5.0,248.0,Right-hand bat,"August 20, 1909, Christchurch, Canterbury",Right-arm medium,
+1098,22340,Willie Watson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,116.0,23.0,879.0,Left-hand bat,"March 7, 1920, Bolton-on-Dearne, Yorkshire",0,
+1892,38244,Rodney Ernest Redmond,0.0,0.0,3.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,107.0,1.0,163.0,Left-hand bat,"December 29, 1944, Whangarei, Northland",Slow left-arm orthodox,
+2864,51788,Wilfred Ferguson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,75.0,8.0,200.0,Right-hand bat,"December 14, 1917, Longdenville, Trinidad",Legbreak,
+155,5600,Mervyn Roye Harvey,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.0,1.0,43.0,Right-hand bat,"April 29, 1918, Broken Hill, New South Wales",0,
+4981,438362,Sandeep Sharma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 18, 1993, Patiala, Punjab",Right-arm medium,Bowler
+2553,47523,Vincent Maximillian Tancred,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,1.0,25.0,Right-hand bat,"July 7, 1875, Port Elizabeth, Cape Province",0,
+1571,32309,Dattatraya Gajanan Phadkar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,8.0,123.0,31.0,1229.0,Right-hand bat,"December 12, 1925, Kolhapur, Maharashtra","Right-arm fast-medium, Right-arm offbreak",
+922,18632,Samit Rohit Patel,0.0,1.0,70.0,36.0,482.0,0.0,1.0,67.0,18.0,189.0,0.0,0.0,42.0,6.0,151.0,Right-hand bat,"November 30, 1984, Leicester",Slow left-arm orthodox,Allrounder
+640,12845,Laurence Barnard Fishlock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,4.0,47.0,Left-hand bat,"January 2, 1907, Battersea, London",Slow left-arm orthodox,
+2279,44109,James Thomas Botten,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,3.0,65.0,Right-hand bat,"June 21, 1938, Pretoria, Transvaal",Right-arm fast-medium,
+211,6046,Ernest Jones,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,19.0,126.0,Right-hand bat,"September 30, 1869, Auburn, South Australia",Right-arm fast,
+880,18012,Philip John Newport,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0,3.0,110.0,Right-hand bat,"October 11, 1962, High Wycombe, Buckinghamshire",Right-arm fast-medium,
+1701,36295,William Bell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,2.0,21.0,Right-hand bat,"September 5, 1931, Dunedin, Otago",Legbreak,
+2389,45434,Tyron Henderson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 1, 1974, Durban, Natal",Right-arm fast-medium,Bowler
+4750,348148,Mohammad Nawaz,0.0,1.0,53.0,14.0,199.0,0.0,0.0,7.0,16.0,13.0,0.0,0.0,25.0,3.0,50.0,Left-hand bat,"March 21, 1994, Rawalpindi, Punjab",Slow left-arm orthodox,Allrounder
+4612,308515,Shem Obado Ngoche,0.0,0.0,28.0,14.0,68.0,0.0,0.0,38.0,19.0,55.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 6, 1989, Kenya",Slow left-arm orthodox,Bowler
+4817,370846,Mohammad Shahzaib Hasan Khan,0.0,1.0,50.0,3.0,100.0,0.0,0.0,35.0,10.0,116.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 25, 1989, Karachi, Sind",Right-arm offbreak,Opening batsman
+5008,446810,Mohammad Nazmul Islam,0.0,0.0,7.0,5.0,7.0,0.0,0.0,7.0,13.0,18.0,0.0,0.0,4.0,1.0,4.0,Left-hand bat,"March 21, 1992, Dhaka",Slow left-arm orthodox,Bowler
+4987,440516,Thomas Ackland Blundell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,3.0,17.0,1.0,0.0,107.0,2.0,136.0,Right-hand bat,"September 1, 1990, Wellington",Right-arm offbreak,Wicketkeeper batsman
+2101,41282,Mohammad Akram Awan,0.0,0.0,7.0,23.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,9.0,24.0,Right-hand bat,"September 10, 1974, Islamabad, Punjab",Right-arm fast-medium,Bowler
+460,8499,Usman Afzaal,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,54.0,3.0,83.0,Left-hand bat,"June 9, 1977, Rawalpindi, Punjab, Pakistan",Slow left-arm orthodox,
+2778,51107,Curtly Elconn Lynwall Ambrose,0.0,0.0,31.0,176.0,639.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,53.0,98.0,1439.0,Left-hand bat,"September 21, 1963, Swetes Village, Antigua",Right-arm fast,
+2887,51888,George Gladstone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,1.0,12.0,Left-hand bat,"January 14, 1901, Jamaica",Slow left-arm orthodox,
+4357,232489,Rameez Raja,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,2.0,24.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 31, 1987, Karachi, Sind",Right-arm offbreak,Top-order batsman
+1939,38624,Roger Graham Twose,1.0,20.0,103.0,87.0,2717.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,94.0,16.0,628.0,Left-hand bat,"April 17, 1968, Torquay, Devon, England",Right-arm medium,Top-order batsman
+1052,21548,Frederick John Titmus,0.0,0.0,11.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,84.0,53.0,1449.0,Right-hand bat,"November 24, 1932, Kentish Town, London",Right-arm offbreak,
+2059,40567,Intikhab Alam Khan,0.0,0.0,10.0,4.0,17.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,138.0,47.0,1493.0,Right-hand bat,"December 28, 1941, Hoshiarpur, Punjab, India",Legbreak googly,
+1975,38965,Aamer Malik,0.0,5.0,90.0,24.0,556.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,117.0,14.0,565.0,Right-hand bat,"January 3, 1963, Mandi Bahauddin, Punjab",Right-arm fast-medium,
+2301,44441,Geoffrey Walter Ashton Chubb,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,5.0,63.0,Right-hand bat,"April 12, 1911, East London, Cape Province",Right-arm medium-fast,
+1558,32207,Dhiraj Devshibhai Parsana,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,Left-hand bat,"December 2, 1947, Rajkot, Gujarat","Left-arm medium-fast, Slow left-arm orthodox",
+2454,46255,Phenyo Victor Mpitsang,0.0,0.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 28, 1980, Kimberley, Cape Province",Right-arm fast-medium,Bowler
+4140,55814,Brendan Ross Murray Taylor,10.0,36.0,145.0,188.0,6156.0,0.0,5.0,75.0,30.0,660.0,6.0,8.0,171.0,28.0,1840.0,Right-hand bat,"February 6, 1986, Harare",Right-arm offbreak,Wicketkeeper batsman
+2789,51213,Arthur George Barrett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,6.0,40.0,Right-hand bat,"April 4, 1944, Kingston, Jamaica",Legbreak googly,
+2366,45232,George Keyworth Glover,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,1.0,21.0,Right-hand bat,"May 13, 1870, Wakefield, Yorkshire, England",Right-arm offbreak,
+4744,348059,Barry John McCarthy,0.0,0.0,16.0,24.0,82.0,0.0,0.0,11.0,6.0,11.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 13, 1992",Right-arm medium,Bowler
+1698,36290,Donald Derek Beard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.0,4.0,101.0,Right-hand bat,"January 14, 1920, Palmerston North, Manawatu",Right-arm medium,
+4268,213674,Todd Duncan Astle,0.0,0.0,49.0,9.0,79.0,0.0,0.0,1.0,2.0,1.0,0.0,0.0,35.0,4.0,56.0,Right-hand bat,"September 24, 1986, Palmerston North, New Zealand",Legbreak,Bowler
+861,17044,Norman Stewart Mitchell-Innes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,5.0,Right-hand bat,"September 7, 1914, Calcutta (now Kolkata), Bengal, India",0,
+164,5637,Hunter Scott Thomas Laurie Hendry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,112.0,11.0,335.0,Right-hand bat,"May 24, 1895, Double Bay, Sydney, New South Wales",Right-arm fast-medium,
+2988,52681,Ricardo Lloyd Powell,1.0,8.0,124.0,109.0,2085.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,2.0,53.0,Right-hand bat,"December 16, 1978, St Elizabeth, Jamaica",Right-arm offbreak,Batsman
+4088,55522,Anthony John Ireland,0.0,0.0,8.0,26.0,30.0,0.0,0.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 30, 1984, Masvingo",Right-arm medium,
+4810,364788,Benjamin Thomas Foakes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,107.0,5.0,332.0,Right-hand bat,"February 15, 1993, Colchester, Essex",0,Wicketkeeper batsman
+2167,42610,Sajid Ali,0.0,0.0,28.0,13.0,130.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 1, 1963, Karachi, Sind",Right-arm medium,
+2081,41039,Khalid Ibadulla,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,166.0,4.0,253.0,Right-hand bat,"December 20, 1935, Lahore, Punjab","Right-arm medium, Right-arm offbreak",
+1765,37000,Stephen Paul Fleming,8.0,49.0,134.0,280.0,8037.0,0.0,0.0,38.0,5.0,110.0,9.0,46.0,274.0,111.0,7172.0,Left-hand bat,"April 1, 1973, Christchurch, Canterbury",0,Top-order batsman
+2780,51110,Keith Lloyd Thomas Arthurton,0.0,9.0,84.0,105.0,1904.0,0.0,0.0,0.0,0.0,0.0,2.0,8.0,157.0,33.0,1382.0,Left-hand bat,"February 21, 1965, Charlestown, Nevis",Slow left-arm orthodox,
+1274,24923,Hendrik-Jan Christiaan Mol,0.0,0.0,23.0,11.0,67.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"March 29, 1977, The Hague",Left-arm medium,
+1836,37710,Trevor George McMahon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,5.0,7.0,Right-hand bat,"November 8, 1929, Wellington",0,
+1251,24760,David Oluoch Obuya,0.0,6.0,93.0,74.0,1355.0,0.0,2.0,65.0,10.0,216.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 14, 1979, Nairobi",0,Top-order batsman
+5334,681305,Hasan Ali,0.0,2.0,59.0,44.0,203.0,0.0,0.0,23.0,29.0,61.0,0.0,0.0,29.0,9.0,155.0,Right-hand bat,"July 2, 1994, Mandi Bahauddin, Punjab",Right-arm medium-fast,Bowler
+1375,26223,Nanik Amarnath Bharadwaj,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,118.0,24.0,878.0,Right-hand bat,"September 11, 1911, Kapurthala, Punjab",Right-arm medium,
+4366,233713,Neil Wagner,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0,42.0,511.0,Left-hand bat,"March 13, 1986, Pretoria, Transvaal",Left-arm medium-fast,Bowler
+1863,38008,Dion Joseph Nash,0.0,0.0,42.0,81.0,624.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,89.0,32.0,729.0,Right-hand bat,"November 20, 1971, Auckland",Right-arm fast-medium,
+3009,52823,Lawrence George Rowe,0.0,1.0,60.0,11.0,136.0,0.0,0.0,0.0,0.0,0.0,7.0,7.0,302.0,30.0,2047.0,Right-hand bat,"January 8, 1949, Whitfield Town, Kingston, Jamaica",Left-arm fast-medium,
+2089,41259,Mahmood Hamid,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 19, 1969, Karachi, Sind",Right-arm medium,Allrounder
+1402,26897,Prakash Bhandari,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,3.0,77.0,Right-hand bat,"November 27, 1935, Delhi",Right-arm offbreak,
+1888,38133,Christopher Pringle,0.0,0.0,34.0,64.0,193.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,14.0,175.0,Right-hand bat,"January 26, 1968, Auckland",Right-arm fast-medium,
+2771,51098,Ellis Edgar Achong,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,6.0,81.0,Left-hand bat,"February 16, 1904, Belmont, Port of Spain, Trinidad",Slow left-arm orthodox,
+785,15917,Alan Philip Eric Knott,0.0,1.0,50.0,20.0,200.0,0.0,0.0,0.0,0.0,0.0,5.0,30.0,135.0,95.0,4389.0,Right-hand bat,"April 9, 1946, Belvedere, Kent",Right-arm offbreak,
+4263,211854,Robert John Quiney,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,2.0,9.0,Left-hand bat,"August 20, 1982, Brighton, Victoria",Right-arm medium,Batsman
+4507,280737,Saqlain Sajib,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 1, 1988, Rajshahi",Slow left-arm orthodox,Bowler
+4071,55414,Sean Michael Ervine,1.0,2.0,100.0,42.0,698.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,86.0,5.0,261.0,Left-hand bat,"December 6, 1982, Harare","Right-arm medium, Right-arm offbreak",Allrounder
+4747,348133,Steven Ryan Taylor,0.0,0.0,0.0,0.0,0.0,0.0,1.0,72.0,2.0,121.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 9, 1993, Hialeah, Florida",Right-arm offbreak,Opening batsman
+4702,333000,Peter Joseph Moor,0.0,3.0,52.0,43.0,698.0,0.0,0.0,44.0,16.0,238.0,0.0,5.0,83.0,8.0,533.0,Right-hand bat,"February 2, 1991, Harare",Right-arm offbreak,Middle-order batsman
+594,11724,Rikki Clarke,0.0,0.0,39.0,20.0,144.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,55.0,2.0,96.0,Right-hand bat,"September 29, 1981, Orsett, Essex",Right-arm fast-medium,
+1417,27659,Nirode Ranjan Chowdhury,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,3.0,Right-hand bat,"May 23, 1923, Jamshedpur, Bihar (now Jharkhand)",Right-arm medium,
+234,6272,Geoffrey Francis Lawson,0.0,0.0,33.0,79.0,378.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,74.0,46.0,894.0,Right-hand bat,"December 7, 1957, Wagga Wagga, New South Wales",Right-arm fast,
+5308,638713,Hamish John William Gardiner,0.0,2.0,96.0,11.0,262.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 4, 1991, Brisbane, Queensland",0,Opening batsman
+5274,605680,Janneman Nieuwoudt Malan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,2.0,35.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 18, 1996, Neslpruit",Legbreak,
+1679,36075,Yashpal Sharma,0.0,4.0,89.0,42.0,883.0,0.0,0.0,0.0,0.0,0.0,2.0,9.0,140.0,37.0,1606.0,Right-hand bat,"August 11, 1954, Ludhiana, Punjab",Right-arm medium,
+700,14054,Stephen James Harmison,0.0,0.0,18.0,58.0,91.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,49.0,63.0,743.0,Right-hand bat,"October 23, 1978, Ashington, Northumberland",Right-arm fast-medium,
+2693,49619,Ranasinghe Arachchige Suranga Lakmal,0.0,0.0,26.0,81.0,205.0,0.0,0.0,5.0,11.0,7.0,0.0,0.0,42.0,57.0,740.0,Right-hand bat,"March 10, 1987, Matara",Right-arm fast-medium,Bowler
+1489,30049,Murali Kartik,0.0,0.0,32.0,37.0,126.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,43.0,8.0,88.0,Left-hand bat,"September 11, 1976, Madras (now Chennai), Tamil Nadu",Slow left-arm orthodox,Bowler
+1835,37709,Edwin George McLeod,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,1.0,18.0,Left-hand bat,"October 14, 1900, Auckland",Legbreak,
+1187,23862,Karun Jethi,0.0,0.0,46.0,3.0,87.0,0.0,0.0,24.0,5.0,41.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 19, 1983, Delhi, India",Right-arm offbreak,Batsman
+2807,51244,Gareth Rohan Breese,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,5.0,Right-hand bat,"January 9, 1976, Montego Bay, St James, Jamaica",Right-arm offbreak,
+2108,41295,Mohammad Ramzan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,1.0,36.0,Right-hand bat,"December 25, 1970, Lyallpur (now Faisalabad), Punjab",Right-arm medium,
+2162,42599,Saadat Ali,0.0,1.0,78.0,8.0,184.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 6, 1955, Lahore, Punjab",Right-arm offbreak,
+321,6943,Marcus James North,0.0,0.0,5.0,2.0,6.0,0.0,0.0,20.0,1.0,20.0,5.0,4.0,128.0,21.0,1171.0,Left-hand bat,"July 28, 1979, Pakenham, Melbourne, Victoria",Right-arm offbreak,Middle-order batsman
+1918,38399,John Trevor Sparling,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,50.0,11.0,229.0,Right-hand bat,"July 24, 1938, Mount Eden, Auckland",Right-arm offbreak,
+2109,41297,Mohammad Wasim,0.0,3.0,76.0,25.0,543.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,192.0,18.0,783.0,Right-hand bat,"August 8, 1977, Rawalpindi, Punjab",Legbreak googly,
+2459,46570,John Desmond Nel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,6.0,150.0,Right-hand bat,"July 10, 1928, Cape Town, Cape Province",0,
+3067,53227,Elquemedo Tonito Willett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,5.0,74.0,Left-hand bat,"May 1, 1953, Charlestown, Nevis",Slow left-arm orthodox,
+4745,348109,Paul Adriaan van Meekeren,0.0,0.0,15.0,4.0,30.0,0.0,0.0,18.0,25.0,33.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 15, 1993, Amsterdam, Netherlands",Right-arm fast-medium,Bowler
+4388,245166,Mudassar Bukhari,0.0,2.0,71.0,46.0,516.0,0.0,0.0,28.0,38.0,157.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 26, 1983, Gujrat, Punjab, Pakistan",Right-arm medium-fast,Allrounder
+2631,48458,Ginigalgodage Ramba Ajit de Silva,0.0,0.0,6.0,6.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,4.0,41.0,Left-hand bat,"December 12, 1952, Ambalangoda",Slow left-arm orthodox,
+2816,51431,Lionel Sionne Baker,0.0,0.0,11.0,10.0,13.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,17.0,4.0,23.0,Left-hand bat,"September 6, 1984, Montserrat",Right-arm medium-fast,Bowler
+4514,290462,Solomon Farai Mire,1.0,3.0,112.0,41.0,851.0,0.0,2.0,94.0,7.0,249.0,0.0,0.0,47.0,2.0,78.0,Right-hand bat,"August 21, 1989, Harare",Right-arm medium-fast,Batsman
+667,13373,Alfred Herbert Harold Gilligan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,4.0,71.0,Right-hand bat,"June 29, 1896, Denmark Hill, London",Legbreak,
+4381,237310,Athege Roshen Shivanka Silva,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,109.0,12.0,702.0,Right-hand bat,"November 17, 1988, Colombo",Right-arm offbreak,Batsman
+1211,24237,John Francis Mooney,0.0,3.0,96.0,64.0,963.0,0.0,0.0,31.0,27.0,231.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 10, 1982, Dublin",Right-arm medium,Allrounder
+1830,37703,Paul Ernest McEwan,0.0,0.0,41.0,17.0,204.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0,4.0,96.0,Right-hand bat,"December 19, 1953, Christchurch, Canterbury",Right-arm medium,
+2493,46784,Dewald Pretorius,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,4.0,22.0,Right-hand bat,"December 6, 1977, Pretoria, Transvaal",Right-arm fast,Bowler
+2142,42066,Naved Latif,1.0,0.0,113.0,11.0,262.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,1.0,20.0,Right-hand bat,"February 21, 1976, Sargodha, Punjab",Right-arm medium,
+4156,55887,Fahim Muntasir Rahman,0.0,0.0,5.0,3.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,3.0,52.0,Right-hand bat,"November 1, 1980, Mymensingh, Dhaka",Right-arm offbreak,
+1152,23759,Jekon Edness,0.0,1.0,72.0,11.0,252.0,0.0,0.0,9.0,3.0,13.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 13, 1983, Bermuda",0,Batsman
+1945,38711,Graham Ellery Vivian,0.0,0.0,14.0,1.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,5.0,110.0,Left-hand bat,"February 28, 1946, Auckland",Legbreak,
+2078,41030,Abdul Hafeez Kardar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,93.0,26.0,927.0,Left-hand bat,"January 17, 1925, Lahore, Punjab",Slow left-arm orthodox,
+4628,314615,Jonathan Lyndon Carter,0.0,3.0,54.0,28.0,524.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 16, 1987, Barbados",Right-arm medium,Allrounder
+1268,24901,Jan Feiko Kloppenburg,1.0,0.0,121.0,6.0,165.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 19, 1974, Haarlem",Right-arm medium,
+204,6022,Terrence James Jenner,0.0,0.0,12.0,1.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,74.0,9.0,208.0,Right-hand bat,"September 8, 1944, Mount Lawley, Perth, Western Australia",Legbreak googly,
+307,6658,William Henry Moule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,1.0,40.0,Right-hand bat,"January 31, 1858, Brighton, Victoria",Right-arm medium,
+5162,530773,Pawan Negi,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 6, 1993, Delhi",Slow left-arm orthodox,Bowler
+465,8524,Maurice James Carrick Allom,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,5.0,14.0,Right-hand bat,"March 23, 1906, Northwood, Middlesex",Right-arm medium-fast,
+4522,291088,Zain Abbas,0.0,0.0,26.0,1.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 16, 1986, Pakistan",Right-arm medium,Allrounder
+2765,50860,Kaushalya Weeraratne,0.0,0.0,41.0,15.0,160.0,0.0,0.0,20.0,5.0,49.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 29, 1981, Gampola",Right-arm medium-fast,
+4725,343305,Bilawal Bhatti,0.0,0.0,39.0,10.0,89.0,0.0,0.0,13.0,9.0,23.0,0.0,0.0,32.0,2.0,70.0,Right-hand bat,"September 17, 1991, Muridke, Punjab",Right-arm medium-fast,Bowler
+2584,47733,Kenneth George Viljoen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,9.0,124.0,27.0,1365.0,Right-hand bat,"May 14, 1910, Windsorton, Cape Province",Right-arm bowler,
+882,18023,Paul Andrew Nixon,0.0,0.0,49.0,19.0,297.0,0.0,0.0,31.0,1.0,31.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 21, 1970, Carlisle, Cumberland",0,Top-order batsman
+2171,42620,Saleem Elahi,4.0,9.0,135.0,48.0,1579.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,72.0,13.0,436.0,Right-hand bat,"November 21, 1976, Sahiwal, Punjab",Right-arm offbreak,Opening batsman
+4131,55740,Edward Charles Rainsford,0.0,0.0,9.0,39.0,55.0,0.0,0.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 14, 1984, Kadoma, Mashonaland",Right-arm fast-medium,
+5583,1158100,Mohammad Hasnain,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 5, 2000, Hyderabad",Right-arm fast,Bowler
+2570,47623,Ian Jonathan Leonard Trott,4.0,22.0,137.0,68.0,2819.0,0.0,1.0,51.0,7.0,138.0,9.0,19.0,226.0,52.0,3835.0,Right-hand bat,"April 22, 1981, Cape Town, Cape Province",Right-arm medium,Top-order batsman
+3040,52962,Devon Sheldon Smith,1.0,5.0,107.0,47.0,1059.0,0.0,2.0,61.0,6.0,203.0,1.0,8.0,108.0,43.0,1760.0,Left-hand bat,"October 21, 1981, Hermitage, Sauters, St Patrick, Grenada",Right-arm offbreak,Opening batsman
+166,5652,James Donald Higgs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,22.0,111.0,Right-hand bat,"July 11, 1950, Kyabram, Victoria",Legbreak googly,
+4215,56097,Samiur Rahman,0.0,0.0,4.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 3, 1953, Dacca (now Dhaka, Bangladesh), Pakistan",Right-arm fast-medium,
+481,8608,James Michael Anderson,0.0,0.0,28.0,194.0,273.0,0.0,0.0,1.0,19.0,1.0,0.0,1.0,81.0,148.0,1174.0,Left-hand bat,"July 30, 1982, Burnley, Lancashire",Right-arm fast-medium,Bowler
+342,7117,Peter Ian Philpott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,8.0,93.0,Right-hand bat,"November 21, 1934, Manly, Sydney, New South Wales",Legbreak googly,Allrounder
+1296,25092,Nicholas Rayner Dyer,0.0,0.0,2.0,5.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 10, 1969, Edinburgh, Midlothian",Right-arm offbreak,
+954,19471,Charles Frederick Root,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,Right-hand bat,"April 16, 1890, Somercotes, Derbyshire",Right-arm fast-medium,
+4077,55429,Grant William Flower,6.0,40.0,142.0,221.0,6571.0,0.0,0.0,0.0,0.0,0.0,6.0,15.0,201.0,67.0,3457.0,Right-hand bat,"December 20, 1970, Salisbury (now Harare)",Slow left-arm orthodox,
+4874,389666,Mohammad Abbas,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,14.0,63.0,Right-hand bat,"March 10, 1990, Sialkot, Punjab",Right-arm medium-fast,Bowler
+5519,1061514,Muhammed Shanil,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 20, 1988, Azhiyour, Kerala",Right-arm medium,
+637,12814,William Farrimond,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,4.0,116.0,Right-hand bat,"May 23, 1903, Daisy Hill, Lancashire",0,
+2438,46196,Cuan Neil McCarthy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,15.0,28.0,Right-hand bat,"March 24, 1929, Pietermaritzberg, Natal",Right-arm fast,
+4882,393279,Marchant de Lange,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,9.0,2.0,9.0,Right-hand bat,"October 13, 1990, Tzaneen, Limpopo",Right-arm fast,Bowler
+3037,52955,Victor Humphrey Stollmeyer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,96.0,1.0,96.0,Right-hand bat,"January 24, 1916, Santa Cruz, Trinidad",Legbreak googly,
+1994,39002,Anwar Khan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,1.0,15.0,Right-hand bat,"December 24, 1955, Karachi, Sind",Right-arm fast-medium,
+1948,38735,Kenneth John Wadsworth,1.0,0.0,104.0,13.0,258.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,80.0,33.0,1010.0,Right-hand bat,"November 30, 1946, Nelson, Nelson",0,
+2589,47846,Vaughn Bernard van Jaarsveld,0.0,0.0,5.0,2.0,9.0,0.0,0.0,12.0,3.0,15.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 2, 1985, Johannesburg, Transvaal",Right-arm medium,Opening batsman
+71,4626,William Henry Cooper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,13.0,Right-hand bat,"September 11, 1849, Maidstone, Kent, England",Legbreak googly,
+4919,414973,Oliver James Hairs,0.0,0.0,27.0,5.0,68.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"April 14, 1991, Redhill, Surrey",Right-arm offbreak,Opening batsman
+1170,23794,John Nugent Valentine,0.0,0.0,3.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"September 20, 1954, Montreal, Quebec",Left-arm medium,
+1790,37234,Roger Meredith Harris,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,2.0,31.0,Right-hand bat,"July 27, 1933, Otahuhu, Auckland",Right-arm medium,
+2396,45696,Brian Lee Irvine,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,102.0,4.0,353.0,Left-hand bat,"March 9, 1944, Durban, Natal",Right-arm medium,
+1445,28779,Sourav Chandidas Ganguly,22.0,72.0,183.0,311.0,11363.0,0.0,0.0,0.0,0.0,0.0,16.0,35.0,239.0,113.0,7212.0,Left-hand bat,"July 8, 1972, Calcutta (now Kolkata), Bengal",Right-arm medium,
+4184,55976,Mushfiqur Rahman,0.0,0.0,49.0,28.0,360.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0,10.0,232.0,Right-hand bat,"January 10, 1977, Rajshahi",Right-arm fast-medium,
+551,10617,Stuart Christopher John Broad,0.0,0.0,45.0,121.0,529.0,0.0,0.0,18.0,56.0,118.0,1.0,12.0,169.0,126.0,3064.0,Left-hand bat,"June 24, 1986, Nottingham",Right-arm fast-medium,Bowler
+1149,23755,Saleem Mukuddem,0.0,1.0,57.0,20.0,331.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 20, 1972, South Africa",Right-arm medium,Allrounder
+4044,55259,Arnoldus Mauritius Blignaut,0.0,5.0,63.0,54.0,626.0,0.0,0.0,8.0,1.0,8.0,0.0,6.0,92.0,19.0,886.0,Left-hand bat,"August 1, 1978, Salisbury (now Harare)",Right-arm medium-fast,
+2140,42062,Naved Anjum,0.0,0.0,30.0,13.0,113.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,2.0,44.0,Right-hand bat,"July 27, 1963, Lahore, Punjab",Right-arm fast-medium,
+4918,414971,Craig Donald Wallace,0.0,3.0,58.0,22.0,328.0,0.0,0.0,27.0,15.0,136.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 27, 1990, Dundee, Angus",0,Wicketkeeper batsman
+2925,52202,Tyrell Fabian Johnson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,9.0,Left-hand bat,"January 10, 1917, Tunapuna, Trinidad",Left-arm fast,
+524,9187,Geoffrey Boycott,1.0,9.0,105.0,36.0,1082.0,0.0,0.0,0.0,0.0,0.0,22.0,42.0,246.0,108.0,8114.0,Right-hand bat,"October 21, 1940, Fitzwilliam, Yorkshire",Right-arm medium,
+2240,43701,Zahoor Elahi,0.0,3.0,86.0,14.0,297.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,2.0,30.0,Right-hand bat,"March 1, 1971, Sahiwal, Punjab",Right-arm medium,
+1454,28861,Ghulam Mustafa Guard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,11.0,Left-hand bat,"December 12, 1925, Surat, Gujarat",Left-arm fast-medium,
+3031,52944,Joseph Stanislaus Solomon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,100.0,27.0,1326.0,Right-hand bat,"August 26, 1930, Port Mourant, Berbice, British Guiana",Legbreak,
+2683,49366,Ajith Kosala Kuruppuarachchi,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,Right-hand bat,"November 1, 1964, Colombo",Left-arm fast-medium,
+4498,277914,Jeet Ashok Raval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,132.0,18.0,1037.0,Left-hand bat,"September 22, 1988, Gujarat",Legbreak,Opening batsman
+1866,38058,Robert James Nicol,2.0,2.0,146.0,22.0,586.0,0.0,2.0,58.0,21.0,327.0,0.0,0.0,19.0,2.0,28.0,Right-hand bat,"May 28, 1983, Auckland","Right-arm medium, Right-arm offbreak",Opening batsman
+4290,220613,Munir Ahmed Dar,0.0,0.0,14.0,2.0,18.0,0.0,0.0,36.0,2.0,39.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 4, 1974, Gujrat, Punjab",Slow left-arm orthodox,Allrounder
+1519,30939,Mulvantrai Himmatlal Mankad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,6.0,231.0,44.0,2109.0,Right-hand bat,"April 12, 1917, Jamnagar, Gujarat",Slow left-arm orthodox,
+4198,56038,Nasir Ahmed,0.0,0.0,11.0,7.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 1, 1964, Dacca",0,
+488,8962,John Christopher Balderstone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,2.0,39.0,Right-hand bat,"November 16, 1940, Longwood, Huddersfield, Yorkshire",Slow left-arm orthodox,
+1588,33044,Sagi Lakshmi Venkatapathy Raju,0.0,0.0,8.0,53.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.0,28.0,240.0,Right-hand bat,"July 9, 1969, Alamuru, Hyderabad, Andhra Pradesh",Slow left-arm orthodox,
+2075,40926,Junaid Zia,0.0,0.0,2.0,4.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 11, 1983, Lahore, Punjab",Right-arm medium-fast,
+2492,46782,Albert William Powell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,1.0,16.0,Right-hand bat,"July 18, 1873, Kimberley, Cape Province",Right-arm bowler,
+2665,49178,Herath Mudiyanselage Rangana Keerthi Bandara Herath,0.0,0.0,17.0,71.0,140.0,0.0,0.0,3.0,17.0,8.0,0.0,3.0,80.0,93.0,1699.0,Left-hand bat,"March 19, 1978, Kurunegala",Slow left-arm orthodox,Bowler
+4709,333782,Timm van der Gugten,0.0,0.0,2.0,4.0,4.0,0.0,0.0,13.0,29.0,69.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 25, 1991, Hornsby, Upper North Shore, Sydney",Right-arm fast-medium,Bowler
+2678,49356,Ruwan Senani Kalpage,0.0,1.0,51.0,86.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,63.0,11.0,294.0,Left-hand bat,"February 19, 1970, Kandy",Right-arm offbreak,
+5148,524253,Norman Vanua,0.0,0.0,35.0,14.0,150.0,0.0,0.0,29.0,12.0,150.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 2, 1993",Right-arm medium,Bowler
+105,5117,Kenneth Humphrey Eastwood,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,5.0,Left-hand bat,"November 23, 1935, Chatswood, Sydney, New South Wales",Slow left-arm chinaman,
+4916,414966,Michael Alexander Leask,0.0,3.0,59.0,30.0,435.0,0.0,1.0,58.0,23.0,169.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 29, 1990, Aberdeen",Right-arm offbreak,Allrounder
+2104,41285,Mohammad Hussain,0.0,0.0,31.0,14.0,154.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,2.0,18.0,Left-hand bat,"October 8, 1976, Lahore, Punjab",Slow left-arm orthodox,
+5509,1015399,Ziaur Rahman,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 17, 1998, Khost",Right-arm medium-fast,
+2806,51242,Michael Robin Bynoe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.0,4.0,111.0,Right-hand bat,"February 23, 1941, Alleynedale, Black Rock, St Michael, Barbados",Left-arm medium,
+4909,412321,Stuart James Chalmers,0.0,0.0,9.0,2.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 18, 1982, Edinburgh, Midlothian",Right-arm medium-fast,Bowler
+3018,52926,Benjamin James Sealey,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,1.0,41.0,Right-hand bat,"August 12, 1899, St Joseph, Trinidad",Right-arm medium,
+1468,29543,Jamshed Khudadad Irani,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,3.0,Right-hand bat,"August 18, 1923, Karachi, Sind",0,
+2787,51209,Leonard Baichan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,105.0,3.0,184.0,Left-hand bat,"May 12, 1946, Rose Hall, Berbice, British Guiana",Right-arm medium,
+4204,56059,Mohammed Nazimuddin,0.0,0.0,47.0,11.0,147.0,0.0,1.0,81.0,7.0,178.0,0.0,1.0,78.0,3.0,125.0,Right-hand bat,"October 1, 1985",Right-arm medium,Batsman
+2985,52675,Nehemiah Odolphus Perry,0.0,1.0,52.0,21.0,212.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,4.0,74.0,Right-hand bat,"June 16, 1968, Jamaica",Right-arm offbreak,
+3073,53235,Kenneth Leslie Wishart,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,1.0,52.0,Left-hand bat,"November 28, 1908, Georgetown, Demerara, British Guiana",0,
+1915,38396,Ian David Stockley Smith,0.0,3.0,62.0,98.0,1055.0,0.0,0.0,0.0,0.0,0.0,2.0,6.0,173.0,63.0,1815.0,Right-hand bat,"February 28, 1957, Nelson, Nelson",Right-arm bowler,
+355,7334,Arthur John Richardson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,100.0,9.0,403.0,Right-hand bat,"July 24, 1888, Sevenhill, Clare, South Australia",0,
+887,18256,Christopher Middleton Old,0.0,1.0,51.0,32.0,338.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,65.0,46.0,845.0,Left-hand bat,"December 22, 1948, Middlesbrough, Yorkshire",Right-arm fast-medium,
+2664,49131,Peter David Heyn,0.0,0.0,2.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"June 26, 1945, Colombo",Right-arm medium,
+930,19314,Neal Victor Radford,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,3.0,21.0,Right-hand bat,"June 7, 1957, Luanshya, Northern Rhodesia",Right-arm fast-medium,
+4975,436677,Soumya Sarkar,2.0,7.0,127.0,41.0,1274.0,0.0,1.0,51.0,41.0,718.0,1.0,4.0,149.0,14.0,786.0,Left-hand bat,"February 25, 1993, Satkhira",Right-arm medium-fast,Middle-order batsman
+870,17111,John Brian Mortimore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,73.0,9.0,243.0,Right-hand bat,"May 14, 1933, Southmead, Bristol",Right-arm offbreak,
+1090,22301,Ian James Ward,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,5.0,129.0,Left-hand bat,"September 30, 1972, Plymouth, Devon",Right-arm medium,
+2046,40373,Hanif Mohammad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,15.0,337.0,55.0,3915.0,Right-hand bat,"December 21, 1934, Junagadh, Gujarat, India",Right-arm offbreak,
+309,6669,William Lloyd Murdoch,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,211.0,19.0,908.0,Right-hand bat,"October 18, 1854, Sandhurst, Victoria",0,
+4177,55965,Mafizur Rahman,0.0,0.0,16.0,4.0,53.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 10, 1978, Madaripur",Right-arm fast-medium,
+43,4250,Frederick John Burton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,4.0,Right-hand bat,"November 2, 1865, Collingwood, Melbourne, Victoria",0,
+2942,52300,Eion Katchay,0.0,0.0,12.0,5.0,23.0,0.0,0.0,8.0,4.0,15.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 8, 1977, Georgetown, Guyana",Right-arm fast-medium,Bowler
+2916,52067,Anthony Bourne Howard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Left-hand bat,"August 27, 1946, Lower Collymore Rock, St Michael, Barbados",Right-arm offbreak,
+2722,50241,Anura Nandana Ranasinghe,0.0,1.0,51.0,9.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,77.0,2.0,88.0,Right-hand bat,"October 13, 1956, Kalutara","Left-arm medium, Slow left-arm orthodox",
+2226,43553,Wasim Hasan Raja,0.0,2.0,60.0,54.0,782.0,0.0,0.0,0.0,0.0,0.0,4.0,18.0,125.0,57.0,2821.0,Left-hand bat,"July 3, 1952, Multan, Punjab",Legbreak googly,
+2773,51101,Franz Copeland Murray Alexander,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,108.0,25.0,961.0,Right-hand bat,"November 2, 1928, Kingston, Jamaica",0,
+2278,44102,Andre Cornelius Botha,0.0,2.0,56.0,42.0,666.0,0.0,0.0,38.0,14.0,130.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"September 12, 1975, Johannesburg, Transvaal",Right-arm medium,Allrounder
+3014,52918,Austin Conroy Lenroy Richards,0.0,0.0,2.0,1.0,2.0,0.0,0.0,10.0,1.0,10.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 14, 1983, Freetown, Antigua",Right-arm medium,Batsman
+4961,429981,Mohammad Irfan,0.0,0.0,12.0,60.0,48.0,0.0,0.0,2.0,20.0,4.0,0.0,0.0,14.0,4.0,28.0,Right-hand bat,"June 6, 1982, Gaggu Mandi, Punjab",Left-arm fast,Bowler
+1273,24920,Steven Willem Lubbers,0.0,0.0,9.0,4.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 24, 1953, Holland",Right-arm offbreak,Bowler
+712,14149,Warren Kevin Hegg,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,2.0,30.0,Right-hand bat,"February 23, 1968, Whitefield, Manchester, Lancashire",0,
+2752,50809,Michael Graydon Vandort,0.0,0.0,48.0,1.0,48.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,140.0,20.0,1144.0,Left-hand bat,"January 19, 1980, Colombo",Right-arm medium,
+2511,46987,Michael John Raymond Rindel,1.0,2.0,106.0,22.0,575.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 9, 1963, Durban, Natal",0,
+2471,46674,Arthur Lennox Ochse,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,3.0,11.0,Right-hand bat,"October 11, 1899, Graaff-Reinet, Cape Province",Right-arm fast,
+29,4167,George John Bonnor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,128.0,17.0,512.0,Right-hand bat,"February 25, 1855, Bathurst, New South Wales",Right-arm medium,
+2267,44076,Christopher George de Villiers Burger,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,2.0,62.0,Right-hand bat,"July 12, 1935, Randfontein, Transvaal",Right-arm medium,
+2116,41309,Mufasir-ul-Haq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,1.0,8.0,Right-hand bat,"August 16, 1944, Karnal, India",Left-arm fast-medium,
+151,5588,John Harry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,8.0,Right-hand bat,"August 1, 1857, Ballarat, Victoria",Right-arm offbreak,
+1885,38129,Victor Pollard,0.0,1.0,55.0,3.0,67.0,0.0,0.0,0.0,0.0,0.0,2.0,7.0,116.0,32.0,1266.0,Right-hand bat,"September 7, 1945, Burnley, Lancashire, England",Right-arm offbreak,
+2490,46780,Nic Pothas,0.0,0.0,24.0,3.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 18, 1973, Johannesburg, Transvaal",0,
+4910,413702,Berend Arnold Westdijk,0.0,0.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 5, 1985, The Haque",Right-arm medium,Bowler
+5085,489889,Patrick James Cummins,0.0,0.0,36.0,48.0,183.0,0.0,0.0,13.0,20.0,35.0,0.0,2.0,63.0,20.0,528.0,Right-hand bat,"May 8, 1993, Westmead, Sydney",Right-arm fast,Bowler
+1711,36308,Grant Eric Bradburn,0.0,0.0,30.0,11.0,60.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,7.0,105.0,Right-hand bat,"May 26, 1966, Hamilton, Waikato",Right-arm offbreak,
+122,5325,Frederick Alfred William Freer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,1.0,28.0,Right-hand bat,"December 4, 1915, North Carlton, Melbourne, Victoria",Right-arm fast-medium,
+398,7924,Mark Anthony Taylor,1.0,28.0,105.0,113.0,3514.0,0.0,0.0,0.0,0.0,0.0,19.0,40.0,334.0,104.0,7525.0,Left-hand bat,"October 27, 1964, Leeton, New South Wales",Right-arm medium,
+1523,30974,Vijay Laxman Mehra,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,62.0,8.0,329.0,Right-hand bat,"March 12, 1938, Amritsar, Punjab",Right-arm bowler,
+1619,33963,Sanjeev Kumar Sharma,0.0,0.0,28.0,23.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,2.0,56.0,Right-hand bat,"August 25, 1965, Delhi",Right-arm medium,
+5273,604302,Nicholas Pooran,0.0,0.0,0.0,1.0,0.0,0.0,2.0,58.0,11.0,218.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 2, 1995, Trinidad",0,Wicketkeeper batsman
+2022,39898,Asif Iqbal,0.0,0.0,8.0,1.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 12, 1984, Bahawalpur, Punjab",0,Opening batsman
+2037,40104,Fahad Usman Khan,0.0,0.0,9.0,2.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 2, 1976, Karachi, Sind",Legbreak,
+2931,52210,Kerry Clifford Bryan Jeremy,0.0,0.0,8.0,6.0,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 6, 1980, Antigua",Right-arm fast-medium,Bowler
+4884,395057,Seth Hayden Arnold Rance,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,5.0,2.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 23, 1987, Wellington",Right-arm medium,Bowler
+2163,42601,Sadiq Mohammad,0.0,2.0,74.0,19.0,383.0,0.0,0.0,0.0,0.0,0.0,5.0,10.0,166.0,41.0,2579.0,Left-hand bat,"May 3, 1945, Junagadh, Gujarat, India",Legbreak googly,
+4966,431905,Shane Omari Dowrich,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,8.0,125.0,30.0,1402.0,Right-hand bat,"October 30, 1991, Barbados",0,Wicketkeeper batsman
+619,12454,Joseph Liam Denly,0.0,2.0,67.0,9.0,268.0,0.0,0.0,30.0,9.0,72.0,0.0,1.0,69.0,2.0,112.0,Right-hand bat,"March 16, 1986, Canterbury, Kent",Legbreak,Opening batsman
+4742,348037,Graeme John McCarter,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 10, 1992, Londonderry, Northern Ireland",Right-arm medium,Bowler
+2837,51483,Learie Nicholas Constantine,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,90.0,18.0,635.0,Right-hand bat,"September 21, 1901, Petit Valley, Diego Martin, Trinidad","Right-arm fast, Right-arm medium",Allrounder
+1419,27667,Nariman Jamshedji Contractor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,108.0,31.0,1611.0,Left-hand bat,"March 7, 1934, Godhra, Gujarat",Right-arm medium,
+4870,387435,Vani Vagi Morea,0.0,3.0,65.0,13.0,313.0,0.0,0.0,19.0,5.0,35.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 13, 1983, Port Moresby, Papua New Guinea",Right-arm medium,Middle-order batsman
+2682,49364,Shaul Hameed Uvais Karnain,0.0,0.0,41.0,19.0,229.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 11, 1962, Colombo",Right-arm medium,
+2838,51485,Colin Everton Hunte Croft,0.0,0.0,8.0,19.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,27.0,158.0,Right-hand bat,"March 15, 1953, Lancaster Village, East Coast, Demerara, British Guiana",Right-arm fast,
+5099,494847,Junaid Siddiqui,0.0,0.0,25.0,9.0,67.0,0.0,0.0,21.0,8.0,47.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 25, 1985, Karachi, Sind, Pakistan",Legbreak,Allrounder
+4192,56017,Khondaker Mosharraf Hossain,0.0,0.0,8.0,5.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 20, 1981, Dhaka",Slow left-arm orthodox,Allrounder
+2594,47863,Kenneth Alexander Walter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,2.0,11.0,Right-hand bat,"November 5, 1939, Johannesburg, Transvaal",Right-arm fast,
+4625,313430,Calvert Kenroy Hooper,0.0,0.0,27.0,5.0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 10, 1982, St. Vincent & The Grenadines",Right-arm fast-medium,Bowler
+2460,46574,Claude Newberry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,4.0,62.0,Right-hand bat,"1889, Port Elizabeth, Cape Province","Right-arm fast, Legbreak",
+866,17070,Leonard James Moon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,4.0,182.0,Right-hand bat,"February 9, 1878, Kensington, London",0,
+3068,53228,Alvadon Basil Williams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,111.0,7.0,469.0,Right-hand bat,"November 21, 1949, Caymanas Estate, St Catherine, Jamaica",0,
+2015,39084,Abdur Rauf Khan,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,31.0,3.0,52.0,Right-hand bat,"December 9, 1978, Renala Khurd, Punjab",Right-arm fast-medium,Bowler
+1051,21537,Graham Paul Thorpe,0.0,21.0,89.0,82.0,2380.0,0.0,0.0,0.0,0.0,0.0,16.0,39.0,200.0,100.0,6744.0,Left-hand bat,"August 1, 1969, Farnham, Surrey",Right-arm medium,
+1412,27603,Utpal Subodh Chatterjee,0.0,0.0,3.0,3.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"July 13, 1964, Calcutta (now Kolkata), Bengal",Slow left-arm orthodox,Bowler
+2974,52630,Mahendra Veeren Nagamootoo,0.0,0.0,33.0,24.0,162.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,68.0,5.0,185.0,Left-hand bat,"October 9, 1975, Whim, Berbice, Guyana",Legbreak googly,Allrounder
+763,15501,Geraint Owen Jones,0.0,4.0,80.0,51.0,862.0,0.0,0.0,19.0,2.0,33.0,1.0,6.0,100.0,34.0,1172.0,Right-hand bat,"July 14, 1976, Kundiawa, Papua New Guinea",0,
+1777,37105,Mark John Greatbatch,2.0,13.0,111.0,84.0,2206.0,0.0,0.0,0.0,0.0,0.0,3.0,10.0,146.0,41.0,2021.0,Left-hand bat,"December 11, 1963, Auckland",Right-arm medium,
+2082,41041,Syed Khalid Wazir,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,2.0,14.0,Right-hand bat,"April 27, 1936, Jullundur (now Jalandhar), Punjab, India",Right-arm fast-medium,
+4450,269332,Muktar Ali,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,1.0,19.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 10, 1989, Rajshahi",Right-arm medium-fast,Bowler
+1676,36064,Nandlal Shivlal Yadav,0.0,0.0,1.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,35.0,403.0,Right-hand bat,"January 26, 1957, Hyderabad, Andhra Pradesh",Right-arm offbreak,
+2,3944,George Alexander,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,2.0,52.0,Right-hand bat,"April 22, 1851, Fitzroy, Australia",0,
+932,19323,Mark Ravin Ramprakash,0.0,1.0,51.0,18.0,376.0,0.0,0.0,0.0,0.0,0.0,2.0,12.0,154.0,52.0,2350.0,Right-hand bat,"September 5, 1969, Bushey, Hertfordshire",Right-arm offbreak,
+483,8917,Moeen Munir Ali,3.0,5.0,128.0,92.0,1645.0,0.0,1.0,72.0,25.0,235.0,5.0,14.0,155.0,58.0,2769.0,Left-hand bat,"June 18, 1987, Birmingham",Right-arm offbreak,Batting allrounder
+2342,44932,Jean-Paul Duminy,4.0,27.0,150.0,194.0,5047.0,0.0,11.0,96.0,81.0,1934.0,6.0,8.0,166.0,46.0,2103.0,Left-hand bat,"April 14, 1984, Strandfontein, Cape Town, Cape Province",Right-arm offbreak,Batting allrounder
+4061,55354,Chamunorwa Justice Chibhabha,0.0,16.0,99.0,103.0,2389.0,0.0,5.0,67.0,33.0,621.0,0.0,1.0,60.0,3.0,124.0,Right-hand bat,"September 6, 1986, Masvingo",Right-arm medium,Top-order batsman
+2848,51644,Francis Ignatius de Caires,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,80.0,3.0,232.0,Right-hand bat,"May 12, 1909, British Guiana",Right-arm bowler,
+1299,25105,Bruce Mathew Winston Patterson,0.0,0.0,10.0,3.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 29, 1965, Ayr",0,
+2219,43524,Umar Gul,0.0,0.0,39.0,130.0,457.0,0.0,0.0,32.0,60.0,165.0,0.0,1.0,65.0,47.0,577.0,Right-hand bat,"April 14, 1984, Peshawar, North-Western Frontier Province",Right-arm fast-medium,Bowler
+2963,52437,Ezra Alphonsa Moseley,0.0,0.0,2.0,9.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,2.0,35.0,Right-hand bat,"January 5, 1958, Waldrons Village, Christ Church, Barbados",Right-arm fast-medium,
+2543,47242,Philippus Jeremia Rudolf Steyn,0.0,0.0,4.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0,3.0,127.0,Right-hand bat,"June 30, 1967, Kimberley, Cape Province",Right-arm medium,
+2717,49920,Mahawaduge Dilruwan Kamalaneth Perera,0.0,0.0,30.0,13.0,152.0,0.0,0.0,1.0,3.0,1.0,0.0,6.0,95.0,38.0,1126.0,Right-hand bat,"July 22, 1982, Panadura",Right-arm offbreak,Allrounder
+4303,221140,David Wiese,0.0,0.0,41.0,6.0,102.0,0.0,0.0,28.0,20.0,92.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 18, 1985, Roodepoort",Right-arm medium-fast,Allrounder
+3002,52813,Kenneth Roy Rickards,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,67.0,2.0,104.0,Right-hand bat,"August 22, 1923, Rollington Town, Kingston, Jamaica",Legbreak,
+2846,51641,Charles Allan Davis,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,183.0,15.0,1301.0,Right-hand bat,"January 1, 1944, Belmont, Port-of-Spain, Trinidad",Right-arm medium,
+2152,42362,Qasim Ali Umar,0.0,4.0,69.0,31.0,642.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,210.0,26.0,1502.0,Right-hand bat,"February 9, 1957, Nairobi, Kenya",Right-arm medium,
+4844,380354,Mohammad Anamul Haque Bijoy,3.0,3.0,120.0,37.0,1038.0,0.0,1.0,58.0,13.0,355.0,0.0,0.0,22.0,4.0,73.0,Right-hand bat,"December 16, 1992, Kushtia, Khulna",0,Wicketkeeper batsman
+338,7083,Leonard Stephen Pascoe,0.0,0.0,15.0,29.0,39.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,14.0,106.0,Right-hand bat,"February 13, 1950, Bridgetown North, Western Australia",Right-arm fast,
+669,13381,Clifford Gladwin,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,51.0,8.0,170.0,Right-hand bat,"April 3, 1916, Doe Lea, Derbyshire",Right-arm fast-medium,
+185,5716,William Peter Howell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,18.0,158.0,Left-hand bat,"December 29, 1869, Penrith, New South Wales",Right-arm medium,
+1727,36599,Francis James Cameron,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.0,19.0,116.0,Right-hand bat,"June 1, 1932, Dunedin, Otago",Right-arm medium,
+4389,245186,Roger Kyran Whelan,0.0,0.0,5.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 27, 1980, Dublin",Right-arm medium-fast,Bowler
+475,8567,John Arnold,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,1.0,34.0,Right-hand bat,"November 30, 1907, Cowley, Oxford",Right-arm slow,
+2042,40303,Ghulam Abbas,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,1.0,12.0,Left-hand bat,"May 1, 1947, Delhi, India",Slow left-arm orthodox,
+2705,49758,Separamadu Lasith Malinga,0.0,1.0,56.0,218.0,550.0,0.0,0.0,27.0,73.0,92.0,0.0,1.0,64.0,30.0,275.0,Right-hand bat,"August 28, 1983, Galle",Right-arm fast,Bowler
+607,11914,Basil Lewis D'Oliveira,0.0,0.0,17.0,4.0,30.0,0.0,0.0,0.0,0.0,0.0,5.0,15.0,158.0,44.0,2484.0,Right-hand bat,"October 4, 1931, Signal Hill, Cape Town, Cape Province, South Africa",Right-arm medium,
+832,16882,Joseph William Henry Makepeace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,117.0,4.0,279.0,Right-hand bat,"August 22, 1881, Middlesbrough, Yorkshire",Legbreak,
+1045,21494,Robert William Taylor,0.0,0.0,26.0,27.0,130.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,97.0,57.0,1156.0,Right-hand bat,"July 17, 1941, Stoke-on-Trent, Staffordshire",Right-arm medium,
+4214,56096,Sajjad Ahmed,0.0,0.0,11.0,2.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 20, 1974, Dhaka",Right-arm offbreak,Top-order batsman
+855,17018,Colin Milburn,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,139.0,9.0,654.0,Right-hand bat,"October 23, 1941, Burnopfield, Co Durham",Right-arm medium,
+240,6291,Michael Llewellyn Lewis,0.0,0.0,4.0,7.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 29, 1974, Greensborough, Victoria",Right-arm fast-medium,Bowler
+282,6554,Colin Campbell McDonald,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,17.0,170.0,47.0,3107.0,Right-hand bat,"November 17, 1928, Glen Iris, Melbourne, Victoria",0,
+4083,55493,Vincent Richard Hogg,0.0,0.0,7.0,2.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 3, 1952, Salisbury (now Harare)",Right-arm fast-medium,
+894,18405,Kenneth Ernest Palmer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,1.0,10.0,Right-hand bat,"April 22, 1937, Winchester, Hampshire",Right-arm fast-medium,
+4497,277912,Trent Alexander Boult,0.0,0.0,21.0,79.0,144.0,0.0,0.0,5.0,25.0,14.0,0.0,1.0,52.0,61.0,562.0,Right-hand bat,"July 22, 1989, Rotorua",Left-arm fast-medium,Bowler
+3036,52953,Jeffrey Baxter Stollmeyer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,12.0,160.0,32.0,2159.0,Right-hand bat,"March 11, 1921, Santa Cruz, Trinidad",Legbreak googly,
+2984,52672,Thelston Rodney O'Neale Payne,0.0,1.0,60.0,7.0,126.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,5.0,Left-hand bat,"February 13, 1957, Foul Bay, St Philip, Barbados",0,
+1808,37265,Jamie Michael How,1.0,7.0,139.0,41.0,1046.0,0.0,0.0,31.0,5.0,56.0,0.0,4.0,92.0,19.0,772.0,Right-hand bat,"May 19, 1981, New Plymouth, Taranaki","Right-arm medium, Right-arm offbreak",Top-order batsman
+2269,44079,Murray Bisset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,3.0,103.0,Right-hand bat,"April 14, 1876, Port Elizabeth, Cape Province",Slow left-arm orthodox,
+561,10712,Glen Chapple,0.0,0.0,14.0,1.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 23, 1974, Skipton, Yorkshire",Right-arm medium-fast,
+879,18007,William Newham,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,1.0,26.0,Right-hand bat,"December 12, 1860, Holy Cross, Shrewsbury, Shropshire",0,
+2858,51738,Sunil Dhaniram,0.0,6.0,92.0,44.0,915.0,0.0,0.0,26.0,11.0,100.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 17, 1968, Port Mourant, Berbice, Guyana",Slow left-arm orthodox,
+5277,625371,Hardik Himanshu Pandya,0.0,4.0,83.0,45.0,731.0,0.0,0.0,33.0,38.0,296.0,1.0,4.0,108.0,11.0,532.0,Right-hand bat,"October 11, 1993, Choryasi, Gujarat",Right-arm medium-fast,Allrounder
+361,7366,Gavin Ron Robertson,0.0,0.0,15.0,13.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,57.0,4.0,140.0,Right-hand bat,"May 28, 1966, Sydney, New South Wales",Right-arm offbreak,
+4948,422965,Gampalage Shehan Naveendra De Fonseka Gunawarna Jayasuriya,0.0,0.0,31.0,9.0,83.0,0.0,0.0,40.0,11.0,157.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"September 12, 1991, Colombo",Right-arm offbreak,Batting allrounder
+4126,55710,Peter Walter Edward Rawson,0.0,0.0,24.0,10.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 25, 1957, Salisbury (now Harare)",Right-arm fast-medium,
+2117,41310,Mujahid Jamshed,0.0,0.0,23.0,4.0,27.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 1, 1971, Muridke, Punjab",Right-arm medium,
+2052,40551,Ijaz Ahmed,10.0,37.0,139.0,250.0,6564.0,0.0,0.0,0.0,0.0,0.0,12.0,12.0,211.0,60.0,3315.0,Right-hand bat,"September 20, 1968, Sialkot, Punjab",Left-arm medium,
+1298,25102,Gregor Ian Maiden,0.0,0.0,31.0,7.0,84.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 22, 1979, Glasgow, Lanarkshire",Right-arm offbreak,Batsman
+1477,29725,Sunil Bandacharya Joshi,0.0,1.0,61.0,69.0,584.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,92.0,15.0,352.0,Left-hand bat,"June 6, 1970, Gadag, Karnataka",Slow left-arm orthodox,
+1017,20345,David Stanley Steele,0.0,0.0,8.0,1.0,8.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,106.0,8.0,673.0,Right-hand bat,"September 29, 1941, Bradeley, Staffordshire",Slow left-arm orthodox,
+1353,25613,Amjad Javed,0.0,1.0,56.0,15.0,239.0,0.0,1.0,76.0,22.0,271.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 5, 1980, Dubai",Right-arm medium,Allrounder
+4405,251721,Adam Lyth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,107.0,7.0,265.0,Left-hand bat,"September 25, 1987, Whitby, Yorkshire",Right-arm offbreak,Batsman
+1844,37719,Lawrence Somerville Martin Miller,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0,13.0,346.0,Left-hand bat,"March 31, 1923, New Plymouth, Taranaki",0,
+1982,38978,Aftab Baloch,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,60.0,2.0,97.0,Right-hand bat,"April 1, 1953, Karachi, Sind",Right-arm offbreak,
+4162,55898,Gholam Mohammad Nousher,0.0,0.0,4.0,9.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 6, 1964, Dacca",Left-arm medium,
+1343,25580,Abdul Rehman,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 2, 1987, Ajman",0,
+4646,317248,Hafiz Saad Nasim,0.0,1.0,77.0,3.0,99.0,0.0,0.0,25.0,3.0,44.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 29, 1990, Lahore, Punjab",Legbreak,Allrounder
+4440,267479,Stiaan van Zyl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,101.0,12.0,395.0,Left-hand bat,"September 19, 1987, Cape Town",Right-arm medium,Allrounder
+4580,303435,Samuel Andrew Britton,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 10, 1988, Ireland",Right-arm fast,Bowler
+2228,43590,Wahab Riaz,0.0,2.0,54.0,79.0,589.0,0.0,0.0,30.0,27.0,126.0,0.0,0.0,39.0,27.0,306.0,Right-hand bat,"June 28, 1985, Lahore, Punjab",Left-arm fast,Bowler
+2087,41224,Khurram Rasheed Chohan,0.0,0.0,35.0,25.0,165.0,0.0,0.0,8.0,4.0,18.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 22, 1980, Lahore, Punjab",Right-arm fast-medium,Bowler
+5439,919495,Ishtiaq Muhammad,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 31, 1992",Right-arm offbreak,Bowler
+1623,34019,Laxmi Ratan Shukla,0.0,0.0,13.0,3.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 6, 1981, Howrah (now Haora), Bengal",Right-arm medium,Allrounder
+5028,459508,Andrew James Tye,0.0,0.0,19.0,7.0,57.0,0.0,0.0,20.0,26.0,61.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 12, 1986, Perth, Western Australia",Right-arm medium-fast,Bowler
+4741,348034,George Henry Dockrell,0.0,2.0,62.0,82.0,535.0,0.0,0.0,34.0,60.0,204.0,0.0,0.0,39.0,1.0,64.0,Right-hand bat,"July 22, 1992, Dublin",Slow left-arm orthodox,Bowler
+4445,268845,Panagamuwa Lahiru Sampath Gamage,0.0,0.0,3.0,9.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,6.0,Right-hand bat,"April 5, 1988, Maradana",Right-arm fast-medium,Bowler
+2782,51112,Eric St Eval Atkinson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,8.0,126.0,Right-hand bat,"November 6, 1927, Rockley, Christ Church, Barbados",Right-arm medium-fast,
+4843,379927,Beuran Eric Hendricks,0.0,0.0,2.0,2.0,2.0,0.0,0.0,12.0,10.0,18.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"June 8, 1990, Louis Leipoldt Hospital, Bellville, Cape Town",Left-arm fast-medium,Bowler
+2048,40376,Hasan Jamil Alvi,0.0,0.0,28.0,6.0,111.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"July 25, 1952, Karachi, Sind",Left-arm medium-fast,
+3057,53211,Clyde Leopold Walcott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,14.0,220.0,44.0,3798.0,Right-hand bat,"January 17, 1926, New Orleans, St Michael, Barbados",Right-arm fast-medium,
+128,5375,Donald Raeburn Algernon Gehrs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,67.0,6.0,221.0,Right-hand bat,"November 29, 1880, Port Victor, South Australia",Legbreak,
+257,6472,Ashley Alexander Mallett,0.0,0.0,8.0,9.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,38.0,430.0,Right-hand bat,"July 13, 1945, Chatswood, Sydney, New South Wales",Right-arm offbreak,
+1891,38242,Geoffrey Osborne Rabone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,107.0,12.0,562.0,Right-hand bat,"November 6, 1921, Gore, Southland","Right-arm offbreak, Legbreak",
+2390,45437,Omar Henry,0.0,0.0,11.0,3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,3.0,53.0,Left-hand bat,"January 23, 1952, Stellenbosch, Cape Province",Slow left-arm orthodox,
+2725,50245,Dammika Ranatunga,0.0,0.0,25.0,4.0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,2.0,87.0,Right-hand bat,"October 12, 1962, Colombo",Right-arm offbreak,
+4281,216920,Qaiser Ali,0.0,2.0,70.0,17.0,244.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 20, 1978, Rawalpindi, Punjab",Right-arm offbreak,Batsman
+3035,52951,Wilton H St Hill,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,3.0,117.0,Right-hand bat,"July 6, 1893, Port of Spain, Trinidad",Right-arm medium,
+2450,46231,William Henry Milton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,3.0,68.0,Right-hand bat,"December 3, 1854, Little Marlow, Buckinghamshire, England",Right-arm bowler,
+581,10839,Norman George Cowans,0.0,0.0,4.0,23.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,19.0,175.0,Right-hand bat,"April 17, 1961, Enfield, St Mary, Jamaica",Right-arm fast,
+5111,499592,Dharshanapriya Sandun Weerakkody,0.0,1.0,58.0,3.0,73.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"September 3, 1993, Colombo",0,Wicketkeeper batsman
+4897,402245,Amir Hamza Hotak,0.0,0.0,7.0,31.0,23.0,0.0,0.0,21.0,31.0,40.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 15, 1991, Afghanistan",Slow left-arm orthodox,Bowler
+113,5143,Edwin Evans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,6.0,82.0,Right-hand bat,"March 26, 1849, Emu Plains, New South Wales",Right-arm slow,
+971,20124,John William Sharpe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,3.0,44.0,Right-hand bat,"December 9, 1866, Ruddington, Nottinghamshire",Right-arm fast-medium,
+580,10836,Charles John Coventry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,2.0,13.0,Right-hand bat,"February 26, 1867, Marylebone, London",0,
+4173,55944,Mohammad Jahurul Islam,0.0,1.0,53.0,14.0,270.0,0.0,0.0,18.0,3.0,31.0,0.0,0.0,48.0,7.0,347.0,Right-hand bat,"December 12, 1986, Rajshahi",Right-arm offbreak,Middle-order batsman
+1775,37102,Stuart Ross Gillespie,0.0,0.0,18.0,19.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,1.0,28.0,Right-hand bat,"March 2, 1957, Wanganui",Right-arm fast-medium,
+1047,21502,Vivian Paul Terry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,16.0,Right-hand bat,"January 14, 1959, Osnabrck, West Germany",Right-arm medium,
+2402,45794,Gustav Adolph Kempis,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"August 4, 1865, Port Elizabeth, Cape Province",Left-arm medium,
+4316,227454,Sajedul Islam,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,6.0,3.0,18.0,Left-hand bat,"January 18, 1988, Rangpur",Left-arm medium,Allrounder
+272,6531,Lawrence Charles Mayne,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,6.0,76.0,Left-hand bat,"January 23, 1942, West Perth, Western Australia",Right-arm fast-medium,
+4093,55560,Alan Charles Ingram Lock,0.0,0.0,5.0,8.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,1.0,8.0,Right-hand bat,"September 10, 1962, Marandellas (now Marondera), Mashonaland",Right-arm fast-medium,Bowler
+5193,543449,Ajay Vrajlal Lalcheta,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,17.0,101.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 22, 1983, Porbandar, Gujarat, India",Slow left-arm orthodox,Batting allrounder
+5389,793457,Hazratullah Zazai,0.0,1.0,67.0,6.0,155.0,1.0,2.0,162.0,6.0,378.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"March 23, 1998, Paktia",Slow left-arm orthodox,Opening batsman
+4526,293831,Regis Wiriranai Chakabva,0.0,0.0,45.0,35.0,492.0,0.0,0.0,13.0,5.0,18.0,1.0,4.0,101.0,14.0,678.0,Right-hand bat,"September 20, 1987, Harare",Right-arm offbreak,Wicketkeeper batsman
+1749,36828,Eric William Dempster,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0,5.0,106.0,Left-hand bat,"January 25, 1925, Wellington",Slow left-arm orthodox,
+1887,38132,Mark Wellings Priest,0.0,0.0,24.0,18.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,3.0,56.0,Left-hand bat,"August 12, 1961, Greymouth, West Coast",Slow left-arm orthodox,
+4582,303508,Shane Charles Getkate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,6.0,56.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 2, 1991, Durban, South Africa",Right-arm medium-fast,
+5207,550235,Thomas Kevin Curran,0.0,0.0,35.0,13.0,71.0,0.0,0.0,6.0,10.0,10.0,0.0,0.0,39.0,2.0,66.0,Right-hand bat,"March 12, 1995, Cape Town, Cape Province",Right-arm fast-medium,Bowling allrounder
+5182,538506,Taskin Ahmed,0.0,0.0,14.0,32.0,41.0,0.0,0.0,15.0,19.0,29.0,0.0,0.0,33.0,5.0,68.0,Left-hand bat,"April 3, 1995, Dhaka",Right-arm fast,Bowler
+720,14196,Arthur James Ledger Hill,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,124.0,3.0,251.0,Right-hand bat,"July 26, 1871, Bassett, Hampshire","(underarm), Right-arm fast-medium",
+387,7640,David Bertram Miller Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,2.0,30.0,Right-hand bat,"September 14, 1884, Richmond, Melbourne, Victoria",0,
+4187,55988,Mohammad Ashraful,3.0,20.0,109.0,177.0,3468.0,0.0,2.0,65.0,23.0,450.0,6.0,8.0,190.0,61.0,2737.0,Right-hand bat,"July 7, 1984, Dhaka","Right-arm offbreak, Legbreak",Middle-order batsman
+2481,46745,Sidney James Pegler,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,16.0,356.0,Right-hand bat,"July 28, 1888, Durban, Natal","Right-arm medium, Legbreak",
+5013,447587,Jayant Yadav,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,104.0,4.0,228.0,Right-hand bat,"January 22, 1990, Delhi",Right-arm offbreak,Bowler
+4751,348154,Zafar Gohar Khan,0.0,0.0,15.0,1.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 1, 1995, Lahore, Punjab",Slow left-arm orthodox,Bowler
+1997,39006,Arshad Pervez,0.0,0.0,8.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 1, 1953, Sargodha, Punjab",Right-arm medium,
+4257,208380,Courtney Keith Kruger,0.0,0.0,3.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 18, 1988, South Africa",Right-arm offbreak,Batsman
+4758,352048,Gulbadin Naib,0.0,5.0,82.0,52.0,807.0,0.0,1.0,56.0,38.0,432.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 16, 1991, Logar, Afghanistan",Right-arm medium-fast,Bowler
+1141,23694,Janeiro J Tucker,0.0,1.0,52.0,26.0,496.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 15, 1975, Bermuda",Right-arm medium,Allrounder
+2734,50424,Thilan Thusara Samaraweera,2.0,0.0,105.0,53.0,862.0,0.0,0.0,0.0,0.0,0.0,14.0,30.0,231.0,81.0,5462.0,Right-hand bat,"September 22, 1976, Colombo",Right-arm offbreak,Batsman
+1797,37244,John Arthur Hayes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,15.0,73.0,Right-hand bat,"January 11, 1927, Auckland",Right-arm fast,
+1986,38986,Akhtar Sarfraz,0.0,0.0,25.0,4.0,66.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 20, 1976, Peshawar, North-West Frontier Province",Right-arm offbreak,
+6,3958,Reginald Charles Allen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,1.0,44.0,Right-hand bat,"July 2, 1858, Glebe, Sydney, New South Wales",Right-arm fast-medium,
+1880,38122,Peter James Petherick,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,6.0,34.0,Right-hand bat,"September 25, 1942, Ranfurly, Otago",Right-arm offbreak,
+4859,384355,Anaru Kyle Kitchen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,5.0,38.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 21, 1984, Auckland",Slow left-arm orthodox,Middle-order batsman
+900,18433,James Horace Parks,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,1.0,29.0,Right-hand bat,"May 12, 1903, Haywards Heath, Sussex",0,
+406,7959,Peter Michael Toohey,0.0,1.0,54.0,5.0,105.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,122.0,15.0,893.0,Right-hand bat,"April 20, 1954, Blayney, New South Wales",0,
+1338,25545,Shahzad Altaf,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 6, 1957, Pakistan",Right-arm medium,Bowler
+864,17050,Thomas Bignall Mitchell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,5.0,20.0,Right-hand bat,"September 4, 1902, Creswell, Derbyshire",Legbreak googly,
+5200,547079,Sami Aslam,0.0,0.0,45.0,4.0,78.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,91.0,13.0,758.0,Left-hand bat,"December 12, 1995, Lahore, Punjab",Right-arm medium,Opening batsman
+397,7921,John Morris Taylor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,108.0,20.0,997.0,Right-hand bat,"October 10, 1895, Stanmore, Sydney, New South Wales",0,
+190,5733,Alexander Hurwood,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,Right-hand bat,"June 17, 1902, Kangaroo Point, Brisbane, Queensland","Right-arm medium, Right-arm offbreak",
+4374,235519,Tendai Sam Chisoro,0.0,0.0,42.0,18.0,134.0,0.0,0.0,14.0,12.0,40.0,0.0,0.0,9.0,1.0,9.0,Left-hand bat,"February 12, 1988, Masvingo","Left-arm fast-medium, Slow left-arm orthodox",Bowler
+4955,427178,Brian Bara Chari,0.0,0.0,39.0,10.0,131.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,80.0,7.0,254.0,Right-hand bat,"February 14, 1992",Right-arm offbreak,Opening batsman
+4424,259551,Mohammad Junaid Khan,0.0,0.0,25.0,74.0,68.0,0.0,0.0,3.0,9.0,3.0,0.0,0.0,17.0,22.0,122.0,Right-hand bat,"December 24, 1989, Matra, North-West Frontier Province",Left-arm fast,Bowler
+2917,52070,Conrad Cleophas Hunte,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,13.0,260.0,44.0,3245.0,Right-hand bat,"May 9, 1932, Greenland Plantation, Shorey's Village, St Andrew, Barbados",Right-arm medium,
+219,6132,Charles Kelleway,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,6.0,147.0,26.0,1422.0,Right-hand bat,"April 25, 1886, Lismore, New South Wales",Right-arm fast-medium,
+2001,39011,Raja Asif Mahmood,0.0,0.0,14.0,2.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 18, 1975, Rawalpindi, Punjab",Right-arm offbreak,
+1239,24711,Lameck Onyango Ngoche,0.0,0.0,34.0,29.0,144.0,0.0,0.0,5.0,5.0,17.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 22, 1973, Nairobi",Right-arm medium,
+5408,854909,Blair Marshall Tickner,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 13, 1993, Napier, Hawke's Bay",Right-arm medium-fast,
+1734,36608,Peter George Coman,0.0,0.0,38.0,3.0,62.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 13, 1943, Christchurch, Canterbury",0,
+1270,24911,Floris Jansen,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 10, 1962, Holland",Right-arm medium,
+997,20236,David Robert Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,5.0,38.0,Right-hand bat,"October 5, 1934, Fishponds, Bristol",Right-arm medium,
+1282,24975,Robert Frank van Oosterom,0.0,0.0,5.0,3.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 16, 1968, The Hague",0,
+1230,24694,Sandeep Kumar Gupta,0.0,0.0,41.0,10.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 7, 1967, Nairobi",0,
+2748,50791,Kalutarage Eric Amila Upashantha,0.0,0.0,15.0,12.0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,10.0,Right-hand bat,"June 10, 1972, Kurunegala",Right-arm fast-medium,Bowler
+2495,46789,Charles Frederick Henry Prince,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,6.0,Right-hand bat,"September 11, 1874, Boshof, Orange Free State",0,
+160,5616,Matthew Lawrence Hayden,10.0,36.0,181.0,161.0,6133.0,0.0,4.0,73.0,9.0,308.0,30.0,29.0,380.0,103.0,8625.0,Left-hand bat,"October 29, 1971, Kingaroy, Queensland",Right-arm medium,Opening batsman
+2975,52631,Rangy Nanan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,1.0,16.0,Right-hand bat,"May 29, 1953, Preysal, Trinidad",Right-arm offbreak,
+4746,348129,Nitish Roenick Kumar,0.0,0.0,38.0,16.0,217.0,0.0,0.0,38.0,6.0,97.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 21, 1994, Scarborough, Ontario",Right-arm offbreak,Batsman
+5017,450860,Adam Fraser Milne,0.0,0.0,36.0,40.0,168.0,0.0,0.0,10.0,21.0,21.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 13, 1992, Palmerston North",Right-arm fast,Bowler
+127,5372,Ronald Arthur Gaunt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,6.0,Left-hand bat,"February 26, 1934, York, Western Australia",Right-arm fast,
+1877,38117,Adam Craig Parore,1.0,14.0,108.0,179.0,3314.0,0.0,0.0,0.0,0.0,0.0,2.0,14.0,110.0,78.0,2865.0,Right-hand bat,"January 23, 1971, Auckland",0,
+145,5449,Arthur Theodore Wallace Grout,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,74.0,51.0,890.0,Right-hand bat,"March 30, 1927, Mackay, Queensland",0,
+289,6579,Thomas Robert McKibbin,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,5.0,88.0,Left-hand bat,"December 10, 1870, Raglan, Bathurst, New South Wales","Right-arm medium, Right-arm offbreak",
+1992,38999,Anil Dalpat Sonavaria,0.0,0.0,37.0,15.0,87.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,9.0,167.0,Right-hand bat,"September 20, 1963, Karachi, Sind",0,
+5395,800395,Anas Khan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,1.0,21.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 26, 1993, Pakistan",Slow left-arm orthodox,Opening batsman
+2285,44138,Rudi Edwin Bryson,0.0,0.0,17.0,7.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 25, 1968, Springs, Transvaal",Right-arm fast-medium,
+908,18504,Reginald Thomas David Perks,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,3.0,Left-hand bat,"October 4, 1911, Hereford",Right-arm fast-medium,
+907,18500,Frank Penn,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.0,1.0,50.0,Right-hand bat,"March 7, 1851, The Cedars, Lee, Lewisham, London",0,
+4200,56044,Neeyamur Rashid Rahul,0.0,0.0,4.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 1, 1975, Pabna, Rajshahi",Right-arm medium-fast,
+341,7116,Wayne Norman Phillips,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0,22.0,Right-hand bat,"November 7, 1962, Geelong, Victoria",Right-arm offbreak,
+39,4228,William Bruce,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,80.0,14.0,702.0,Left-hand bat,"May 22, 1864, South Yarra, Melbourne, Victoria",Left-arm medium,
+1075,22146,George Ulyett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,149.0,25.0,949.0,Right-hand bat,"October 21, 1851, Crabtree, Pitsmoor, Sheffield, Yorkshire",Right-arm fast (roundarm),
+180,5702,James Redfern Hopes,0.0,3.0,63.0,84.0,1326.0,0.0,0.0,30.0,12.0,105.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 24, 1978, Townsville, Queensland",Right-arm medium,Allrounder
+2936,52287,Rohan Bholalall Kanhai,0.0,2.0,55.0,7.0,164.0,0.0,0.0,0.0,0.0,0.0,15.0,28.0,256.0,79.0,6227.0,Right-hand bat,"December 26, 1935, Port Mourant, Berbice, British Guiana",Right-arm medium,
+102,5017,Xavier John Doherty,0.0,0.0,15.0,60.0,101.0,0.0,0.0,9.0,11.0,18.0,0.0,0.0,18.0,4.0,51.0,Left-hand bat,"November 22, 1982, Scottsdale, Tasmania",Slow left-arm orthodox,Bowler
+5276,623695,Chamika Karunaratne,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,1.0,22.0,Right-hand bat,"May 29, 1996, Colombo",Right-arm medium-fast,Bowler
+5456,932635,Mohammad Nayeem Hasan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,2.0,43.0,Right-hand bat,"December 2, 2000, Chittagong",Right-arm offbreak,Bowler
+779,15892,Septimus Paul Kinneir,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,1.0,52.0,Left-hand bat,"May 13, 1871, Pickwick, Corsham, Wiltshire",Right-arm medium,
+1912,38393,Mathew Stuart Sinclair,2.0,8.0,118.0,54.0,1304.0,0.0,0.0,0.0,2.0,0.0,3.0,4.0,214.0,33.0,1635.0,Right-hand bat,"November 9, 1975, Katherine, Australia",Right-arm medium,
+84,4890,Adam Craig Dale,0.0,0.0,15.0,30.0,78.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,6.0,Left-hand bat,"December 30, 1968, Ivanhoe, Victoria",Right-arm fast-medium,
+1733,36607,Ian Alexander Colquhoun,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,Right-hand bat,"June 8, 1924, Wellington",0,
+4378,236489,Dawid Johannes Malan,0.0,0.0,0.0,0.0,0.0,0.0,4.0,78.0,5.0,250.0,1.0,6.0,140.0,15.0,724.0,Left-hand bat,"September 3, 1987, Roehampton, England",Legbreak,Top-order batsman
+2886,51887,Roy Gilchrist,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,13.0,60.0,Right-hand bat,"June 28, 1934, Seaforth, St Thomas, Jamaica",Right-arm fast,
+4189,55997,Mohammad Mazharul Haque Chowdhuri,0.0,0.0,3.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 3, 1980, Narayanganj, Dhaka",Right-arm offbreak,
+3019,52927,James Edward Derrick Sealy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,92.0,11.0,478.0,Right-hand bat,"September 11, 1912, Collymore Rock, St Michael, Barbados",Right-arm medium,
+2978,52635,Robert Karl Nunes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,92.0,4.0,245.0,Left-hand bat,"June 7, 1894, Kingston, Jamaica",0,
+2659,49081,Frederick Ranjan Manilal de Silva Gunatilleke,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 15, 1951, Colombo",Right-arm medium,
+1882,38124,Richard George Petrie,0.0,0.0,21.0,12.0,65.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 23, 1967, Christchurch, Canterbury",Right-arm fast-medium,
+4218,56102,Shaheedur Rahman,0.0,0.0,37.0,2.0,62.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 1, 1963, Chittagong (now in Bangladesh), Pakistan",0,
+573,10793,Geoffrey Cook,0.0,0.0,32.0,6.0,106.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,66.0,7.0,203.0,Right-hand bat,"October 9, 1951, Middlesbrough, Yorkshire",Slow left-arm orthodox,
+1376,26225,Mohinder Amarnath Bhardwaj,2.0,13.0,102.0,85.0,1924.0,0.0,0.0,0.0,0.0,0.0,11.0,24.0,138.0,69.0,4378.0,Right-hand bat,"September 24, 1950, Patiala, Punjab",Right-arm medium,
+1936,38618,Peter Bennetts Truscott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,1.0,29.0,Right-hand bat,"August 14, 1941, Pahiatua, Manawatu",0,
+5490,950303,Ghulam Shabber,0.0,3.0,90.0,20.0,426.0,0.0,0.0,25.0,12.0,97.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 12, 1985, Jhang",0,Wicketkeeper batsman
+1841,37716,William Edward Merritt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,6.0,73.0,Right-hand bat,"August 18, 1908, Sumner, Christchurch, Canterbury",Legbreak googly,
+2013,39038,Adnan Akmal,0.0,0.0,27.0,5.0,62.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,64.0,21.0,591.0,Right-hand bat,"March 13, 1985, Lahore, Punjab",0,Wicketkeeper batsman
+2918,52071,Errol Ashton Clairmonte Hunte,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,58.0,3.0,166.0,Right-hand bat,"October 3, 1905, Port of Spain, Trinidad",0,
+638,12828,Percy George Herbert Fender,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,60.0,13.0,380.0,Right-hand bat,"August 22, 1892, Balham, London","Right-arm medium, Legbreak",
+2115,41308,Mudassar Nazar,0.0,16.0,95.0,122.0,2653.0,0.0,0.0,0.0,0.0,0.0,10.0,17.0,231.0,76.0,4114.0,Right-hand bat,"April 6, 1956, Lahore, Punjab",Right-arm medium,
+2997,52804,Sonny Ramadhin,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0,43.0,361.0,Right-hand bat,"May 1, 1929, St Charles Village, Trinidad",Right-arm offbreak,
+2080,41038,Khalid Hasan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,1.0,17.0,Right-hand bat,"July 14, 1937, Peshawar, North-West Frontier Province",Legbreak googly,
+4527,293983,Alex Richard Cusack,0.0,2.0,71.0,59.0,745.0,0.0,1.0,65.0,37.0,229.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 29, 1980, Brisbane, Australia",Right-arm medium-fast,Bowler
+2574,47666,Lonwabo Lopsy Tsotsobe,0.0,0.0,16.0,61.0,56.0,0.0,0.0,1.0,23.0,2.0,0.0,0.0,8.0,5.0,19.0,Right-hand bat,"March 7, 1984, Port Elizabeth",Left-arm fast-medium,Bowler
+2940,52293,Lester Anthony King,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,2.0,41.0,Right-hand bat,"February 27, 1939, St Catherine, Jamaica",Right-arm fast,
+4623,311592,Mitchell Aaron Starc,0.0,1.0,52.0,75.0,280.0,0.0,0.0,4.0,23.0,12.0,0.0,9.0,99.0,51.0,1377.0,Left-hand bat,"January 30, 1990, Baulkham Hills, Sydney, New South Wales",Left-arm fast,Bowler
+2340,44851,Con de Wet de Lange,0.0,0.0,26.0,13.0,123.0,0.0,0.0,22.0,8.0,35.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 11, 1981, Bellville, Cape Province",Slow left-arm orthodox,Bowling allrounder
+251,6452,John Alexander Maclean,0.0,0.0,11.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,4.0,79.0,Right-hand bat,"April 27, 1946, Herston, Brisbane, Queensland",0,
+352,7319,Bruce Anthony Reid,0.0,0.0,10.0,61.0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,27.0,93.0,Left-hand bat,"March 14, 1963, Osborne Park, Perth, Western Australia",Left-arm fast-medium,Bowler
+1744,36632,Tamahau Karangatukituki Canning,0.0,0.0,23.0,4.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 7, 1977, Rose Park, Adelaide, South Australia, Australia",Right-arm fast-medium,
+2965,52439,David Anthony Murray,0.0,0.0,35.0,10.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,84.0,19.0,601.0,Right-hand bat,"May 29, 1950, Murray's Gap, Westbury Road, St Michael, Bridgetown, Barbados",0,
+4229,56165,Shah Mohammad Zahid Razzak,0.0,0.0,6.0,3.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 2, 1967, Chittagong (now in Bangladesh), Pakistan",0,
+2761,50851,Anguppulige Gamini Dayantha Wickremasinghe,0.0,0.0,2.0,4.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,3.0,17.0,Right-hand bat,"December 27, 1965, Colombo",Right-arm offbreak,
+374,7581,Henry James Herbert Scott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,102.0,8.0,359.0,Right-hand bat,"December 26, 1858, Toorak, Melbourne, Victoria",Right-arm medium-fast,
+4965,431901,Evin Lewis,2.0,3.0,176.0,35.0,1010.0,2.0,4.0,125.0,20.0,637.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 27, 1991, Port of Spain, Trinidad",0,Opening batsman
+2129,41919,Majid Jahangir Khan,1.0,7.0,109.0,23.0,786.0,0.0,0.0,0.0,0.0,0.0,8.0,19.0,167.0,63.0,3931.0,Right-hand bat,"September 28, 1946, Ludhiana, Punjab, India","Right-arm medium, Right-arm offbreak",
+1531,31038,Kiran Shankar More,0.0,0.0,42.0,94.0,563.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,73.0,49.0,1285.0,Right-hand bat,"September 4, 1962, Baroda, Gujarat",Legbreak,
+2954,52422,Roy Edwin Marshall,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,4.0,143.0,Right-hand bat,"April 25, 1930, Farmers Plantation, St Thomas, Barbados",Right-arm offbreak,
+2863,51786,Kirk Anton Edwards,1.0,0.0,123.0,16.0,331.0,0.0,0.0,0.0,0.0,0.0,2.0,8.0,121.0,17.0,986.0,Right-hand bat,"November 3, 1984, Barbados",Right-arm offbreak,Batsman
+2310,44474,Joseph Lovell Cox,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,3.0,17.0,Right-hand bat,"June 28, 1886, Pietermaritzberg, Natal",Right-arm medium,
+1722,36581,Neil Trevor Broom,1.0,5.0,109.0,39.0,943.0,0.0,0.0,36.0,11.0,73.0,0.0,0.0,20.0,2.0,32.0,Right-hand bat,"November 20, 1983, Christchurch, Canterbury",Right-arm medium,Middle-order batsman
+3026,52935,Charran Kamkaran Singh,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,2.0,11.0,Left-hand bat,"November 27, 1935, San Juan, Trinidad",Slow left-arm orthodox,
+212,6050,Samuel Percy Jones,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,87.0,12.0,428.0,Right-hand bat,"August 1, 1861, Sydney, New South Wales",Right-arm fast-medium,
+1686,36180,Robert Wickham Anderson,0.0,0.0,12.0,2.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,92.0,9.0,423.0,Right-hand bat,"October 2, 1948, Christchurch, Canterbury",Legbreak,
+1924,38409,Murphy Logo Su'a,0.0,0.0,12.0,12.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0,13.0,165.0,Left-hand bat,"November 7, 1966, Wanganui",Left-arm fast-medium,
+535,9246,Alistair Duncan Brown,1.0,1.0,118.0,16.0,354.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 11, 1970, Beckenham, Kent",Right-arm offbreak,
+719,14189,Kenneth Higgs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,63.0,15.0,185.0,Left-hand bat,"January 14, 1937, Kidsgrove, Staffordshire","Right-arm fast-medium, Right-arm medium",
+2023,39940,Mohammad Ashfaq Ahmed,0.0,2.0,92.0,13.0,327.0,0.0,0.0,8.0,6.0,21.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 26, 1985, Lahore",Right-arm offbreak,Top-order batsman
+560,10705,Arthur Percy Frank Chapman,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,121.0,26.0,925.0,Left-hand bat,"September 3, 1900, The Mount, Reading, Berkshire",0,
+4259,208755,Tyson George Gordon,0.0,0.0,9.0,5.0,27.0,0.0,0.0,23.0,3.0,32.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 31, 1982, St Mary, Jamaica",Right-arm fast-medium,Middle-order batsman
+2458,46569,Andre Nel,0.0,0.0,30.0,79.0,127.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,34.0,36.0,337.0,Right-hand bat,"July 15, 1977, Germiston, Transvaal",Right-arm fast-medium,
+5011,447290,Nasir Aziz,0.0,1.0,60.0,5.0,82.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 16, 1986, Karachi",Right-arm offbreak,Bowler
+292,6585,Robert William McLeod,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.0,6.0,146.0,Left-hand bat,"January 19, 1868, Sandridge (now Port Melbourne), Victoria",Right-arm medium,
+2831,51471,Cyril Marcel Christiani,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,4.0,98.0,Right-hand bat,"October 28, 1913, Georgetown, Demerara, British Guiana",0,
+2076,41026,Mohammad Kabir Khan,0.0,0.0,5.0,10.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,4.0,24.0,Right-hand bat,"April 12, 1974, Peshawar, North-West Frontier Province",Left-arm fast-medium,
+4170,55935,Mohammad Javed Omar Belim,0.0,10.0,85.0,59.0,1312.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,119.0,40.0,1720.0,Right-hand bat,"November 25, 1976, Dhaka",Legbreak,Opening batsman
+1642,34154,Gundibail Rama Sunderam,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,3.0,Right-hand bat,"March 29, 1930, Udupi, Karnataka",Right-arm fast-medium,
+3064,53224,Claude Vibart Wight,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,2.0,67.0,Right-hand bat,"July 28, 1902, Georgetown, Demerara, British Guiana",Right-arm bowler,
+301,6628,Thomas Masson Moody,0.0,10.0,89.0,76.0,1211.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,106.0,8.0,456.0,Right-hand bat,"October 2, 1965, Adelaide, South Australia",Right-arm medium,Top-order batsman
+2993,52796,Keon Kenroy Peters,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"February 24, 1982, St Vincent",Left-arm medium,Batsman
+2252,43913,Hylton Deon Ackerman,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,57.0,4.0,161.0,Right-hand bat,"February 14, 1973, Cape Town, Cape Province",Right-arm medium,
+1893,38246,John Fulton Reid,0.0,4.0,88.0,25.0,633.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,180.0,19.0,1296.0,Left-hand bat,"March 3, 1956, Auckland",Legbreak,
+834,16886,Neil Alan Mallender,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,2.0,8.0,Right-hand bat,"August 13, 1961, Kirk Sandall, Yorkshire",Right-arm fast-medium,
+4186,55986,Mohammad Sharif,0.0,0.0,13.0,9.0,53.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,10.0,122.0,Right-hand bat,"December 12, 1985, Narayanganj, Dhaka",Right-arm medium-fast,
+4330,230549,Jason Nazimuddin Mohammed,0.0,4.0,91.0,28.0,551.0,0.0,0.0,23.0,9.0,90.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 23, 1986, Trinidad",Right-arm offbreak,Batsman
+5229,568276,Imam-ul-Haq,5.0,5.0,128.0,24.0,1153.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,76.0,10.0,483.0,Left-hand bat,"December 12, 1995, Lahore, Punjab",0,Top-order batsman
+895,18411,Peter Howard Parfitt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,6.0,131.0,37.0,1882.0,Left-hand bat,"December 8, 1936, Billingford, Fakenham, Norfolk",Right-arm offbreak,
+4681,326017,Siddarth Kaul,0.0,0.0,1.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 19, 1990, Pathankot, Punjab",Right-arm medium,Bowler
+1153,23760,Ryan D'Von Steede,0.0,0.0,20.0,8.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 11, 1975, Bermuda",Right-arm fast-medium,
+4207,56066,Rafiqul Alam,0.0,0.0,14.0,2.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 4, 1957, Dacca (now Dhaka, Bangladesh), Pakistan",Right-arm fast-medium,
+11,3982,Warwick Windridge Armstrong,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,8.0,159.0,50.0,2863.0,Right-hand bat,"May 22, 1879, Kyneton, Victoria","Right-arm fast-medium, Legbreak",
+1372,26169,Syed Abid Ali,0.0,1.0,70.0,5.0,93.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,81.0,29.0,1018.0,Right-hand bat,"September 9, 1941, Hyderabad, Andhra Pradesh",Right-arm medium-fast,
+4575,303349,Peter Christopher Connell,0.0,0.0,22.0,13.0,40.0,0.0,0.0,3.0,9.0,4.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 13, 1981, Dannevirke, Manawatu, New Zealand",Right-arm medium-fast,Bowler
+1471,29654,Mohammad Jahangir Khan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,4.0,39.0,Right-hand bat,"February 1, 1910, Basti Ghuzan, Jullundur (now Jalandhar), Punjab",Right-arm fast-medium,
+1799,37246,Matthew Henderson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,8.0,Left-hand bat,"August 2, 1895, Auckland",Left-arm fast-medium,
+1315,25433,Moneeb Mohammed Iqbal,0.0,1.0,63.0,13.0,192.0,0.0,0.0,31.0,6.0,46.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 28, 1986, Glasgow, Lanarkshire",Legbreak,Batsman
+1022,20372,Alec James Stewart,4.0,28.0,116.0,170.0,4677.0,0.0,0.0,0.0,0.0,0.0,15.0,45.0,190.0,133.0,8463.0,Right-hand bat,"April 8, 1963, Merton, Surrey",Right-arm medium,
+2274,44091,Nico Boje,2.0,4.0,129.0,115.0,1414.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,85.0,43.0,1312.0,Left-hand bat,"March 20, 1973, Bloemfontein, Orange Free State",Slow left-arm orthodox,Bowler
+1556,32201,Ghulam Ahmed Hasan Mohammed Parkar,0.0,0.0,42.0,10.0,165.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,7.0,Right-hand bat,"October 25, 1955, Kaluste, Maharashtra",Right-arm medium,
+4839,379143,Quinton de Kock,14.0,21.0,178.0,106.0,4602.0,0.0,2.0,59.0,36.0,887.0,4.0,17.0,129.0,40.0,2398.0,Left-hand bat,"December 17, 1992, Johannesburg, Gauteng",0,Wicketkeeper batsman
+966,20076,William Henry Scotton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,90.0,15.0,510.0,Left-hand bat,"January 15, 1856, Nottingham",Left-arm fast-medium,
+564,10721,John Henry Childs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,Left-hand bat,"August 15, 1951, Lipson, Plymouth, Devon",0,
+2247,43776,Zaheer Maqsood,0.0,0.0,8.0,2.0,13.0,0.0,0.0,2.0,3.0,2.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 5, 1985, Lahore, Punjab",Legbreak,Bowler
+5131,512191,Fakhar Zaman,3.0,9.0,210.0,31.0,1442.0,0.0,4.0,91.0,29.0,741.0,0.0,2.0,94.0,3.0,192.0,Left-hand bat,"April 10, 1990, Mardan, North-West Frontier Province",Slow left-arm orthodox,Opening batsman
+4529,296184,Loa Nou,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,2.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 31, 1987",Right-arm fast-medium,Bowler
+5026,458897,Ruaidhri Alexander James Smith,0.0,0.0,10.0,2.0,10.0,0.0,0.0,9.0,2.0,9.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 5, 1994, Glasgow, Lanarkshire",Right-arm medium,Bowler
+558,10669,Douglas Ward Carr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"March 17, 1872, Cranbrook, Kent",Legbreak googly,
+2592,47855,Walter Wareham Wade,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,125.0,11.0,511.0,Right-hand bat,"June 18, 1914, Durban, Natal",0,
+4960,429754,Dickwella Patabendige Dilantha Niroshan Dickwella,2.0,9.0,116.0,52.0,1571.0,0.0,1.0,68.0,18.0,328.0,0.0,11.0,83.0,31.0,1626.0,Left-hand bat,"June 23, 1993, Kandy",0,Wicketkeeper batsman
+4546,298195,Jan Hendrik Stander,0.0,0.0,22.0,5.0,44.0,0.0,0.0,45.0,11.0,94.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 4, 1982, Port Elizabeth, Cape Province, South Africa",Right-arm medium-fast,Bowler
+5171,534734,Chirag Suri,0.0,1.0,65.0,9.0,146.0,0.0,0.0,13.0,1.0,13.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 18, 1995, New Delhi, India","Right-arm offbreak, Legbreak googly",Opening batsman
+939,19364,Dermot Alexander Reeve,0.0,0.0,35.0,29.0,291.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,59.0,3.0,124.0,Right-hand bat,"April 2, 1963, Kowloon, Hong Kong",Right-arm medium,
+124,5334,Aaron James Finch,13.0,21.0,153.0,109.0,4052.0,2.0,9.0,172.0,52.0,1671.0,0.0,2.0,62.0,5.0,278.0,Right-hand bat,"November 17, 1986, Colac, Victoria",Slow left-arm orthodox,Top-order batsman
+2538,47217,Sibley John Snooke,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,103.0,26.0,1008.0,Right-hand bat,"February 1, 1881, St Mark's, Tembuland",Right-arm fast-medium,
+1568,32278,Yadavenadrasingh (Yuvraj of Patiala),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,60.0,1.0,84.0,Right-hand bat,"January 17, 1913, Patiala, Punjab",0,
+278,6547,Richard Bede McCosker,0.0,2.0,95.0,14.0,320.0,0.0,0.0,0.0,0.0,0.0,4.0,9.0,127.0,25.0,1622.0,Right-hand bat,"December 11, 1946, Inverell, New South Wales",Legbreak,
+5278,625383,Jasprit Jasbirsingh Bumrah,0.0,0.0,10.0,49.0,18.0,0.0,0.0,7.0,42.0,8.0,0.0,0.0,6.0,10.0,14.0,Right-hand bat,"December 6, 1993, Ahmedabad",Right-arm fast-medium,Bowler
+72,4628,Grahame Edward Corling,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,5.0,Right-hand bat,"July 13, 1941, Waratah, New South Wales",Right-arm fast-medium,
+4946,422108,Kannaur Lokesh Rahul,1.0,2.0,100.0,14.0,343.0,2.0,5.0,110.0,27.0,879.0,5.0,11.0,199.0,34.0,1905.0,Right-hand bat,"April 18, 1992, Bangalore, Karnataka",0,Opening batsman
+2603,47904,Joseph Thomas Willoughby,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,8.0,Right-hand bat,"November 7, 1874, Aldershot, Hampshire, England",Right-arm fast,
+229,6250,Bruce Malcolm Laird,1.0,2.0,117.0,23.0,594.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,92.0,21.0,1341.0,Right-hand bat,"November 21, 1950, Mount Lawley, Perth, Western Australia",0,
+1862,38005,Andrew John McKay,0.0,0.0,4.0,19.0,12.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,20.0,1.0,25.0,Right-hand bat,"April 17, 1980, Auckland",Left-arm fast-medium,Bowler
+2330,44721,Ronald George Draper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,2.0,25.0,Right-hand bat,"December 24, 1926, Oudtshoorn, Cape Province",0,
+253,6457,Leonard Victor Maddocks,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,69.0,7.0,177.0,Right-hand bat,"May 24, 1926, Beaconsfield, Melbourne, Victoria",0,
+4329,230371,Benjamin Colin James Cutting,0.0,0.0,27.0,4.0,53.0,0.0,0.0,29.0,7.0,40.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 30, 1987, Sunnybank, Brisbane, Queensland",Right-arm fast-medium,Allrounder
+246,6328,John James Lyons,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,134.0,14.0,731.0,Right-hand bat,"May 21, 1863, Gawler, South Australia",Right-arm medium,
+216,6100,Ian William Geddes Johnson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,77.0,45.0,1000.0,Right-hand bat,"December 8, 1917, North Melbourne, Victoria",Right-arm offbreak,
+1094,22322,Cyril Washbrook,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,12.0,195.0,37.0,2569.0,Right-hand bat,"December 6, 1914, Barrow, Clitheroe, Lancashire",Right-arm medium,
+5100,495551,Sheldon Shane Cottrell,0.0,0.0,8.0,10.0,14.0,0.0,0.0,4.0,13.0,11.0,0.0,0.0,5.0,2.0,11.0,Right-hand bat,"August 19, 1989, Jamaica",Left-arm fast-medium,Bowler
+4482,275943,Royston Tycho Crandon,0.0,0.0,5.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 31, 1983, Courtland, Berbice",Right-arm offbreak,Batsman
+78,4652,Ian David Craig,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,53.0,11.0,358.0,Right-hand bat,"June 12, 1935, Yass, New South Wales",0,Batsman
+1073,21650,Christopher Timothy Tremlett,0.0,0.0,19.0,15.0,50.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,25.0,12.0,113.0,Right-hand bat,"September 2, 1981, Southampton, Hampshire",Right-arm medium-fast,Bowler
+351,7315,John Cole Reedman,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,1.0,21.0,Right-hand bat,"October 9, 1865, Gilberton, South Australia",Right-arm medium,Allrounder
+1101,22361,Alan Peter Wells,0.0,0.0,15.0,1.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,3.0,Right-hand bat,"October 2, 1961, Newhaven, Sussex",Right-arm medium,Middle-order batsman
+2876,51870,Richard Simeon Gabriel,0.0,0.0,41.0,11.0,167.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 5, 1952, Point Fortin, Trinidad",Right-arm offbreak,
+2238,43696,Syed Zahid Ahmed Naqvi,0.0,0.0,3.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 15, 1961, Karachi, Sind",Slow left-arm orthodox,
+4064,55382,Kevin Gary Duers,0.0,0.0,5.0,6.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 30, 1960, Lusaka, Northern Rhodesia",Right-arm medium-fast,
+4407,252869,Stefan Kievon Wayne Kelly,0.0,0.0,7.0,10.0,14.0,0.0,0.0,11.0,3.0,13.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 24, 1988, Bermuda",Right-arm fast-medium,Bowler
+2290,44410,Farhaan Behardien,0.0,6.0,70.0,59.0,1074.0,0.0,1.0,64.0,38.0,518.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 9, 1983, Johannesburg",Right-arm fast-medium,Batting allrounder
+2855,51657,Peter Jeffrey Leroy Dujon,0.0,6.0,82.0,169.0,1945.0,0.0,0.0,0.0,0.0,0.0,5.0,16.0,139.0,81.0,3322.0,Right-hand bat,"May 28, 1956, Kingston, Jamaica",Right-arm medium,
+4185,55982,Mohammad Salim,0.0,0.0,9.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,2.0,49.0,Right-hand bat,"October 15, 1981, Ferryghat, Khulna",0,
+2359,45078,George Murray Fullerton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,88.0,7.0,325.0,Right-hand bat,"December 8, 1922, Kensington, Johannesburg, Transvaal",Right-arm medium,
+5350,707113,Thomas Charles Bruce,0.0,0.0,0.0,0.0,0.0,0.0,1.0,59.0,14.0,226.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 2, 1991, Te Kuiti, King Country",Right-arm offbreak,Top-order batsman
+1121,22500,George Edward Charles Wood,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,3.0,7.0,Right-hand bat,"August 22, 1893, Blackheath, Kent",Right-arm medium,
+1260,24857,Goniamalimage John Anthony Flavian Aponso,0.0,1.0,58.0,5.0,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 28, 1952, Colombo, Ceylon",Right-arm offbreak,Top-order batsman
+2405,45813,Gary Kirsten,13.0,45.0,188.0,185.0,6798.0,0.0,0.0,0.0,0.0,0.0,21.0,34.0,275.0,101.0,7289.0,Left-hand bat,"November 23, 1967, Cape Town, Cape Province",Right-arm offbreak,
+2749,50802,Mahela Lakmal Udawatte,0.0,2.0,73.0,9.0,257.0,0.0,0.0,25.0,8.0,96.0,0.0,0.0,19.0,2.0,23.0,Left-hand bat,"July 19, 1986, Colombo",Right-arm offbreak,Batsman
+1817,37602,Rodney Terry Latham,0.0,1.0,60.0,33.0,583.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,119.0,4.0,219.0,Right-hand bat,"June 12, 1961, Christchurch, Canterbury",Right-arm medium,
+850,16975,Anthony McGrath,0.0,1.0,52.0,14.0,166.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,81.0,4.0,201.0,Right-hand bat,"October 6, 1975, Bradford, Yorkshire",Right-arm medium,
+2017,39121,Mohammad Afzaal Haider,0.0,0.0,22.0,4.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 12, 1971, Lahore, Punjab",Right-arm medium,Bowler
+777,15884,Roy Kilner,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,74.0,9.0,233.0,Left-hand bat,"October 17, 1890, Low Valley, Wombwell, Yorkshire",Slow left-arm orthodox,
+4180,55970,Mehrab Hossain,1.0,2.0,101.0,18.0,449.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,71.0,9.0,241.0,Right-hand bat,"September 22, 1978, Dhaka",Right-arm medium,
+2243,43707,Zulqarnain,0.0,0.0,11.0,16.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,3.0,24.0,Right-hand bat,"May 25, 1962, Lahore, Punjab",0,
+1287,25022,Tom Nico de Grooth,0.0,1.0,97.0,34.0,480.0,0.0,0.0,49.0,15.0,163.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 14, 1979, The Hague",Right-arm offbreak,Middle-order batsman
+2222,43543,Waqar Younis Maitla,0.0,0.0,37.0,262.0,969.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,87.0,1010.0,Right-hand bat,"November 16, 1971, Vehari, Punjab",Right-arm fast,
+2186,42646,Shahid Nazir,0.0,0.0,8.0,17.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0,15.0,194.0,Right-hand bat,"December 4, 1977, Faisalabad, Punjab",Right-arm fast-medium,
+2552,47522,Louis Joseph Tancred,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,97.0,14.0,530.0,Right-hand bat,"October 7, 1876, Port Elizabeth, Cape Province",0,
+363,7376,Richard Daryl Robinson,0.0,1.0,70.0,2.0,82.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,3.0,100.0,Right-hand bat,"June 8, 1946, East Melbourne, Victoria",0,
+2065,40579,Israr Ali,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,4.0,33.0,Left-hand bat,"May 1, 1927, Jullundur (now Jalandhar), Punjab, India",Left-arm fast-medium,
+4671,323131,Parvinder Awana,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 19, 1986, Delhi, India",Right-arm medium,Bowler
+2061,40572,Mohammad Iqbal Qasim,0.0,0.0,13.0,15.0,39.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,56.0,50.0,549.0,Left-hand bat,"August 6, 1953, Karachi, Sind",Slow left-arm orthodox,
+414,7980,Victor Thomas Trumper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,13.0,214.0,48.0,3163.0,Right-hand bat,"November 2, 1877, Darlinghurst, Sydney, New South Wales",Right-arm medium,
+5304,637496,Gurdeep Singh,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 19, 1998, Nairobi",Legbreak,Opening batsman
+4086,55509,Douglas Tafadzwa Hondo,0.0,0.0,17.0,56.0,127.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,9.0,83.0,Right-hand bat,"July 7, 1979, Bulawayo",Right-arm fast-medium,
+563,10716,William Chatterton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.0,1.0,48.0,Right-hand bat,"December 27, 1861, Thornsett, Derbyshire",0,
+1572,32323,Manoj Prabhakar,2.0,11.0,106.0,130.0,1858.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,120.0,39.0,1600.0,Right-hand bat,"April 15, 1963, Ghaziabad, Uttar Pradesh",Right-arm medium,
+4452,270253,Darren John Pattinson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,1.0,21.0,Right-hand bat,"August 2, 1979, Grimsby, Lincolnshire, England",Right-arm fast-medium,Bowler
+5427,887207,Oliver John Douglas Pope,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,2.0,54.0,Right-hand bat,"January 2, 1998, Chelsea, Middlesex",0,Middle-order batsman
+2669,49212,Sridharan Jeganathan,0.0,0.0,20.0,5.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,19.0,Right-hand bat,"July 11, 1951, Colombo",Slow left-arm orthodox,
+88,4902,Alan Keith Davidson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,80.0,44.0,1328.0,Left-hand bat,"June 14, 1929, Lisarow, Gosford, New South Wales",Left-arm fast-medium,
+2809,51248,Sulieman Jamaal Benn,0.0,0.0,31.0,47.0,182.0,0.0,0.0,13.0,24.0,37.0,0.0,0.0,42.0,26.0,486.0,Left-hand bat,"July 22, 1981, Haynesville, St James, Barbados",Slow left-arm orthodox,Bowler
+644,12856,Andrew Flintoff,3.0,18.0,123.0,141.0,3394.0,0.0,0.0,31.0,7.0,76.0,5.0,26.0,167.0,79.0,3845.0,Right-hand bat,"December 6, 1977, Preston, Lancashire",Right-arm fast-medium,Allrounder
+2484,46761,David Bartlett Pithey,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,55.0,8.0,138.0,Right-hand bat,"October 4, 1936, Salisbury (now Harare), Rhodesia",Right-arm offbreak,
+4571,302845,Tony Pala Ura,1.0,1.0,151.0,17.0,508.0,1.0,1.0,107.0,10.0,342.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 15, 1989, Papua New Guinea",0,Opening batsman
+1303,25113,Michael Jonathon Smith,0.0,0.0,13.0,5.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 30, 1966, Edinburgh, Midlothian",Right-arm medium,
+1168,23792,Martin Peter Stead,0.0,0.0,10.0,2.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 1, 1958",Right-arm medium,
+2356,45074,Cyril Matthew Francois,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,72.0,5.0,252.0,Right-hand bat,"June 20, 1897, Lewisham, London, England",Right-arm fast-medium,
+1080,22186,George Frederick Vernon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,1.0,14.0,Right-hand bat,"June 20, 1856, Marylebone, London",(unknown arm) slow (underarm),
+660,13342,Leslie Hewitt Gay,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,1.0,37.0,Right-hand bat,"March 24, 1871, Brighton, Sussex",0,
+66,4602,Herbert Leslie Collins,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,6.0,203.0,19.0,1352.0,Right-hand bat,"January 21, 1888, Darlinghurst, Sydney, New South Wales",Slow left-arm orthodox,
+4637,316363,Mohammad Imran Khan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,9.0,6.0,Right-hand bat,"July 15, 1987, Lower Dir, North-West Frontier Province (now Khyber Pakhtunkhwa)",Right-arm medium-fast,Bowler
+2255,43933,James Henry Anderson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,1.0,43.0,Right-hand bat,"April 26, 1874, Kimberley, Cape Province",0,
+5186,539511,Henry Michael Nicholls,1.0,8.0,124.0,41.0,1029.0,0.0,0.0,7.0,5.0,19.0,5.0,9.0,162.0,25.0,1510.0,Left-hand bat,"November 15, 1991, Christchurch",Right-arm offbreak,Top-order batsman
+5507,1005257,Simi Singh,0.0,0.0,45.0,15.0,193.0,0.0,1.0,57.0,14.0,161.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 4, 1987, Bathlana, Punjab, India",Right-arm offbreak,Middle-order batsman
+2745,50744,Hashan Prasantha Tillakaratne,2.0,13.0,104.0,200.0,3789.0,0.0,0.0,0.0,0.0,0.0,11.0,20.0,204.0,83.0,4545.0,Left-hand bat,"July 14, 1967, Colombo",Right-arm offbreak,
+5477,943281,Mohammed Qasim,0.0,0.0,41.0,5.0,94.0,0.0,0.0,13.0,3.0,36.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 3, 1991, Sailkot",0,
+2575,47681,Pieter Gerhard Vintcent van der Bijl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,125.0,5.0,460.0,Right-hand bat,"October 21, 1907, Kenilworth, Cape Town, Cape Province",0,
+1349,25604,Naeemuddin Aslam,0.0,0.0,12.0,2.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 31, 1982, Dubai",0,
+390,7666,Keith Raymond Stackpole,0.0,3.0,61.0,6.0,224.0,0.0,0.0,0.0,0.0,0.0,7.0,14.0,207.0,43.0,2807.0,Right-hand bat,"July 10, 1940, Collingwood, Melbourne, Victoria",Legbreak,
+1960,38749,David John White,0.0,0.0,15.0,3.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,2.0,31.0,Right-hand bat,"June 26, 1961, Gisborne",Right-arm offbreak,
+2680,49361,Romesh Shantha Kaluwitharana,2.0,23.0,102.0,189.0,3711.0,0.0,0.0,0.0,0.0,0.0,3.0,9.0,132.0,49.0,1933.0,Right-hand bat,"November 24, 1969, Colombo",0,
+4081,55472,Trevor Nyasha Garwe,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"June 27, 1986, Harare",Right-arm fast-medium,Bowler
+977,20179,Arthur Shrewsbury,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,4.0,164.0,23.0,1277.0,Right-hand bat,"April 11, 1856, New Lenton, Nottinghamshire",Right-arm bowler,
+4811,365126,Ramesh Randeer David,0.0,0.0,48.0,4.0,82.0,0.0,0.0,17.0,4.0,39.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 8, 1975, Colombo, Sri Lanka",Right-arm offbreak,Middle-order batsman
+1071,21644,Frank Holmes Tyson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,17.0,230.0,Right-hand bat,"June 6, 1930, Farnworth, Lancashire",Right-arm fast,
+81,4825,Beau Casson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,1.0,10.0,Right-hand bat,"December 7, 1982, Subiaco, Perth, Western Australia",Slow left-arm chinaman,Bowler
+653,12906,Paul John Franks,0.0,0.0,4.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 3, 1979, Mansfield, Nottinghamshire",Right-arm fast-medium,
+5290,629070,Mohammad Saifuddin,0.0,1.0,50.0,10.0,175.0,0.0,0.0,39.0,9.0,94.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 1, 1996, Feni, Chittagong",Right-arm medium-fast,Bowling allrounder
+2832,51473,Robert Julian Christiani,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,107.0,22.0,896.0,Right-hand bat,"July 19, 1920, Georgetown, Demerara, British Guiana",Right-arm offbreak,
+2568,47568,Nicolaas Hendrik Christiaan de Jong Theunissen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,Right-hand bat,"May 4, 1867, Colesburg, Cape Colony",Right-arm fast,
+2314,44486,Derek Norman Crookes,0.0,1.0,54.0,32.0,296.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 5, 1969, Mariannhill, Natal",Right-arm offbreak,
+4382,238612,Nehemiah Ngoche Odhiambo,0.0,1.0,66.0,69.0,528.0,0.0,0.0,41.0,24.0,174.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 7, 1983, Nairobi, Kenya",Right-arm medium-fast,Bowler
+2370,45246,Ronald Eustace Grieveson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,75.0,2.0,114.0,Right-hand bat,"August 24, 1909, Johannesburg, RSA",0,
+52,4527,Ryan John Campbell,0.0,0.0,38.0,2.0,54.0,0.0,0.0,27.0,3.0,36.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 7, 1972, Osborne Park, Perth, Western Australia",Right-arm offbreak,Wicketkeeper batsman
+1126,22526,Thomas Stanley Worthington,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,128.0,9.0,321.0,Right-hand bat,"August 21, 1905, Bolsover, Derbyshire",Right-arm fast-medium,
+1925,38411,Glen Paul Sulzberger,0.0,0.0,6.0,3.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"March 14, 1973, Kaponga, Taranaki",Right-arm offbreak,
+420,8119,Adam Charles Voges,1.0,4.0,112.0,31.0,870.0,0.0,1.0,51.0,7.0,139.0,5.0,4.0,269.0,20.0,1485.0,Right-hand bat,"October 4, 1979, Subiaco, Perth, Western Australia",Slow left-arm orthodox,Top-order batsman
+782,15910,Barry Rolfe Knight,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,127.0,29.0,812.0,Right-hand bat,"February 18, 1938, Chesterfield, Derbyshire",Right-arm fast-medium,
+886,18255,Norman Oldfield,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,80.0,1.0,99.0,Right-hand bat,"May 5, 1911, Dukinfield, Cheshire",0,
+4145,55843,Brighton Tonderai Watambwa,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,6.0,11.0,Right-hand bat,"June 9, 1977, Salisbury (now Harare)",Right-arm fast-medium,
+2833,51475,Carlos Bertram Clarke,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,3.0,Right-hand bat,"April 7, 1918, Lakes Folly, Cats Castle, St Michael, Barbados",Legbreak googly,
+4246,56229,Azhar Hossain,0.0,1.0,54.0,7.0,96.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 15, 1964, Dhaka",Right-arm offbreak,
+2431,46149,Eddie Leie,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 16, 1986, Potchefstroom",Legbreak,Bowler
+4941,420402,Afsar Khan Zazai,0.0,2.0,60.0,17.0,264.0,0.0,0.0,9.0,1.0,9.0,0.0,0.0,6.0,1.0,7.0,Right-hand bat,"August 10, 1993, Kabul",0,Wicketkeeper batsman
+853,16993,Charles Philip Mead,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,3.0,182.0,17.0,1185.0,Left-hand bat,"March 9, 1887, Battersea, London",Slow left-arm orthodox,
+2397,45705,Colin Alexander Ingram,3.0,3.0,124.0,31.0,843.0,0.0,1.0,78.0,9.0,210.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"July 3, 1985, Port Elizabeth",Legbreak,Top-order batsman
+3069,53230,David Williams,0.0,0.0,32.0,36.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,65.0,11.0,242.0,Right-hand bat,"November 4, 1963, Penal, Trinidad",Legbreak,
+2800,51232,Courtney Oswald Browne,0.0,0.0,46.0,46.0,415.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,68.0,20.0,387.0,Right-hand bat,"December 7, 1970, Lambeth, London, England",0,Wicketkeeper batsman
+1946,38712,Henry Gifford Vivian,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,100.0,7.0,421.0,Left-hand bat,"November 4, 1912, Auckland",Slow left-arm orthodox,
+2379,45408,Martin Andrew Hanley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"November 10, 1918, Aliwal North, Cape Province",Right-arm offbreak,
+1702,36296,Grahame Paul Bilby,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,2.0,55.0,Right-hand bat,"May 7, 1941, Wellington",0,
+4116,55669,Ian Alan Nicolson,0.0,0.0,14.0,2.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 9, 1986, Harare",Right-arm fast-medium,Bowler
+4743,348054,Sunil Walford Ambris,0.0,0.0,38.0,1.0,38.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,6.0,166.0,Right-hand bat,"March 23, 1993, St Vincent, Windward Islands",0,Opening batsman
+156,5603,Robert Neil Harvey,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,24.0,205.0,79.0,6149.0,Left-hand bat,"October 8, 1928, Fitzroy, Melbourne, Victoria",Right-arm offbreak,
+628,12517,George Malcolm Emmett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,1.0,10.0,Right-hand bat,"December 2, 1912, Agra, Uttar Pradesh, India",Slow left-arm orthodox,
+1436,28671,Faiz Yakub Fazal,0.0,1.0,55.0,1.0,55.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"September 7, 1985, Nagpur, Maharashtra",Right-arm medium,Opening batsman
+2264,44062,Denis Warburton Begbie,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.0,5.0,138.0,Right-hand bat,"December 12, 1914, Middelburg, Transvaal","Right-arm offbreak, Legbreak googly",
+2933,52277,Amit Sheldon Jaggernauth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Left-hand bat,"November 16, 1983, Trinidad",Right-arm offbreak,Bowler
+1091,22311,Pelham Francis Warner,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,132.0,15.0,622.0,Right-hand bat,"October 2, 1873, The Hall, Port of Spain, Trinidad",Right-arm slow,
+2156,42423,Rashid Latif,0.0,3.0,79.0,166.0,1709.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,150.0,37.0,1381.0,Right-hand bat,"October 14, 1968, Karachi, Sind",Legbreak,
+2572,47660,Ryan Neil ten Doeschate,5.0,9.0,119.0,33.0,1541.0,0.0,1.0,56.0,13.0,300.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 30, 1980, Port Elizabeth, Cape Province",Right-arm medium-fast,Allrounder
+1208,24228,Nasir Hameed,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 4, 1969, Rawalpindi, Pakistan",0,
+1413,27619,Chetandra Pratap Singh Chauhan,0.0,0.0,46.0,7.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,97.0,40.0,2084.0,Right-hand bat,"July 21, 1947, Bareilly, Uttar Pradesh",Right-arm offbreak,
+1910,38390,Barry Whitley Sinclair,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,138.0,21.0,1148.0,Right-hand bat,"October 23, 1936, Wellington",Right-arm bowler,
+2227,43557,Wazir Mohammad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,189.0,20.0,801.0,Right-hand bat,"December 22, 1929, Junagadh, Gujarat, India",Right-arm bowler,
+1046,21499,Lionel Hallam Tennyson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,74.0,9.0,345.0,Right-hand bat,"November 7, 1889, Westminster, London",Right-arm fast,
+869,17102,John Edward Morris,0.0,1.0,63.0,8.0,167.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,3.0,71.0,Right-hand bat,"April 1, 1964, Crewe, Cheshire",Right-arm medium,
+2469,46599,Mfuneko Ngam,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,Right-hand bat,"January 29, 1979, Middledrift, Cape Province",Right-arm fast,
+4635,315623,Ben Laughlin,0.0,0.0,1.0,5.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 3, 1982, Box Hill, Victoria",Right-arm fast-medium,Bowler
+4502,278496,Dwight Martin Basden,0.0,0.0,7.0,2.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 28, 1972, Bermuda",0,Batsman
+4082,55485,Jack Gunner Heron,0.0,0.0,18.0,6.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 8, 1948, Salisbury (now Harare)",0,
+4262,210283,Steven Thomas Finn,0.0,0.0,35.0,69.0,136.0,0.0,0.0,8.0,21.0,14.0,0.0,1.0,56.0,36.0,279.0,Right-hand bat,"April 4, 1989, Watford, Hertfordshire",Right-arm fast-medium,Bowler
+1407,26966,Gopal Krishna Bose,0.0,0.0,13.0,1.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 20, 1947, Calcutta (now Kolkata), Bengal",Right-arm offbreak,
+4905,409474,Mohamed Zameer Zahir,0.0,0.0,3.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 22, 1973, Kandy, Sri Lanka",Legbreak,Bowler
+233,6270,William Morris Lawry,0.0,0.0,27.0,1.0,27.0,0.0,0.0,0.0,0.0,0.0,13.0,27.0,210.0,67.0,5234.0,Left-hand bat,"February 11, 1937, Thornbury, Melbourne, Victoria",Left-arm medium,
+4873,388802,Thomas William Maxwell Latham,4.0,14.0,137.0,85.0,2395.0,0.0,0.0,39.0,13.0,163.0,9.0,15.0,264.0,43.0,3118.0,Left-hand bat,"April 2, 1992, Christchurch, Canterbury",Right-arm medium,Wicketkeeper batsman
+1063,21609,Neville Charsley Tufnell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0,14.0,Right-hand bat,"June 13, 1887, Simla, Punjab, India",Right-arm slow,
+228,6235,Jason John Krejza,0.0,0.0,7.0,8.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,2.0,71.0,Right-hand bat,"January 14, 1983, Newtown, Sydney, New South Wales",Right-arm offbreak,Bowler
+506,9074,Mark Richard Benson,0.0,0.0,24.0,1.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,1.0,51.0,Left-hand bat,"July 6, 1958, Shoreham-by-Sea, Sussex",Right-arm offbreak,
+2555,47526,Lionel Eric Tapscott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,50.0,2.0,58.0,Right-hand bat,"March 18, 1894, Kimberley, Cape Province",Right-arm bowler,
+771,15572,Vallance William Crisp Jupp,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,8.0,208.0,Right-hand bat,"March 27, 1891, Burgess Hill, Sussex",Right-arm offbreak,
+1875,38113,John Morton Parker,0.0,1.0,66.0,24.0,248.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,121.0,36.0,1498.0,Right-hand bat,"February 21, 1951, Dannevirke, Manawatu",Legbreak googly,
+3042,52983,Marlon Nathaniel Samuels,10.0,30.0,133.0,207.0,5606.0,0.0,10.0,89.0,67.0,1611.0,7.0,24.0,260.0,71.0,3917.0,Right-hand bat,"February 5, 1981, Kingston, Jamaica",Right-arm offbreak,Top-order batsman
+4875,390484,Jaydev Dipakbhai Unadkat,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,1.0,1.0,2.0,Right-hand bat,"October 18, 1991, Porbandar",Left-arm medium,Bowler
+2950,52413,Jermaine Jay Charles Lawson,0.0,0.0,8.0,13.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,13.0,52.0,Right-hand bat,"January 13, 1982, Spanish Town, St Catherine, Jamaica",Right-arm fast-medium,Bowler
+554,10653,David John Capel,0.0,1.0,50.0,23.0,327.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,98.0,15.0,374.0,Right-hand bat,"February 6, 1963, Northampton",Right-arm medium-fast,
+2826,51463,George McDonald Carew,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,107.0,4.0,170.0,Right-hand bat,"June 4, 1910, Halls Road, Belmont, St Michael, Barbados",Slow left-arm orthodox,
+837,16899,Victor James Marks,0.0,0.0,44.0,34.0,285.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,83.0,6.0,249.0,Right-hand bat,"June 25, 1955, Middle Chinnock, Somerset",Right-arm offbreak,
+4572,302850,Willie Toua Gavera,0.0,0.0,4.0,4.0,4.0,0.0,0.0,2.0,6.0,3.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 18, 1988, Papua New Guinea",Right-arm fast,Bowler
+4459,272465,James Lee Pattinson,0.0,0.0,13.0,15.0,42.0,0.0,0.0,5.0,4.0,5.0,0.0,0.0,42.0,17.0,332.0,Left-hand bat,"May 3, 1990, Melbourne, Victoria",Right-arm fast-medium,Bowler
+4158,55893,Fazle Mahmud Rabbi,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 30, 1987, Barisal",Slow left-arm orthodox,Allrounder
+2805,51241,Clyde Godfrey Butts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,7.0,108.0,Right-hand bat,"July 8, 1957, Perseverance, East Coast, Demerara, British Guiana",Right-arm offbreak,
+635,12807,Frederick Luther Fane,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,143.0,14.0,682.0,Right-hand bat,"April 27, 1875, Curragh Camp, Co Kildare, Ireland",0,
+4893,401057,Taijul Islam,0.0,0.0,11.0,4.0,21.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,24.0,342.0,Left-hand bat,"February 7, 1992, Natore",Slow left-arm orthodox,Bowler
+1056,21568,Leslie Fletcher Townsend,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0,4.0,97.0,Right-hand bat,"June 8, 1903, Long Eaton, Derbyshire","Right-arm medium, Right-arm offbreak",
+1720,36331,Ian Gareth Butler,0.0,0.0,25.0,26.0,84.0,0.0,0.0,2.0,19.0,5.0,0.0,0.0,26.0,8.0,76.0,Right-hand bat,"November 24, 1981, Middlemore, Auckland",Right-arm fast,
+1622,34007,Roshan Harshadlal Shodhan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,110.0,3.0,181.0,Left-hand bat,"October 18, 1928, Ahmedabad, Gujarat",Left-arm medium,
+1566,32249,Rashid Ghulam Mohammed Patel,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Left-hand bat,"June 1, 1964, Sabarkantha, Gujarat",Left-arm fast-medium,
+1608,33335,Suresh Kumar Raina,5.0,36.0,116.0,226.0,5615.0,1.0,5.0,101.0,78.0,1605.0,1.0,7.0,120.0,18.0,768.0,Left-hand bat,"November 27, 1986, Muradnagar, Ghaziabad, Uttar Pradesh",Right-arm offbreak,Middle-order batsman
+1219,24598,Eoin Joseph Gerard Morgan,12.0,43.0,124.0,217.0,6813.0,0.0,9.0,85.0,80.0,1753.0,2.0,3.0,130.0,16.0,700.0,Left-hand bat,"September 10, 1986, Dublin",Right-arm medium,Middle-order batsman
+5577,1148466,Adrian Neill,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 22, 1994, Riversdale, Western Cape",Right-arm medium,
+2309,44468,Alfred Henry Cecil Cooper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,1.0,6.0,Right-hand bat,"September 2, 1893, Johannesburg, Transvaal",Right-arm medium,
+1978,38970,Aaqib Javed,0.0,0.0,45.0,163.0,267.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,22.0,101.0,Right-hand bat,"August 5, 1972, Sheikhupura, Punjab",Right-arm fast-medium,
+2739,50438,Hewa Kaluhalamullage Suraj Randiv Kaluhalamulla,0.0,1.0,56.0,31.0,280.0,0.0,0.0,6.0,7.0,8.0,0.0,0.0,39.0,12.0,147.0,Right-hand bat,"January 30, 1985, Matara",Right-arm offbreak,Bowler
+1578,32498,Yusuf Khan Pathan,2.0,3.0,123.0,57.0,810.0,0.0,0.0,37.0,22.0,236.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 17, 1982, Baroda, Gujarat",Right-arm offbreak,Allrounder
+296,6605,William Evans Midwinter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,12.0,269.0,Right-hand bat,"June 19, 1851, Lower Meend, St Briavels, Gloucestershire, England",0,
+1067,21636,John Thomas Tyldesley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,9.0,138.0,31.0,1661.0,Right-hand bat,"November 22, 1873, Roe Green, Worsley, Lancashire",0,
+2374,45396,Andrew James Hall,0.0,3.0,81.0,88.0,905.0,0.0,0.0,11.0,2.0,11.0,1.0,3.0,163.0,21.0,760.0,Right-hand bat,"July 31, 1975, Johannesburg, Transvaal",Right-arm fast-medium,
+721,14197,Allen Hill,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0,2.0,101.0,Right-hand bat,"November 14, 1843, Newton, Kirkheaton, Huddersfield, Yorkshire",Right-arm fast (roundarm),
+1630,34074,Laxman Sivaramakrishnan,0.0,0.0,2.0,16.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,9.0,130.0,Right-hand bat,"December 31, 1965, Madras (now Chennai)",Legbreak googly,
+5440,919527,Cameron McAuslan,0.0,0.0,27.0,2.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 1, 1998, Hong Kong",Right-arm medium-fast,
+4196,56032,Mahbubul Alam,0.0,1.0,59.0,5.0,81.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,5.0,Right-hand bat,"December 1, 1983, Faridpur, Dhaka",Right-arm medium-fast,Bowler
+4319,227758,Syed Imad Wasim,0.0,5.0,63.0,41.0,711.0,0.0,0.0,24.0,34.0,169.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 18, 1988, Swansea, Glamorgan, Wales",Slow left-arm orthodox,Allrounder
+4837,377639,Tarun Sai Nethula,0.0,0.0,9.0,5.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 8, 1983, Kurnool, Andhra Pradesh",Legbreak,Bowler
+322,6944,Otto Ernest Nothling,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0,1.0,52.0,Right-hand bat,"August 1, 1900, Teutoburg, Queensland",Right-arm fast-medium,
+4986,440162,Lucas Oluoch Ndandason,0.0,0.0,5.0,2.0,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 7, 1991, Nairobi, Kenya",Left-arm fast-medium,Bowler
+2867,51793,Maurice Linton Churchill Foster,0.0,0.0,25.0,2.0,25.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,125.0,14.0,580.0,Right-hand bat,"May 9, 1943, Retreat, St Mary, Jamaica",Right-arm offbreak,
+1576,32371,Pananmal Hotchand Punjabi,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0,5.0,164.0,Right-hand bat,"September 20, 1921, Karachi, Sind",0,
+2200,42746,Saqib Ali,0.0,0.0,25.0,5.0,84.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 14, 1978, Multan, Punjab",0,Batsman
+2614,48122,Russel Premakumaran Arnold,1.0,28.0,103.0,180.0,3950.0,0.0,0.0,7.0,1.0,7.0,3.0,10.0,123.0,44.0,1821.0,Left-hand bat,"October 25, 1973, Colombo",Right-arm offbreak,
+1714,36312,Carl Edwin Bulfin,0.0,0.0,7.0,4.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 19, 1973, Blenheim, Marlborough",Right-arm fast-medium,
+2325,44696,Petrus Stephanus de Villiers,0.0,0.0,20.0,83.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,67.0,18.0,359.0,Right-hand bat,"October 13, 1964, Vereeniging, Transvaal",Right-arm fast-medium,
+2619,48298,Mapa Rallalage Chandima Niroshan Bandaratilleke,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,7.0,93.0,Right-hand bat,"May 16, 1975, Colombo",Slow left-arm orthodox,
+495,9000,Charles John Barnett,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,5.0,129.0,20.0,1098.0,Right-hand bat,"July 3, 1910, Fairview, Cheltenham, Gloucestershire",Right-arm medium,
+4752,349853,Zafar Shahaan Ansari,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,3.0,49.0,Left-hand bat,"December 10, 1991, Ascot, Berkshire",Slow left-arm orthodox,Allrounder
+679,13434,Thomas William Graveney,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,20.0,258.0,79.0,4882.0,Right-hand bat,"June 16, 1927, Riding Mill, Northumberland",Legbreak,
+2451,46233,Bruce Mitchell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,21.0,189.0,42.0,3471.0,Right-hand bat,"January 8, 1909, Ferreira Deep Gold Mine, Johannesburg, Transvaal",Legbreak,
+1683,36175,John Chaloner Alabaster,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,21.0,272.0,Right-hand bat,"July 11, 1930, Invercargill, Southland",Legbreak googly,
+1281,24974,Klaas-Jan Jeroen Van Noortwijk,1.0,1.0,134.0,9.0,322.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 10, 1970, Rotterdam",Right-arm medium,
+83,4882,Daniel James Cullen,0.0,0.0,2.0,5.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"April 10, 1984, Woodville, Adelaide, South Australia",Right-arm offbreak,Bowler
+4114,55663,Mluleki Luke Nkala,0.0,0.0,47.0,50.0,324.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,47.0,10.0,187.0,Right-hand bat,"April 1, 1981, Bulawayo",Right-arm medium,
+494,8998,William Barnes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,134.0,21.0,725.0,Right-hand bat,"May 27, 1852, Sutton-in-Ashfield, Nottinghamshire",Right-arm fast-medium,
+2189,42650,Shakeel Ahmed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,Left-hand bat,"February 12, 1966, Kuwait City, Kuwait",Slow left-arm orthodox,
+1870,38065,Guy William Fitzroy Overton,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,8.0,Left-hand bat,"June 8, 1919, Dunedin, Otago",Right-arm fast,
+232,6261,Trevor John Laughlin,0.0,1.0,74.0,6.0,105.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,3.0,87.0,Left-hand bat,"January 30, 1951, Nyah West, Victoria",Right-arm medium,
+1425,28081,Mahendra Singh Dhoni,10.0,71.0,183.0,341.0,10500.0,0.0,2.0,56.0,98.0,1617.0,6.0,33.0,224.0,90.0,4876.0,Right-hand bat,"July 7, 1981, Ranchi, Bihar (now Jharkhand)",Right-arm medium,Wicketkeeper batsman
+1993,39001,Anwar Hussain Khokhar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,4.0,42.0,Right-hand bat,"July 16, 1920, Lahore, Punjab",Right-arm fast-medium,
+2143,42068,Nazar Mohammad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,124.0,5.0,277.0,Right-hand bat,"March 5, 1921, Lahore, Punjab",Right-arm bowler,
+2633,48462,Pinnaduwage Aravinda de Silva,11.0,64.0,145.0,308.0,9284.0,0.0,0.0,0.0,0.0,0.0,20.0,22.0,267.0,93.0,6361.0,Right-hand bat,"October 17, 1965, Colombo",Right-arm offbreak,
+1656,35313,Keki Khurshedji Tarapore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,Right-hand bat,"December 17, 1910, Bombay (now Mumbai), Maharashtra",Slow left-arm orthodox,
+4973,434813,Marcus Sinclair Harris,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,79.0,6.0,327.0,Left-hand bat,"July 21, 1992, Perth",0,Opening batsman
+5508,1005369,Jacob Mulder,0.0,0.0,15.0,4.0,15.0,0.0,0.0,5.0,8.0,6.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 11, 1995, Perth",Legbreak,Bowler
+2500,46934,Alviro Nathan Petersen,0.0,4.0,80.0,21.0,504.0,0.0,0.0,8.0,2.0,14.0,5.0,8.0,182.0,36.0,2093.0,Right-hand bat,"November 25, 1980, Port Elizabeth, Cape Province",Right-arm offbreak,Batsman
+2818,51436,Tino la Bertram Best,0.0,0.0,24.0,26.0,76.0,0.0,0.0,17.0,6.0,17.0,0.0,1.0,95.0,25.0,401.0,Right-hand bat,"August 26, 1981, 3rd Avenue, Richmond Gap, St. Michael, Barbados",Right-arm fast,Bowler
+2382,45416,Robert Lyon Harvey,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,2.0,51.0,Right-hand bat,"September 14, 1911, Swinburne, Orange Free State",Right-arm medium,
+225,6154,Alan Falconer Kippax,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,8.0,146.0,22.0,1192.0,Right-hand bat,"May 25, 1897, Paddington, Sydney, New South Wales",Legbreak,
+526,9203,Leonard Charles Braund,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,104.0,23.0,987.0,Right-hand bat,"October 18, 1875, Clewer, Berkshire",Legbreak,
+2320,44676,Eric Quail Davies,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,9.0,Left-hand bat,"August 26, 1909, King William's Town, Cape Province",Right-arm fast,
+818,16362,Malachy Bernard Loye,0.0,0.0,45.0,7.0,142.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 27, 1972, Northampton",Right-arm offbreak,Opening batsman
+2091,41262,Manzoor Elahi,0.0,1.0,50.0,54.0,741.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,6.0,123.0,Right-hand bat,"April 15, 1963, Sahiwal, Punjab",Right-arm fast-medium,
+353,7326,Paul Ronald Reiffel,0.0,1.0,58.0,92.0,503.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,79.0,35.0,955.0,Right-hand bat,"April 19, 1966, Box Hill, Victoria",Right-arm fast-medium,Bowler
+2292,44419,Horace Brakenridge Cameron,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,90.0,26.0,1239.0,Right-hand bat,"July 5, 1905, Port Elizabeth, Cape Province",0,
+690,13985,Aftab Habib,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,2.0,26.0,Right-hand bat,"February 7, 1972, Reading, Berkshire",Right-arm medium-fast,
+682,13451,Andrew Greenwood,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0,2.0,77.0,Right-hand bat,"August 20, 1847, Cowmes, Huddersfield, Yorkshire",0,
+2040,40250,Fawad Alam,1.0,6.0,114.0,38.0,966.0,0.0,0.0,28.0,24.0,194.0,1.0,0.0,168.0,3.0,250.0,Left-hand bat,"October 8, 1985, Karachi",Slow left-arm orthodox,Top-order batsman
+755,15461,Robin David Jackman,0.0,0.0,14.0,15.0,54.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,4.0,42.0,Right-hand bat,"August 13, 1945, Simla, Punjab, India",Right-arm fast-medium,
+652,12884,Graeme Fowler,0.0,4.0,81.0,26.0,744.0,0.0,0.0,0.0,0.0,0.0,3.0,8.0,201.0,21.0,1307.0,Left-hand bat,"April 20, 1957, Accrington, Lancashire",Right-arm medium,
+2489,46776,Robert Montagu Poore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,3.0,76.0,Right-hand bat,"March 20, 1866, Carysfort House, Dublin, Ireland",0,
+2513,46996,Albert Rose-Innes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,2.0,14.0,Right-hand bat,"February 16, 1868, Port Elizabeth, Cape Province",Slow left-arm orthodox,
+4206,56064,Mohammad Nafees Iqbal Khan,0.0,2.0,58.0,16.0,309.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,121.0,11.0,518.0,Right-hand bat,"October 31, 1985, Chittagong",Right-arm medium,
+2266,44070,Dale Martin Benkenstein,0.0,1.0,69.0,23.0,305.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 9, 1974, Salisbury (now Harare), Rhodesia","Right-arm medium, Right-arm offbreak",
+4848,380974,Sunzamul Islam,0.0,0.0,19.0,3.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,1.0,24.0,Left-hand bat,"January 17, 1990, Rajshahi",Slow left-arm orthodox,Bowler
+1814,37531,John Lambert Kerr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,59.0,7.0,212.0,Right-hand bat,"December 28, 1910, Dannevirke, Manawatu",Right-arm medium,
+144,5446,Thomas Underwood Groube,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,1.0,11.0,Right-hand bat,"September 2, 1857, New Plymouth, Taranaki, New Zealand",Right-arm medium,
+1665,35657,Margashayam Venkataramana,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"April 24, 1966, Secunderabad, Andhra Pradesh",Right-arm offbreak,
+4217,56101,Shafiuddin Ahmed,0.0,0.0,11.0,11.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 1, 1973, Dhaka",Right-arm fast-medium,
+271,6530,Edgar Richard Mayne,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,4.0,64.0,Right-hand bat,"July 2, 1882, Jamestown, South Australia",Right-arm bowler,
+1597,33092,Vasant Baburao Ranjane,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,7.0,40.0,Right-hand bat,"July 22, 1937, Poona (now Pune), Maharashtra",Right-arm fast-medium,
+2051,40383,Humayun Farhat,0.0,0.0,39.0,5.0,60.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,1.0,54.0,Right-hand bat,"January 24, 1981, Lahore, Punjab",0,
+2073,40879,Mohammad Javed Miandad Khan,8.0,50.0,119.0,233.0,7381.0,0.0,0.0,0.0,0.0,0.0,23.0,43.0,280.0,124.0,8832.0,Right-hand bat,"June 12, 1957, Karachi, Sind",Legbreak googly,
+1694,36285,Mark David Bailey,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 26, 1970, Hamilton, Waikato",Right-arm medium,
+4880,392945,Donald Tatenda Tiripano,0.0,0.0,44.0,25.0,199.0,0.0,0.0,11.0,9.0,15.0,0.0,0.0,49.0,7.0,227.0,Right-hand bat,"March 17, 1988, Mutare",Right-arm fast-medium,Bowler
+1657,35320,Sachin Ramesh Tendulkar,49.0,96.0,200.0,463.0,18426.0,0.0,0.0,10.0,1.0,10.0,51.0,68.0,248.0,200.0,15921.0,Right-hand bat,"April 24, 1973, Bombay (now Mumbai), Maharashtra","Right-arm offbreak, Legbreak googly",Top-order batsman
+4118,55680,Ali Hassimshah Omarshah,0.0,1.0,60.0,28.0,437.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,62.0,3.0,122.0,Left-hand bat,"August 7, 1959, Salisbury (now Harare)",Right-arm medium,
+4049,55275,Robin David Brown,0.0,0.0,38.0,7.0,110.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 11, 1951, Gatooma (now Kadoma), Mashonaland",Right-arm medium,
+5201,547085,Syed Saad Ali,0.0,0.0,7.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 5, 1993, Karachi, Sind",Right-arm medium,Top-order batsman
+5523,1070173,Shubman Gill,0.0,0.0,9.0,2.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 8, 1999, Fazilka, Punjab",Right-arm offbreak,Opening batsman
+1548,32091,Abhishek Mohan Nayar,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 8, 1983, Secunderabad, Hyderabad",Right-arm medium,Allrounder
+2793,51221,Carlisle Alonza Best,1.0,2.0,100.0,24.0,473.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,164.0,8.0,342.0,Right-hand bat,"May 14, 1959, Richmond Gap, St Michael, Barbados",0,
+370,7529,Nathan Jon Reardon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"November 8, 1984, Chinchilla, Queensland",Right-arm medium,Middle-order batsman
+5120,502714,Mitchell Josef Santner,0.0,2.0,67.0,59.0,826.0,0.0,0.0,37.0,31.0,197.0,0.0,2.0,73.0,17.0,535.0,Left-hand bat,"February 5, 1992, Hamilton",Slow left-arm orthodox,Bowling allrounder
+4147,55848,Guy James Whittall,0.0,11.0,83.0,147.0,2705.0,0.0,0.0,0.0,0.0,0.0,4.0,10.0,203.0,46.0,2207.0,Right-hand bat,"September 5, 1972, Chipinge, Manicaland",Right-arm medium,
+1084,22258,Edward Wainwright,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0,5.0,132.0,Right-hand bat,"April 8, 1865, Tinsley, Sheffield, Yorkshire",Right-arm slow,
+4662,319439,Mitchell John McClenaghan,0.0,0.0,34.0,48.0,108.0,0.0,0.0,10.0,29.0,24.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"June 11, 1986, Hastings, Hawke's Bay",Left-arm fast-medium,Bowler
+119,5239,Damien William Fleming,0.0,0.0,29.0,88.0,152.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,71.0,20.0,305.0,Right-hand bat,"April 24, 1970, Bentley, Perth, Western Australia",Right-arm fast-medium,
+4306,222728,Asad Ali,0.0,0.0,11.0,4.0,13.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 14, 1988, Faisalabad",Right-arm medium-fast,Bowler
+2334,44732,Owen Robert Dunell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,2.0,42.0,Right-hand bat,"July 15, 1856, Port Elizabeth, Cape Province",0,
+3059,53214,Philo Alphonso Wallace,1.0,2.0,103.0,33.0,701.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,92.0,7.0,279.0,Right-hand bat,"August 2, 1970, Haynesville, Barbados",Right-arm medium,
+1907,38384,Verdun John Scott,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,84.0,10.0,458.0,Right-hand bat,"July 31, 1916, Devonport, Auckland",Right-arm bowler,
+2403,45797,Justin Miles Kemp,1.0,10.0,100.0,85.0,1512.0,0.0,1.0,89.0,8.0,203.0,0.0,1.0,55.0,4.0,80.0,Right-hand bat,"October 2, 1977, Queenstown, Cape Province",Right-arm fast-medium,
+4680,326016,Bhuvneshwar Kumar Singh,0.0,1.0,53.0,105.0,523.0,0.0,0.0,9.0,37.0,23.0,0.0,3.0,63.0,21.0,552.0,Right-hand bat,"February 5, 1990, Meerut, Uttar Pradesh",Right-arm medium,Bowler
+3025,52934,Philip Verant Simmons,5.0,18.0,122.0,143.0,3675.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,110.0,26.0,1002.0,Right-hand bat,"April 18, 1963, Arima, Trinidad",Right-arm medium,
+2229,43648,Mohammad Younis Ahmed,0.0,1.0,58.0,2.0,84.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,62.0,4.0,177.0,Left-hand bat,"October 20, 1947, Jullundur (now Jalandhar), Punjab, India","Left-arm medium, Slow left-arm orthodox",
+3027,52938,Joseph A Small,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,52.0,3.0,79.0,Right-hand bat,"November 3, 1892, Princes Town, Trinidad",Right-arm medium-fast,
+3062,53220,Kenneth Hunnell Weekes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,137.0,2.0,173.0,Left-hand bat,"January 24, 1912, Boston, Massachusetts, United States of America",Left-arm bowler,
+4349,232356,Roneel Magan Hira,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,15.0,37.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 23, 1987, Auckland",Slow left-arm orthodox,Bowler
+2987,52679,Lancelot Richard Pierre,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"June 5, 1921, Woodbrook, Port of Spain, Trinidad",Right-arm fast-medium,
+54,4533,William Carkeek,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0,16.0,Left-hand bat,"October 17, 1878, Walhalla, Victoria",0,
+4636,316153,Rajendra Chandrika,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,5.0,140.0,Right-hand bat,"August 8, 1989, Demarara, Guyana",Right-arm offbreak,Opening batsman
+975,20159,David Stuart Sheppard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,6.0,119.0,22.0,1172.0,Right-hand bat,"March 6, 1929, Reigate, Surrey",Slow left-arm orthodox,
+5371,772471,Jasdeep Singh,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 10, 1993, Queens, New York",Right-arm medium,
+998,20237,Donald Victor Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,3.0,25.0,Left-hand bat,"June 14, 1923, Broadwater, Sussex",Left-arm medium,
+423,8142,Thomas Welbourn Wall,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,18.0,121.0,Right-hand bat,"May 13, 1904, Semaphore, Adelaide, South Australia",Right-arm fast,
+2418,45967,Godfrey Bernard Lawrence,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,5.0,141.0,Right-hand bat,"March 31, 1932, Salisbury (now Harare), Rhodesia",Right-arm fast-medium,
+4963,430246,Yuzvendra Singh Chahal,0.0,0.0,18.0,41.0,34.0,0.0,0.0,3.0,31.0,4.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 23, 1990, Jind, Haryana",Legbreak googly,Bowler
+447,8264,Kevin John Wright,0.0,0.0,23.0,5.0,29.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,55.0,10.0,219.0,Right-hand bat,"December 27, 1953, North Fremantle, Western Australia",0,
+1580,32685,Irfan Khan Pathan,0.0,5.0,83.0,120.0,1544.0,0.0,0.0,33.0,24.0,172.0,1.0,6.0,102.0,29.0,1105.0,Left-hand bat,"October 27, 1984, Baroda, Gujarat",Left-arm medium-fast,Allrounder
+250,6445,Kenneth Donald Mackay,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,89.0,37.0,1507.0,Left-hand bat,"October 24, 1925, Windsor, Queensland",Right-arm medium,
+2509,46982,Barry Anderson Richards,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,140.0,4.0,508.0,Right-hand bat,"July 21, 1945, Morningside, Durban, Natal",Right-arm offbreak,
+801,16262,Peter Lever,0.0,0.0,8.0,10.0,17.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,88.0,17.0,350.0,Right-hand bat,"September 17, 1940, Todmorden, Yorkshire",Right-arm fast-medium,
+820,16370,Brian William Luckhurst,0.0,0.0,14.0,3.0,15.0,0.0,0.0,0.0,0.0,0.0,4.0,5.0,131.0,21.0,1298.0,Right-hand bat,"February 5, 1939, Sittingbourne, Kent",Slow left-arm orthodox,
+827,16858,John Crawford William MacBryan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Right-hand bat,"July 22, 1892, Box, Wiltshire",0,
+1195,23899,Ashif Abdulhai Mulla,0.0,1.0,58.0,24.0,482.0,0.0,0.0,8.0,4.0,11.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 5, 1980, Gujarat, India",0,Batsman
+5520,1061752,Atif Ali Khan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 11, 1986, Sialkot, Punjab",Left-arm medium,
+2038,40113,Faisal Athar,0.0,0.0,9.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 15, 1975, Hyderabad, Sind",0,
+199,5977,Herbert Ironmonger,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,14.0,42.0,Left-hand bat,"April 7, 1882, Pine Mountain, Queensland",Left-arm slow-medium,
+2138,42059,Naumanullah,0.0,0.0,5.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"May 20, 1975, Karachi, Sind",Right-arm offbreak,Top-order batsman
+807,16293,Arthur Frederick Augustus Lilley,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,84.0,35.0,903.0,Right-hand bat,"November 28, 1866, Holloway Head, Birmingham, Warwickshire",Right-arm medium,
+1669,35731,Ranganath Vinay Kumar,0.0,0.0,27.0,31.0,86.0,0.0,0.0,2.0,9.0,2.0,0.0,0.0,6.0,1.0,11.0,Right-hand bat,"February 12, 1984, Davanagere, Karnataka",Right-arm medium,Bowler
+1740,36620,Jeffrey John Crowe,0.0,7.0,88.0,75.0,1518.0,0.0,0.0,0.0,0.0,0.0,3.0,6.0,128.0,39.0,1601.0,Right-hand bat,"September 14, 1958, Auckland",Right-arm bowler,
+4509,281974,Trent Aaron Copeland,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,3.0,39.0,Right-hand bat,"March 14, 1986, Gosford, New South Wales",Right-arm fast-medium,Bowler
+5149,524845,Peter Karl David Chase,0.0,0.0,14.0,25.0,35.0,0.0,0.0,4.0,12.0,7.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 9, 1993, Dublin, Ireland",Right-arm medium-fast,Bowler
+4890,398778,Rory Joseph Burns,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,84.0,6.0,300.0,Left-hand bat,"August 26, 1990, Epsom, Surrey",Right-arm medium,Top-order batsman
+1108,22405,David William White,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,Left-hand bat,"December 14, 1935, Sutton Coldfield, Warwickshire",Right-arm fast,
+955,19478,Brian Charles Rose,0.0,1.0,54.0,2.0,99.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,70.0,9.0,358.0,Left-hand bat,"June 4, 1950, Dartford, Kent",Left-arm medium,
+1735,36609,Jeremy Vernon Coney,0.0,8.0,66.0,88.0,1874.0,0.0,0.0,0.0,0.0,0.0,3.0,16.0,174.0,52.0,2668.0,Right-hand bat,"June 21, 1952, Wellington",Right-arm medium,
+4313,226493,Hamish Kyle Bennett,0.0,0.0,4.0,16.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,4.0,Left-hand bat,"February 22, 1987, Timaru",Right-arm medium-fast,Bowler
+2154,42420,Ramiz Hasan Raja,9.0,31.0,119.0,198.0,5841.0,0.0,0.0,0.0,0.0,0.0,2.0,22.0,122.0,57.0,2833.0,Right-hand bat,"August 14, 1962, Lyallpur (now Faisalabad), Punjab",Legbreak,
+5030,461281,Preston Luke Mommsen,2.0,6.0,139.0,44.0,1115.0,0.0,2.0,68.0,24.0,419.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 14, 1987, Durban, Natal",Right-arm offbreak,Opening batsman
+810,16320,Graham David Lloyd,0.0,0.0,22.0,6.0,39.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 1, 1969, Accrington, Lancashire",Right-arm medium,
+1234,24701,Hitesh Subhash Modi,0.0,5.0,78.0,63.0,1109.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 13, 1971, Kisumu",Right-arm offbreak,
+4665,319758,Karim Sadiq Khan,2.0,0.0,114.0,24.0,475.0,0.0,1.0,72.0,36.0,538.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 5, 1984, Nangrahar, Afghanistan",Right-arm offbreak,Opening batsman
+314,6911,Lisle Ernest Nagel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,1.0,21.0,Right-hand bat,"March 6, 1905, Bendigo, Victoria",Right-arm fast-medium,
+2656,49010,Dihan Avishka Gunawardene,1.0,12.0,132.0,61.0,1708.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0,6.0,181.0,Left-hand bat,"May 26, 1977, Colombo",0,
+1772,37098,Norman Gallichan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,1.0,32.0,Right-hand bat,"June 3, 1906, Palmerston North, Manawatu",Slow left-arm orthodox,
+2055,40556,Ijaz Faqih,0.0,0.0,42.0,27.0,197.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,105.0,5.0,183.0,Right-hand bat,"March 24, 1956, Karachi, Sind",Right-arm offbreak,
+1557,32202,Ramnath Dhondu Parkar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,2.0,80.0,Right-hand bat,"October 31, 1946, Bombay (now Mumbai), Maharashtra",0,
+1185,23856,Sanjayan Thuraisingam,0.0,0.0,13.0,10.0,45.0,0.0,0.0,15.0,3.0,18.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 11, 1969, Colombo",Right-arm fast-medium,
+4591,306982,Maurits Maarten Alexander Jonkman,0.0,0.0,13.0,4.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"March 20, 1986, The Hague",Right-arm medium,Bowler
+5035,464626,Craig Overton,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0,3.0,98.0,Right-hand bat,"April 10, 1994, Barnstaple, Devon",Right-arm medium-fast,Bowler
+19,4112,Graeme Robert Beard,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0,3.0,114.0,Right-hand bat,"August 19, 1950, Auburn, Sydney, New South Wales",0,
+4238,56208,Dhiman Ghosh,0.0,0.0,30.0,14.0,126.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 23, 1987, Dinajpur, Bangladesh",0,Wicketkeeper batsman
+2695,49624,Madurasinghe Arachchige Wijayasiri Ranjith Madurasinghe,0.0,0.0,8.0,12.0,21.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,3.0,24.0,Left-hand bat,"January 30, 1961, Kurunegala",Right-arm offbreak,Bowler
+5204,550137,Abu Hider Rony,0.0,0.0,1.0,2.0,1.0,0.0,0.0,22.0,13.0,58.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 14, 1996",Left-arm fast-medium,Bowler
+758,15468,John Alexander Jameson,0.0,0.0,28.0,3.0,60.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,82.0,4.0,214.0,Right-hand bat,"June 30, 1941, Byculla, Bombay (now Mumbai), Maharashtra, India",0,
+4205,56061,Nazmus Sadat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"October 18, 1986, Khulna",Slow left-arm orthodox,Batsman
+1351,25609,Rizwan Latif Ahmed,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 5, 1973, Karachi, Pakistan",Slow left-arm orthodox,
+4889,398666,Sean Anthony Abbott,0.0,0.0,3.0,1.0,3.0,0.0,0.0,5.0,3.0,5.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"February 29, 1992, Windsor, New South Wales",Right-arm fast-medium,Bowler
+1831,37704,Herbert Mendelson McGirr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,51.0,2.0,51.0,Right-hand bat,"November 5, 1891, Wellington",Right-arm medium,
+356,7346,Victor York Richardson,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,138.0,19.0,706.0,Right-hand bat,"September 7, 1894, Parkside, Adelaide, South Australia",Right-arm medium,
+2841,51492,Sewnarine Chattergoon,0.0,2.0,54.0,18.0,370.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0,4.0,127.0,Left-hand bat,"April 3, 1981, Fyrish, West Bank, Berbice, Guyana",Legbreak,
+267,6518,Robert Arnold Lockyer Massie,0.0,0.0,16.0,3.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.0,6.0,78.0,Left-hand bat,"April 14, 1947, Subiaco, Perth, Western Australia",Right-arm medium-fast,
+4282,216996,Randall Jacobi Robinson,0.0,0.0,17.0,3.0,27.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"December 31, 1984, Bermuda","Right-arm fast-medium, Right-arm offbreak",Bowler
+5393,796331,Yodhin Punja,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 24, 1999",Right-arm medium,Bowler
+5368,764321,Dylan Evers Budge,0.0,0.0,11.0,1.0,11.0,0.0,0.0,24.0,6.0,60.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 11, 1995, Leeds, Yorkshire",Right-arm medium,Allrounder
+2131,41984,Mohammad Nadeem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,9.0,75.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"September 4, 1982, Sialkot, Pakistan",Right-arm medium-fast,Bowler
+4528,295644,Gordon David Drummond,0.0,0.0,35.0,30.0,240.0,0.0,0.0,35.0,17.0,54.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"April 21, 1980, Meigle, Perthshire",Right-arm medium-fast,Bowler
+2105,41286,Mohammad Ilyas Mahmood,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,126.0,10.0,441.0,Right-hand bat,"March 19, 1946, Lahore, Punjab",Legbreak,
+2542,47240,Robert Bernard Stewart,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,13.0,Right-hand bat,"September 3, 1856, Azumgarh, India",0,
+4727,343548,Raza Hasan,0.0,0.0,0.0,1.0,0.0,0.0,0.0,13.0,10.0,18.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"July 8, 1992, Sialkot, Punjab",Slow left-arm orthodox,Bowler
+3041,52969,Ramnaresh Ronnie Sarwan,5.0,38.0,120.0,181.0,5804.0,0.0,2.0,59.0,18.0,298.0,15.0,31.0,291.0,87.0,5842.0,Right-hand bat,"June 23, 1980, Wakenaam Island, Essequibo, Guyana",Legbreak,Batsman
+2687,49487,Lalith Wasantha Silva Kaluperuma,0.0,0.0,14.0,4.0,33.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,2.0,12.0,Right-hand bat,"June 25, 1949, Colombo",Right-arm offbreak,
+2721,50240,Champaka Priyadarshana Hewage Ramanayake,0.0,0.0,26.0,62.0,210.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,18.0,143.0,Right-hand bat,"January 8, 1965, Colombo",Right-arm fast-medium,
+2258,44024,Adam Marc Bacher,0.0,1.0,56.0,13.0,270.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,96.0,19.0,833.0,Right-hand bat,"October 29, 1973, Johannesburg, Transvaal",Right-arm medium,
+2250,43906,Hashim Mahomed Amla,27.0,37.0,159.0,174.0,7910.0,0.0,8.0,97.0,44.0,1277.0,28.0,41.0,311.0,124.0,9282.0,Right-hand bat,"March 31, 1983, Durban, Natal","Right-arm medium, Right-arm offbreak",Top-order batsman
+1342,25556,Asim Saeed,0.0,0.0,12.0,2.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"October 5, 1979, Al Ain",Left-arm medium,
+1649,34274,Shanthakumaran Sreesanth,0.0,0.0,10.0,53.0,44.0,0.0,0.0,19.0,10.0,20.0,0.0,0.0,35.0,27.0,281.0,Right-hand bat,"February 6, 1983, Kothamangalam, Kerala",Right-arm fast-medium,Bowler
+5402,820691,Odean Fabian Smith,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 1, 1996, St. Elizabeth, Jamaica",Right-arm medium,Bowler
+2083,41043,Khan Mohammad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,13.0,100.0,Right-hand bat,"January 1, 1928, Lahore, Punjab",Right-arm fast-medium,
+5433,914567,Oshane Romaine Thomas,0.0,0.0,0.0,9.0,0.0,0.0,0.0,8.0,7.0,8.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"February 18, 1997",Right-arm fast,Bowler
+717,14171,Christopher Heseltine,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,2.0,18.0,Right-hand bat,"November 26, 1869, South Kensington, London",Right-arm fast,
+224,6145,Robert Byers Kerr,0.0,1.0,87.0,4.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,2.0,31.0,Right-hand bat,"June 16, 1961, Herston, Brisbane, Queensland",Legbreak googly,
+5398,806241,Richard Ngarava,0.0,0.0,10.0,9.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"December 28, 1997, Harare",Left-arm fast-medium,Bowler
+4543,297628,Samuel William Billings,0.0,2.0,62.0,15.0,271.0,0.0,2.0,87.0,21.0,314.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 15, 1991, Pembury, Kent",0,Wicketkeeper batsman
+5458,935553,Ikram Ali Khil,0.0,0.0,5.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,1.0,7.0,Left-hand bat,"September 29, 2000",0,Top-order batsman
+4288,220519,Rameez Shahzad,2.0,4.0,121.0,15.0,691.0,0.0,0.0,49.0,11.0,228.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"November 30, 1987, Lahore, Pakistan",Right-arm offbreak,Top-order batsman
+2445,46217,Douglas James Meintjes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,2.0,43.0,Right-hand bat,"June 9, 1890, Pretoria, Transvaal",Right-arm fast-medium,
+4172,55938,Jamaluddin Ahmed,0.0,0.0,18.0,1.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 5, 1977, Jessore, Khulna",Right-arm offbreak,
+4705,333029,McLaren Smith,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 31, 1991",Right-arm medium-fast,Bowler
+1517,30936,Vijay Laxman Manjrekar,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,15.0,189.0,55.0,3208.0,Right-hand bat,"September 26, 1931, Bombay (now Mumbai), Maharashtra",Right-arm offbreak,
+863,17048,Frank Mitchell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0,5.0,116.0,Right-hand bat,"August 13, 1872, Market Weighton, Yorkshire",Right-arm medium,
+1368,25913,Mohammad Nabi,1.0,13.0,116.0,111.0,2565.0,0.0,3.0,89.0,68.0,1161.0,0.0,0.0,24.0,2.0,25.0,Right-hand bat,"January 1, 1985, Loger, Afghanistan",Right-arm offbreak,Allrounder
+3066,53226,Charles Archibald Wiles,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,Right-hand bat,"August 11, 1892, Bridgetown, Barbados",0,
+912,18548,Winston Place,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,107.0,3.0,144.0,Right-hand bat,"December 7, 1914, Rawtenstall, Lancashire",0,
+1778,37106,Simpson Clairmonte Guillen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,54.0,8.0,202.0,Right-hand bat,"September 24, 1924, Port of Spain, Trinidad",0,
+2112,41303,Mohsin Hasan Khan,2.0,8.0,117.0,75.0,1877.0,0.0,0.0,0.0,0.0,0.0,7.0,9.0,200.0,48.0,2709.0,Right-hand bat,"March 15, 1955, Karachi, Sind",Right-arm medium,
+4506,280734,Imrul Kayes,4.0,16.0,144.0,78.0,2434.0,0.0,0.0,36.0,14.0,119.0,3.0,4.0,150.0,37.0,1776.0,Left-hand bat,"February 2, 1987, Meherpur, Khulna",0,Opening batsman
+1386,26325,Kirtivardhan Bhagwat Jha Azad,0.0,0.0,39.0,25.0,269.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,7.0,135.0,Right-hand bat,"January 2, 1959, Purnea, Bihar",Right-arm offbreak,
+511,9103,Jack Birkenshaw,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,64.0,5.0,148.0,Left-hand bat,"November 13, 1940, Rothwell, Leeds, Yorkshire",Right-arm offbreak,
+2019,39821,Aizaz Bin Ilyas Cheema,0.0,0.0,9.0,14.0,26.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,1.0,7.0,1.0,Right-hand bat,"September 5, 1979, Sargodha, Punjab",Right-arm medium-fast,Bowler
+868,17099,Hugh Morris,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0,3.0,115.0,Left-hand bat,"October 5, 1963, Canton, Cardiff, Glamorgan, Wales",Right-arm medium,
+4530,296597,James Michael Vince,0.0,1.0,51.0,6.0,131.0,0.0,0.0,46.0,7.0,194.0,0.0,3.0,83.0,13.0,548.0,Right-hand bat,"March 14, 1991, Cuckfield, Sussex",Right-arm medium,Batsman
+26,4153,John McCarthy Blackham,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,74.0,35.0,800.0,Right-hand bat,"May 11, 1854, North Fitzroy, Melbourne, Victoria",0,
+1719,36326,Shane Edward Bond,0.0,0.0,31.0,82.0,292.0,0.0,0.0,8.0,20.0,21.0,0.0,0.0,41.0,18.0,168.0,Right-hand bat,"June 7, 1975, Christchurch, Canterbury",Right-arm fast,Bowler
+1552,32157,Phiroze Edulji Palia,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,2.0,29.0,Left-hand bat,"September 5, 1910, Bombay (now Mumbai), Maharashtra",Slow left-arm orthodox,
+4698,332921,Alawi Shukri Al Braik,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Left-hand bat,"January 23, 1990, Dubai",Right-arm offbreak,Middle-order batsman
+2529,47186,Percy William Sherwell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,115.0,13.0,427.0,Right-hand bat,"August 17, 1880, Isipingo, Natal",0,
+1768,37004,James Edward Charles Franklin,0.0,4.0,98.0,110.0,1270.0,0.0,2.0,60.0,38.0,463.0,1.0,2.0,122.0,31.0,808.0,Left-hand bat,"November 7, 1980, Wellington",Left-arm medium,Allrounder
+1807,37263,Paul Anthony Hitchcock,0.0,0.0,11.0,14.0,41.0,0.0,0.0,13.0,1.0,13.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"January 23, 1975, Whangarei, Northland",Right-arm medium,
+1146,23725,Irving Howard Romaine,1.0,4.0,101.0,35.0,783.0,0.0,0.0,8.0,2.0,9.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"August 8, 1972, Bermuda",Right-arm offbreak,Batsman
+2815,51303,Ivanhoe Mordecai Barrow,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,105.0,11.0,276.0,Right-hand bat,"January 16, 1911, Belmont Pen, Morant Bay, St Thomas, Jamaica",0,
+1110,22420,William Wilfrid Whysall,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,76.0,4.0,209.0,Right-hand bat,"October 31, 1887, Woodborough, Nottinghamshire",Right-arm medium,
+4622,311427,Hamid Hassan,0.0,0.0,17.0,32.0,92.0,0.0,0.0,22.0,22.0,50.0,0.0,0.0,0.0,0.0,0.0,Right-hand bat,"June 1, 1987, Nengrakar, Afghanistan",Right-arm fast,Bowler
+2706,49764,Angelo Davis Mathews,2.0,37.0,139.0,203.0,5380.0,0.0,5.0,81.0,72.0,1055.0,9.0,33.0,160.0,80.0,5554.0,Right-hand bat,"June 2, 1987, Colombo",Right-arm medium,Allrounder
+2720,50205,Pawuluge Malinda Pushpakumara,0.0,0.0,8.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.0,4.0,102.0,Right-hand bat,"March 24, 1987, Colombo",Slow left-arm orthodox,Allrounder

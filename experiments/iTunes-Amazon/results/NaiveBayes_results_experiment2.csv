@@ -1,0 +1,409 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,HH/Rap | Rap & HH,True,24.0
+accuracy_parity,Music | Rap & HH,True,26.0
+accuracy_parity,other | Rap & HH,True,16.0
+accuracy_parity,Music | other,True,18.0
+accuracy_parity,other | other,True,14.0
+accuracy_parity,Dance | Dance & Elec.,True,37.0
+accuracy_parity,Music | Dance & Elec.,True,39.0
+accuracy_parity,Elec. | Dance & Elec.,True,33.0
+accuracy_parity,French Pop | Dance & Elec.,True,13.0
+accuracy_parity,House | Dance & Elec.,True,20.0
+accuracy_parity,Rock | Dance & Elec.,True,22.0
+accuracy_parity,Rap | Rap & HH,True,18.0
+accuracy_parity,Rock | other,True,15.0
+accuracy_parity,Dance | Pop,True,13.0
+accuracy_parity,Music | Pop,True,20.0
+accuracy_parity,Rock | Pop,True,14.0
+accuracy_parity,Pop | Pop,True,16.0
+accuracy_parity,R&B / Soul | Pop,True,11.0
+accuracy_parity,other | Pop,True,16.0
+accuracy_parity,Cont. Country | Country,True,11.0
+accuracy_parity,Country | Country,True,11.0
+accuracy_parity,Honky Tonk | Country,True,9.0
+accuracy_parity,Music | Country,True,11.0
+accuracy_parity,other | Country,True,7.0
+accuracy_parity,Elec. | Pop,True,4.0
+accuracy_parity,Pop/Rock | Pop,True,8.0
+accuracy_parity,Music | Rock,True,8.0
+accuracy_parity,Rock | Rock,True,8.0
+accuracy_parity,other | Rock,True,15.0
+accuracy_parity,Pop | Country,True,4.0
+accuracy_parity,Dance | House,True,3.0
+accuracy_parity,Elec. | House,True,2.0
+accuracy_parity,House | House,True,1.0
+accuracy_parity,Music | House,True,3.0
+accuracy_parity,Pop | Dance & Elec.,False,3.0
+accuracy_parity,Pop | House,True,1.0
+accuracy_parity,Rock | House,True,1.0
+accuracy_parity,other | Dance & Elec.,True,7.0
+accuracy_parity,other | House,True,3.0
+accuracy_parity,HH/Rap | Pop,True,3.0
+accuracy_parity,Dance & Elec. | Elec.,True,33.0
+accuracy_parity,Dance & Elec. | Music,True,39.0
+accuracy_parity,other | Elec.,True,5.0
+accuracy_parity,other | Music,True,18.0
+accuracy_parity,HH/Rap | other,True,3.0
+accuracy_parity,Pop | Rap & HH,True,3.0
+accuracy_parity,Pop | other,True,16.0
+accuracy_parity,Rap | other,True,1.0
+accuracy_parity,Dance | Rap & HH,False,2.0
+accuracy_parity,Elec. | Rap & HH,False,2.0
+accuracy_parity,HH/Rap | Dance & Elec.,True,1.0
+accuracy_parity,HH/Rap | House,True,1.0
+accuracy_parity,Rap | Dance & Elec.,True,2.0
+accuracy_parity,Rap | House,True,1.0
+accuracy_parity,R&B / Soul | Dance & Elec.,False,3.0
+accuracy_parity,R&B / Soul | Rap & HH,False,1.0
+accuracy_parity,Dance | other,True,4.0
+accuracy_parity,Elec. | other,True,5.0
+accuracy_parity,House | other,True,3.0
+accuracy_parity,Pop/Rock | Country,True,2.0
+accuracy_parity,Rock | Country,True,2.0
+accuracy_parity,Cont. Country | Pop,True,1.0
+accuracy_parity,Country | Pop,True,4.0
+accuracy_parity,Honky Tonk | Pop,True,1.0
+accuracy_parity,Pop/Rock | Dance & Elec.,False,1.0
+accuracy_parity,Pop/Rock | other,False,1.0
+accuracy_parity,R&B / Soul | other,False,1.0
+accuracy_parity,Rock | Rap & HH,True,2.0
+statistical_parity,HH/Rap | Rap & HH,True,24.0
+statistical_parity,Music | Rap & HH,True,26.0
+statistical_parity,other | Rap & HH,True,16.0
+statistical_parity,Music | other,True,18.0
+statistical_parity,other | other,True,14.0
+statistical_parity,Dance | Dance & Elec.,True,37.0
+statistical_parity,Music | Dance & Elec.,True,39.0
+statistical_parity,Elec. | Dance & Elec.,True,33.0
+statistical_parity,French Pop | Dance & Elec.,False,13.0
+statistical_parity,House | Dance & Elec.,False,20.0
+statistical_parity,Rock | Dance & Elec.,False,22.0
+statistical_parity,Rap | Rap & HH,True,18.0
+statistical_parity,Rock | other,True,15.0
+statistical_parity,Dance | Pop,True,13.0
+statistical_parity,Music | Pop,True,20.0
+statistical_parity,Rock | Pop,True,14.0
+statistical_parity,Pop | Pop,True,16.0
+statistical_parity,R&B / Soul | Pop,True,11.0
+statistical_parity,other | Pop,True,16.0
+statistical_parity,Cont. Country | Country,True,11.0
+statistical_parity,Country | Country,True,11.0
+statistical_parity,Honky Tonk | Country,True,9.0
+statistical_parity,Music | Country,True,11.0
+statistical_parity,other | Country,True,7.0
+statistical_parity,Elec. | Pop,True,4.0
+statistical_parity,Pop/Rock | Pop,True,8.0
+statistical_parity,Music | Rock,True,8.0
+statistical_parity,Rock | Rock,True,8.0
+statistical_parity,other | Rock,True,15.0
+statistical_parity,Pop | Country,True,4.0
+statistical_parity,Dance | House,True,3.0
+statistical_parity,Elec. | House,True,2.0
+statistical_parity,House | House,False,1.0
+statistical_parity,Music | House,True,3.0
+statistical_parity,Pop | Dance & Elec.,False,3.0
+statistical_parity,Pop | House,False,1.0
+statistical_parity,Rock | House,False,1.0
+statistical_parity,other | Dance & Elec.,True,7.0
+statistical_parity,other | House,True,3.0
+statistical_parity,HH/Rap | Pop,False,3.0
+statistical_parity,Dance & Elec. | Elec.,True,33.0
+statistical_parity,Dance & Elec. | Music,True,39.0
+statistical_parity,other | Elec.,True,5.0
+statistical_parity,other | Music,True,18.0
+statistical_parity,HH/Rap | other,False,3.0
+statistical_parity,Pop | Rap & HH,False,3.0
+statistical_parity,Pop | other,True,16.0
+statistical_parity,Rap | other,False,1.0
+statistical_parity,Dance | Rap & HH,True,2.0
+statistical_parity,Elec. | Rap & HH,True,2.0
+statistical_parity,HH/Rap | Dance & Elec.,True,1.0
+statistical_parity,HH/Rap | House,True,1.0
+statistical_parity,Rap | Dance & Elec.,True,2.0
+statistical_parity,Rap | House,True,1.0
+statistical_parity,R&B / Soul | Dance & Elec.,True,3.0
+statistical_parity,R&B / Soul | Rap & HH,False,1.0
+statistical_parity,Dance | other,False,4.0
+statistical_parity,Elec. | other,True,5.0
+statistical_parity,House | other,True,3.0
+statistical_parity,Pop/Rock | Country,True,2.0
+statistical_parity,Rock | Country,True,2.0
+statistical_parity,Cont. Country | Pop,False,1.0
+statistical_parity,Country | Pop,True,4.0
+statistical_parity,Honky Tonk | Pop,False,1.0
+statistical_parity,Pop/Rock | Dance & Elec.,False,1.0
+statistical_parity,Pop/Rock | other,False,1.0
+statistical_parity,R&B / Soul | other,False,1.0
+statistical_parity,Rock | Rap & HH,False,2.0
+true_positive_rate_parity,HH/Rap | Rap & HH,False,24.0
+true_positive_rate_parity,Music | Rap & HH,False,26.0
+true_positive_rate_parity,other | Rap & HH,False,16.0
+true_positive_rate_parity,Music | other,True,18.0
+true_positive_rate_parity,other | other,True,14.0
+true_positive_rate_parity,Dance | Dance & Elec.,True,37.0
+true_positive_rate_parity,Music | Dance & Elec.,True,39.0
+true_positive_rate_parity,Elec. | Dance & Elec.,True,33.0
+true_positive_rate_parity,French Pop | Dance & Elec.,True,13.0
+true_positive_rate_parity,House | Dance & Elec.,True,20.0
+true_positive_rate_parity,Rock | Dance & Elec.,True,22.0
+true_positive_rate_parity,Rap | Rap & HH,False,18.0
+true_positive_rate_parity,Rock | other,True,15.0
+true_positive_rate_parity,Dance | Pop,True,13.0
+true_positive_rate_parity,Music | Pop,True,20.0
+true_positive_rate_parity,Rock | Pop,True,14.0
+true_positive_rate_parity,Pop | Pop,True,16.0
+true_positive_rate_parity,R&B / Soul | Pop,True,11.0
+true_positive_rate_parity,other | Pop,True,16.0
+true_positive_rate_parity,Cont. Country | Country,True,11.0
+true_positive_rate_parity,Country | Country,True,11.0
+true_positive_rate_parity,Honky Tonk | Country,True,9.0
+true_positive_rate_parity,Music | Country,True,11.0
+true_positive_rate_parity,other | Country,True,7.0
+true_positive_rate_parity,Elec. | Pop,False,4.0
+true_positive_rate_parity,Pop/Rock | Pop,False,8.0
+true_positive_rate_parity,Music | Rock,True,8.0
+true_positive_rate_parity,Rock | Rock,True,8.0
+true_positive_rate_parity,other | Rock,True,15.0
+true_positive_rate_parity,Pop | Country,True,4.0
+true_positive_rate_parity,Dance | House,True,3.0
+true_positive_rate_parity,Elec. | House,True,2.0
+true_positive_rate_parity,House | House,True,1.0
+true_positive_rate_parity,Music | House,True,3.0
+true_positive_rate_parity,Pop | Dance & Elec.,False,3.0
+true_positive_rate_parity,Pop | House,True,1.0
+true_positive_rate_parity,Rock | House,True,1.0
+true_positive_rate_parity,other | Dance & Elec.,True,7.0
+true_positive_rate_parity,other | House,True,3.0
+true_positive_rate_parity,HH/Rap | Pop,True,3.0
+true_positive_rate_parity,Dance & Elec. | Elec.,True,33.0
+true_positive_rate_parity,Dance & Elec. | Music,True,39.0
+true_positive_rate_parity,other | Elec.,False,5.0
+true_positive_rate_parity,other | Music,True,18.0
+true_positive_rate_parity,HH/Rap | other,True,3.0
+true_positive_rate_parity,Pop | Rap & HH,True,3.0
+true_positive_rate_parity,Pop | other,True,16.0
+true_positive_rate_parity,Rap | other,True,1.0
+true_positive_rate_parity,Dance | Rap & HH,False,2.0
+true_positive_rate_parity,Elec. | Rap & HH,True,2.0
+true_positive_rate_parity,HH/Rap | Dance & Elec.,True,1.0
+true_positive_rate_parity,HH/Rap | House,True,1.0
+true_positive_rate_parity,Rap | Dance & Elec.,True,2.0
+true_positive_rate_parity,Rap | House,True,1.0
+true_positive_rate_parity,R&B / Soul | Dance & Elec.,False,3.0
+true_positive_rate_parity,R&B / Soul | Rap & HH,False,1.0
+true_positive_rate_parity,Dance | other,False,4.0
+true_positive_rate_parity,Elec. | other,False,5.0
+true_positive_rate_parity,House | other,True,3.0
+true_positive_rate_parity,Pop/Rock | Country,True,2.0
+true_positive_rate_parity,Rock | Country,True,2.0
+true_positive_rate_parity,Cont. Country | Pop,True,1.0
+true_positive_rate_parity,Country | Pop,True,4.0
+true_positive_rate_parity,Honky Tonk | Pop,True,1.0
+true_positive_rate_parity,Pop/Rock | Dance & Elec.,False,1.0
+true_positive_rate_parity,Pop/Rock | other,False,1.0
+true_positive_rate_parity,R&B / Soul | other,False,1.0
+true_positive_rate_parity,Rock | Rap & HH,True,2.0
+false_positive_rate_parity,HH/Rap | Rap & HH,True,24.0
+false_positive_rate_parity,Music | Rap & HH,True,26.0
+false_positive_rate_parity,other | Rap & HH,True,16.0
+false_positive_rate_parity,Music | other,True,18.0
+false_positive_rate_parity,other | other,True,14.0
+false_positive_rate_parity,Dance | Dance & Elec.,True,37.0
+false_positive_rate_parity,Music | Dance & Elec.,True,39.0
+false_positive_rate_parity,Elec. | Dance & Elec.,True,33.0
+false_positive_rate_parity,French Pop | Dance & Elec.,True,13.0
+false_positive_rate_parity,House | Dance & Elec.,True,20.0
+false_positive_rate_parity,Rock | Dance & Elec.,True,22.0
+false_positive_rate_parity,Rap | Rap & HH,True,18.0
+false_positive_rate_parity,Rock | other,True,15.0
+false_positive_rate_parity,Dance | Pop,True,13.0
+false_positive_rate_parity,Music | Pop,True,20.0
+false_positive_rate_parity,Rock | Pop,True,14.0
+false_positive_rate_parity,Pop | Pop,True,16.0
+false_positive_rate_parity,R&B / Soul | Pop,True,11.0
+false_positive_rate_parity,other | Pop,True,16.0
+false_positive_rate_parity,Cont. Country | Country,False,11.0
+false_positive_rate_parity,Country | Country,False,11.0
+false_positive_rate_parity,Honky Tonk | Country,False,9.0
+false_positive_rate_parity,Music | Country,False,11.0
+false_positive_rate_parity,other | Country,False,7.0
+false_positive_rate_parity,Elec. | Pop,True,4.0
+false_positive_rate_parity,Pop/Rock | Pop,True,8.0
+false_positive_rate_parity,Music | Rock,False,8.0
+false_positive_rate_parity,Rock | Rock,False,8.0
+false_positive_rate_parity,other | Rock,True,15.0
+false_positive_rate_parity,Pop | Country,False,4.0
+false_positive_rate_parity,Dance | House,True,3.0
+false_positive_rate_parity,Elec. | House,True,2.0
+false_positive_rate_parity,House | House,True,1.0
+false_positive_rate_parity,Music | House,True,3.0
+false_positive_rate_parity,Pop | Dance & Elec.,True,3.0
+false_positive_rate_parity,Pop | House,True,1.0
+false_positive_rate_parity,Rock | House,True,1.0
+false_positive_rate_parity,other | Dance & Elec.,True,7.0
+false_positive_rate_parity,other | House,True,3.0
+false_positive_rate_parity,HH/Rap | Pop,True,3.0
+false_positive_rate_parity,Dance & Elec. | Elec.,True,33.0
+false_positive_rate_parity,Dance & Elec. | Music,True,39.0
+false_positive_rate_parity,other | Elec.,True,5.0
+false_positive_rate_parity,other | Music,True,18.0
+false_positive_rate_parity,HH/Rap | other,True,3.0
+false_positive_rate_parity,Pop | Rap & HH,True,3.0
+false_positive_rate_parity,Pop | other,True,16.0
+false_positive_rate_parity,Rap | other,True,1.0
+false_positive_rate_parity,Dance | Rap & HH,False,2.0
+false_positive_rate_parity,Elec. | Rap & HH,False,2.0
+false_positive_rate_parity,HH/Rap | Dance & Elec.,False,1.0
+false_positive_rate_parity,HH/Rap | House,False,1.0
+false_positive_rate_parity,Rap | Dance & Elec.,True,2.0
+false_positive_rate_parity,Rap | House,False,1.0
+false_positive_rate_parity,R&B / Soul | Dance & Elec.,True,3.0
+false_positive_rate_parity,R&B / Soul | Rap & HH,False,1.0
+false_positive_rate_parity,Dance | other,True,4.0
+false_positive_rate_parity,Elec. | other,True,5.0
+false_positive_rate_parity,House | other,True,3.0
+false_positive_rate_parity,Pop/Rock | Country,True,2.0
+false_positive_rate_parity,Rock | Country,True,2.0
+false_positive_rate_parity,Cont. Country | Pop,True,1.0
+false_positive_rate_parity,Country | Pop,False,4.0
+false_positive_rate_parity,Honky Tonk | Pop,True,1.0
+false_positive_rate_parity,Pop/Rock | Dance & Elec.,False,1.0
+false_positive_rate_parity,Pop/Rock | other,False,1.0
+false_positive_rate_parity,R&B / Soul | other,False,1.0
+false_positive_rate_parity,Rock | Rap & HH,True,2.0
+negative_predictive_value_parity,HH/Rap | Rap & HH,True,24.0
+negative_predictive_value_parity,Music | Rap & HH,True,26.0
+negative_predictive_value_parity,other | Rap & HH,True,16.0
+negative_predictive_value_parity,Music | other,True,18.0
+negative_predictive_value_parity,other | other,True,14.0
+negative_predictive_value_parity,Dance | Dance & Elec.,True,37.0
+negative_predictive_value_parity,Music | Dance & Elec.,True,39.0
+negative_predictive_value_parity,Elec. | Dance & Elec.,True,33.0
+negative_predictive_value_parity,French Pop | Dance & Elec.,True,13.0
+negative_predictive_value_parity,House | Dance & Elec.,True,20.0
+negative_predictive_value_parity,Rock | Dance & Elec.,True,22.0
+negative_predictive_value_parity,Rap | Rap & HH,True,18.0
+negative_predictive_value_parity,Rock | other,True,15.0
+negative_predictive_value_parity,Dance | Pop,True,13.0
+negative_predictive_value_parity,Music | Pop,True,20.0
+negative_predictive_value_parity,Rock | Pop,True,14.0
+negative_predictive_value_parity,Pop | Pop,True,16.0
+negative_predictive_value_parity,R&B / Soul | Pop,True,11.0
+negative_predictive_value_parity,other | Pop,True,16.0
+negative_predictive_value_parity,Cont. Country | Country,True,11.0
+negative_predictive_value_parity,Country | Country,True,11.0
+negative_predictive_value_parity,Honky Tonk | Country,True,9.0
+negative_predictive_value_parity,Music | Country,True,11.0
+negative_predictive_value_parity,other | Country,True,7.0
+negative_predictive_value_parity,Elec. | Pop,False,4.0
+negative_predictive_value_parity,Pop/Rock | Pop,True,8.0
+negative_predictive_value_parity,Music | Rock,True,8.0
+negative_predictive_value_parity,Rock | Rock,True,8.0
+negative_predictive_value_parity,other | Rock,True,15.0
+negative_predictive_value_parity,Pop | Country,True,4.0
+negative_predictive_value_parity,Dance | House,True,3.0
+negative_predictive_value_parity,Elec. | House,True,2.0
+negative_predictive_value_parity,House | House,True,1.0
+negative_predictive_value_parity,Music | House,True,3.0
+negative_predictive_value_parity,Pop | Dance & Elec.,False,3.0
+negative_predictive_value_parity,Pop | House,True,1.0
+negative_predictive_value_parity,Rock | House,True,1.0
+negative_predictive_value_parity,other | Dance & Elec.,True,7.0
+negative_predictive_value_parity,other | House,True,3.0
+negative_predictive_value_parity,HH/Rap | Pop,True,3.0
+negative_predictive_value_parity,Dance & Elec. | Elec.,True,33.0
+negative_predictive_value_parity,Dance & Elec. | Music,True,39.0
+negative_predictive_value_parity,other | Elec.,False,5.0
+negative_predictive_value_parity,other | Music,True,18.0
+negative_predictive_value_parity,HH/Rap | other,True,3.0
+negative_predictive_value_parity,Pop | Rap & HH,True,3.0
+negative_predictive_value_parity,Pop | other,True,16.0
+negative_predictive_value_parity,Rap | other,True,1.0
+negative_predictive_value_parity,Dance | Rap & HH,False,2.0
+negative_predictive_value_parity,Elec. | Rap & HH,True,2.0
+negative_predictive_value_parity,HH/Rap | Dance & Elec.,True,1.0
+negative_predictive_value_parity,HH/Rap | House,True,1.0
+negative_predictive_value_parity,Rap | Dance & Elec.,True,2.0
+negative_predictive_value_parity,Rap | House,True,1.0
+negative_predictive_value_parity,R&B / Soul | Dance & Elec.,False,3.0
+negative_predictive_value_parity,R&B / Soul | Rap & HH,False,1.0
+negative_predictive_value_parity,Dance | other,False,4.0
+negative_predictive_value_parity,Elec. | other,False,5.0
+negative_predictive_value_parity,House | other,True,3.0
+negative_predictive_value_parity,Pop/Rock | Country,True,2.0
+negative_predictive_value_parity,Rock | Country,True,2.0
+negative_predictive_value_parity,Cont. Country | Pop,True,1.0
+negative_predictive_value_parity,Country | Pop,True,4.0
+negative_predictive_value_parity,Honky Tonk | Pop,True,1.0
+negative_predictive_value_parity,Pop/Rock | Dance & Elec.,False,1.0
+negative_predictive_value_parity,Pop/Rock | other,False,1.0
+negative_predictive_value_parity,R&B / Soul | other,False,1.0
+negative_predictive_value_parity,Rock | Rap & HH,True,2.0
+positive_predictive_value_parity,HH/Rap | Rap & HH,True,24.0
+positive_predictive_value_parity,Music | Rap & HH,True,26.0
+positive_predictive_value_parity,other | Rap & HH,True,16.0
+positive_predictive_value_parity,Music | other,True,18.0
+positive_predictive_value_parity,other | other,False,14.0
+positive_predictive_value_parity,Dance | Dance & Elec.,False,37.0
+positive_predictive_value_parity,Music | Dance & Elec.,True,39.0
+positive_predictive_value_parity,Elec. | Dance & Elec.,True,33.0
+positive_predictive_value_parity,French Pop | Dance & Elec.,True,13.0
+positive_predictive_value_parity,House | Dance & Elec.,True,20.0
+positive_predictive_value_parity,Rock | Dance & Elec.,False,22.0
+positive_predictive_value_parity,Rap | Rap & HH,True,18.0
+positive_predictive_value_parity,Rock | other,False,15.0
+positive_predictive_value_parity,Dance | Pop,True,13.0
+positive_predictive_value_parity,Music | Pop,True,20.0
+positive_predictive_value_parity,Rock | Pop,True,14.0
+positive_predictive_value_parity,Pop | Pop,True,16.0
+positive_predictive_value_parity,R&B / Soul | Pop,True,11.0
+positive_predictive_value_parity,other | Pop,True,16.0
+positive_predictive_value_parity,Cont. Country | Country,True,11.0
+positive_predictive_value_parity,Country | Country,True,11.0
+positive_predictive_value_parity,Honky Tonk | Country,True,9.0
+positive_predictive_value_parity,Music | Country,True,11.0
+positive_predictive_value_parity,other | Country,True,7.0
+positive_predictive_value_parity,Elec. | Pop,True,4.0
+positive_predictive_value_parity,Pop/Rock | Pop,True,8.0
+positive_predictive_value_parity,Music | Rock,False,8.0
+positive_predictive_value_parity,Rock | Rock,False,8.0
+positive_predictive_value_parity,other | Rock,False,15.0
+positive_predictive_value_parity,Pop | Country,False,4.0
+positive_predictive_value_parity,Dance | House,True,3.0
+positive_predictive_value_parity,Elec. | House,True,2.0
+positive_predictive_value_parity,House | House,True,1.0
+positive_predictive_value_parity,Music | House,True,3.0
+positive_predictive_value_parity,Pop | Dance & Elec.,True,3.0
+positive_predictive_value_parity,Pop | House,True,1.0
+positive_predictive_value_parity,Rock | House,True,1.0
+positive_predictive_value_parity,other | Dance & Elec.,True,7.0
+positive_predictive_value_parity,other | House,True,3.0
+positive_predictive_value_parity,HH/Rap | Pop,True,3.0
+positive_predictive_value_parity,Dance & Elec. | Elec.,True,33.0
+positive_predictive_value_parity,Dance & Elec. | Music,True,39.0
+positive_predictive_value_parity,other | Elec.,True,5.0
+positive_predictive_value_parity,other | Music,True,18.0
+positive_predictive_value_parity,HH/Rap | other,True,3.0
+positive_predictive_value_parity,Pop | Rap & HH,True,3.0
+positive_predictive_value_parity,Pop | other,True,16.0
+positive_predictive_value_parity,Rap | other,True,1.0
+positive_predictive_value_parity,Dance | Rap & HH,True,2.0
+positive_predictive_value_parity,Elec. | Rap & HH,False,2.0
+positive_predictive_value_parity,HH/Rap | Dance & Elec.,True,1.0
+positive_predictive_value_parity,HH/Rap | House,True,1.0
+positive_predictive_value_parity,Rap | Dance & Elec.,True,2.0
+positive_predictive_value_parity,Rap | House,True,1.0
+positive_predictive_value_parity,R&B / Soul | Dance & Elec.,True,3.0
+positive_predictive_value_parity,R&B / Soul | Rap & HH,True,1.0
+positive_predictive_value_parity,Dance | other,True,4.0
+positive_predictive_value_parity,Elec. | other,True,5.0
+positive_predictive_value_parity,House | other,True,3.0
+positive_predictive_value_parity,Pop/Rock | Country,True,2.0
+positive_predictive_value_parity,Rock | Country,True,2.0
+positive_predictive_value_parity,Cont. Country | Pop,True,1.0
+positive_predictive_value_parity,Country | Pop,False,4.0
+positive_predictive_value_parity,Honky Tonk | Pop,True,1.0
+positive_predictive_value_parity,Pop/Rock | Dance & Elec.,True,1.0
+positive_predictive_value_parity,Pop/Rock | other,True,1.0
+positive_predictive_value_parity,R&B / Soul | other,True,1.0
+positive_predictive_value_parity,Rock | Rap & HH,True,2.0

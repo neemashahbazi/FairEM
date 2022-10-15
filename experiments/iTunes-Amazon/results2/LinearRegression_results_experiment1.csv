@@ -1,0 +1,439 @@
+measure,sens_attr,is_fair,counts
+accuracy_parity,Dance,True,135.0
+accuracy_parity,Electronic,True,85.0
+accuracy_parity,Music,True,321.0
+accuracy_parity,Dance & Electronic,True,109.0
+accuracy_parity,House,True,42.0
+accuracy_parity,Rock,True,140.0
+accuracy_parity,Contemporary Country,True,31.0
+accuracy_parity,Country,True,36.0
+accuracy_parity,Honky Tonk,True,15.0
+accuracy_parity,French Pop,True,19.0
+accuracy_parity,East Coast Rap,True,34.0
+accuracy_parity,Hardcore Rap,True,42.0
+accuracy_parity,Hip-Hop/Rap,True,73.0
+accuracy_parity,Rap,True,68.0
+accuracy_parity,Rap & Hip-Hop,True,74.0
+accuracy_parity,Contemporary R&B,True,18.0
+accuracy_parity,Pop,True,67.0
+accuracy_parity,R&B / Soul,True,25.0
+accuracy_parity,Urban Cowboy,True,11.0
+accuracy_parity,Cowboy,True,2.0
+accuracy_parity,Traditional Country,True,4.0
+accuracy_parity,Dubstep,True,8.0
+accuracy_parity,Electronica,True,21.0
+accuracy_parity,Alternative,True,36.0
+accuracy_parity,Hard Rock,True,18.0
+accuracy_parity,Metal,True,16.0
+accuracy_parity,Folk,True,8.0
+accuracy_parity,Singer/Songwriter,True,13.0
+accuracy_parity,Pop/Rock,True,17.0
+accuracy_parity,Teen Pop,True,7.0
+accuracy_parity,Reggae,True,5.0
+accuracy_parity,Dirty South,True,9.0
+accuracy_parity,Hip-Hop / Rap,True,20.0
+accuracy_parity,Gangsta & Hardcore,True,2.0
+accuracy_parity,Gangsta Rap,True,3.0
+accuracy_parity,Soundtrack,True,2.0
+accuracy_parity,West Coast Rap,True,6.0
+accuracy_parity,R&B,True,3.0
+accuracy_parity,Garage,True,3.0
+accuracy_parity,International,True,5.0
+accuracy_parity,Latin Hip-Hop,True,1.0
+accuracy_parity,Latin Music,True,4.0
+accuracy_parity,Alternative Rap,True,6.0
+accuracy_parity,Adult Alternative,True,20.0
+accuracy_parity,Indie Rock,True,3.0
+accuracy_parity,Underground Rap,True,2.0
+accuracy_parity,Alternative Rock,True,14.0
+accuracy_parity,Funk,True,2.0
+accuracy_parity,Soul,True,5.0
+accuracy_parity,Christmas,True,1.0
+accuracy_parity,Holiday,True,1.0
+accuracy_parity,Miscellaneous,True,2.0
+accuracy_parity,Contemporary Bluegrass,True,1.0
+accuracy_parity,Southern Rock,True,1.0
+accuracy_parity,Indie & Lo-Fi,True,1.0
+accuracy_parity,Grunge,True,4.0
+accuracy_parity,Contemporary Singer/Songwriter,True,3.0
+accuracy_parity,Punk,True,1.0
+accuracy_parity,Vocal,True,1.0
+accuracy_parity,Latin Urban,True,3.0
+accuracy_parity,Latino,True,3.0
+accuracy_parity,Modern Dancehall,True,3.0
+accuracy_parity,Adult Contemporary,True,1.0
+accuracy_parity,Country Rock,True,2.0
+accuracy_parity,Hip-Hop,True,1.0
+accuracy_parity,Neo-Soul,True,2.0
+accuracy_parity,Disco,True,1.0
+accuracy_parity,Bop,True,3.0
+accuracy_parity,Jazz,True,3.0
+accuracy_parity,World,True,2.0
+accuracy_parity,Christian & Gospel,True,1.0
+accuracy_parity,Gospel,True,1.0
+accuracy_parity,West Coast,True,1.0
+statistical_parity,Dance,True,135.0
+statistical_parity,Electronic,True,85.0
+statistical_parity,Music,True,321.0
+statistical_parity,Dance & Electronic,True,109.0
+statistical_parity,House,True,42.0
+statistical_parity,Rock,True,140.0
+statistical_parity,Contemporary Country,True,31.0
+statistical_parity,Country,True,36.0
+statistical_parity,Honky Tonk,True,15.0
+statistical_parity,French Pop,True,19.0
+statistical_parity,East Coast Rap,True,34.0
+statistical_parity,Hardcore Rap,True,42.0
+statistical_parity,Hip-Hop/Rap,True,73.0
+statistical_parity,Rap,True,68.0
+statistical_parity,Rap & Hip-Hop,True,74.0
+statistical_parity,Contemporary R&B,True,18.0
+statistical_parity,Pop,True,67.0
+statistical_parity,R&B / Soul,True,25.0
+statistical_parity,Urban Cowboy,True,11.0
+statistical_parity,Cowboy,False,2.0
+statistical_parity,Traditional Country,True,4.0
+statistical_parity,Dubstep,True,8.0
+statistical_parity,Electronica,False,21.0
+statistical_parity,Alternative,True,36.0
+statistical_parity,Hard Rock,True,18.0
+statistical_parity,Metal,True,16.0
+statistical_parity,Folk,False,8.0
+statistical_parity,Singer/Songwriter,True,13.0
+statistical_parity,Pop/Rock,True,17.0
+statistical_parity,Teen Pop,True,7.0
+statistical_parity,Reggae,True,5.0
+statistical_parity,Dirty South,True,9.0
+statistical_parity,Hip-Hop / Rap,True,20.0
+statistical_parity,Gangsta & Hardcore,True,2.0
+statistical_parity,Gangsta Rap,False,3.0
+statistical_parity,Soundtrack,False,2.0
+statistical_parity,West Coast Rap,False,6.0
+statistical_parity,R&B,True,3.0
+statistical_parity,Garage,False,3.0
+statistical_parity,International,True,5.0
+statistical_parity,Latin Hip-Hop,False,1.0
+statistical_parity,Latin Music,True,4.0
+statistical_parity,Alternative Rap,True,6.0
+statistical_parity,Adult Alternative,True,20.0
+statistical_parity,Indie Rock,True,3.0
+statistical_parity,Underground Rap,True,2.0
+statistical_parity,Alternative Rock,True,14.0
+statistical_parity,Funk,True,2.0
+statistical_parity,Soul,True,5.0
+statistical_parity,Christmas,False,1.0
+statistical_parity,Holiday,False,1.0
+statistical_parity,Miscellaneous,False,2.0
+statistical_parity,Contemporary Bluegrass,True,1.0
+statistical_parity,Southern Rock,True,1.0
+statistical_parity,Indie & Lo-Fi,True,1.0
+statistical_parity,Grunge,True,4.0
+statistical_parity,Contemporary Singer/Songwriter,True,3.0
+statistical_parity,Punk,True,1.0
+statistical_parity,Vocal,True,1.0
+statistical_parity,Latin Urban,True,3.0
+statistical_parity,Latino,True,3.0
+statistical_parity,Modern Dancehall,False,3.0
+statistical_parity,Adult Contemporary,True,1.0
+statistical_parity,Country Rock,True,2.0
+statistical_parity,Hip-Hop,True,1.0
+statistical_parity,Neo-Soul,False,2.0
+statistical_parity,Disco,True,1.0
+statistical_parity,Bop,True,3.0
+statistical_parity,Jazz,True,3.0
+statistical_parity,World,False,2.0
+statistical_parity,Christian & Gospel,True,1.0
+statistical_parity,Gospel,True,1.0
+statistical_parity,West Coast,False,1.0
+true_positive_rate_parity,Dance,True,135.0
+true_positive_rate_parity,Electronic,True,85.0
+true_positive_rate_parity,Music,True,321.0
+true_positive_rate_parity,Dance & Electronic,True,109.0
+true_positive_rate_parity,House,True,42.0
+true_positive_rate_parity,Rock,True,140.0
+true_positive_rate_parity,Contemporary Country,True,31.0
+true_positive_rate_parity,Country,True,36.0
+true_positive_rate_parity,Honky Tonk,True,15.0
+true_positive_rate_parity,French Pop,True,19.0
+true_positive_rate_parity,East Coast Rap,True,34.0
+true_positive_rate_parity,Hardcore Rap,True,42.0
+true_positive_rate_parity,Hip-Hop/Rap,True,73.0
+true_positive_rate_parity,Rap,True,68.0
+true_positive_rate_parity,Rap & Hip-Hop,True,74.0
+true_positive_rate_parity,Contemporary R&B,True,18.0
+true_positive_rate_parity,Pop,True,67.0
+true_positive_rate_parity,R&B / Soul,True,25.0
+true_positive_rate_parity,Urban Cowboy,True,11.0
+true_positive_rate_parity,Cowboy,False,2.0
+true_positive_rate_parity,Traditional Country,True,4.0
+true_positive_rate_parity,Dubstep,True,8.0
+true_positive_rate_parity,Electronica,False,21.0
+true_positive_rate_parity,Alternative,True,36.0
+true_positive_rate_parity,Hard Rock,True,18.0
+true_positive_rate_parity,Metal,True,16.0
+true_positive_rate_parity,Folk,False,8.0
+true_positive_rate_parity,Singer/Songwriter,True,13.0
+true_positive_rate_parity,Pop/Rock,True,17.0
+true_positive_rate_parity,Teen Pop,True,7.0
+true_positive_rate_parity,Reggae,True,5.0
+true_positive_rate_parity,Dirty South,True,9.0
+true_positive_rate_parity,Hip-Hop / Rap,True,20.0
+true_positive_rate_parity,Gangsta & Hardcore,True,2.0
+true_positive_rate_parity,Gangsta Rap,False,3.0
+true_positive_rate_parity,Soundtrack,False,2.0
+true_positive_rate_parity,West Coast Rap,False,6.0
+true_positive_rate_parity,R&B,True,3.0
+true_positive_rate_parity,Garage,False,3.0
+true_positive_rate_parity,International,True,5.0
+true_positive_rate_parity,Latin Hip-Hop,False,1.0
+true_positive_rate_parity,Latin Music,True,4.0
+true_positive_rate_parity,Alternative Rap,True,6.0
+true_positive_rate_parity,Adult Alternative,True,20.0
+true_positive_rate_parity,Indie Rock,True,3.0
+true_positive_rate_parity,Underground Rap,True,2.0
+true_positive_rate_parity,Alternative Rock,True,14.0
+true_positive_rate_parity,Funk,True,2.0
+true_positive_rate_parity,Soul,True,5.0
+true_positive_rate_parity,Christmas,False,1.0
+true_positive_rate_parity,Holiday,False,1.0
+true_positive_rate_parity,Miscellaneous,False,2.0
+true_positive_rate_parity,Contemporary Bluegrass,True,1.0
+true_positive_rate_parity,Southern Rock,True,1.0
+true_positive_rate_parity,Indie & Lo-Fi,True,1.0
+true_positive_rate_parity,Grunge,True,4.0
+true_positive_rate_parity,Contemporary Singer/Songwriter,True,3.0
+true_positive_rate_parity,Punk,True,1.0
+true_positive_rate_parity,Vocal,True,1.0
+true_positive_rate_parity,Latin Urban,True,3.0
+true_positive_rate_parity,Latino,True,3.0
+true_positive_rate_parity,Modern Dancehall,False,3.0
+true_positive_rate_parity,Adult Contemporary,True,1.0
+true_positive_rate_parity,Country Rock,True,2.0
+true_positive_rate_parity,Hip-Hop,True,1.0
+true_positive_rate_parity,Neo-Soul,False,2.0
+true_positive_rate_parity,Disco,True,1.0
+true_positive_rate_parity,Bop,True,3.0
+true_positive_rate_parity,Jazz,True,3.0
+true_positive_rate_parity,World,False,2.0
+true_positive_rate_parity,Christian & Gospel,True,1.0
+true_positive_rate_parity,Gospel,True,1.0
+true_positive_rate_parity,West Coast,False,1.0
+false_positive_rate_parity,Dance,True,135.0
+false_positive_rate_parity,Electronic,True,85.0
+false_positive_rate_parity,Music,True,321.0
+false_positive_rate_parity,Dance & Electronic,True,109.0
+false_positive_rate_parity,House,True,42.0
+false_positive_rate_parity,Rock,True,140.0
+false_positive_rate_parity,Contemporary Country,True,31.0
+false_positive_rate_parity,Country,True,36.0
+false_positive_rate_parity,Honky Tonk,True,15.0
+false_positive_rate_parity,French Pop,True,19.0
+false_positive_rate_parity,East Coast Rap,True,34.0
+false_positive_rate_parity,Hardcore Rap,True,42.0
+false_positive_rate_parity,Hip-Hop/Rap,True,73.0
+false_positive_rate_parity,Rap,True,68.0
+false_positive_rate_parity,Rap & Hip-Hop,True,74.0
+false_positive_rate_parity,Contemporary R&B,True,18.0
+false_positive_rate_parity,Pop,True,67.0
+false_positive_rate_parity,R&B / Soul,True,25.0
+false_positive_rate_parity,Urban Cowboy,True,11.0
+false_positive_rate_parity,Cowboy,True,2.0
+false_positive_rate_parity,Traditional Country,True,4.0
+false_positive_rate_parity,Dubstep,True,8.0
+false_positive_rate_parity,Electronica,True,21.0
+false_positive_rate_parity,Alternative,True,36.0
+false_positive_rate_parity,Hard Rock,True,18.0
+false_positive_rate_parity,Metal,True,16.0
+false_positive_rate_parity,Folk,True,8.0
+false_positive_rate_parity,Singer/Songwriter,True,13.0
+false_positive_rate_parity,Pop/Rock,True,17.0
+false_positive_rate_parity,Teen Pop,True,7.0
+false_positive_rate_parity,Reggae,True,5.0
+false_positive_rate_parity,Dirty South,True,9.0
+false_positive_rate_parity,Hip-Hop / Rap,True,20.0
+false_positive_rate_parity,Gangsta & Hardcore,True,2.0
+false_positive_rate_parity,Gangsta Rap,True,3.0
+false_positive_rate_parity,Soundtrack,True,2.0
+false_positive_rate_parity,West Coast Rap,True,6.0
+false_positive_rate_parity,R&B,True,3.0
+false_positive_rate_parity,Garage,True,3.0
+false_positive_rate_parity,International,True,5.0
+false_positive_rate_parity,Latin Hip-Hop,True,1.0
+false_positive_rate_parity,Latin Music,True,4.0
+false_positive_rate_parity,Alternative Rap,True,6.0
+false_positive_rate_parity,Adult Alternative,True,20.0
+false_positive_rate_parity,Indie Rock,True,3.0
+false_positive_rate_parity,Underground Rap,True,2.0
+false_positive_rate_parity,Alternative Rock,True,14.0
+false_positive_rate_parity,Funk,True,2.0
+false_positive_rate_parity,Soul,True,5.0
+false_positive_rate_parity,Christmas,True,1.0
+false_positive_rate_parity,Holiday,True,1.0
+false_positive_rate_parity,Miscellaneous,True,2.0
+false_positive_rate_parity,Contemporary Bluegrass,True,1.0
+false_positive_rate_parity,Southern Rock,True,1.0
+false_positive_rate_parity,Indie & Lo-Fi,True,1.0
+false_positive_rate_parity,Grunge,True,4.0
+false_positive_rate_parity,Contemporary Singer/Songwriter,True,3.0
+false_positive_rate_parity,Punk,True,1.0
+false_positive_rate_parity,Vocal,True,1.0
+false_positive_rate_parity,Latin Urban,True,3.0
+false_positive_rate_parity,Latino,True,3.0
+false_positive_rate_parity,Modern Dancehall,True,3.0
+false_positive_rate_parity,Adult Contemporary,True,1.0
+false_positive_rate_parity,Country Rock,True,2.0
+false_positive_rate_parity,Hip-Hop,True,1.0
+false_positive_rate_parity,Neo-Soul,True,2.0
+false_positive_rate_parity,Disco,True,1.0
+false_positive_rate_parity,Bop,True,3.0
+false_positive_rate_parity,Jazz,True,3.0
+false_positive_rate_parity,World,True,2.0
+false_positive_rate_parity,Christian & Gospel,True,1.0
+false_positive_rate_parity,Gospel,True,1.0
+false_positive_rate_parity,West Coast,True,1.0
+negative_predictive_value_parity,Dance,True,135.0
+negative_predictive_value_parity,Electronic,True,85.0
+negative_predictive_value_parity,Music,True,321.0
+negative_predictive_value_parity,Dance & Electronic,True,109.0
+negative_predictive_value_parity,House,True,42.0
+negative_predictive_value_parity,Rock,True,140.0
+negative_predictive_value_parity,Contemporary Country,True,31.0
+negative_predictive_value_parity,Country,True,36.0
+negative_predictive_value_parity,Honky Tonk,True,15.0
+negative_predictive_value_parity,French Pop,True,19.0
+negative_predictive_value_parity,East Coast Rap,True,34.0
+negative_predictive_value_parity,Hardcore Rap,True,42.0
+negative_predictive_value_parity,Hip-Hop/Rap,True,73.0
+negative_predictive_value_parity,Rap,True,68.0
+negative_predictive_value_parity,Rap & Hip-Hop,True,74.0
+negative_predictive_value_parity,Contemporary R&B,True,18.0
+negative_predictive_value_parity,Pop,True,67.0
+negative_predictive_value_parity,R&B / Soul,True,25.0
+negative_predictive_value_parity,Urban Cowboy,True,11.0
+negative_predictive_value_parity,Cowboy,True,2.0
+negative_predictive_value_parity,Traditional Country,True,4.0
+negative_predictive_value_parity,Dubstep,True,8.0
+negative_predictive_value_parity,Electronica,True,21.0
+negative_predictive_value_parity,Alternative,True,36.0
+negative_predictive_value_parity,Hard Rock,True,18.0
+negative_predictive_value_parity,Metal,True,16.0
+negative_predictive_value_parity,Folk,True,8.0
+negative_predictive_value_parity,Singer/Songwriter,True,13.0
+negative_predictive_value_parity,Pop/Rock,True,17.0
+negative_predictive_value_parity,Teen Pop,True,7.0
+negative_predictive_value_parity,Reggae,True,5.0
+negative_predictive_value_parity,Dirty South,True,9.0
+negative_predictive_value_parity,Hip-Hop / Rap,True,20.0
+negative_predictive_value_parity,Gangsta & Hardcore,True,2.0
+negative_predictive_value_parity,Gangsta Rap,True,3.0
+negative_predictive_value_parity,Soundtrack,True,2.0
+negative_predictive_value_parity,West Coast Rap,True,6.0
+negative_predictive_value_parity,R&B,True,3.0
+negative_predictive_value_parity,Garage,True,3.0
+negative_predictive_value_parity,International,True,5.0
+negative_predictive_value_parity,Latin Hip-Hop,True,1.0
+negative_predictive_value_parity,Latin Music,True,4.0
+negative_predictive_value_parity,Alternative Rap,True,6.0
+negative_predictive_value_parity,Adult Alternative,True,20.0
+negative_predictive_value_parity,Indie Rock,True,3.0
+negative_predictive_value_parity,Underground Rap,False,2.0
+negative_predictive_value_parity,Alternative Rock,True,14.0
+negative_predictive_value_parity,Funk,True,2.0
+negative_predictive_value_parity,Soul,True,5.0
+negative_predictive_value_parity,Christmas,True,1.0
+negative_predictive_value_parity,Holiday,True,1.0
+negative_predictive_value_parity,Miscellaneous,True,2.0
+negative_predictive_value_parity,Contemporary Bluegrass,False,1.0
+negative_predictive_value_parity,Southern Rock,False,1.0
+negative_predictive_value_parity,Indie & Lo-Fi,False,1.0
+negative_predictive_value_parity,Grunge,True,4.0
+negative_predictive_value_parity,Contemporary Singer/Songwriter,False,3.0
+negative_predictive_value_parity,Punk,False,1.0
+negative_predictive_value_parity,Vocal,False,1.0
+negative_predictive_value_parity,Latin Urban,True,3.0
+negative_predictive_value_parity,Latino,True,3.0
+negative_predictive_value_parity,Modern Dancehall,True,3.0
+negative_predictive_value_parity,Adult Contemporary,False,1.0
+negative_predictive_value_parity,Country Rock,True,2.0
+negative_predictive_value_parity,Hip-Hop,False,1.0
+negative_predictive_value_parity,Neo-Soul,True,2.0
+negative_predictive_value_parity,Disco,False,1.0
+negative_predictive_value_parity,Bop,True,3.0
+negative_predictive_value_parity,Jazz,True,3.0
+negative_predictive_value_parity,World,True,2.0
+negative_predictive_value_parity,Christian & Gospel,False,1.0
+negative_predictive_value_parity,Gospel,False,1.0
+negative_predictive_value_parity,West Coast,True,1.0
+positive_predictive_value_parity,Dance,True,135.0
+positive_predictive_value_parity,Electronic,True,85.0
+positive_predictive_value_parity,Music,True,321.0
+positive_predictive_value_parity,Dance & Electronic,True,109.0
+positive_predictive_value_parity,House,True,42.0
+positive_predictive_value_parity,Rock,True,140.0
+positive_predictive_value_parity,Contemporary Country,True,31.0
+positive_predictive_value_parity,Country,True,36.0
+positive_predictive_value_parity,Honky Tonk,True,15.0
+positive_predictive_value_parity,French Pop,True,19.0
+positive_predictive_value_parity,East Coast Rap,True,34.0
+positive_predictive_value_parity,Hardcore Rap,True,42.0
+positive_predictive_value_parity,Hip-Hop/Rap,True,73.0
+positive_predictive_value_parity,Rap,True,68.0
+positive_predictive_value_parity,Rap & Hip-Hop,True,74.0
+positive_predictive_value_parity,Contemporary R&B,True,18.0
+positive_predictive_value_parity,Pop,True,67.0
+positive_predictive_value_parity,R&B / Soul,True,25.0
+positive_predictive_value_parity,Urban Cowboy,True,11.0
+positive_predictive_value_parity,Cowboy,False,2.0
+positive_predictive_value_parity,Traditional Country,True,4.0
+positive_predictive_value_parity,Dubstep,True,8.0
+positive_predictive_value_parity,Electronica,False,21.0
+positive_predictive_value_parity,Alternative,True,36.0
+positive_predictive_value_parity,Hard Rock,True,18.0
+positive_predictive_value_parity,Metal,True,16.0
+positive_predictive_value_parity,Folk,False,8.0
+positive_predictive_value_parity,Singer/Songwriter,True,13.0
+positive_predictive_value_parity,Pop/Rock,True,17.0
+positive_predictive_value_parity,Teen Pop,True,7.0
+positive_predictive_value_parity,Reggae,True,5.0
+positive_predictive_value_parity,Dirty South,True,9.0
+positive_predictive_value_parity,Hip-Hop / Rap,True,20.0
+positive_predictive_value_parity,Gangsta & Hardcore,True,2.0
+positive_predictive_value_parity,Gangsta Rap,False,3.0
+positive_predictive_value_parity,Soundtrack,False,2.0
+positive_predictive_value_parity,West Coast Rap,False,6.0
+positive_predictive_value_parity,R&B,True,3.0
+positive_predictive_value_parity,Garage,False,3.0
+positive_predictive_value_parity,International,True,5.0
+positive_predictive_value_parity,Latin Hip-Hop,False,1.0
+positive_predictive_value_parity,Latin Music,True,4.0
+positive_predictive_value_parity,Alternative Rap,True,6.0
+positive_predictive_value_parity,Adult Alternative,True,20.0
+positive_predictive_value_parity,Indie Rock,True,3.0
+positive_predictive_value_parity,Underground Rap,True,2.0
+positive_predictive_value_parity,Alternative Rock,True,14.0
+positive_predictive_value_parity,Funk,True,2.0
+positive_predictive_value_parity,Soul,True,5.0
+positive_predictive_value_parity,Christmas,False,1.0
+positive_predictive_value_parity,Holiday,False,1.0
+positive_predictive_value_parity,Miscellaneous,False,2.0
+positive_predictive_value_parity,Contemporary Bluegrass,True,1.0
+positive_predictive_value_parity,Southern Rock,True,1.0
+positive_predictive_value_parity,Indie & Lo-Fi,True,1.0
+positive_predictive_value_parity,Grunge,True,4.0
+positive_predictive_value_parity,Contemporary Singer/Songwriter,True,3.0
+positive_predictive_value_parity,Punk,True,1.0
+positive_predictive_value_parity,Vocal,True,1.0
+positive_predictive_value_parity,Latin Urban,True,3.0
+positive_predictive_value_parity,Latino,True,3.0
+positive_predictive_value_parity,Modern Dancehall,False,3.0
+positive_predictive_value_parity,Adult Contemporary,True,1.0
+positive_predictive_value_parity,Country Rock,True,2.0
+positive_predictive_value_parity,Hip-Hop,True,1.0
+positive_predictive_value_parity,Neo-Soul,False,2.0
+positive_predictive_value_parity,Disco,True,1.0
+positive_predictive_value_parity,Bop,True,3.0
+positive_predictive_value_parity,Jazz,True,3.0
+positive_predictive_value_parity,World,False,2.0
+positive_predictive_value_parity,Christian & Gospel,True,1.0
+positive_predictive_value_parity,Gospel,True,1.0
+positive_predictive_value_parity,West Coast,False,1.0
